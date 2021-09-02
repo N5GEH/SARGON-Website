@@ -1,15 +1,34 @@
-# Default starter for Gridsome
+# SARGON-website
 
-This is the project you get when you run `gridsome create new-project`.
+This is a website for [SARGON](https://).
 
-### 1. Install Gridsome CLI tool if you don't have
+## Getting Started
 
-`npm install --global @gridsome/cli`
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### 2. Create a Gridsome project
+### Installation
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
-# scratch_sargon
+```sh
+git clone https://github.com/N5GEH/SARGON-Website.git
+```
+```sh
+cd sargon-website
+npm install
+npm run develop
+```
+This will start a local development server. The server will start at http://localhost:8080/ with hot-reloading etc.
+
+### Deployment
+
+```sh
+cd sargon-website
+npm run build
+```
+This will generate static files in the `./dist` directory which can be hosted anywhere, even on a CDN. There is no need for a Node.js server.
+ 
+## Built With
+ 
+ * [Vue.js](https://vuejs.org/) - The javascript framework
+ * [Gridsome](https://gridsome.org/) - The Vue.js framework
+ * [gridsome-portfolio-starter](https://github.com/drehimself/gridsome-portfolio-starter) - Theme for Gridsome
+
