@@ -1,0 +1,25 @@
+{
+  "name": "scratch_sargon",
+  "private": true,
+  "scripts": {
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "@gridsome/plugin-sitemap": "^0.4.0",
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.4",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-remark-shiki": "^0.6.0",
+    "gridsome-plugin-remark-youtube": "^1.0.1",
+    "gridsome-plugin-rss": "^1.2.0",
+    "remark-attr": "^0.11.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  }
+}
