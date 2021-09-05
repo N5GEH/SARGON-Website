@@ -14,35 +14,10 @@ module.exports = {
   siteName: 'SARGON',
   siteDescription: 'ontology for smart energy domain',
   siteUrl: 'https://sargonnew.netlify.app/',
+  templates: {
+
+  },
   plugins: [
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: 'blog/**/*.md',
-        typeName: 'Post',
-        refs: {
-          tags: {
-            typeName: 'Tag',
-            route: 'tags/:id',
-            create: true
-          }
-        },
-      }
-    },
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: 'tools/**/*.md',
-        typeName: 'App',
-        refs: {
-          categories: {
-            typeName: 'Category',
-            route: 'categories/:id',
-            create: true
-          }
-        },
-      }
-    },
     {
       use: '@gridsome/source-filesystem',
       options: {
@@ -53,21 +28,8 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'personas/**/*.md',
-        typeName: 'Persona'
-      }
-    },
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
         path: 'webpages/**/*.md',
-        typeName: 'Webpage',
-        refs: {
-          personas: {
-            typeName: 'Persona',
-            route: 'personas/:id'
-          }
-        },
+        typeName: 'Webpage', 
       }
     },
     {
@@ -90,13 +52,13 @@ module.exports = {
         contentTypeName: 'Post',
         feedOptions: {
           title: 'SARGON',
-          feed_url: 'https://sargonnew.netlify.app/rss.xml',
-          site_url: 'https://sargonnew.netlify.app/'
+          feed_url: 'https://sargon-n5geh.netlify.app/rss.xml',
+          site_url: 'https://sargon-n5geh.netlify.app/'
         },
         feedItemOptions: node => ({
           title: node.title,
           description: node.summary,
-          url: 'https://sargonnew.netlify.app/' + node.path,
+          url: 'https://sargon-n5geh.netlify.app/' + node.path,
           author: 'Maliheh Haghgoo',
           date: node.date
         }),
@@ -113,6 +75,7 @@ module.exports = {
       }
     },
   ],
+  
   transformers: {
     remark: {
       externalLinksTarget: '_blank',
@@ -120,7 +83,7 @@ module.exports = {
       anchorClassName: 'icon icon-link',
       plugins: [
         ['remark-attr'],
-        [ 'gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true } ],
+        [ 'gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Ocean', skipInline: true } ],
         ['gridsome-plugin-remark-youtube', {width: '85%', align: 'auto'}],
       ]
     }

@@ -1,16 +1,58 @@
-// Server API makes it possible to hook into various parts of Gridsome
-// on server-side and add custom data to the GraphQL data layer.
-// Learn more: https://gridsome.org/docs/server-api/
+const fs = require("fs");
+const path = require("path");
+const { pathPrefix } = require("./gridsome.config");
+const cacheVersion = new Date().getTime();
 
-// Changes here require a server restart.
-// To restart press CTRL + C in terminal and run `gridsome develop`
 
-module.exports = function (api) {
-  api.loadSource(({ addCollection }) => {
-    // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
+
+module.exports = function (api, options) {
+  api.loadSource((store) => {
+    /*
+        Clean the pathPrefix
+        ====================
+        not used =>  '/'
+        ''       =>  '/'
+        '/'      =>  '/'
+        '/path'  =>  '/path'
+        'path'   =>  '/path'
+        'path/'  =>  '/path'
+        '/path/' =>  '/path'
+        */
+        const cleanedPathPrefix = `${
+          pathPrefix
+              ? ["", ...pathPrefix.split("/").filter((dir) => dir.length)].join("/")
+              : ""
+      }`;
+      /*
+        Query
+        =====
+        <static-query>        <!-- or a page-query -->
+        {
+          metadata{
+            pathPrefix
+          }
+        }
+        </static-query>
+        Requests for static files should look like this:
+        ===============================================
+        Using static-queries: axios( this.$static.metadata.pathPrefix + "/fileName" )
+        Using page-queries,   axios( this.$page.metadata.pathPrefix   + "/fileName" )
+        */
+        store.addMetadata("pathPrefix", cleanedPathPrefix);
+        store.addMetadata("cacheVersion", cacheVersion);
+
+        let usageData = {}
+        const usageDetails = store.getCollection('UsageDetail').collection.data;
+        usageDetails.forEach(usageDetail=>{
+            usageDetail.targets.forEach(id=>{
+                if(!usageData[id]){
+                    usageData[id] = []
+                }
+                usageData[id].push(usageDetail.id)
+            })
+        })
+
+
   })
-
-  api.createPages(({ createPage }) => {
-    // Use the Pages API here: https://gridsome.org/docs/pages-api/
-  })
+  
 }
