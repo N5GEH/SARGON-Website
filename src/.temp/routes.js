@@ -1,10 +1,10 @@
-const c1 = () => import(/* webpackChunkName: "page--src--pages--start-vue" */ "/Users/SinaKhodadad/Dropbox/5. Sargon/SARGON-Website/src/pages/Start.vue")
-const c2 = () => import(/* webpackChunkName: "page--src--templates--webpage-vue" */ "/Users/SinaKhodadad/Dropbox/5. Sargon/SARGON-Website/src/templates/Webpage.vue")
-const c3 = () => import(/* webpackChunkName: "page--src--pages--resources-vue" */ "/Users/SinaKhodadad/Dropbox/5. Sargon/SARGON-Website/src/pages/Resources.vue")
-const c4 = () => import(/* webpackChunkName: "page--src--pages--ontology-vue" */ "/Users/SinaKhodadad/Dropbox/5. Sargon/SARGON-Website/src/pages/Ontology.vue")
-const c5 = () => import(/* webpackChunkName: "page--src--pages--about-vue" */ "/Users/SinaKhodadad/Dropbox/5. Sargon/SARGON-Website/src/pages/About.vue")
-const c6 = () => import(/* webpackChunkName: "page--src--pages--404-vue" */ "/Users/SinaKhodadad/Dropbox/5. Sargon/SARGON-Website/src/pages/404.vue")
-const c7 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/Users/SinaKhodadad/Dropbox/5. Sargon/SARGON-Website/src/pages/Index.vue")
+const c1 = () => import(/* webpackChunkName: "page--src--pages--start-vue" */ "/Users/SinaKhodadad/Dropbox/Mac/Documents/3. Sargon/SARGON-Website/src/pages/Start.vue")
+const c2 = () => import(/* webpackChunkName: "page--src--templates--webpage-vue" */ "/Users/SinaKhodadad/Dropbox/Mac/Documents/3. Sargon/SARGON-Website/src/templates/Webpage.vue")
+const c3 = () => import(/* webpackChunkName: "page--src--pages--resources-vue" */ "/Users/SinaKhodadad/Dropbox/Mac/Documents/3. Sargon/SARGON-Website/src/pages/Resources.vue")
+const c4 = () => import(/* webpackChunkName: "page--src--pages--ontology-vue" */ "/Users/SinaKhodadad/Dropbox/Mac/Documents/3. Sargon/SARGON-Website/src/pages/Ontology.vue")
+const c5 = () => import(/* webpackChunkName: "page--src--pages--about-vue" */ "/Users/SinaKhodadad/Dropbox/Mac/Documents/3. Sargon/SARGON-Website/src/pages/About.vue")
+const c6 = () => import(/* webpackChunkName: "page--src--pages--404-vue" */ "/Users/SinaKhodadad/Dropbox/Mac/Documents/3. Sargon/SARGON-Website/src/pages/404.vue")
+const c7 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/Users/SinaKhodadad/Dropbox/Mac/Documents/3. Sargon/SARGON-Website/src/pages/Index.vue")
 
 export default [
   {

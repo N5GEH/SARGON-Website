@@ -1,0 +1,348 @@
+{
+  "name": "classes",
+  "children": [
+      {
+        "name": "Building",
+        "children":
+        [
+          {
+            "name": "Floor"
+          },
+          {
+            "name": "Building"
+          },
+          {
+            "name": "Tenant"
+          },
+          {
+            "name": "Zone"
+          }
+        ]
+        
+      },
+      {
+        "name": "Channel",
+        "children":
+        [
+          {
+            "name": "Angle"
+          },
+          {
+            "name": "Frequency"
+          },
+          {
+            "name": "Maqnititute"
+          },
+          {
+            "name": "Rocf"
+          },
+          {
+            "name": "TimeStamp"
+          }
+        ]
+      },
+      {
+        "name": "Channel",
+        "children":
+        [
+          {
+            "name": "Angle"
+          },
+          {
+            "name": "Frequency"
+          },
+          {
+            "name": "Maqnititute"
+          },
+          {
+            "name": "Rocf"
+          },
+          {
+            "name": "TimeStamp"
+          }
+        ]
+      },
+      {
+        "name": "Command",
+        "children":
+        [
+          {
+            "name": "Close command"
+          },
+          {
+            "name": "Get command",
+            "children":
+            [
+              {
+                "name": "Get current meter value command"
+              },
+              {
+                "name": "Get meter data command"
+              },
+              {
+                "name": "Get meter history command"
+              },
+              {
+                "name": "Get sensing data command"
+              }
+            ]
+          },
+          {
+            "name": "Notify command"
+          },
+          {
+            "name": "Off command"
+          },
+          {
+            "name": "On command"
+          },
+          {
+            "name": "Open command"
+          },
+          {
+            "name": "Pause command"
+          },
+          {
+            "name": "Set level command",
+            "children":
+            [
+              {
+                "name": "Set absolute level command"
+              },
+              {
+                "name": "Set relative level command"
+              }
+            ]
+          },
+          {
+            "name": "Start command"
+          },
+          {
+            "name": "Step down command"
+          },
+          {
+            "name": "Step up command"
+          },
+          {
+            "name": "Stop command"
+          },
+          {
+            "name": "Toggle command"
+          }
+
+        ]
+      },
+      {
+        "name": "Commodity",
+        "children": 
+        [
+          {
+            "name": "Coal"
+          },
+          {
+            "name": "Electricity"
+          },
+          {
+            "name": "Gas"
+          },
+          {
+            "name": "Water"
+          }
+        ]
+      },
+      {
+        "name": "Day of the week"
+      },
+      {
+        "name": "Device",
+        "children": 
+        [
+          {
+            "name": "Building related",
+            "children":
+            [
+              {
+                "name": "Control Device",
+                "children": 
+                [
+                  {
+                    "name": "Actuator",
+                    "children": 
+                    [
+                      {
+                        "name": "RVK"
+                      },
+                      {
+                        "name": "Switch",
+                        "children": 
+                        [
+                          {
+                            "name": "Door switch"
+                          },
+                          {
+                            "name": "Light switch"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Controller",
+                    "children":
+                    [
+                      {
+                        "name": "PID"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Sensor",
+                    "children": 
+                    [
+                      {
+                        "name": "Air flow sensor"
+                      },
+                      {
+                        "name": "Electricity sensor"
+                      },
+                      {
+                        "name": "Smoke sensor"
+                      },
+                      {
+                        "name": "Temparature sensor"
+                      },
+                      {
+                        "name": "Water flow sensor"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Function",
+        "children": 
+        [
+          {
+
+          }
+        ]
+      },
+      {
+        "name": "Measurement",
+        "children": 
+        [
+          {
+
+          }
+        ]
+      },
+      {
+        "name": "Profile",
+        "children": 
+        [
+          {
+
+          }
+        ]
+      },
+      {
+        "name": "Property",
+        "children": 
+        [
+          {
+
+          }
+        ]
+      },
+      {
+        "name": "Service",
+        "children": 
+        [
+          {
+
+          }
+        ]
+      },
+      {
+        "name": "State",
+        "children": 
+        [
+          {
+
+          }
+        ]
+      },
+      {
+        "name": "Task"
+      },
+      {
+        "name": "Temporal duration",
+        "children": 
+        [
+          {
+
+          }
+        ]
+      },
+      {
+        "name": "Temporal entity",
+        "children": 
+        [
+          {
+            "name": "Time instant"
+          },
+          {
+            "name": "Time interval",
+            "children": 
+            [
+              {
+                "name": "Proper interval",
+                "children":
+                [
+                  {
+                    "name": "Date-time interval"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Temporal position",
+        "children": 
+        [
+          {
+            "name": "Generalized date-time description",
+            "children":
+            [
+              {
+                "name": "Date-Time description",
+                "children":
+                [
+                  {
+                    "name": "Month of year"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Time position"
+          }
+        ]
+      },
+      {
+        "name": "Temporal Reference System"
+      },
+      {
+        "name": "Time Zone"
+      }
+     
+  ]
+      
+}
