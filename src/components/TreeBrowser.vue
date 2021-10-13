@@ -3,7 +3,7 @@
         <div
         @click="nodeClicked"
         :style="{'margin-left':`${depth*20}px`}"
-        class="node"
+        class="node border-l w-full bg-gray-200"
         >
             <span
             v-if="hasChildren"
@@ -57,7 +57,8 @@ export default {
 .node{
     text-align: left;
     font-size: 14px;
-
+    padding: 3px;
+    
 }
 
 </style> 

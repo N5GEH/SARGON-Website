@@ -1,21 +1,39 @@
 <template>
     <Layout>
-        <div class="grid grid-rows-3 grid-flow-col gap-4 container xs:flex-col sm:flex mx-auto my-16 overflow-x-hidden text-normal">
-            <div class="row-span-3">
+         
+         <div class="container w-full flex flex-wrap mx-auto px-2 pt-8 lg:pt-16">
+             <div class="w-full lg:w-1/5 px-6 text-xl text-gray-800 leading-normal">
+                <h1> Tree Browser </h1>
+                <TreeBrowser
+                    :node="root"
+                    @onClick="nodeWasClicked"
+                />
+             </div>
+         </div>
+
+        <!-- <div class="grid grid-flow-col gap-3">
+            <div class="bg-blue-100 col-span-1 test">
                 <TreeBrowser
                     :node="root"
                     @onClick="nodeWasClicked"
                 />
             </div>
-            <div class="col-span-2">
-                {{Sina}}
+            <div class="bg-red-100 col-span-4">
+                <h1 v-if="Sina !== 'Bullshit'">{{Sina}}</h1>
             </div>
-        </div>
+        </div>  -->
+
+
+
+
+        
     </Layout>
 </template>
 
 
 <script>
+
+
 import TreeBrowser from '../components/TreeBrowser.vue'
 import root from '../root.json'
 
@@ -29,12 +47,7 @@ export default{
     },
     methods:{
         nodeWasClicked(node){
-            // if(!isNaN(node.info)){
-            //     this.Sina = node.info;
-            // }else{
-            //     this.Sina = node.name; 
-            // }
-            this.Sina = node.info;  
+            this.Sina = node.name;  
         }
     },
     components: {
@@ -45,6 +58,21 @@ export default{
 
 <style scoped>
 
-   
+.max-h-64 {
+    max-height: 16rem;
+}
+/*Quick overrides of the form input as using the CDN version*/
+.form-input,
+.form-textarea,
+.form-select,
+.form-multiselect {
+    background-color: #edf2f7;
+}
 
+.test{
+    min-width:100px; 
+    display: inline-block
+}
+    
+    
 </style>

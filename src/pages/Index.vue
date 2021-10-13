@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16">
-      <div class="mt-8 mb-4 sm:mt-0 sm:mb-0">
+      <div class="mt-16 mb-4 sm:mt-0 sm:mb-0">
         <img src="../../static/n5geh.png" alt="hero" class="w-64 mx-auto sm:mx-0">
       </div>
     

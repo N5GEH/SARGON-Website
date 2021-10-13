@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <br>
-    <div class="container-inner mx-auto">
+    <div class="container-inner mx-auto mt-16">
         
         <div class="markdown-body" v-html="$page.startPage.content" />
         

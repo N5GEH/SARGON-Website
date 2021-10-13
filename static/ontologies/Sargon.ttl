@@ -50,9 +50,8 @@ terms:source rdf:type owl:AnnotationProperty .
 terms:title rdf:type owl:AnnotationProperty .
 
 
-###  http://webprotege.stanford.edu/R9KdTRIHz9usCNpX2dg4K1f
-webprotege:R9KdTRIHz9usCNpX2dg4K1f rdf:type owl:AnnotationProperty ;
-                                   rdfs:label "Owner" .
+###  http://webprotege.stanford.edu/Owner
+webprotege:Owner rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2000/01/rdf-schema#flow
@@ -66,12 +65,12 @@ rdfs:flow rdf:type owl:AnnotationProperty ;
 
 ###  http://webprotege.stanford.edu/connectedActuator
 webprotege:connectedActuator rdf:type owl:ObjectProperty ;
-                             rdfs:label "connectedActuator" .
+                             rdfs:label "connected actuator" .
 
 
 ###  http://webprotege.stanford.edu/connectedSensor
 webprotege:connectedSensor rdf:type owl:ObjectProperty ;
-                           rdfs:label "connectedSensor" .
+                           rdfs:label "connected sensor" .
 
 
 ###  http://webprotege.stanford.edu/containOf
@@ -81,7 +80,7 @@ webprotege:containOf rdf:type owl:ObjectProperty ;
 
 ###  http://webprotege.stanford.edu/controlledProperty
 webprotege:controlledProperty rdf:type owl:ObjectProperty ;
-                              rdfs:label "controlledProperty" .
+                              rdfs:label "controlled property" .
 
 
 ###  http://webprotege.stanford.edu/hasBuilding
@@ -128,7 +127,7 @@ webprotege:hasZone rdf:type owl:ObjectProperty ;
 
 ###  http://webprotege.stanford.edu/inBuilding
 webprotege:inBuilding rdf:type owl:ObjectProperty ;
-                      rdfs:label "InBuilding" .
+                      rdfs:label "in building" .
 
 
 ###  http://webprotege.stanford.edu/inFloor
@@ -284,7 +283,7 @@ webprotege:subCategory rdf:type owl:ObjectProperty ;
 ###  https://w3id.org/saref#isAbout
 :isAbout rdf:type owl:ObjectProperty ;
          rdfs:comment "A relationship identifying what an entity, such as a Profile, is about"@en ;
-         rdfs:label "isAbout"@en .
+         rdfs:label "is about"@en .
 
 
 ###  https://w3id.org/saref#isAccomplishedBy
@@ -406,8 +405,7 @@ webprotege:MaxReactivePower rdf:type owl:DatatypeProperty ;
 
 ###  http://webprotege.stanford.edu/Owner
 webprotege:Owner rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf owl:topDataProperty ;
-                 rdfs:label "owner" .
+                 rdfs:subPropertyOf owl:topDataProperty .
 
 
 ###  http://webprotege.stanford.edu/PrimaryCurrent
@@ -432,7 +430,7 @@ webprotege:controllAsset rdf:type owl:DatatypeProperty ;
 
 ###  http://webprotege.stanford.edu/controlledAsset
 webprotege:controlledAsset rdf:type owl:DatatypeProperty ;
-                           rdfs:label "controlledAsset" .
+                           rdfs:label "controlled asset" .
 
 
 ###  http://webprotege.stanford.edu/createdAt
@@ -753,7 +751,7 @@ webprotege:AirFlowSensor rdf:type owl:Class ;
 ###  http://webprotege.stanford.edu/AirToAirHeatRecovery
 webprotege:AirToAirHeatRecovery rdf:type owl:Class ;
                                 rdfs:subClassOf webprotege:EnergyConversionDevice ;
-                                rdfs:label "AirToAirHeat Recovery" .
+                                rdfs:label "Air to air heat recovery" .
 
 
 ###  http://webprotege.stanford.edu/Angle
@@ -765,7 +763,7 @@ webprotege:Angle rdf:type owl:Class ;
 ###  http://webprotege.stanford.edu/AudioVisualAppliance
 webprotege:AudioVisualAppliance rdf:type owl:Class ;
                                 rdfs:subClassOf webprotege:FlowTerminal ;
-                                rdfs:label "Audio Visual Appliance" .
+                                rdfs:label "Audio visual appliance" .
 
 
 ###  http://webprotege.stanford.edu/BatteryStorage
@@ -775,7 +773,7 @@ webprotege:BatteryStorage rdf:type owl:Class ;
                                             owl:onProperty :controlsProperty ;
                                             owl:someValuesFrom webprotege:StateOfCharge
                                           ] ;
-                          rdfs:label "Battery Storage" .
+                          rdfs:label "Battery storage" .
 
 
 ###  http://webprotege.stanford.edu/Boiler
@@ -809,7 +807,7 @@ webprotege:Burner rdf:type owl:Class ;
 webprotege:CO2Level rdf:type owl:Class ;
                     rdfs:subClassOf :Property ;
                     rdfs:comment "A property related to measurements of CO2 level in the air. Measured in ppm."^^xsd:string ;
-                    rdfs:label "CO2 Level" .
+                    rdfs:label "CO2 level" .
 
 
 ###  http://webprotege.stanford.edu/CT-VT
@@ -862,7 +860,7 @@ webprotege:Coil rdf:type owl:Class ;
 ###  http://webprotege.stanford.edu/CommunictionAppliance
 webprotege:CommunictionAppliance rdf:type owl:Class ;
                                  rdfs:subClassOf webprotege:FlowTerminal ;
-                                 rdfs:label "Communiction Appliance" .
+                                 rdfs:label "Communiction appliance" .
 
 
 ###  http://webprotege.stanford.edu/Compressor
@@ -874,7 +872,7 @@ webprotege:Compressor rdf:type owl:Class ;
 ###  http://webprotege.stanford.edu/ControlDevice
 webprotege:ControlDevice rdf:type owl:Class ;
                          rdfs:subClassOf webprotege:BuildingRelated ;
-                         rdfs:label "Control Device" .
+                         rdfs:label "Control device" .
 
 
 ###  http://webprotege.stanford.edu/Controller
@@ -1053,19 +1051,19 @@ webprotege:ElectricitySensor rdf:type owl:Class ;
 ###  http://webprotege.stanford.edu/ElectronicFlowStorageDevice
 webprotege:ElectronicFlowStorageDevice rdf:type owl:Class ;
                                        rdfs:subClassOf webprotege:FlowStorageDevice ;
-                                       rdfs:label "Electronic Flow Storage Device" .
+                                       rdfs:label "Electronic flow storage device" .
 
 
 ###  http://webprotege.stanford.edu/ElectronicTimeControl
 webprotege:ElectronicTimeControl rdf:type owl:Class ;
                                  rdfs:subClassOf webprotege:FlowController ;
-                                 rdfs:label "ElectronicTimeControl" .
+                                 rdfs:label "Electronic time control" .
 
 
 ###  http://webprotege.stanford.edu/EnergyConversionDevice
 webprotege:EnergyConversionDevice rdf:type owl:Class ;
                                   rdfs:subClassOf webprotege:FlowDevice ;
-                                  rdfs:label "Energy Conversion Device" .
+                                  rdfs:label "Energy conversion device" .
 
 
 ###  http://webprotege.stanford.edu/Fan
@@ -1112,43 +1110,43 @@ webprotege:Flow rdf:type owl:Class ;
 ###  http://webprotege.stanford.edu/FlowController
 webprotege:FlowController rdf:type owl:Class ;
                           rdfs:subClassOf webprotege:FlowDevice ;
-                          rdfs:label "Flow Controller" .
+                          rdfs:label "Flow controller" .
 
 
 ###  http://webprotege.stanford.edu/FlowDevice
 webprotege:FlowDevice rdf:type owl:Class ;
                       rdfs:subClassOf webprotege:BuildingRelated ;
-                      rdfs:label "Flow Device" .
+                      rdfs:label "Flow device" .
 
 
 ###  http://webprotege.stanford.edu/FlowMeter
 webprotege:FlowMeter rdf:type owl:Class ;
                      rdfs:subClassOf webprotege:FlowController ;
-                     rdfs:label "FlowMeter" .
+                     rdfs:label "Flow meter" .
 
 
 ###  http://webprotege.stanford.edu/FlowMovingDevice
 webprotege:FlowMovingDevice rdf:type owl:Class ;
                             rdfs:subClassOf webprotege:FlowDevice ;
-                            rdfs:label "Flow Moving Device" .
+                            rdfs:label "Flow moving device" .
 
 
 ###  http://webprotege.stanford.edu/FlowStorageDevice
 webprotege:FlowStorageDevice rdf:type owl:Class ;
                              rdfs:subClassOf webprotege:FlowDevice ;
-                             rdfs:label "Flow Storage Device" .
+                             rdfs:label "Flow storage device" .
 
 
 ###  http://webprotege.stanford.edu/FlowTerminal
 webprotege:FlowTerminal rdf:type owl:Class ;
                         rdfs:subClassOf webprotege:FlowDevice ;
-                        rdfs:label "Flow Terminal" .
+                        rdfs:label "Flow terminal" .
 
 
 ###  http://webprotege.stanford.edu/FlowTerminalDevice
 webprotege:FlowTerminalDevice rdf:type owl:Class ;
                               rdfs:subClassOf webprotege:FlowDevice ;
-                              rdfs:label "Flow Terminal Device" .
+                              rdfs:label "Flow terminal device" .
 
 
 ###  http://webprotege.stanford.edu/Frequency
@@ -1385,7 +1383,7 @@ webprotege:Room rdf:type owl:Class ;
 ###  http://webprotege.stanford.edu/SpaceHeater
 webprotege:SpaceHeater rdf:type owl:Class ;
                        rdfs:subClassOf webprotege:FlowTerminal ;
-                       rdfs:label "Space Heater" .
+                       rdfs:label "Space heater" .
 
 
 ###  http://webprotege.stanford.edu/StateOfCharge
@@ -1398,7 +1396,7 @@ webprotege:StateOfCharge rdf:type owl:Class ;
 ###  http://webprotege.stanford.edu/SwitchingDevice
 webprotege:SwitchingDevice rdf:type owl:Class ;
                            rdfs:subClassOf webprotege:FlowController ;
-                           rdfs:label "SwitchingDevice" .
+                           rdfs:label "Switching device" .
 
 
 ###  http://webprotege.stanford.edu/Tank
@@ -1416,7 +1414,7 @@ webprotege:TapPosition rdf:type owl:Class ;
 ###  http://webprotege.stanford.edu/TapPostion
 webprotege:TapPostion rdf:type owl:Class ;
                       rdfs:subClassOf :ActuatingFunction ;
-                      rdfs:label "Tap Postion" .
+                      rdfs:label "Tap postion" .
 
 
 ###  http://webprotege.stanford.edu/Tenant
@@ -1442,10 +1440,10 @@ webprotege:Tenant rdf:type owl:Class ;
                   rdfs:label "Tenant"^^xsd:string .
 
 
-###  http://webprotege.stanford.edu/TimeStamp
-webprotege:TimeStamp rdf:type owl:Class ;
+###  http://webprotege.stanford.edu/Timestamp
+webprotege:Timestamp rdf:type owl:Class ;
                      rdfs:subClassOf webprotege:Channel ;
-                     rdfs:label "TimeStamp" .
+                     rdfs:label "Timestamp" .
 
 
 ###  http://webprotege.stanford.edu/Transformer
@@ -2775,40 +2773,40 @@ webprotege:Zone rdf:type owl:Class ;
 <http://www.wurvoc.org/vocabularies/om-1.8/bar> rdf:type owl:NamedIndividual ,
                                                          :PressureUnit ;
                                                 rdfs:comment "The bar is a unit of pressure defined as 100 000 pascal."@en ;
-                                                rdfs:label "bar"^^xsd:string .
+                                                rdfs:label "Bar"^^xsd:string .
 
 
 ###  http://www.wurvoc.org/vocabularies/om-1.8/degree_Celsius
 <http://www.wurvoc.org/vocabularies/om-1.8/degree_Celsius> rdf:type owl:NamedIndividual ,
                                                                     :TemperatureUnit ;
                                                            rdfs:comment "The degree Celsius is a unit of temperature defined as 1 kelvin."@en ;
-                                                           rdfs:label "degree Celsius"^^xsd:string .
+                                                           rdfs:label "Degree Celsius"^^xsd:string .
 
 
 ###  http://www.wurvoc.org/vocabularies/om-1.8/degree_Fahrenheit
 <http://www.wurvoc.org/vocabularies/om-1.8/degree_Fahrenheit> rdf:type owl:NamedIndividual ,
                                                                        :TemperatureUnit ;
                                                               rdfs:comment "The degree Fahrenheit is a unit of temperature defined as 5.555556e-1 kelvin."@en ;
-                                                              rdfs:label "degree Fahrenheit"^^xsd:string .
+                                                              rdfs:label "Degree Fahrenheit"^^xsd:string .
 
 
 ###  http://www.wurvoc.org/vocabularies/om-1.8/euro
 <http://www.wurvoc.org/vocabularies/om-1.8/euro> rdf:type owl:NamedIndividual ,
                                                           :Currency ;
-                                                 rdfs:label "euro"@en .
+                                                 rdfs:label "Euro"@en .
 
 
 ###  http://www.wurvoc.org/vocabularies/om-1.8/kelvin
 <http://www.wurvoc.org/vocabularies/om-1.8/kelvin> rdf:type owl:NamedIndividual ,
                                                             :TemperatureUnit ;
                                                    rdfs:comment "The kelvin is a unit of temperature defined as 1/273.16 of the thermodynamic temperature of the triple point of water."@en ;
-                                                   rdfs:label "kelvin"^^xsd:string .
+                                                   rdfs:label "Kelvin"^^xsd:string .
 
 
 ###  http://www.wurvoc.org/vocabularies/om-1.8/kilowatt
 <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt> rdf:type owl:NamedIndividual ,
                                                               :PowerUnit ;
-                                                     rdfs:label "kilowatt"^^xsd:string .
+                                                     rdfs:label "Kilowatt"^^xsd:string .
 
 
 ###  http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour
@@ -2828,20 +2826,20 @@ webprotege:Zone rdf:type owl:Class ;
 <http://www.wurvoc.org/vocabularies/om-1.8/pascal> rdf:type owl:NamedIndividual ,
                                                             :PressureUnit ;
                                                    rdfs:comment "The pascal is a unit of pressure and stress defined as newton divided by square metre = joule divided by cubic metre = kilogram divided by metre second squared."@en ;
-                                                   rdfs:label "pascal"^^xsd:string .
+                                                   rdfs:label "Pascal"^^xsd:string .
 
 
 ###  http://www.wurvoc.org/vocabularies/om-1.8/pound_sterling
 <http://www.wurvoc.org/vocabularies/om-1.8/pound_sterling> rdf:type owl:NamedIndividual ,
                                                                     :Currency ;
-                                                           rdfs:label "Great Britain pound sterling"^^xsd:string .
+                                                           rdfs:label "Great Britain Pound Sterling"^^xsd:string .
 
 
 ###  http://www.wurvoc.org/vocabularies/om-1.8/watt
 <http://www.wurvoc.org/vocabularies/om-1.8/watt> rdf:type owl:NamedIndividual ,
                                                           :PowerUnit ;
                                                  rdfs:comment "The watt is a unit of power defined as joule divided by second = newton times metre divided by second = volt times ampere = kilogram times square metre divided by second to the power 3."@en ;
-                                                 rdfs:label "watt"^^xsd:string .
+                                                 rdfs:label "Watt"^^xsd:string .
 
 
 ###  https://w3id.org/saref#Cleaning
@@ -2877,7 +2875,7 @@ webprotege:Zone rdf:type owl:Class ;
 :EnergyEfficiency rdf:type owl:NamedIndividual ,
                            :Task ;
                   rdfs:comment "A type of task for which a device is designed"^^xsd:string ;
-                  rdfs:label "EnergyEfficiency"^^xsd:string .
+                  rdfs:label "Energy Efficiency"^^xsd:string .
 
 
 ###  https://w3id.org/saref#Entertainment
@@ -2891,28 +2889,28 @@ webprotege:Zone rdf:type owl:Class ;
 :GetCurrentMeterValue rdf:type owl:NamedIndividual ,
                                :GetCurrentMeterValueCommand ;
                       rdfs:comment "The command GET CURRENT METER VALUE. It is used to instantiate the GetCurrentMeterValueCommand class. "^^xsd:string ;
-                      rdfs:label "Get current meter value"^^xsd:string .
+                      rdfs:label "Get Current Meter Value"^^xsd:string .
 
 
 ###  https://w3id.org/saref#GetMeterData
 :GetMeterData rdf:type owl:NamedIndividual ,
                        :GetMeterDataCommand ;
               rdfs:comment "The command GET METER DATA. It is used to instantiate the GetMeterDataCommand class. "^^xsd:string ;
-              rdfs:label "Get meter data"^^xsd:string .
+              rdfs:label "Get Meter Data"^^xsd:string .
 
 
 ###  https://w3id.org/saref#GetMeterHistory
 :GetMeterHistory rdf:type owl:NamedIndividual ,
                           :GetMeterHistoryCommand ;
                  rdfs:comment "The command GET METER HISTORY. It is used to instantiate the GetMeterHistoryCommand class. "^^xsd:string ;
-                 rdfs:label "Get meter history"^^xsd:string .
+                 rdfs:label "Get Meter History"^^xsd:string .
 
 
 ###  https://w3id.org/saref#GetSensingData
 :GetSensingData rdf:type owl:NamedIndividual ,
                          :GetSensingDataCommand ;
                 rdfs:comment "The command GET SENSING DATA. It is used to instantiate the GetSensingDataCommand class. "^^xsd:string ;
-                rdfs:label "Get sensing data"^^xsd:string .
+                rdfs:label "Get Sensing Data"^^xsd:string .
 
 
 ###  https://w3id.org/saref#Lighting
@@ -3043,12 +3041,16 @@ webprotege:Zone rdf:type owl:Class ;
 :watt_hour rdf:type owl:NamedIndividual ,
                     :EnergyUnit ;
            rdfs:comment "The Watt Hor is a unit of energy equivalent to one watt (1 W) of power expended for one hour (1 h) of time. An energy expenditure of 1 Wh represents 3600 joules "^^xsd:string ;
-           rdfs:label "watt hour"^^xsd:string .
+           rdfs:label "Watt hour"^^xsd:string .
 
 
 #################################################################
 #    Annotations
 #################################################################
+
+webprotege:Owner rdfs:label "owner" ,
+                            "Owner" .
+
 
 webprotege:hasFloor rdfs:label "has floor" .
 

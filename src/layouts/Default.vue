@@ -1,7 +1,7 @@
 <template>
-  <div class="content-wrapper font-sans text-gray-800 leading-normal flex flex-col min-h-screen">
+  <div class="content-wrapper font-sans bg-gray-100 text-gray-900 tracking-wider text-gray-800 leading-normal flex flex-col min-h-screen">
     <header class="border-t-20 border-customcolors-blue4">
-      <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
+      <nav class=" bg-white w-full top-0 shadow container mx-auto flex flex-wrap justify-between items-center py-4">
         <div class="mb-4 sm:mb-0">
            <g-link to="/">
                 <div class="text-customcolors-blue4 text-3xl">SARGON</div>
@@ -13,11 +13,11 @@
             </button>
         </div>
         
-        <ul class="uppercase tracking-wide font-bold w-full block flex-grow lg:flex lg:flex-initial lg:w-auto items-center mt-8 lg:mt-0" :class="isOpen ? 'block': 'hidden'">
+        <ul class= "tracking-wide font-bold w-full block flex-grow lg:flex lg:flex-initial lg:w-auto items-center mt-8 lg:mt-0" :class="isOpen ? 'block': 'hidden'">
           <li class="mr-8 lg:mb-0"><a href="/Start" class="text-gray-800 hover:text-gray-500">Get Started</a></li>
           <li class="mr-8 lg:mb-0"><a href="/Resources" class="text-gray-800 hover:text-gray-500">Resources</a></li>
           <li class="mr-8 lg:mb-0"><a href="https://sinakhodadad92.github.io/sargon_docs/intro.html" class="text-gray-800 hover:text-gray-500">Docs</a></li>
-          <li class="mr-8 lg:mb-0"><a href="/Ontology" class="text-gray-800 hover:text-gray-500">Ontology</a></li>
+          <!-- <li class="mr-8 lg:mb-0"><a href="/Ontology" class="text-gray-800 hover:text-gray-500">Ontology</a></li> -->
         </ul>
       </nav>
     </header>
