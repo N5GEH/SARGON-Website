@@ -41,16 +41,7 @@ module.exports = function (api, options) {
         store.addMetadata("pathPrefix", cleanedPathPrefix);
         store.addMetadata("cacheVersion", cacheVersion);
 
-        let usageData = {}
-        const usageDetails = store.getCollection('UsageDetail').collection.data;
-        usageDetails.forEach(usageDetail=>{
-            usageDetail.targets.forEach(id=>{
-                if(!usageData[id]){
-                    usageData[id] = []
-                }
-                usageData[id].push(usageDetail.id)
-            })
-        })
+        
 
 
   })

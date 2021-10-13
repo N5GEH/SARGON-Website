@@ -47,28 +47,6 @@ module.exports = {
       }
     },
     {
-      use: 'gridsome-plugin-rss',
-      options: {
-        contentTypeName: 'Post',
-        feedOptions: {
-          title: 'SARGON',
-          feed_url: 'https://sargon-n5geh.netlify.app/rss.xml',
-          site_url: 'https://sargon-n5geh.netlify.app/'
-        },
-        feedItemOptions: node => ({
-          title: node.title,
-          description: node.summary,
-          url: 'https://sargon-n5geh.netlify.app/' + node.path,
-          author: 'Maliheh Haghgoo',
-          date: node.date
-        }),
-        output: {
-          dir: './static',
-          name: 'rss.xml'
-        }
-      }
-    },
-    {
       use: '@gridsome/plugin-sitemap',
       options: {
         cacheTime: 600000, // default
