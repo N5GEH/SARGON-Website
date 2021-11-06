@@ -1,5 +1,6 @@
 [
     {
+
         "id": "1.0^https://w3id.org/saref#BuildingRelated", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
@@ -33,7 +34,7 @@
         "shaclDetails": "{}"
     },
     {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Building/Floor", 
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Floor", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
@@ -64,7 +65,7 @@
         "shaclDetails": "{}"
     },
     {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Building/Room", 
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Room", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
@@ -95,7 +96,7 @@
         "shaclDetails": "{}"
     },
     {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Building/Tenant", 
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tenant", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
@@ -126,7 +127,7 @@
         "shaclDetails": "{}"
     },
     {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Building/Zone", 
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Zone", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
@@ -420,7 +421,10 @@
         ], 
         "subclasses": [
             "https://w3id.org/saref#GetCurrentMeterValueCommand", 
-            "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Water_Get_Command"
+            "https://w3id.org/saref#GetMeterDataCommand",
+            "https://w3id.org/saref#GetMeterHistoryCommand"
+
+            
         ], 
         "comments": [], 
         "definitions": ["A Command of connected equipment; part of a System"], 
