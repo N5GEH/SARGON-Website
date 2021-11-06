@@ -1,23 +1,38 @@
-const tailwind = require('tailwindcss')
-const purgecss = require('@fullhuman/postcss-purgecss')
+// This is where project configuration and plugin options are located.
+// Learn more: https://gridsome.org/docs/config
 
+// Changes here require a server restart.
+// To restart press CTRL + C in terminal and run `gridsome develop`
+
+const tailwind = require('tailwindcss')
+// const purgecss = require('@fullhuman/postcss-purgecss')
 
 const postcssPlugins = [
   tailwind(),
 ]
 
-
-//if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
+// if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 
 module.exports = {
-  
   siteName: 'SARGON',
   siteDescription: 'ontology for smart energy domain',
-  siteUrl: 'https://sargonnew.netlify.app/',
-  templates: {
-
-  },
+  siteUrl: 'https://sargon-n5geh.netlify.app/',
   plugins: [
+    
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'tools/**/*.md',
+        typeName: 'App',
+        refs: {
+          categories: {
+            typeName: 'Category',
+            route: 'categories/:id',
+            create: true
+          }
+        },
+      }
+    },
     {
       use: '@gridsome/source-filesystem',
       options: {
@@ -28,8 +43,21 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
+        path: 'personas/**/*.md',
+        typeName: 'Persona'
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
         path: 'webpages/**/*.md',
-        typeName: 'Webpage', 
+        typeName: 'Webpage',
+        refs: {
+          personas: {
+            typeName: 'Persona',
+            route: 'personas/:id'
+          }
+        },
       }
     },
     {
@@ -46,6 +74,7 @@ module.exports = {
         typeName: 'UsageDetail',
       }
     },
+    
     {
       use: '@gridsome/plugin-sitemap',
       options: {
@@ -53,7 +82,6 @@ module.exports = {
       }
     },
   ],
-  
   transformers: {
     remark: {
       externalLinksTarget: '_blank',
@@ -61,7 +89,7 @@ module.exports = {
       anchorClassName: 'icon icon-link',
       plugins: [
         ['remark-attr'],
-        [ 'gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Ocean', skipInline: true } ],
+        [ 'gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true } ],
         ['gridsome-plugin-remark-youtube', {width: '85%', align: 'auto'}],
       ]
     }

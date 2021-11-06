@@ -1,7 +1,7 @@
 ---
 title: Overview
 path: /overview
-summary: What is Brick? How does Brick compare to X?
+summary: What is SARGON?
 show_on_navbar: false
 ---
 
@@ -13,7 +13,7 @@ Through the use of powerful Semantic Web technology, SARGON can describe the bro
 
 The source code for SARGON, this website, and related tools are available on **[GitHub](https://github.com/mhg-local/SARGONwebsite)**.
 
-![Brick Model Example](/images/protege.png)
+![SARGON Model Example](/images/protege.png)
 
 ## How Does SARGON applied to the Energy Domain?
 

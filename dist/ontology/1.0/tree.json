@@ -1,0 +1,81 @@
+[
+    {
+        "name": "/ontology/1.0/#Classes", 
+        "children": [
+            {
+                "name": "/ontology/1.0/classes/Building",
+                "children": [
+                    {
+                        "name": "/ontology/1.0/classes/Floor",
+                        "children": []
+                    },
+                    {
+                        "name": "/ontology/1.0/classes/Room",
+                        "children": []
+                    },
+                    {
+                        "name": "/ontology/1.0/classes/Tenant",
+                        "children": []
+                    },
+                    {
+                        "name": "/ontology/1.0/classes/Zone",
+                        "children": []
+                    }
+                    
+                ]
+            },
+            {
+                "name": "/ontology/1.0/classes/Channel",
+                "children":[
+                    {
+                        "name": "/ontology/1.0/classes/Angle",
+                        "children": []
+                    },
+                    {
+                        "name": "/ontology/1.0/classes/Frequency",
+                        "children": []
+                    },
+                    {
+                        "name": "/ontology/1.0/classes/Maqnitute",
+                        "children": []
+                    },
+                    {
+                        "name": "/ontology/1.0/classes/Rocf",
+                        "children": []
+                    },
+                    {
+                        "name": "/ontology/1.0/classes/Timestamp",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "/ontology/1.0/classes/Command", 
+                "children": [
+                    {
+                        "name": "/ontology/1.0/classes/Close_Command", 
+                        "children": []
+                    },
+                    {
+                        "name": "/ontology/1.0/classes/Get_Command", 
+                        "children": [ 
+                            {
+                                "name": "/ontology/1.0/classes/Get_Current_Meter_Value_Command", 
+                                "children": []
+                            },
+                            {
+                                "name": "/ontology/1.0/classes/Get_Meter_Data_Command", 
+                                "children": []
+                            },
+                            {
+                                "name": "/ontology/1.0/classes/Get_Meter_History_Command", 
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }    
+        ]
+    }
+]
+

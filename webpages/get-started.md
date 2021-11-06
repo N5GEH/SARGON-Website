@@ -11,7 +11,7 @@ The [Concepts page](/concepts) presents an overview of core concepts of SARGON.
 
 ### Exploring existing SARGON models
 
-- **Download** the SARGON models in two formats [this page](/resources#reference-brick-models) for use with ontology exploration tools like [Protege](https://protege.stanford.edu/)
+- **Download** the SARGON models in two formats for use with ontology exploration tools like [Protege](https://protege.stanford.edu/)
 
 ### Using SARGON for device provisioning and governing
 
