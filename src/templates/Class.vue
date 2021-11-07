@@ -55,8 +55,8 @@
                 </ul>
 
                 <div class="mt-16 mb-8 ml-4 text-3xl">
-                    <g-link class="leading-tight mt-16 mb-8 mr-2 font-normal text-gray-700 hover:text-primary-700" v-if="$page.class.namespace" :to="`${$page.class.namespace.path}#${$page.class.name}`">{{ $page.class.namespace.value }}</g-link>:
-                    <span class="font-bold leading-tight mt-16 mb-8 mr-4">{{ $page.class.generatedLabel }}</span>
+                    
+                    <span class="font-bold leading-tight mt-16 mb-8 mr-4">{{$page.class.generatedLabel}}</span>
                     <span class="text-xs font-bold bg-customcolors-blue1 text-white my-auto mx-2 p-1 px-2 rounded font-left my-auto align-middle">{{ $page.class.type.toUpperCase() }}</span>
                     <span class="text-xs bg-customcolors-blue1 text-white my-auto mx-2 p-1 px-2 rounded my-auto align-middle">{{ `v${$page.class.version}` }}</span>
                 </div>

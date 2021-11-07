@@ -11,7 +11,7 @@
         "labels": [], 
         "rdfs_label" : ["Building"],
         "generatedLabel": "Building", 
-        
+        "generatedAlias": "B", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
             "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class"
@@ -44,7 +44,7 @@
         "labels": [], 
         "rdfs_label" : ["Floor"],
         "generatedLabel": "Floor", 
-        
+        "generatedAlias": "F",
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
             "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class",
@@ -53,7 +53,7 @@
         "subclasses": [
         ],
         "comments": [""], 
-        "definitions": ["write it down"], 
+        "definitions": [""], 
         "equivalentClasses": [], 
         "hierarchy": [
             "/ontology/1.0/#Classes", 
@@ -75,7 +75,7 @@
         "labels": [], 
         "rdfs_label" : ["Room"],
         "generatedLabel": "Room", 
-        
+        "generatedAlias": "R",
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
             "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class",
@@ -106,7 +106,7 @@
         "labels": [], 
         "rdfs_label" : ["Tenant"],
         "generatedLabel": "Tenant", 
-        
+        "generatedAlias": "T",
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
             "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class",
@@ -137,7 +137,7 @@
         "labels": [], 
         "rdfs_label" : ["Zone"],
         "generatedLabel": "Zone", 
-        
+        "generatedAlias": "Z",
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
             "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class",
@@ -168,7 +168,7 @@
         "labels": [], 
         "rdfs_label" : ["Channel"],
         "generatedLabel": "Channel", 
-        
+        "generatedAlias": "C",
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
             "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class"
@@ -196,7 +196,7 @@
         "labels": [], 
         "rdfs_label" : ["Angle"],
         "generatedLabel": "Angle", 
-        
+        "generatedAlias": "A",
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
             "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class",
@@ -227,7 +227,7 @@
         "labels": [], 
         "rdfs_label" : ["Frequency"],
         "generatedLabel": "Frequency", 
-        
+        "generatedAlias": "F",
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
             "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class",
@@ -258,7 +258,7 @@
         "labels": [], 
         "rdfs_label" : ["Maqnitute"],
         "generatedLabel": "Maqnitute", 
-        
+        "generatedAlias": "M",
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
             "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class",
@@ -289,7 +289,7 @@
         "labels": [], 
         "rdfs_label" : ["Rocf"],
         "generatedLabel": "Rocf", 
-        
+        "generatedAlias": "R",
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
             "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class",
@@ -320,7 +320,7 @@
         "labels": [], 
         "rdfs_label" : ["Timestamp"],
         "generatedLabel": "Timestamp", 
-        
+        "generatedAlias": "T",
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
             "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class",

@@ -1,0 +1,350 @@
+[
+    {
+        "generatedAlias": "B",
+        "generatedLabel": "Building",
+        "definitions": ["A category that includes devices as described by building related data models, such as IFC and FIEMSER "], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Building", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#"
+    },
+    {
+        "generatedAlias": "F",
+        "generatedLabel": "Floor",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Floor", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#"
+    },
+    {
+        "generatedAlias": "R",
+        "generatedLabel": "Room",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Room", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#"
+    },
+    {
+        "generatedAlias": "T",
+        "generatedLabel": "Tenant",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Tenant", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#"
+    },
+    {
+        "generatedAlias": "Z",
+        "generatedLabel": "Zone",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Zone", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#"
+    },
+    {
+        "generatedAlias": "C",
+        "generatedLabel": "Channel",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Channel", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#"
+    },
+    {
+        "generatedAlias": "A",
+        "generatedLabel": "Angle",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Angle", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "F",
+        "generatedLabel": "Frequency",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Frequency", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "M",
+        "generatedLabel": "Maqnititute",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Maqnititute", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "R",
+        "generatedLabel": "Rocf",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Rocf", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "T",
+        "generatedLabel": "Timestamp",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Timestamp", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "C",
+        "generatedLabel": "Command",
+        "definitions": ["A directive that a device must support to perform a certain function. A command may act upon a state, but does not necessarily act upon a state. For example, the ON command acts upon the ON/OFF state, but the GET command does not act upon any state, it simply gives a directive to retrieve a certain value. We propose here a list of commands that are relevant for the purpose of SAREF, but this list can be extended."], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Command", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "CC",
+        "generatedLabel": "Close Command",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Close_Command", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "GC",
+        "generatedLabel": "Get Command",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Get_Command", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "GCMVC",
+        "generatedLabel": "Get Current Meter Value Command",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Get_Current_Meter_Value_Command", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "GMDC",
+        "generatedLabel": "Get Meter Data Command",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Get_Meter_Data_Command", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "GMHC",
+        "generatedLabel": "Get Meter History Command",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Get_Meter_History_Command", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "GSDC",
+        "generatedLabel": "Get Sensing Data Command",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Get_Sensing_Data_Command", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "NC",
+        "generatedLabel": "Notify Command",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Notify_Command", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "OC",
+        "generatedLabel": "Off Command",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Off_Command", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "OC",
+        "generatedLabel": "On Command",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/On_Command", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "OC",
+        "generatedLabel": "Open Command",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Open_Command", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "NC",
+        "generatedLabel": "Notify Command",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Notify_Command", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "OC",
+        "generatedLabel": "Open Command",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Open_Command", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "PC",
+        "generatedLabel": "Pause Command",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Notify_Command", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "SLC",
+        "generatedLabel": "Set Level Command",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Set_Level_Command", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "SALC",
+        "generatedLabel": "Set Absolute Level Command",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Set_Absolute_Level_Command", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "SRLC",
+        "generatedLabel": "Set Relative Level Command",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Set_Relative_Level_Command", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "SC",
+        "generatedLabel": "Start Command",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Start_Command", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "SDC",
+        "generatedLabel": "Step Down Command",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Step_Down_Command", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "SUC",
+        "generatedLabel": "Step Up Command",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Step_Up_Command", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "SC",
+        "generatedLabel": "Stop Command",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Stop_Command", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "TC",
+        "generatedLabel": "Toggle Command",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Toggle_Command", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "C",
+        "generatedLabel": "Commodity",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Commodity", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "C",
+        "generatedLabel": "Coal",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Coal", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "E",
+        "generatedLabel": "Electricity",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Electricity", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "G",
+        "generatedLabel": "Gas",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Gas", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "W",
+        "generatedLabel": "Water",
+        "definitions": ["A type of command"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Water", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    }
+
+    
+
+
+
+
+]
