@@ -357,7 +357,20 @@
             "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class"
         ], 
         "subclasses": [
-            "https://w3id.org/saref#GetCommand"
+            "https://w3id.org/saref#GetCommand",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Close_Command",
+            "https://w3id.org/saref#GetCommand",
+            "https://w3id.org/saref#NotifyCommand",
+            "https://w3id.org/saref#OffCommand",
+            "https://w3id.org/saref#OnCommand",
+            "https://w3id.org/saref#OpenCommand",
+            "https://w3id.org/saref#PauseCommand",
+            "https://w3id.org/saref#SetLevelCommand",
+            "https://w3id.org/saref#StartCommand",
+            "https://w3id.org/saref#StepDownCommand",
+            "https://w3id.org/saref#StepUpCommand",
+            "https://w3id.org/saref#StopCommand",
+            "https://w3id.org/saref#ToggleCommand"
         ],
         "comments": ["A directive that a device must support to perform a certain function. A command may act upon a state, but does not necessarily act upon a state. For example, the ON command acts upon the ON/OFF state, but the GET command does not act upon any state, it simply gives a directive to retrieve a certain value. We propose here a list of commands that are relevant for the purpose of SAREF, but this list can be extended."], 
         "definitions": [], 
@@ -379,9 +392,10 @@
             "http://www.w3.org/2002/07/owl#Class"
             
         ], 
-        "name": "Close_Command", 
+        "name": "Close Command", 
         "path": "/ontology/1.0/classes/Close_Command", 
         "labels": [],
+        "rdfs_label" : ["Close Command"], 
         "generatedLabel": "Close_Command", 
         "generatedAlias": "CC", 
         "superclasses": [
@@ -410,10 +424,11 @@
         "types": [
             "http://www.w3.org/2002/07/owl#Class"
         ], 
-        "name": "Get_Command", 
+        "name": "Get Command", 
         "path": "/ontology/1.0/classes/Get_Command", 
         "labels": [], 
-        "generatedLabel": "Get_Command", 
+        "rdfs_label" : ["Get Command"], 
+        "generatedLabel": "Get Command", 
         "generatedAlias": "GC", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
@@ -422,12 +437,11 @@
         "subclasses": [
             "https://w3id.org/saref#GetCurrentMeterValueCommand", 
             "https://w3id.org/saref#GetMeterDataCommand",
-            "https://w3id.org/saref#GetMeterHistoryCommand"
-
-            
+            "https://w3id.org/saref#GetMeterHistoryCommand",
+            "https://w3id.org/saref#GetSensingDataCommand"
         ], 
         "comments": [], 
-        "definitions": ["A Command of connected equipment; part of a System"], 
+        "definitions": [], 
         "equivalentClasses": [], 
         "hierarchy": [
             "/ontology/1.0/#Classes", 
@@ -444,9 +458,10 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": ["http://www.w3.org/2002/07/owl#Class"], 
-        "name": "Get_Current_Meter_Value_Command", 
+        "name": "Get Current Meter Value Command", 
         "path": "/ontology/1.0/classes/Get_Current_Meter_Value_Command", 
         "labels": [], 
+        "rdfs_label" : ["Get Current Meter Value Command"], 
         "generatedLabel": "Get Current Meter Value Command", 
         "generatedAlias": "GCMVC", 
         "superclasses": [
@@ -472,10 +487,11 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": ["http://www.w3.org/2002/07/owl#Class"], 
-        "name": "Get_Meter_Data_Command", 
+        "name": "Get Meter Data Command", 
         "path": "/ontology/1.0/classes/Get_Meter_Data_Command", 
         "labels": [], 
-        "generatedLabel": "Get_Meter_Data_Command", 
+        "rdfs_label" : ["Get Meter Data Command"], 
+        "generatedLabel": "Get Meter Data Command", 
         "generatedAlias": "GMDC", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b59", 
@@ -500,10 +516,11 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": ["http://www.w3.org/2002/07/owl#Class"], 
-        "name": "Get_Meter_History_Command", 
+        "name": "Get Meter History Command", 
         "path": "/ontology/1.0/classes/Get_Meter_History_Command", 
         "labels": [], 
-        "generatedLabel": "Get_Meter_History_Command", 
+        "rdfs_label" : ["Get Meter History Command"], 
+        "generatedLabel": "Get Meter History Command", 
         "generatedAlias": "GMHC", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b59", 
@@ -521,6 +538,629 @@
         "inRangeOf": [], 
         "inDomainOf": [], 
         "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#GetSensingDataCommand", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": ["http://www.w3.org/2002/07/owl#Class"], 
+        "name": "Get Sensing Data Command", 
+        "path": "/ontology/1.0/classes/Get_Sensing_Data_Command", 
+        "labels": [], 
+        "rdfs_label" : ["Get Sensing Data Command"], 
+        "generatedLabel": "Get Sensing Data Command", 
+        "generatedAlias": "GSDC", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b59", 
+            "https://w3id.org/saref#GetCommand"
+        ], 
+        "subclasses": [], 
+        "comments": ["A type of get command"], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Get_Command", 
+            "/ontology/1.0/classes/Get_Sensing_Data_Command"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#NotifyCommand", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Notify Command", 
+        "path": "/ontology/1.0/classes/Notify_Command", 
+        "labels": [], 
+        "rdfs_label" : ["Notify Command"], 
+        "generatedLabel": "Notify_Command", 
+        "generatedAlias": "NC", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
+            "https://w3id.org/saref#Command"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Notify_Command"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#OffCommand", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Off Command", 
+        "path": "/ontology/1.0/classes/Off_Command", 
+        "labels": [], 
+        "rdfs_label" : ["Off Command"], 
+        "generatedLabel": "Off_Command", 
+        "generatedAlias": "OC", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
+            "https://w3id.org/saref#Command"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Off_Command"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#OnCommand", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "On Command", 
+        "path": "/ontology/1.0/classes/On_Command", 
+        "labels": [], 
+        "rdfs_label" : ["On Command"], 
+        "generatedLabel": "On_Command", 
+        "generatedAlias": "OC", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
+            "https://w3id.org/saref#Command"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/On_Command"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#OpenCommand", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "On Command", 
+        "path": "/ontology/1.0/classes/Open_Command", 
+        "labels": [], 
+        "rdfs_label" : ["Open Command"], 
+        "generatedLabel": "Open_Command", 
+        "generatedAlias": "OC", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
+            "https://w3id.org/saref#Command"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Open_Command"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#PauseCommand", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Pause Command", 
+        "path": "/ontology/1.0/classes/Pause_Command", 
+        "labels": [], 
+        "rdfs_label" : ["Pause Command"], 
+        "generatedLabel": "Pause_Command", 
+        "generatedAlias": "PC", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
+            "https://w3id.org/saref#Command"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Pause_Command"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#SetLevelCommand", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Set Level Command", 
+        "path": "/ontology/1.0/classes/Set_Level_Command", 
+        "labels": [], 
+        "rdfs_label" : ["Set Level Command"], 
+        "generatedLabel": "Set Level Command", 
+        "generatedAlias": "SLC", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
+            "https://w3id.org/saref#Command"
+        ], 
+        "subclasses": [
+            "https://w3id.org/saref#SetAbsoluteLevelCommand",
+            "https://w3id.org/saref#SetRelativeLevelCommand"
+
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Set_Level_Command"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#SetAbsoluteLevelCommand", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Set Absolute Level Command", 
+        "path": "/ontology/1.0/classes/Set_Absolute_Level_Command", 
+        "labels": [], 
+        "rdfs_label" : ["Set Absolute Level Command"], 
+        "generatedLabel": "Set Absolute Level Command", 
+        "generatedAlias": "SALC", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
+            "https://w3id.org/saref#SetLevelCommand"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Set_Level_Command",
+            "/ontology/1.0/classes/Set_Absolute_Level_Command"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#SetRelativeLevelCommand", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Set Relative Level Command", 
+        "path": "/ontology/1.0/classes/Set_Relative_Level_Command", 
+        "labels": [], 
+        "rdfs_label" : ["Set Relative Level Command"], 
+        "generatedLabel": "Set Relative Level Command", 
+        "generatedAlias": "SRLC", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
+            "https://w3id.org/saref#SetLevelCommand"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Set_Level_Command",
+            "/ontology/1.0/classes/Set_Relative_Level_Command"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#StartCommand", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Start Command", 
+        "path": "/ontology/1.0/classes/Start_Command", 
+        "labels": [], 
+        "rdfs_label" : ["Start Command"], 
+        "generatedLabel": "Start Command", 
+        "generatedAlias": "SC", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
+            "https://w3id.org/saref#Command"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Start_Command"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#StepDownCommand", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Start Command", 
+        "path": "/ontology/1.0/classes/Step_Down_Command", 
+        "labels": [], 
+        "rdfs_label" : ["Step Down Command"], 
+        "generatedLabel": "Step Down Command", 
+        "generatedAlias": "SC", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
+            "https://w3id.org/saref#Command"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Step_Down_Command"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#StepUpCommand", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Start Command", 
+        "path": "/ontology/1.0/classes/Step_Up_Command", 
+        "labels": [], 
+        "rdfs_label" : ["Step Up Command"], 
+        "generatedLabel": "Step Up Command", 
+        "generatedAlias": "SC", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
+            "https://w3id.org/saref#Command"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Step_Up_Command"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#StopCommand", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Stop Command", 
+        "path": "/ontology/1.0/classes/Stop_Command", 
+        "labels": [], 
+        "rdfs_label" : ["Stop Command"], 
+        "generatedLabel": "Stop Command", 
+        "generatedAlias": "SC", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
+            "https://w3id.org/saref#Command"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Stop_Command"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#ToggleCommand", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Toggle Command", 
+        "path": "/ontology/1.0/classes/Toggle_Command", 
+        "labels": [], 
+        "rdfs_label" : ["Toggle Command"], 
+        "generatedLabel": "Toggle Command", 
+        "generatedAlias": "SC", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
+            "https://w3id.org/saref#Command"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Toggle_Command"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Commodity", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Commodity", 
+        "path": "/ontology/1.0/classes/Commodity", 
+        "labels": [], 
+        "rdfs_label" : ["Commodity"], 
+        "generatedLabel": "Commodity", 
+        "generatedAlias": "C", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+            "https://w3id.org/saref#Coal",
+            "https://w3id.org/saref#Electricity",
+            "https://w3id.org/saref#Gas",
+            "https://w3id.org/saref#Water"
+        ], 
+        "comments": ["A marketable item for which there is demand, but which is supplied without qualitative differentiation across a market. SAREF refers to energy commodities such as electricity, gas, coal and oil. "], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Commodity"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Coal", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Coal", 
+        "path": "/ontology/1.0/classes/Coal", 
+        "labels": [], 
+        "rdfs_label" : ["Coal"], 
+        "generatedLabel": "Coal", 
+        "generatedAlias": "C", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
+            "https://w3id.org/saref#Commodity"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Commodity",
+            "/ontology/1.0/classes/Coal"
+
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Electricity", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Electricity", 
+        "path": "/ontology/1.0/classes/Electricity", 
+        "labels": [], 
+        "rdfs_label" : ["Electricity"], 
+        "generatedLabel": "Electricity", 
+        "generatedAlias": "E", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
+            "https://w3id.org/saref#Commodity"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Commodity",
+            "/ontology/1.0/classes/Electricity"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Gas", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Gas", 
+        "path": "/ontology/1.0/classes/Gas", 
+        "labels": [], 
+        "rdfs_label" : ["Gas"], 
+        "generatedLabel": "Gas", 
+        "generatedAlias": "G", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
+            "https://w3id.org/saref#Commodity"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Commodity",
+            "/ontology/1.0/classes/Gas"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Water", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Water", 
+        "path": "/ontology/1.0/classes/Water", 
+        "labels": [], 
+        "rdfs_label" : ["Water"], 
+        "generatedLabel": "Water", 
+        "generatedAlias": "W", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
+            "https://w3id.org/saref#Commodity"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Commodity",
+            "/ontology/1.0/classes/Water"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
     }
+
+
+
+
+
+
+
+
+
+
     
 ]

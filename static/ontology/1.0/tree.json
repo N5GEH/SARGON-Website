@@ -71,9 +71,85 @@
                             {
                                 "name": "/ontology/1.0/classes/Get_Meter_History_Command", 
                                 "children": []
+                            },
+                            {
+                                "name": "/ontology/1.0/classes/Get_Sensing_Data_Command", 
+                                "children": []
+                            }
+
+                        ]
+                    },
+                    {
+                        "name": "/ontology/1.0/classes/Notify_Command", 
+                        "children": []
+                    },
+                    {
+                        "name": "/ontology/1.0/classes/Off_Command", 
+                        "children": []
+                    },
+                    {
+                        "name": "/ontology/1.0/classes/On_Command", 
+                        "children": []
+                    },
+                    {
+                        "name": "/ontology/1.0/classes/Pause_Command", 
+                        "children": []
+                    },
+                    {
+                        "name": "/ontology/1.0/classes/Set_Level_Command", 
+                        "children": [
+                            {
+                                "name": "/ontology/1.0/classes/Set_Absolute_Level_Command", 
+                                "children": []
+                            },
+                            {
+                                "name": "/ontology/1.0/classes/Set_Relative_Level_Command", 
+                                "children": []
                             }
                         ]
+                    },
+                    {
+                        "name": "/ontology/1.0/classes/Start_Command", 
+                        "children": []
+                    },
+                    {
+                        "name": "/ontology/1.0/classes/Step_Down_Command", 
+                        "children": []
+                    },
+                    {
+                        "name": "/ontology/1.0/classes/Step_Up_Command", 
+                        "children": []
+                    },
+                    {
+                        "name": "/ontology/1.0/classes/Stop_Command", 
+                        "children": []
+                    },
+                    {
+                        "name": "/ontology/1.0/classes/Toggle_Command", 
+                        "children": []
                     }
+                ]
+            },
+            {
+                "name" : "/ontology/1.0/classes/Commodity",
+                "children" : [
+                    {
+                        "name": "/ontology/1.0/classes/Coal", 
+                        "children": []
+                    },
+                    {
+                        "name": "/ontology/1.0/classes/Electricity", 
+                        "children": []
+                    },
+                    {
+                        "name": "/ontology/1.0/classes/Gas", 
+                        "children": []
+                    },
+                    {
+                        "name": "/ontology/1.0/classes/Water", 
+                        "children": []
+                    }
+
                 ]
             }    
         ]
