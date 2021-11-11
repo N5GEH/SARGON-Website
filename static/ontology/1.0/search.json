@@ -340,7 +340,187 @@
         "path": "/ontology/1.0/classes/Water", 
         "version": "1.0", 
         "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "DOW",
+        "generatedLabel": "Day Of Week",
+        "definitions": ["The day of week"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Day_Of_Week", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "D",
+        "generatedLabel": "Device",
+        "definitions": ["A tangible object designed to accomplish a particular task in households, common public buildings or offices. In order to accomplish this task, the device performs one or more functions. For example, a washing machine is designed to wash (task) and to accomplish this task it performs a start and stop function. Devices can be structured in categories (subclasses) that reflect the different domain in which a device is used, e.g., smart appliances domain (subclass FunctionRelated) vs. building domain (subclass BuildingRelated) vs. smart grid domain (subclass EnergyRelated). New categories can be defined,if needed, to reflect other differences, for example different points of view, such as the point of view of the device's user vs. the point of view of the device's manufacturer. We propose a list of devices that are relevant for the purpose of SAREF, but this list can be extended."], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Device", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "BR",
+        "generatedLabel": "Building Related",
+        "definitions": ["A building represents a structure that provides shelter for its occupants or contents and stands in one place. The building is also used to provide a basic element within the spatial structure hierarchy for the components of a building project (together with site, storey, and space)."], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Building_Related", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "GR",
+        "generatedLabel": "Grid Related",
+        "definitions": ["A category that considers devices based on energy consumption information and profiles to optimize energy efficiency."], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Grid_Related", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "CD",
+        "generatedLabel": "Control Device",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Control_Device", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "FD",
+        "generatedLabel": "Flow Device",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Flow_Device", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "A",
+        "generatedLabel": "Actuator",
+        "definitions": ["A device responsible for moving or controlling a mechanism or system by performing an actuating function"], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Actuator", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "R",
+        "generatedLabel": "RVK",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/RVK", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "S",
+        "generatedLabel": "Switch",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Switch", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "DS",
+        "generatedLabel": "Door Switch",
+        "definitions": ["A device of category saref:Actuator that consists of a switch, accomplishes the task saref:Safety, performs the saref:OpenCloseFunction, is used for controlling a door, and can be found in the state saref:OpenCloseState."], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Door_Switch", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "LS",
+        "generatedLabel": "Light Switch",
+        "definitions": ["A device of category saref:Actuator that consists of a switch, accomplishes the task saref:Lighting, performs the saref:OnOffFunction, measures the property saref:Light, and can be found in the state saref:OnOffState. It can offer a switch on service."], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Light_Switch", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "C",
+        "generatedLabel": "Controller",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Controller", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#"
+    },
+    {
+        "generatedAlias": "P",
+        "generatedLabel": "PID",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/PID", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#"
+    },
+    {
+        "generatedAlias": "S",
+        "generatedLabel": "Sensor",
+        "definitions": ["A device that detects and responds to events or changes in the physical environment such as light, motion, or temperature changes. Further, a device of category saref:Sensor that performs a saref:SensingFunction."], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Sensor", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#"
+    },
+    {
+        "generatedAlias": "WFS",
+        "generatedLabel": "Water Flow Sensor",
+        "definitions": [], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Water_FLow_Sensor", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#"
+    },
+    {
+        "generatedAlias": "ES",
+        "generatedLabel": "Electricity Sensor",
+        "definitions": [], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Electricity_Sensor", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#"
+    },
+    {
+        "generatedAlias": "AFS",
+        "generatedLabel": "Air Flow Sensor",
+        "definitions": [], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Air_Flow_Sensor", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#"
+    },
+    {
+        "generatedAlias": "SS",
+        "generatedLabel": "Smoke Sensor",
+        "definitions": ["A device that consists of a sensor, has category saref:Sensor, performs the saref:SensingFunction and saref:EventFunction (which notifies that a certain threshold has been exceeded), and is used for the purpose of sensing a property of type saref:Smoke."], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Smoke_Sensor", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#"
+    },
+    {
+        "generatedAlias": "TS",
+        "generatedLabel": "Temparature Sensor",
+        "definitions": [], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Temparature_Sensor", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#"
     }
+
+    
+
+
+
+
+
+
+
 
     
 

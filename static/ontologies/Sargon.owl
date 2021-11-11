@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://w3id.org/saref">
-    <Prefix name="" IRI="https://w3id.org/saref#"/>
+    <Prefix name="" IRI="https://w3id.org/saref"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -94,9 +94,6 @@
         <Class abbreviatedIRI="webprotege:Boiler"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="webprotege:BuildingRelated"/>
-    </Declaration>
-    <Declaration>
         <Class abbreviatedIRI="webprotege:Burner"/>
     </Declaration>
     <Declaration>
@@ -119,9 +116,6 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="webprotege:Compressor"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="webprotege:ControlDevice"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="webprotege:Controller"/>
@@ -164,9 +158,6 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="webprotege:FlowController"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="webprotege:FlowDevice"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="webprotege:FlowMeter"/>
@@ -272,6 +263,15 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="webprotege:Zone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://sargon-n5geh.netlify.app/ontology/1.0/classes/BuildingRelated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://sargon-n5geh.netlify.app/ontology/1.0/classes/ControlDevice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ActuatingFunction"/>
@@ -856,6 +856,51 @@
         <DataProperty IRI="#hasValue"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#Friday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#Monday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#Saturday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#Sunday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#Thursday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#Tuesday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#Wednesday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitDay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitHour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitMinute"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitMonth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitSecond"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitWeek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.w3.org/2006/time#unitYear"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://www.wurvoc.org/vocabularies/om-1.8/United_States_dollar"/>
     </Declaration>
     <Declaration>
@@ -976,13 +1021,34 @@
         <NamedIndividual IRI="#watt_hour"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:contributor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:created"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:creator"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:isVersionOf"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:issued"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:license"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:modified"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:publisher"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:rights"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:source"/>
@@ -997,112 +1063,46 @@
         <AnnotationProperty abbreviatedIRI="rdfs:flow"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="terms:isVersionOf"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.w3.org/2006/time#unitMonth"/>
-    </Declaration>
-    <Declaration>
-        <Datatype abbreviatedIRI="xsd:date"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.w3.org/2006/time#unitDay"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.w3.org/2006/time#Monday"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.w3.org/2006/time#unitMinute"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.w3.org/2006/time#unitSecond"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.w3.org/2006/time#unitWeek"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="skos:definition"/>
-    </Declaration>
-    <Declaration>
-        <Datatype abbreviatedIRI="xsd:gMonth"/>
-    </Declaration>
-    <Declaration>
-        <Datatype abbreviatedIRI="xsd:gYearMonth"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.w3.org/2006/time#unitYear"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="terms:modified"/>
-    </Declaration>
-    <Declaration>
-        <Datatype abbreviatedIRI="xsd:duration"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="skos:note"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="terms:rights"/>
-    </Declaration>
-    <Declaration>
-        <Datatype abbreviatedIRI="xsd:gYear"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.w3.org/2006/time#Saturday"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.w3.org/2006/time#Wednesday"/>
+        <AnnotationProperty abbreviatedIRI="xsd:pattern"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="skos:changeNote"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="terms:creator"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.w3.org/2006/time#Sunday"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="terms:license"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
-    </Declaration>
-    <Declaration>
-        <Datatype abbreviatedIRI="xsd:gDay"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="skos:scopeNote"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="skos:historyNote"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="terms:contributor"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.w3.org/2006/time#unitHour"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="xsd:pattern"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.w3.org/2006/time#Tuesday"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="terms:created"/>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="skos:editorialNote"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.w3.org/2006/time#Friday"/>
+        <AnnotationProperty abbreviatedIRI="skos:historyNote"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.w3.org/2006/time#Thursday"/>
+        <AnnotationProperty abbreviatedIRI="skos:note"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:scopeNote"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:duration"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:gDay"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:gMonth"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:gYear"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:gYearMonth"/>
     </Declaration>
     <SubClassOf>
         <Class abbreviatedIRI="webprotege:AC-DC"/>
@@ -1259,10 +1259,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="webprotege:BuildingRelated"/>
-        <Class IRI="#Device"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class abbreviatedIRI="webprotege:Burner"/>
         <Class abbreviatedIRI="webprotege:EnergyConversionDevice"/>
     </SubClassOf>
@@ -1333,12 +1329,8 @@
         <Class abbreviatedIRI="webprotege:FlowMovingDevice"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="webprotege:ControlDevice"/>
-        <Class abbreviatedIRI="webprotege:BuildingRelated"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class abbreviatedIRI="webprotege:Controller"/>
-        <Class abbreviatedIRI="webprotege:ControlDevice"/>
+        <Class IRI="https://sargon-n5geh.netlify.app/ontology/1.0/classes/ControlDevice"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="webprotege:Controller"/>
@@ -1608,7 +1600,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="webprotege:EnergyConversionDevice"/>
-        <Class abbreviatedIRI="webprotege:FlowDevice"/>
+        <Class IRI="https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="webprotege:Fan"/>
@@ -1656,11 +1648,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="webprotege:FlowController"/>
-        <Class abbreviatedIRI="webprotege:FlowDevice"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="webprotege:FlowDevice"/>
-        <Class abbreviatedIRI="webprotege:BuildingRelated"/>
+        <Class IRI="https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="webprotege:FlowMeter"/>
@@ -1668,19 +1656,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="webprotege:FlowMovingDevice"/>
-        <Class abbreviatedIRI="webprotege:FlowDevice"/>
+        <Class IRI="https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="webprotege:FlowStorageDevice"/>
-        <Class abbreviatedIRI="webprotege:FlowDevice"/>
+        <Class IRI="https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="webprotege:FlowTerminal"/>
-        <Class abbreviatedIRI="webprotege:FlowDevice"/>
+        <Class IRI="https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="webprotege:FlowTerminalDevice"/>
-        <Class abbreviatedIRI="webprotege:FlowDevice"/>
+        <Class IRI="https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="webprotege:Frequency"/>
@@ -2160,12 +2148,24 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="https://sargon-n5geh.netlify.app/ontology/1.0/classes/BuildingRelated"/>
+        <Class IRI="#Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://sargon-n5geh.netlify.app/ontology/1.0/classes/ControlDevice"/>
+        <Class IRI="https://sargon-n5geh.netlify.app/ontology/1.0/classes/BuildingRelated"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice"/>
+        <Class IRI="https://sargon-n5geh.netlify.app/ontology/1.0/classes/BuildingRelated"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#ActuatingFunction"/>
         <Class IRI="#Function"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Actuator"/>
-        <Class abbreviatedIRI="webprotege:ControlDevice"/>
+        <Class IRI="https://sargon-n5geh.netlify.app/ontology/1.0/classes/ControlDevice"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Actuator"/>
@@ -3170,7 +3170,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sensor"/>
-        <Class abbreviatedIRI="webprotege:ControlDevice"/>
+        <Class IRI="https://sargon-n5geh.netlify.app/ontology/1.0/classes/ControlDevice"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sensor"/>
@@ -3849,16 +3849,6 @@
         <Literal>Boiler</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>webprotege:BuildingRelated</AbbreviatedIRI>
-        <Literal>A building represents a structure that provides shelter for its occupants or contents and stands in one place. The building is also used to provide a basic element within the spatial structure hierarchy for the components of a building project (together with site, storey, and space).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>webprotege:BuildingRelated</AbbreviatedIRI>
-        <Literal>Building related</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>webprotege:Burner</AbbreviatedIRI>
         <Literal>Burner</Literal>
@@ -3902,11 +3892,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>webprotege:Compressor</AbbreviatedIRI>
         <Literal>Compressor</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>webprotege:ControlDevice</AbbreviatedIRI>
-        <Literal>Control device</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3992,11 +3977,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>webprotege:FlowController</AbbreviatedIRI>
         <Literal>Flow controller</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>webprotege:FlowDevice</AbbreviatedIRI>
-        <Literal>Flow device</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4672,6 +4652,26 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.wurvoc.org/vocabularies/om-1.8/watt</IRI>
         <Literal>Watt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://sargon-n5geh.netlify.app/ontology/1.0/classes/BuildingRelated</IRI>
+        <Literal>A building represents a structure that provides shelter for its occupants or contents and stands in one place. The building is also used to provide a basic element within the spatial structure hierarchy for the components of a building project (together with site, storey, and space).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://sargon-n5geh.netlify.app/ontology/1.0/classes/BuildingRelated</IRI>
+        <Literal>Building related</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://sargon-n5geh.netlify.app/ontology/1.0/classes/ControlDevice</IRI>
+        <Literal>Control device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice</IRI>
+        <Literal>Flow device</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>

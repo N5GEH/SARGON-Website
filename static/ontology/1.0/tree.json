@@ -151,7 +151,102 @@
                     }
 
                 ]
-            }    
+            },
+            {
+                "name" : "/ontology/1.0/classes/Day_Of_Week",
+                "children" : []
+            },
+            {
+                "name" : "/ontology/1.0/classes/Device",
+                "children" : [
+                    {
+                        "name" : "/ontology/1.0/classes/Building_Related",
+                        "children" : [
+                            {
+                                "name" : "/ontology/1.0/classes/Control_Device",
+                                "children" : [
+                                    {
+                                        "name" : "/ontology/1.0/classes/Actuator",
+                                        "children" : [
+                                            {
+                                                "name": "/ontology/1.0/classes/RVK",
+                                                "children" : []
+                                            },
+                                            {
+                                                "name": "/ontology/1.0/classes/Switch",
+                                                "children" : [
+                                                    {
+                                                        "name": "/ontology/1.0/classes/Door_Switch",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "name": "/ontology/1.0/classes/Light_Switch",
+                                                        "children": []
+                                                    }
+
+                                                ]
+                                            }
+                                            
+                                        ]
+                                    },
+                                    {
+                                        "name": "/ontology/1.0/classes/Controller",
+                                        "children": [
+                                            {
+                                                "name": "/ontology/1.0/classes/PID",
+                                                "children":[]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "/ontology/1.0/classes/Sensor",
+                                        "children": [
+                                            {
+                                                "name": "/ontology/1.0/classes/Air_Flow_Sensor",
+                                                "children":[]
+                                            },
+                                            {
+                                                "name": "/ontology/1.0/classes/Electricity_Sensor",
+                                                "children":[]
+                                            },
+                                            {
+                                                "name": "/ontology/1.0/classes/Smoke_Sensor",
+                                                "children":[]
+                                            },
+                                            {
+                                                "name": "/ontology/1.0/classes/Temperature_Sensor",
+                                                "children":[]
+                                            },
+                                            {
+                                                "name": "/ontology/1.0/classes/Water_Flow_Sensor",
+                                                "children":[]
+                                            }
+
+                                        ]   
+                                    }
+                                    
+                            
+                                
+
+                                ]
+                            },
+                            {
+                                "name" : "/ontology/1.0/classes/Flow_Device",
+                                "children" : [
+
+                                ]
+                            }
+
+                        ]
+                    },
+                    {
+                        "name" : "/ontology/1.0/classes/Grid_Related",
+                        "children" : []
+                    }
+
+                    
+                ]
+            }   
         ]
     }
 ]

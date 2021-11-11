@@ -1151,7 +1151,708 @@
         "inRangeOf": [], 
         "inDomainOf": [], 
         "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#DayOfWeek", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Day_Of_Week", 
+        "path": "/ontology/1.0/classes/Day_Of_Week", 
+        "labels": [], 
+        "rdfs_label" : ["Day Of Week"], 
+        "generatedLabel": "Day Of Week", 
+        "generatedAlias": "DOW", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Day_Of_Week"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Device", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Device", 
+        "path": "/ontology/1.0/classes/Device", 
+        "labels": [], 
+        "rdfs_label" : ["Device"], 
+        "generatedLabel": "Device", 
+        "generatedAlias": "D", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A tangible object designed to accomplish a particular task in households, common public buildings or offices. In order to accomplish this task, the device performs one or more functions. For example, a washing machine is designed to wash (task) and to accomplish this task it performs a start and stop function. Devices can be structured in categories (subclasses) that reflect the different domain in which a device is used, e.g., smart appliances domain (subclass FunctionRelated) vs. building domain (subclass BuildingRelated) vs. smart grid domain (subclass EnergyRelated). New categories can be defined,if needed, to reflect other differences, for example different points of view, such as the point of view of the device's user vs. the point of view of the device's manufacturer. We propose a list of devices that are relevant for the purpose of SAREF, but this list can be extended."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/BuildingRelated", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Building Related", 
+        "path": "/ontology/1.0/classes/Building_Related", 
+        "labels": [], 
+        "rdfs_label" : ["Building Related"], 
+        "generatedLabel": "Building Related", 
+        "generatedAlias": "BR", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Device"
+        ], 
+        "subclasses": [
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/ControlDevice",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice"
+        ], 
+        "comments": ["A building represents a structure that provides shelter for its occupants or contents and stands in one place. The building is also used to provide a basic element within the spatial structure hierarchy for the components of a building project (together with site, storey, and space)."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_Related"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/ControlDevice", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Control Device", 
+        "path": "/ontology/1.0/classes/Control_Device", 
+        "labels": [], 
+        "rdfs_label" : ["Control Device"], 
+        "generatedLabel": "Control Device", 
+        "generatedAlias": "CD", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/BuildingRelated"
+
+        ], 
+        "subclasses": [
+            "https://w3id.org/saref#Actuator"
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_Related",
+            "/ontology/1.0/classes/Control_Device"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Flow Device", 
+        "path": "/ontology/1.0/classes/Flow_Device", 
+        "labels": [], 
+        "rdfs_label" : ["Flow Device"], 
+        "generatedLabel": "Flow Device", 
+        "generatedAlias": "FD", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/BuildingRelated"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_Related",
+            "/ontology/1.0/classes/Flow_Device"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/GridRelated", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Building Related", 
+        "path": "/ontology/1.0/classes/Grid_Related", 
+        "labels": [], 
+        "rdfs_label" : ["Grid Related"], 
+        "generatedLabel": "Grid Related", 
+        "generatedAlias": "GR", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Device"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A category that considers devices based on energy consumption information and profiles to optimize energy efficiency."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Grid_Related"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Actuator", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Actuator", 
+        "path": "/ontology/1.0/classes/Actuator", 
+        "labels": [], 
+        "rdfs_label" : ["Actuator"], 
+        "generatedLabel": "Actuator", 
+        "generatedAlias": "A", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/ControlDevice"
+        ], 
+        "subclasses": [
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/RVK",
+            "https://w3id.org/saref#Switch"
+        ], 
+        "comments": ["A device responsible for moving or controlling a mechanism or system by performing an actuating function"], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_Related",
+            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Actuator"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/RVK", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "RVK", 
+        "path": "/ontology/1.0/classes/RVK", 
+        "labels": [], 
+        "rdfs_label" : ["RVK"], 
+        "generatedLabel": "RVK", 
+        "generatedAlias": "A", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Actuator"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_Related",
+            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Actuator",
+            "/ontology/1.0/classes/RVK"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Switch", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Switch", 
+        "path": "/ontology/1.0/classes/Switch", 
+        "labels": [], 
+        "rdfs_label" : ["Switch"], 
+        "generatedLabel": "Switch", 
+        "generatedAlias": "S", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Actuator"
+        ], 
+        "subclasses": [
+            "https://w3id.org/saref#DoorSwitch",
+            "https://w3id.org/saref#LightSwitch"
+        ], 
+        "comments": ["A device of category saref:Actuator that performs an actuating function of type saref:OnOffFunction or saref:OpenCloseFunction"], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_Related",
+            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Actuator",
+            "/ontology/1.0/classes/Switch"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#DoorSwitch", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Switch", 
+        "path": "/ontology/1.0/classes/Door_Switch", 
+        "labels": [], 
+        "rdfs_label" : ["Door Switch"], 
+        "generatedLabel": "Door Switch", 
+        "generatedAlias": "DS", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Switch"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A device of category saref:Actuator that consists of a switch, accomplishes the task saref:Safety, performs the saref:OpenCloseFunction, is used for controlling a door, and can be found in the state saref:OpenCloseState."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_Related",
+            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Actuator",
+            "/ontology/1.0/classes/Switch",
+            "/ontology/1.0/classes/Door_Switch"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#LightSwitch", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Switch", 
+        "path": "/ontology/1.0/classes/Light_Switch", 
+        "labels": [], 
+        "rdfs_label" : ["Light Switch"], 
+        "generatedLabel": "Light Switch", 
+        "generatedAlias": "LS", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Switch"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A device of category saref:Actuator that consists of a switch, accomplishes the task saref:Lighting, performs the saref:OnOffFunction, measures the property saref:Light, and can be found in the state saref:OnOffState. It can offer a switch on service."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_Related",
+            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Actuator",
+            "/ontology/1.0/classes/Switch",
+            "/ontology/1.0/classes/Light_Switch"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Controller", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Controller", 
+        "path": "/ontology/1.0/classes/Controller", 
+        "labels": [], 
+        "rdfs_label" : ["Controller"], 
+        "generatedLabel": "Controller", 
+        "generatedAlias": "C", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/ControlDevice"
+        ], 
+        "subclasses": [
+            "https://sargon-n5geh.netlify.app/ontology/1.0/classes/PID"
+            
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_Related",
+            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Controller"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/PID", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Controller", 
+        "path": "/ontology/1.0/classes/PID", 
+        "labels": [], 
+        "rdfs_label" : ["PID"], 
+        "generatedLabel": "PID", 
+        "generatedAlias": "P", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Controller"
+        ], 
+        "subclasses": [
+            
+            
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_Related",
+            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Controller",
+            "/ontology/1.0/classes/PID"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Sensor", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Controller", 
+        "path": "/ontology/1.0/classes/Sensor", 
+        "labels": [], 
+        "rdfs_label" : ["Sensor"], 
+        "generatedLabel": "Sensor", 
+        "generatedAlias": "S", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/ControlDevice"
+        ], 
+        "subclasses": [
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/AirFlowSensor",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/ElectricitySensor",
+            "https://w3id.org/saref#SmokeSensor",
+            "https://w3id.org/saref#TemperatureSensor",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/WaterFlowSensor"
+        ], 
+        "comments": ["A device that detects and responds to events or changes in the physical environment such as light, motion, or temperature changes. Further, a device of category saref:Sensor that performs a saref:SensingFunction."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_Related",
+            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Sensor"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/AirFlowSensor",
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "AirFlowSensor", 
+        "path": "/ontology/1.0/classes/Air_Flow_Sensor", 
+        "labels": [], 
+        "rdfs_label" : ["Air Flow Sensor"], 
+        "generatedLabel": "Air Flow Sensor", 
+        "generatedAlias": "AFS", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Sensor"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_Related",
+            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Sensor",
+            "/ontology/1.0/classes/Air_Flow_Sensor"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/ElectricitySensor",
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "ElectricitySensor", 
+        "path": "/ontology/1.0/classes/Electricity_Sensor", 
+        "labels": [], 
+        "rdfs_label" : ["Electricity Sensor"], 
+        "generatedLabel": "Electricity Sensor", 
+        "generatedAlias": "ES", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Sensor"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_Related",
+            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Sensor",
+            "/ontology/1.0/classes/Electricity_Sensor"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#SmokeSensor",
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "SmokeSensor", 
+        "path": "/ontology/1.0/classes/Smoke_Sensor", 
+        "labels": [], 
+        "rdfs_label" : ["Smoke Sensor"], 
+        "generatedLabel": "Smoke Sensor", 
+        "generatedAlias": "SS", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Sensor"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A device that consists of a sensor, has category saref:Sensor, performs the saref:SensingFunction and saref:EventFunction (which notifies that a certain threshold has been exceeded), and is used for the purpose of sensing a property of type saref:Smoke."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_Related",
+            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Sensor",
+            "/ontology/1.0/classes/Smoke_Sensor"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#TemperatureSensor",
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "TemperatureSensor", 
+        "path": "/ontology/1.0/classes/Temperature_Sensor", 
+        "labels": [], 
+        "rdfs_label" : ["Temperature Sensor"], 
+        "generatedLabel": "Temperature Sensor", 
+        "generatedAlias": "TS", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Sensor"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A device that consists of a sensor, has category saref:Sensor, performs the saref:SensingFunction and is used for the purpose of sensing a property of type saref:Temperature"], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_Related",
+            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Sensor",
+            "/ontology/1.0/classes/Temperature_Sensor"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/WaterFlowSensor",
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Water Flow Sensor", 
+        "path": "/ontology/1.0/classes/Water_Flow_Sensor", 
+        "labels": [], 
+        "rdfs_label" : ["Water Flow Sensor"], 
+        "generatedLabel": "Water Flow Sensor", 
+        "generatedAlias": "WFS", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Sensor"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_Related",
+            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Sensor",
+            "/ontology/1.0/classes/Water_Flow_Sensor"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Control Device", 
+        "path": "/ontology/1.0/classes/Control_Device", 
+        "labels": [], 
+        "rdfs_label" : ["Control Device"], 
+        "generatedLabel": "Control Device", 
+        "generatedAlias": "CD", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/BuildingRelated"
+
+        ], 
+        "subclasses": [
+            "https://w3id.org/saref#Actuator"
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_Related",
+            "/ontology/1.0/classes/Control_Device"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
     }
+
+
+
+
 
 
 
