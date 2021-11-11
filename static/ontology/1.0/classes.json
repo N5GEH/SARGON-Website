@@ -1813,42 +1813,8 @@
         "inRangeOf": [], 
         "inDomainOf": [], 
         "shaclDetails": "{}"
-    },
-    {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice", 
-        "version": "1.0", 
-        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "class", 
-        "types": [
-            "http://www.w3.org/2002/07/owl#Class"
-        ], 
-        "name": "Control Device", 
-        "path": "/ontology/1.0/classes/Control_Device", 
-        "labels": [], 
-        "rdfs_label" : ["Control Device"], 
-        "generatedLabel": "Control Device", 
-        "generatedAlias": "CD", 
-        "superclasses": [
-            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/BuildingRelated"
-
-        ], 
-        "subclasses": [
-            "https://w3id.org/saref#Actuator"
-        ], 
-        "comments": [""], 
-        "definitions": [], 
-        "equivalentClasses": [], 
-        "hierarchy": [
-            "/ontology/1.0/#Classes", 
-            "/ontology/1.0/classes/Device",
-            "/ontology/1.0/classes/Building_Related",
-            "/ontology/1.0/classes/Control_Device"
-        ], 
-        "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
     }
+    
 
 
 
