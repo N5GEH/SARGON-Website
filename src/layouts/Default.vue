@@ -16,7 +16,7 @@
         <ul class= "tracking-wide font-bold w-full block flex-grow lg:flex lg:flex-initial lg:w-auto items-center mt-8 lg:mt-0" :class="isOpen ? 'block': 'hidden'">
           <li class="mr-8 lg:mb-0"><a href="/Start" class="text-gray-800 hover:text-gray-500">Get Started</a></li>
           <li class="mr-8 lg:mb-0"><a href="/Resources" class="text-gray-800 hover:text-gray-500">Resources</a></li>
-          <li class="mr-8 lg:mb-0"><a href="https://sinakhodadad92.github.io/sargon_docs/intro.html" class="text-gray-800 hover:text-gray-500">Docs</a></li>
+          <li class="mr-8 lg:mb-0"><a href="https://n5geh.github.io/SARGON-Website/intro.html" class="text-gray-800 hover:text-gray-500">Docs</a></li>
           <li class="mr-8 lg:mb-0"><a href="/Ontology" class="text-gray-800 hover:text-gray-500">Ontology</a></li>
         </ul>
       </nav>
