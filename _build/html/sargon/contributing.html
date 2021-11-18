@@ -1,0 +1,421 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asking Questions &#8212; SARGON Ontology Documentation</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.5f77b4aec8189eecf79907ce328c390d.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      
+      <h1 class="site-logo" id="site-title">SARGON Ontology Documentation</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro.html">
+   What is SARGON?
+  </a>
+ </li>
+</ul>
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/sargon/contributing.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fsargon/contributing.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Asking Questions
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#reporting-bugs-and-issues">
+   Reporting Bugs and Issues
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#proposing-changes-to-brick">
+   Proposing Changes to Brick
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#submitting-changes-to-brick">
+   Submitting Changes to Brick
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#extending-the-class-hierarchy">
+     Extending the Class Hierarchy
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#managing-tags">
+     Managing Tags
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#defining-brick-relationships">
+     Defining Brick Relationships
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#development-environment">
+     Development Environment
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <p>This document is a set of guidelines and resources for contributing to the Brick effort.
+Improvements and changes to this document are always welcome via <a class="reference external" href="https://github.com/BrickSchema/brick-owl-dl/pulls">Pull Request</a></p>
+<div class="section" id="asking-questions">
+<h1>Asking Questions<a class="headerlink" href="#asking-questions" title="Permalink to this headline">¶</a></h1>
+<p>If you have a question about Brick or its related tools, it is recommended to make a post in the <a class="reference external" href="https://groups.google.com/forum/#%21forum/brickschema">Brick User Forum</a> or under the <a class="reference external" href="https://github.com/BrickSchema/brick-owl-dl/issues">Brick GitHub Issue Tracker</a>. If you have a question about the website, please file the question either in the User Forum or on the <a class="reference external" href="https://github.com/BrickSchema/brick-owl-dl/issues">Brick Website Issue Tracker</a>.</p>
+<p>Please conduct a brief search to see if someone has asked your question already; if they have, feel free to jump into the conversation. Otherwise, please file a new issue or make a new post on the forum.</p>
+</div>
+<div class="section" id="reporting-bugs-and-issues">
+<h1>Reporting Bugs and Issues<a class="headerlink" href="#reporting-bugs-and-issues" title="Permalink to this headline">¶</a></h1>
+<p>Reporting of bugs and issues should be done on the <a class="reference external" href="https://github.com/BrickSchema/brick-owl-dl/issues">Brick GitHub Issue Tracker</a>. The purview of “bugs and issues” includes (but is not limited to):</p>
+<ul class="simple">
+<li><p>missing, incomplete or incorrect definitions of Brick classes</p></li>
+<li><p>errors, mistakes or inconsistencies in the Brick ontology definition</p></li>
+</ul>
+<p>Bug reports are most helpful when they fully explain the problem and include as many details as possible.
+Some suggestions:</p>
+<ul class="simple">
+<li><p><strong>Use a clear and descriptive title</strong> for the issue that identifies the problem</p></li>
+<li><p><strong>Include as many details as possible</strong> about the problem, including any relevant Brick/SPARQL queries, RDF triples, segments of Turtle files, Python code, etc</p></li>
+<li><p><strong>Describe the observed and expected behavior</strong>: for example, what query did you run, what were the results, and what did you expect the results to be? What definition exists and what definition would you expect?</p></li>
+<li><p><strong>Describe the exact steps to reproducing the problem</strong> where it is appropriate: did you execute a query and</p></li>
+<li><p>Make sure you are using the most recent version of the Brick repository</p></li>
+</ul>
+</div>
+<div class="section" id="proposing-changes-to-brick">
+<h1>Proposing Changes to Brick<a class="headerlink" href="#proposing-changes-to-brick" title="Permalink to this headline">¶</a></h1>
+<p>The content, structure and extent of Brick is determined by its community, so suggestions for how to improve Brick are always welcome and will be taken under consideration.
+Proposed changes to Brick are tracked on the <a class="reference external" href="https://github.com/BrickSchema/brick-owl-dl/issues">Brick GitHub Issue Tracker</a>.</p>
+<p>Effective proposals should fully explain the motivation and scope of the proposed changes, and should have at least an initial impression of the nature of the implementation.
+The more detail, the better!</p>
+</div>
+<div class="section" id="submitting-changes-to-brick">
+<h1>Submitting Changes to Brick<a class="headerlink" href="#submitting-changes-to-brick" title="Permalink to this headline">¶</a></h1>
+<p>Changes to Brick are performed through <a class="reference external" href="https://github.com/BrickSchema/brick-owl-dl/pulls">Pull Requests</a>.
+It is recommended that you become familiar with how to <a class="reference external" href="https://help.github.com/en/articles/fork-a-repo">fork a repository</a> and <a class="reference external" href="https://help.github.com/en/articles/creating-a-pull-request-from-a-fork">create a pull request</a>.</p>
+<div class="section" id="extending-the-class-hierarchy">
+<h2>Extending the Class Hierarchy<a class="headerlink" href="#extending-the-class-hierarchy" title="Permalink to this headline">¶</a></h2>
+<p>The Brick class hierarchy is defined across several files, named according to the Brick class that roots the hierarchy defined in the file.</p>
+<p>Brick point class definitions should be placed in one of the following files:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">command.py</span></code> for subclasses of the Brick <code class="docutils literal notranslate"><span class="pre">Command</span></code> class</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sensor.py</span></code> for subclasses of the Brick <code class="docutils literal notranslate"><span class="pre">Sensor</span></code> class</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">setpoint.py</span></code> for subclasses of the Brick <code class="docutils literal notranslate"><span class="pre">Setpoint</span></code> class</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">status.py</span></code> for subclasses of the Brick <code class="docutils literal notranslate"><span class="pre">Status</span></code> class</p></li>
+</ul>
+<p>Brick <code class="docutils literal notranslate"><span class="pre">Equipment</span></code> definitions should be placed in the <code class="docutils literal notranslate"><span class="pre">equipment.py</span></code> file.</p>
+<p>Brick <code class="docutils literal notranslate"><span class="pre">Location</span></code> definitions should be placed in the <code class="docutils literal notranslate"><span class="pre">location.py</span></code> file.</p>
+<p>Brick <code class="docutils literal notranslate"><span class="pre">Parameter</span></code> definitions should be placed in the <code class="docutils literal notranslate"><span class="pre">parameter.py</span></code> file.</p>
+<p>Brick <code class="docutils literal notranslate"><span class="pre">Quantity</span></code> definitions should be placed in the <code class="docutils literal notranslate"><span class="pre">quantities.py</span></code> file.</p>
+<p>Brick <code class="docutils literal notranslate"><span class="pre">Substance</span></code> definitions should be placed in the <code class="docutils literal notranslate"><span class="pre">substances.py</span></code> file.</p>
+<p>Brick class definitions are written using a nested Python dictionary structure.
+Observe the example below from <code class="docutils literal notranslate"><span class="pre">sensor.py</span></code>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;Sensor&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;tags&quot;</span><span class="p">:</span> <span class="p">[</span> <span class="n">TAG</span><span class="o">.</span><span class="n">Sensor</span> <span class="p">],</span>
+        <span class="s2">&quot;subclasses&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;Air_Grains_Sensor&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="s2">&quot;tags&quot;</span><span class="p">:</span> <span class="p">[</span> <span class="n">TAG</span><span class="o">.</span><span class="n">Sensor</span><span class="p">,</span> <span class="n">TAG</span><span class="o">.</span><span class="n">Air</span><span class="p">,</span> <span class="n">TAG</span><span class="o">.</span><span class="n">Grains</span> <span class="p">],</span>
+                <span class="s2">&quot;substances&quot;</span><span class="p">:</span> <span class="p">[</span> <span class="p">[</span> <span class="n">BRICK</span><span class="o">.</span><span class="n">measures</span><span class="p">,</span> <span class="n">BRICK</span><span class="o">.</span><span class="n">Air</span> <span class="p">],</span> <span class="p">[</span> <span class="n">BRICK</span><span class="o">.</span><span class="n">measures</span><span class="p">,</span> <span class="n">BRICK</span><span class="o">.</span><span class="n">Grains</span> <span class="p">],</span> <span class="p">],</span>
+                <span class="s2">&quot;subclasses&quot;</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="s2">&quot;Outside_Air_Grains_Sensor&quot;</span><span class="p">:</span> <span class="p">{</span>
+                        <span class="s2">&quot;tags&quot;</span><span class="p">:</span> <span class="p">[</span> <span class="n">TAG</span><span class="o">.</span><span class="n">Outside</span><span class="p">,</span> <span class="n">TAG</span><span class="o">.</span><span class="n">Air</span><span class="p">,</span> <span class="n">TAG</span><span class="o">.</span><span class="n">Grains</span><span class="p">,</span> <span class="n">TAG</span><span class="o">.</span><span class="n">Sensor</span> <span class="p">],</span>
+                    <span class="p">},</span>
+                    <span class="s2">&quot;Return_Air_Grains_Sensor&quot;</span><span class="p">:</span> <span class="p">{</span>
+                        <span class="s2">&quot;tags&quot;</span><span class="p">:</span> <span class="p">[</span> <span class="n">TAG</span><span class="o">.</span><span class="n">Return</span><span class="p">,</span> <span class="n">TAG</span><span class="o">.</span><span class="n">Air</span><span class="p">,</span> <span class="n">TAG</span><span class="o">.</span><span class="n">Grains</span><span class="p">,</span> <span class="n">TAG</span><span class="o">.</span><span class="n">Sensor</span> <span class="p">],</span>
+                    <span class="p">}</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>The core class definition structure is a dictionary whose keys are Brick class names and whose values are dictionaries containing the class properties.
+Class names should be alpha-numeric strings consisting of capitalized words separated by the <code class="docutils literal notranslate"><span class="pre">_</span></code> character; class names can not contain spaces.
+The class property dictionary can have the following keys:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">tags</span></code>: a list of Brick tags; an entity who has all of these tags will be inferred as an instance of the class</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">subclasses</span></code>: a dictionary whose keys+values are class names and definitions; this recursively follows the same structure</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">substances</span></code>: a nested list of Brick Substance classes. Each list item should be of the form <code class="docutils literal notranslate"><span class="pre">[BRICK.measures,</span> <span class="pre">BRICK.&lt;substance</span> <span class="pre">name&gt;]</span></code> where <code class="docutils literal notranslate"><span class="pre">&lt;substance</span> <span class="pre">name&gt;</span></code> is replaced with the substance that is measured. Substances are defined in <code class="docutils literal notranslate"><span class="pre">substances.py</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SKOS.definition</span></code>: contains the definition of the class. The value must use the <code class="docutils literal notranslate"><span class="pre">Literal</span></code> constructor from RDFlib:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># example</span>
+<span class="kn">from</span> <span class="nn">rdflib</span> <span class="kn">import</span> <span class="n">Literal</span>
+<span class="s2">&quot;Thermostat&quot;</span><span class="p">:</span> <span class="p">{</span>
+    <span class="n">SKOS</span><span class="o">.</span><span class="n">definition</span><span class="p">:</span> <span class="n">Literal</span><span class="p">(</span><span class="s2">&quot;An automatic control device used to maintain temperature at a fixed or adjustable setpoint.&quot;</span><span class="p">),</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="section" id="managing-tags">
+<h2>Managing Tags<a class="headerlink" href="#managing-tags" title="Permalink to this headline">¶</a></h2>
+<p>Tags provide an alternative way of instantiating classes; Brick can infer classifications from the set of tags applied to an entity with the <code class="docutils literal notranslate"><span class="pre">brick.hasTag</span></code> relationship.
+Each subclass’s tags should contain <em>at least</em> the tags of its parent class; currently, the set of tags for a class must be explicitly annotated.
+Tags can be explicitly defined in <code class="docutils literal notranslate"><span class="pre">tags.py</span></code>.</p>
+<p>The set of tags for a class should be unique to the hierarchy rooted at that class.
+For consistency, if the set of tags <code class="docutils literal notranslate"><span class="pre">T1</span></code> for a class <code class="docutils literal notranslate"><span class="pre">C1</span></code> is a subset of the set of tags <code class="docutils literal notranslate"><span class="pre">T2</span></code> for a class <code class="docutils literal notranslate"><span class="pre">C2</span></code>, then <code class="docutils literal notranslate"><span class="pre">C1</span></code> <strong>must</strong> be a superclass of <code class="docutils literal notranslate"><span class="pre">C2</span></code>.</p>
+</div>
+<div class="section" id="defining-brick-relationships">
+<h2>Defining Brick Relationships<a class="headerlink" href="#defining-brick-relationships" title="Permalink to this headline">¶</a></h2>
+<p>Brick relationships are defined in <code class="docutils literal notranslate"><span class="pre">properties.py</span></code>.
+The <code class="docutils literal notranslate"><span class="pre">properties</span></code> dictionary contains these definitions and follows a similar structure to the Brick class definitions: keys are property names; values are dictionaries of properties of the relationships.</p>
+<p>The following keys are expected for each relationship:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">A</span></code>: value is a list of OWL property classes defining how this relationships behaves. <code class="docutils literal notranslate"><span class="pre">OWL.AsymmetricProperty</span></code> and <code class="docutils literal notranslate"><span class="pre">OWL.IrreflexiveProperty</span></code> are the most common</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SKOS.definition</span></code>: value is an RDFlib Literal containing a textual definition of the relationship</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">OWL.inverseOf</span></code> (optional): value is a string representing the name of the inverse relationship. If a relationship has a defined inverse, the inverse relationship should also appear as a top-level relationship in the <code class="docutils literal notranslate"><span class="pre">properties</span></code> dictionary.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">RDFS.range</span></code> (optional): value is a Brick class whose instances can be object of this relationship</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">RDFS.domain</span></code> (optional): value is a Brick class whose instances can be subject of this relationship</p></li>
+</ul>
+<p><em>Subproperties are under development; this document will be updated with instructions for defining subproperties when development has finished</em></p>
+</div>
+<div class="section" id="development-environment">
+<h2>Development Environment<a class="headerlink" href="#development-environment" title="Permalink to this headline">¶</a></h2>
+<p>The Brick schema is generated by a set of Python files located in this repository.
+To set up the development environment</p>
+<ol>
+<li><p>Make sure you have Python3 installed on your development system</p></li>
+<li><p>Fork the <a class="reference external" href="https://github.com/BrickSchema/brick-owl-dl">Brick repository</a> and clone it to your development system</p></li>
+<li><p><a class="reference external" href="https://docs.python.org/3/library/venv.html">Set up a virtual environment</a> in the repository folder</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># making the virtual environment</span>
+python3 -m venv brickvenv
+</pre></div>
+</div>
+</li>
+<li><p>Install the Python3 dependencies using pip:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># enter the virtual environment</span>
+. brickvenv/bin/activate
+pip install -r requirements.txt
+</pre></div>
+</div>
+</li>
+<li><p>Make the desired changes <strong>to the Python files</strong>. Do not edit the <code class="docutils literal notranslate"><span class="pre">Brick.ttl</span></code> or <code class="docutils literal notranslate"><span class="pre">Brick_expanded.ttl</span></code> files directly.</p></li>
+<li><p>Compile the <code class="docutils literal notranslate"><span class="pre">Brick.ttl</span></code> and <code class="docutils literal notranslate"><span class="pre">Brick_expanded.ttl</span></code> files by executing the <code class="docutils literal notranslate"><span class="pre">generate_brick.py</span></code> script using Python</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python generate_brick.py
+</pre></div>
+</div>
+</li>
+<li><p>Commit your changes and push to your fork</p></li>
+<li><p>Submit the pull request</p></li>
+</ol>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./sargon"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Maliheh Haghgoo<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
