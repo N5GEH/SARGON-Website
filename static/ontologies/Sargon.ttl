@@ -50,8 +50,9 @@ terms:source rdf:type owl:AnnotationProperty .
 terms:title rdf:type owl:AnnotationProperty .
 
 
-###  http://webprotege.stanford.edu/Owner
-webprotege:Owner rdf:type owl:AnnotationProperty .
+###  http://webprotege.stanford.edu/R9KdTRIHz9usCNpX2dg4K1f
+webprotege:R9KdTRIHz9usCNpX2dg4K1f rdf:type owl:AnnotationProperty ;
+                                   rdfs:label "Owner" .
 
 
 ###  http://www.w3.org/2000/01/rdf-schema#flow
@@ -405,7 +406,8 @@ webprotege:MaxReactivePower rdf:type owl:DatatypeProperty ;
 
 ###  http://webprotege.stanford.edu/Owner
 webprotege:Owner rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf owl:topDataProperty .
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:label "owner" .
 
 
 ###  http://webprotege.stanford.edu/PrimaryCurrent
@@ -726,16 +728,44 @@ webprotege:AC-DC rdf:type owl:Class ;
                  rdfs:label "AC-DC" .
 
 
+###  http://webprotege.stanford.edu/AirFlowSensor
+webprotege:AirFlowSensor rdf:type owl:Class ;
+                         rdfs:subClassOf :Sensor ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty :consistsOf ;
+                                           owl:someValuesFrom :Sensor
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty :hasFunction ;
+                                           owl:someValuesFrom :SensingFunction
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty :measuresProperty ;
+                                           owl:someValuesFrom webprotege:Flow
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty :accomplishes ;
+                                           owl:hasValue :Comfort
+                                         ] ;
+                         rdfs:label "Air flow sensor" .
+
+
 ###  http://webprotege.stanford.edu/AirToAirHeatRecovery
 webprotege:AirToAirHeatRecovery rdf:type owl:Class ;
                                 rdfs:subClassOf webprotege:EnergyConversionDevice ;
-                                rdfs:label "Air to air heat recovery" .
+                                rdfs:label "AirToAirHeat Recovery" .
+
+
+###  http://webprotege.stanford.edu/Angle
+webprotege:Angle rdf:type owl:Class ;
+                 rdfs:subClassOf webprotege:Channel ;
+                 rdfs:label "Angle" .
 
 
 ###  http://webprotege.stanford.edu/AudioVisualAppliance
 webprotege:AudioVisualAppliance rdf:type owl:Class ;
                                 rdfs:subClassOf webprotege:FlowTerminal ;
-                                rdfs:label "Audio visual appliance" .
+                                rdfs:label "Audio Visual Appliance" .
 
 
 ###  http://webprotege.stanford.edu/BatteryStorage
@@ -745,7 +775,7 @@ webprotege:BatteryStorage rdf:type owl:Class ;
                                             owl:onProperty :controlsProperty ;
                                             owl:someValuesFrom webprotege:StateOfCharge
                                           ] ;
-                          rdfs:label "Battery storage" .
+                          rdfs:label "Battery Storage" .
 
 
 ###  http://webprotege.stanford.edu/Boiler
@@ -766,7 +796,7 @@ webprotege:Boiler rdf:type owl:Class ;
 webprotege:BuildingRelated rdf:type owl:Class ;
                            rdfs:subClassOf :Device ;
                            rdfs:comment "A building represents a structure that provides shelter for its occupants or contents and stands in one place. The building is also used to provide a basic element within the spatial structure hierarchy for the components of a building project (together with site, storey, and space)."^^xsd:string ;
-                           rdfs:label "Building Related" .
+                           rdfs:label "Building related" .
 
 
 ###  http://webprotege.stanford.edu/Burner
@@ -779,7 +809,7 @@ webprotege:Burner rdf:type owl:Class ;
 webprotege:CO2Level rdf:type owl:Class ;
                     rdfs:subClassOf :Property ;
                     rdfs:comment "A property related to measurements of CO2 level in the air. Measured in ppm."^^xsd:string ;
-                    rdfs:label "CO2 level" .
+                    rdfs:label "CO2 Level" .
 
 
 ###  http://webprotege.stanford.edu/CT-VT
@@ -808,6 +838,15 @@ webprotege:CT-VT rdf:type owl:Class ;
                  rdfs:label "CT-VT" .
 
 
+###  http://webprotege.stanford.edu/Channel
+webprotege:Channel rdf:type owl:Class ;
+                   rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasState ;
+                                     owl:someValuesFrom :OnOffState
+                                   ] ;
+                   rdfs:label "Channel" .
+
+
 ###  http://webprotege.stanford.edu/Chiller
 webprotege:Chiller rdf:type owl:Class ;
                    rdfs:subClassOf webprotege:EnergyConversionDevice ;
@@ -823,7 +862,7 @@ webprotege:Coil rdf:type owl:Class ;
 ###  http://webprotege.stanford.edu/CommunictionAppliance
 webprotege:CommunictionAppliance rdf:type owl:Class ;
                                  rdfs:subClassOf webprotege:FlowTerminal ;
-                                 rdfs:label "Communiction appliance" .
+                                 rdfs:label "Communiction Appliance" .
 
 
 ###  http://webprotege.stanford.edu/Compressor
@@ -835,7 +874,81 @@ webprotege:Compressor rdf:type owl:Class ;
 ###  http://webprotege.stanford.edu/ControlDevice
 webprotege:ControlDevice rdf:type owl:Class ;
                          rdfs:subClassOf webprotege:BuildingRelated ;
-                         rdfs:label "Control device" .
+                         rdfs:label "Control Device" .
+
+
+###  http://webprotege.stanford.edu/Controller
+webprotege:Controller rdf:type owl:Class ;
+                      rdfs:subClassOf webprotege:ControlDevice ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty webprotege:connectedActuator ;
+                                        owl:someValuesFrom :Actuator
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty webprotege:connectedSensor ;
+                                        owl:someValuesFrom :Sensor
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty webprotege:hasChannel ;
+                                        owl:someValuesFrom webprotege:Channel
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty webprotege:locatedIn ;
+                                        owl:someValuesFrom :BuildingRelated
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty webprotege:relatedSensor ;
+                                        owl:someValuesFrom :Sensor
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty webprotege:subCategory ;
+                                        owl:someValuesFrom :Device
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty :isMeasuredIn ;
+                                        owl:someValuesFrom :Measurement
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty webprotege:controlAsset ;
+                                        owl:someValuesFrom xsd:string
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty webprotege:ipAddress ;
+                                        owl:someValuesFrom xsd:string
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty webprotege:listening ;
+                                        owl:someValuesFrom xsd:boolean
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty webprotege:sampleInterval ;
+                                        owl:someValuesFrom xsd:int
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty webprotege:sampleRate ;
+                                        owl:someValuesFrom xsd:int
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty webprotege:setValue ;
+                                        owl:someValuesFrom xsd:int
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty webprotege:source ;
+                                        owl:someValuesFrom xsd:string
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty webprotege:writable ;
+                                        owl:someValuesFrom xsd:boolean
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty webprotege:Address ;
+                                        owl:hasValue "Geo:json"^^xsd:string
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty webprotege:supplierName ;
+                                        owl:hasValue "https://schema.org/person"^^xsd:string
+                                      ] ;
+                      rdfs:label "Controller" .
 
 
 ###  http://webprotege.stanford.edu/Convertor
@@ -907,22 +1020,52 @@ webprotege:Damper rdf:type owl:Class ;
                   rdfs:label "Damper" .
 
 
+###  http://webprotege.stanford.edu/ElectricitySensor
+webprotege:ElectricitySensor rdf:type owl:Class ;
+                             rdfs:subClassOf :Sensor ,
+                                             [ rdf:type owl:Restriction ;
+                                               owl:onProperty :consistsOf ;
+                                               owl:someValuesFrom :Sensor
+                                             ] ,
+                                             [ rdf:type owl:Restriction ;
+                                               owl:onProperty :hasFunction ;
+                                               owl:someValuesFrom :SensingFunction
+                                             ] ,
+                                             [ rdf:type owl:Restriction ;
+                                               owl:onProperty :measuresProperty ;
+                                               owl:someValuesFrom webprotege:Current
+                                             ] ,
+                                             [ rdf:type owl:Restriction ;
+                                               owl:onProperty :measuresProperty ;
+                                               owl:someValuesFrom webprotege:Voltage
+                                             ] ,
+                                             [ rdf:type owl:Restriction ;
+                                               owl:onProperty :measuresProperty ;
+                                               owl:someValuesFrom :Power
+                                             ] ,
+                                             [ rdf:type owl:Restriction ;
+                                               owl:onProperty :accomplishes ;
+                                               owl:hasValue :Comfort
+                                             ] ;
+                             rdfs:label "Electricity sensor" .
+
+
 ###  http://webprotege.stanford.edu/ElectronicFlowStorageDevice
 webprotege:ElectronicFlowStorageDevice rdf:type owl:Class ;
                                        rdfs:subClassOf webprotege:FlowStorageDevice ;
-                                       rdfs:label "Electronic flow storage device" .
+                                       rdfs:label "Electronic Flow Storage Device" .
 
 
 ###  http://webprotege.stanford.edu/ElectronicTimeControl
 webprotege:ElectronicTimeControl rdf:type owl:Class ;
                                  rdfs:subClassOf webprotege:FlowController ;
-                                 rdfs:label "Electronic time control" .
+                                 rdfs:label "ElectronicTimeControl" .
 
 
 ###  http://webprotege.stanford.edu/EnergyConversionDevice
 webprotege:EnergyConversionDevice rdf:type owl:Class ;
-                                  rdfs:subClassOf <https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice> ;
-                                  rdfs:label "Energy conversion device" .
+                                  rdfs:subClassOf webprotege:FlowDevice ;
+                                  rdfs:label "Energy Conversion Device" .
 
 
 ###  http://webprotege.stanford.edu/Fan
@@ -937,6 +1080,28 @@ webprotege:Filter rdf:type owl:Class ;
                   rdfs:label "Filter" .
 
 
+###  http://webprotege.stanford.edu/Floor
+webprotege:Floor rdf:type owl:Class ;
+                 rdfs:subClassOf :BuildingRelated ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty webprotege:hasRoom ;
+                                   owl:someValuesFrom webprotege:Room
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty webprotege:hasZone ;
+                                   owl:someValuesFrom webprotege:Zone
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty webprotege:inBuilding ;
+                                   owl:someValuesFrom :BuildingRelated
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty webprotege:description ;
+                                   owl:someValuesFrom xsd:string
+                                 ] ;
+                 rdfs:label "Floor"^^xsd:string .
+
+
 ###  http://webprotege.stanford.edu/Flow
 webprotege:Flow rdf:type owl:Class ;
                 rdfs:subClassOf :Property ;
@@ -946,38 +1111,50 @@ webprotege:Flow rdf:type owl:Class ;
 
 ###  http://webprotege.stanford.edu/FlowController
 webprotege:FlowController rdf:type owl:Class ;
-                          rdfs:subClassOf <https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice> ;
-                          rdfs:label "Flow controller" .
+                          rdfs:subClassOf webprotege:FlowDevice ;
+                          rdfs:label "Flow Controller" .
+
+
+###  http://webprotege.stanford.edu/FlowDevice
+webprotege:FlowDevice rdf:type owl:Class ;
+                      rdfs:subClassOf webprotege:BuildingRelated ;
+                      rdfs:label "Flow Device" .
 
 
 ###  http://webprotege.stanford.edu/FlowMeter
 webprotege:FlowMeter rdf:type owl:Class ;
                      rdfs:subClassOf webprotege:FlowController ;
-                     rdfs:label "Flow meter" .
+                     rdfs:label "FlowMeter" .
 
 
 ###  http://webprotege.stanford.edu/FlowMovingDevice
 webprotege:FlowMovingDevice rdf:type owl:Class ;
-                            rdfs:subClassOf <https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice> ;
-                            rdfs:label "Flow moving device" .
+                            rdfs:subClassOf webprotege:FlowDevice ;
+                            rdfs:label "Flow Moving Device" .
 
 
 ###  http://webprotege.stanford.edu/FlowStorageDevice
 webprotege:FlowStorageDevice rdf:type owl:Class ;
-                             rdfs:subClassOf <https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice> ;
-                             rdfs:label "Flow storage device" .
+                             rdfs:subClassOf webprotege:FlowDevice ;
+                             rdfs:label "Flow Storage Device" .
 
 
 ###  http://webprotege.stanford.edu/FlowTerminal
 webprotege:FlowTerminal rdf:type owl:Class ;
-                        rdfs:subClassOf <https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice> ;
-                        rdfs:label "Flow terminal" .
+                        rdfs:subClassOf webprotege:FlowDevice ;
+                        rdfs:label "Flow Terminal" .
 
 
 ###  http://webprotege.stanford.edu/FlowTerminalDevice
 webprotege:FlowTerminalDevice rdf:type owl:Class ;
-                              rdfs:subClassOf <https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice> ;
-                              rdfs:label "Flow terminal device" .
+                              rdfs:subClassOf webprotege:FlowDevice ;
+                              rdfs:label "Flow Terminal Device" .
+
+
+###  http://webprotege.stanford.edu/Frequency
+webprotege:Frequency rdf:type owl:Class ;
+                     rdfs:subClassOf webprotege:Channel ;
+                     rdfs:label "Frequency" .
 
 
 ###  http://webprotege.stanford.edu/HP
@@ -1010,12 +1187,60 @@ webprotege:Lamp rdf:type owl:Class ;
                 rdfs:label "Lamp" .
 
 
+###  http://webprotege.stanford.edu/Maqnititute
+webprotege:Maqnititute rdf:type owl:Class ;
+                       rdfs:subClassOf webprotege:Channel ;
+                       rdfs:label "Maqnititute" .
+
+
+###  http://webprotege.stanford.edu/PID
+webprotege:PID rdf:type owl:Class ;
+               rdfs:subClassOf webprotege:Controller ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty webprotege:subCategory ;
+                                 owl:someValuesFrom :Device
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :isMeasuredIn ;
+                                 owl:someValuesFrom :Measurement
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty webprotege:higherLimit ;
+                                 owl:someValuesFrom xsd:string
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty webprotege:kp ;
+                                 owl:someValuesFrom xsd:string
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty webprotege:lowerLimit ;
+                                 owl:someValuesFrom xsd:string
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty webprotege:reverseAction ;
+                                 owl:someValuesFrom xsd:int
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty webprotege:td ;
+                                 owl:someValuesFrom xsd:string
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty webprotege:ti ;
+                                 owl:someValuesFrom xsd:string
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty webprotege:Address ;
+                                 owl:hasValue "Geo:json"^^xsd:string
+                               ] ;
+               rdfs:label "PID" .
+
+
 ###  http://webprotege.stanford.edu/PMU
 webprotege:PMU rdf:type owl:Class ;
                rdfs:subClassOf :Meter ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty webprotege:hasChannel ;
-                                 owl:someValuesFrom <https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel>
+                                 owl:someValuesFrom webprotege:Channel
                                ] ,
                                [ rdf:type owl:Restriction ;
                                  owl:onProperty webprotege:subCategory ;
@@ -1118,10 +1343,49 @@ webprotege:Pump rdf:type owl:Class ;
                 rdfs:label "Pump" .
 
 
+###  http://webprotege.stanford.edu/RVK
+webprotege:RVK rdf:type owl:Class ;
+               rdfs:subClassOf :Actuator ;
+               rdfs:label "RVK" .
+
+
+###  http://webprotege.stanford.edu/Rocf
+webprotege:Rocf rdf:type owl:Class ;
+                rdfs:subClassOf webprotege:Channel ;
+                rdfs:label "Rocf" .
+
+
+###  http://webprotege.stanford.edu/Room
+webprotege:Room rdf:type owl:Class ;
+                rdfs:subClassOf :BuildingRelated ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty webprotege:hasSensor ;
+                                  owl:someValuesFrom :Sensor
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty webprotege:hasTenant ;
+                                  owl:someValuesFrom webprotege:Tenant
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty webprotege:hasZone ;
+                                  owl:someValuesFrom webprotege:Zone
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty webprotege:inBuilding ;
+                                  owl:someValuesFrom :BuildingRelated
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty webprotege:inFloor ;
+                                  owl:someValuesFrom webprotege:Floor
+                                ] ;
+                rdfs:comment "A room in a building. This class may be used to group devices."^^xsd:string ;
+                rdfs:label "Room"^^xsd:string .
+
+
 ###  http://webprotege.stanford.edu/SpaceHeater
 webprotege:SpaceHeater rdf:type owl:Class ;
                        rdfs:subClassOf webprotege:FlowTerminal ;
-                       rdfs:label "Space heater" .
+                       rdfs:label "Space Heater" .
 
 
 ###  http://webprotege.stanford.edu/StateOfCharge
@@ -1134,7 +1398,7 @@ webprotege:StateOfCharge rdf:type owl:Class ;
 ###  http://webprotege.stanford.edu/SwitchingDevice
 webprotege:SwitchingDevice rdf:type owl:Class ;
                            rdfs:subClassOf webprotege:FlowController ;
-                           rdfs:label "Switching device" .
+                           rdfs:label "SwitchingDevice" .
 
 
 ###  http://webprotege.stanford.edu/Tank
@@ -1152,7 +1416,7 @@ webprotege:TapPosition rdf:type owl:Class ;
 ###  http://webprotege.stanford.edu/TapPostion
 webprotege:TapPostion rdf:type owl:Class ;
                       rdfs:subClassOf :ActuatingFunction ;
-                      rdfs:label "Tap postion" .
+                      rdfs:label "Tap Postion" .
 
 
 ###  http://webprotege.stanford.edu/Tenant
@@ -1176,6 +1440,12 @@ webprotege:Tenant rdf:type owl:Class ;
                                   ] ;
                   rdfs:comment "A class that describes information about a tenant in a building."^^xsd:string ;
                   rdfs:label "Tenant"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/TimeStamp
+webprotege:TimeStamp rdf:type owl:Class ;
+                     rdfs:subClassOf webprotege:Channel ;
+                     rdfs:label "TimeStamp" .
 
 
 ###  http://webprotege.stanford.edu/Transformer
@@ -1226,6 +1496,28 @@ webprotege:WPP rdf:type owl:Class ;
                rdfs:label "WPP" .
 
 
+###  http://webprotege.stanford.edu/WaterFlowSensor
+webprotege:WaterFlowSensor rdf:type owl:Class ;
+                           rdfs:subClassOf :Sensor ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty :consistsOf ;
+                                             owl:someValuesFrom :Sensor
+                                           ] ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty :hasFunction ;
+                                             owl:someValuesFrom :SensingFunction
+                                           ] ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty :measuresProperty ;
+                                             owl:someValuesFrom webprotege:Flow
+                                           ] ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty :accomplishes ;
+                                             owl:hasValue :Comfort
+                                           ] ;
+                           rdfs:label "Water flow sensor" .
+
+
 ###  http://webprotege.stanford.edu/Zone
 webprotege:Zone rdf:type owl:Class ;
                 rdfs:subClassOf :BuildingRelated ,
@@ -1239,303 +1531,13 @@ webprotege:Zone rdf:type owl:Class ;
                                 ] ,
                                 [ rdf:type owl:Restriction ;
                                   owl:onProperty webprotege:inFloor ;
-                                  owl:someValuesFrom <https://sargon-n5geh.netlify.app/ontology/1.0/classes/Building/Floor>
+                                  owl:someValuesFrom webprotege:Floor
                                 ] ,
                                 [ rdf:type owl:Restriction ;
                                   owl:onProperty webprotege:inRoom ;
-                                  owl:someValuesFrom <https://sargon-n5geh.netlify.app/ontology/1.0/classes/Building/Room>
+                                  owl:someValuesFrom webprotege:Room
                                 ] ;
                 rdfs:label "Zone" .
-
-
-###  http://webprotege.stanford.edu/https://sargon-n5geh.netlify.app/ontology/1.0/classes/RVK
-<http://webprotege.stanford.edu/https://sargon-n5geh.netlify.app/ontology/1.0/classes/RVK> rdf:type owl:Class ;
-                                                                                           rdfs:subClassOf :Actuator ;
-                                                                                           rdfs:label "RVK" .
-
-
-###  https://sargon-n5geh.netlify.app/ontology/1.0/classes/AirFlowSensor
-<https://sargon-n5geh.netlify.app/ontology/1.0/classes/AirFlowSensor> rdf:type owl:Class ;
-                                                                      rdfs:subClassOf :Sensor ,
-                                                                                      [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty :consistsOf ;
-                                                                                        owl:someValuesFrom :Sensor
-                                                                                      ] ,
-                                                                                      [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty :hasFunction ;
-                                                                                        owl:someValuesFrom :SensingFunction
-                                                                                      ] ,
-                                                                                      [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty :measuresProperty ;
-                                                                                        owl:someValuesFrom webprotege:Flow
-                                                                                      ] ,
-                                                                                      [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty :accomplishes ;
-                                                                                        owl:hasValue :Comfort
-                                                                                      ] ;
-                                                                      rdfs:label "Air flow sensor" .
-
-
-###  https://sargon-n5geh.netlify.app/ontology/1.0/classes/Angle
-<https://sargon-n5geh.netlify.app/ontology/1.0/classes/Angle> rdf:type owl:Class ;
-                                                              rdfs:subClassOf <https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel> ;
-                                                              rdfs:label "Angle" .
-
-
-###  https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel
-<https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel> rdf:type owl:Class ;
-                                                                rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                  owl:onProperty :hasState ;
-                                                                                  owl:someValuesFrom :OnOffState
-                                                                                ] ;
-                                                                rdfs:label "Channel" .
-
-
-###  https://sargon-n5geh.netlify.app/ontology/1.0/classes/Controller
-<https://sargon-n5geh.netlify.app/ontology/1.0/classes/Controller> rdf:type owl:Class ;
-                                                                   rdfs:subClassOf webprotege:ControlDevice ,
-                                                                                   [ rdf:type owl:Restriction ;
-                                                                                     owl:onProperty webprotege:connectedActuator ;
-                                                                                     owl:someValuesFrom :Actuator
-                                                                                   ] ,
-                                                                                   [ rdf:type owl:Restriction ;
-                                                                                     owl:onProperty webprotege:connectedSensor ;
-                                                                                     owl:someValuesFrom :Sensor
-                                                                                   ] ,
-                                                                                   [ rdf:type owl:Restriction ;
-                                                                                     owl:onProperty webprotege:hasChannel ;
-                                                                                     owl:someValuesFrom <https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel>
-                                                                                   ] ,
-                                                                                   [ rdf:type owl:Restriction ;
-                                                                                     owl:onProperty webprotege:locatedIn ;
-                                                                                     owl:someValuesFrom :BuildingRelated
-                                                                                   ] ,
-                                                                                   [ rdf:type owl:Restriction ;
-                                                                                     owl:onProperty webprotege:relatedSensor ;
-                                                                                     owl:someValuesFrom :Sensor
-                                                                                   ] ,
-                                                                                   [ rdf:type owl:Restriction ;
-                                                                                     owl:onProperty webprotege:subCategory ;
-                                                                                     owl:someValuesFrom :Device
-                                                                                   ] ,
-                                                                                   [ rdf:type owl:Restriction ;
-                                                                                     owl:onProperty :isMeasuredIn ;
-                                                                                     owl:someValuesFrom :Measurement
-                                                                                   ] ,
-                                                                                   [ rdf:type owl:Restriction ;
-                                                                                     owl:onProperty webprotege:controlAsset ;
-                                                                                     owl:someValuesFrom xsd:string
-                                                                                   ] ,
-                                                                                   [ rdf:type owl:Restriction ;
-                                                                                     owl:onProperty webprotege:ipAddress ;
-                                                                                     owl:someValuesFrom xsd:string
-                                                                                   ] ,
-                                                                                   [ rdf:type owl:Restriction ;
-                                                                                     owl:onProperty webprotege:listening ;
-                                                                                     owl:someValuesFrom xsd:boolean
-                                                                                   ] ,
-                                                                                   [ rdf:type owl:Restriction ;
-                                                                                     owl:onProperty webprotege:sampleInterval ;
-                                                                                     owl:someValuesFrom xsd:int
-                                                                                   ] ,
-                                                                                   [ rdf:type owl:Restriction ;
-                                                                                     owl:onProperty webprotege:sampleRate ;
-                                                                                     owl:someValuesFrom xsd:int
-                                                                                   ] ,
-                                                                                   [ rdf:type owl:Restriction ;
-                                                                                     owl:onProperty webprotege:setValue ;
-                                                                                     owl:someValuesFrom xsd:int
-                                                                                   ] ,
-                                                                                   [ rdf:type owl:Restriction ;
-                                                                                     owl:onProperty webprotege:source ;
-                                                                                     owl:someValuesFrom xsd:string
-                                                                                   ] ,
-                                                                                   [ rdf:type owl:Restriction ;
-                                                                                     owl:onProperty webprotege:writable ;
-                                                                                     owl:someValuesFrom xsd:boolean
-                                                                                   ] ,
-                                                                                   [ rdf:type owl:Restriction ;
-                                                                                     owl:onProperty webprotege:Address ;
-                                                                                     owl:hasValue "Geo:json"^^xsd:string
-                                                                                   ] ,
-                                                                                   [ rdf:type owl:Restriction ;
-                                                                                     owl:onProperty webprotege:supplierName ;
-                                                                                     owl:hasValue "https://schema.org/person"^^xsd:string
-                                                                                   ] ;
-                                                                   rdfs:label "Controller" .
-
-
-###  https://sargon-n5geh.netlify.app/ontology/1.0/classes/ElectricitySensor
-<https://sargon-n5geh.netlify.app/ontology/1.0/classes/ElectricitySensor> rdf:type owl:Class ;
-                                                                          rdfs:subClassOf :Sensor ,
-                                                                                          [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty :consistsOf ;
-                                                                                            owl:someValuesFrom :Sensor
-                                                                                          ] ,
-                                                                                          [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty :hasFunction ;
-                                                                                            owl:someValuesFrom :SensingFunction
-                                                                                          ] ,
-                                                                                          [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty :measuresProperty ;
-                                                                                            owl:someValuesFrom webprotege:Current
-                                                                                          ] ,
-                                                                                          [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty :measuresProperty ;
-                                                                                            owl:someValuesFrom webprotege:Voltage
-                                                                                          ] ,
-                                                                                          [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty :measuresProperty ;
-                                                                                            owl:someValuesFrom :Power
-                                                                                          ] ,
-                                                                                          [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty :accomplishes ;
-                                                                                            owl:hasValue :Comfort
-                                                                                          ] ;
-                                                                          rdfs:label "Electricity sensor" .
-
-
-###  https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice
-<https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice> rdf:type owl:Class ;
-                                                                   rdfs:subClassOf webprotege:BuildingRelated ;
-                                                                   rdfs:label "Flow device" .
-
-
-###  https://sargon-n5geh.netlify.app/ontology/1.0/classes/Frequency
-<https://sargon-n5geh.netlify.app/ontology/1.0/classes/Frequency> rdf:type owl:Class ;
-                                                                  rdfs:subClassOf <https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel> ;
-                                                                  rdfs:label "Frequency" .
-
-
-###  https://sargon-n5geh.netlify.app/ontology/1.0/classes/Maqnitute
-<https://sargon-n5geh.netlify.app/ontology/1.0/classes/Maqnitute> rdf:type owl:Class ;
-                                                                  rdfs:subClassOf <https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel> ;
-                                                                  rdfs:label "Maqnititute" .
-
-
-###  https://sargon-n5geh.netlify.app/ontology/1.0/classes/PID
-<https://sargon-n5geh.netlify.app/ontology/1.0/classes/PID> rdf:type owl:Class ;
-                                                            rdfs:subClassOf <https://sargon-n5geh.netlify.app/ontology/1.0/classes/Controller> ,
-                                                                            [ rdf:type owl:Restriction ;
-                                                                              owl:onProperty webprotege:subCategory ;
-                                                                              owl:someValuesFrom :Device
-                                                                            ] ,
-                                                                            [ rdf:type owl:Restriction ;
-                                                                              owl:onProperty :isMeasuredIn ;
-                                                                              owl:someValuesFrom :Measurement
-                                                                            ] ,
-                                                                            [ rdf:type owl:Restriction ;
-                                                                              owl:onProperty webprotege:higherLimit ;
-                                                                              owl:someValuesFrom xsd:string
-                                                                            ] ,
-                                                                            [ rdf:type owl:Restriction ;
-                                                                              owl:onProperty webprotege:kp ;
-                                                                              owl:someValuesFrom xsd:string
-                                                                            ] ,
-                                                                            [ rdf:type owl:Restriction ;
-                                                                              owl:onProperty webprotege:lowerLimit ;
-                                                                              owl:someValuesFrom xsd:string
-                                                                            ] ,
-                                                                            [ rdf:type owl:Restriction ;
-                                                                              owl:onProperty webprotege:reverseAction ;
-                                                                              owl:someValuesFrom xsd:int
-                                                                            ] ,
-                                                                            [ rdf:type owl:Restriction ;
-                                                                              owl:onProperty webprotege:td ;
-                                                                              owl:someValuesFrom xsd:string
-                                                                            ] ,
-                                                                            [ rdf:type owl:Restriction ;
-                                                                              owl:onProperty webprotege:ti ;
-                                                                              owl:someValuesFrom xsd:string
-                                                                            ] ,
-                                                                            [ rdf:type owl:Restriction ;
-                                                                              owl:onProperty webprotege:Address ;
-                                                                              owl:hasValue "Geo:json"^^xsd:string
-                                                                            ] ;
-                                                            rdfs:label "PID" .
-
-
-###  https://sargon-n5geh.netlify.app/ontology/1.0/classes/Rocf
-<https://sargon-n5geh.netlify.app/ontology/1.0/classes/Rocf> rdf:type owl:Class ;
-                                                             rdfs:subClassOf <https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel> ;
-                                                             rdfs:label "Rocf" .
-
-
-###  https://sargon-n5geh.netlify.app/ontology/1.0/classes/Timestamp
-<https://sargon-n5geh.netlify.app/ontology/1.0/classes/Timestamp> rdf:type owl:Class ;
-                                                                  rdfs:subClassOf <https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel> ;
-                                                                  rdfs:label "Timestamp" .
-
-
-###  https://sargon-n5geh.netlify.app/ontology/1.0/classes/WaterFlowSensor
-<https://sargon-n5geh.netlify.app/ontology/1.0/classes/WaterFlowSensor> rdf:type owl:Class ;
-                                                                        rdfs:subClassOf :Sensor ,
-                                                                                        [ rdf:type owl:Restriction ;
-                                                                                          owl:onProperty :consistsOf ;
-                                                                                          owl:someValuesFrom :Sensor
-                                                                                        ] ,
-                                                                                        [ rdf:type owl:Restriction ;
-                                                                                          owl:onProperty :hasFunction ;
-                                                                                          owl:someValuesFrom :SensingFunction
-                                                                                        ] ,
-                                                                                        [ rdf:type owl:Restriction ;
-                                                                                          owl:onProperty :measuresProperty ;
-                                                                                          owl:someValuesFrom webprotege:Flow
-                                                                                        ] ,
-                                                                                        [ rdf:type owl:Restriction ;
-                                                                                          owl:onProperty :accomplishes ;
-                                                                                          owl:hasValue :Comfort
-                                                                                        ] ;
-                                                                        rdfs:label "Water flow sensor" .
-
-
-###  https://sargon-n5geh.netlify.app/ontology/1.0/classes/Building/Floor
-<https://sargon-n5geh.netlify.app/ontology/1.0/classes/Building/Floor> rdf:type owl:Class ;
-                                                                       rdfs:subClassOf :BuildingRelated ,
-                                                                                       [ rdf:type owl:Restriction ;
-                                                                                         owl:onProperty webprotege:hasRoom ;
-                                                                                         owl:someValuesFrom <https://sargon-n5geh.netlify.app/ontology/1.0/classes/Building/Room>
-                                                                                       ] ,
-                                                                                       [ rdf:type owl:Restriction ;
-                                                                                         owl:onProperty webprotege:hasZone ;
-                                                                                         owl:someValuesFrom webprotege:Zone
-                                                                                       ] ,
-                                                                                       [ rdf:type owl:Restriction ;
-                                                                                         owl:onProperty webprotege:inBuilding ;
-                                                                                         owl:someValuesFrom :BuildingRelated
-                                                                                       ] ,
-                                                                                       [ rdf:type owl:Restriction ;
-                                                                                         owl:onProperty webprotege:description ;
-                                                                                         owl:someValuesFrom xsd:string
-                                                                                       ] ;
-                                                                       rdfs:label "Floor"^^xsd:string .
-
-
-###  https://sargon-n5geh.netlify.app/ontology/1.0/classes/Building/Room
-<https://sargon-n5geh.netlify.app/ontology/1.0/classes/Building/Room> rdf:type owl:Class ;
-                                                                      rdfs:subClassOf :BuildingRelated ,
-                                                                                      [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty webprotege:hasSensor ;
-                                                                                        owl:someValuesFrom :Sensor
-                                                                                      ] ,
-                                                                                      [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty webprotege:hasTenant ;
-                                                                                        owl:someValuesFrom webprotege:Tenant
-                                                                                      ] ,
-                                                                                      [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty webprotege:hasZone ;
-                                                                                        owl:someValuesFrom webprotege:Zone
-                                                                                      ] ,
-                                                                                      [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty webprotege:inBuilding ;
-                                                                                        owl:someValuesFrom :BuildingRelated
-                                                                                      ] ,
-                                                                                      [ rdf:type owl:Restriction ;
-                                                                                        owl:onProperty webprotege:inFloor ;
-                                                                                        owl:someValuesFrom <https://sargon-n5geh.netlify.app/ontology/1.0/classes/Building/Floor>
-                                                                                      ] ;
-                                                                      rdfs:comment "A room in a building. This class may be used to group devices."^^xsd:string ;
-                                                                      rdfs:label "Room"^^xsd:string .
 
 
 ###  https://w3id.org/saref#ActuatingFunction
@@ -1550,7 +1552,7 @@ webprotege:Zone rdf:type owl:Class ;
           rdfs:subClassOf webprotege:ControlDevice ,
                           [ rdf:type owl:Restriction ;
                             owl:onProperty webprotege:hasChannel ;
-                            owl:someValuesFrom <https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel>
+                            owl:someValuesFrom webprotege:Channel
                           ] ,
                           [ rdf:type owl:Restriction ;
                             owl:onProperty webprotege:hasSensor ;
@@ -1605,11 +1607,11 @@ webprotege:Zone rdf:type owl:Class ;
                  rdfs:subClassOf owl:Thing ,
                                  [ rdf:type owl:Restriction ;
                                    owl:onProperty webprotege:hasFloor ;
-                                   owl:someValuesFrom <https://sargon-n5geh.netlify.app/ontology/1.0/classes/Building/Floor>
+                                   owl:someValuesFrom webprotege:Floor
                                  ] ,
                                  [ rdf:type owl:Restriction ;
                                    owl:onProperty webprotege:hasRoom ;
-                                   owl:someValuesFrom <https://sargon-n5geh.netlify.app/ontology/1.0/classes/Building/Room>
+                                   owl:someValuesFrom webprotege:Room
                                  ] ,
                                  [ rdf:type owl:Restriction ;
                                    owl:onProperty webprotege:hasSensor ;
@@ -1720,7 +1722,7 @@ webprotege:Zone rdf:type owl:Class ;
                         ] ,
                         [ rdf:type owl:Restriction ;
                           owl:onProperty webprotege:inRoom ;
-                          owl:someValuesFrom <https://sargon-n5geh.netlify.app/ontology/1.0/classes/Building/Room>
+                          owl:someValuesFrom webprotege:Room
                         ] ,
                         [ rdf:type owl:Restriction ;
                           owl:onProperty webprotege:locatedAt ;
@@ -2102,7 +2104,7 @@ webprotege:Zone rdf:type owl:Class ;
        rdfs:subClassOf :EnergyRelated ,
                        [ rdf:type owl:Restriction ;
                          owl:onProperty webprotege:hasChannel ;
-                         owl:someValuesFrom <https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel>
+                         owl:someValuesFrom webprotege:Channel
                        ] ,
                        [ rdf:type owl:Restriction ;
                          owl:onProperty webprotege:subCategory ;
@@ -2421,7 +2423,7 @@ webprotege:Zone rdf:type owl:Class ;
         rdfs:subClassOf webprotege:ControlDevice ,
                         [ rdf:type owl:Restriction ;
                           owl:onProperty webprotege:hasChannel ;
-                          owl:someValuesFrom <https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel>
+                          owl:someValuesFrom webprotege:Channel
                         ] ,
                         [ rdf:type owl:Restriction ;
                           owl:onProperty webprotege:locatedIn ;
@@ -2773,40 +2775,40 @@ webprotege:Zone rdf:type owl:Class ;
 <http://www.wurvoc.org/vocabularies/om-1.8/bar> rdf:type owl:NamedIndividual ,
                                                          :PressureUnit ;
                                                 rdfs:comment "The bar is a unit of pressure defined as 100 000 pascal."@en ;
-                                                rdfs:label "Bar"^^xsd:string .
+                                                rdfs:label "bar"^^xsd:string .
 
 
 ###  http://www.wurvoc.org/vocabularies/om-1.8/degree_Celsius
 <http://www.wurvoc.org/vocabularies/om-1.8/degree_Celsius> rdf:type owl:NamedIndividual ,
                                                                     :TemperatureUnit ;
                                                            rdfs:comment "The degree Celsius is a unit of temperature defined as 1 kelvin."@en ;
-                                                           rdfs:label "Degree Celsius"^^xsd:string .
+                                                           rdfs:label "degree Celsius"^^xsd:string .
 
 
 ###  http://www.wurvoc.org/vocabularies/om-1.8/degree_Fahrenheit
 <http://www.wurvoc.org/vocabularies/om-1.8/degree_Fahrenheit> rdf:type owl:NamedIndividual ,
                                                                        :TemperatureUnit ;
                                                               rdfs:comment "The degree Fahrenheit is a unit of temperature defined as 5.555556e-1 kelvin."@en ;
-                                                              rdfs:label "Degree Fahrenheit"^^xsd:string .
+                                                              rdfs:label "degree Fahrenheit"^^xsd:string .
 
 
 ###  http://www.wurvoc.org/vocabularies/om-1.8/euro
 <http://www.wurvoc.org/vocabularies/om-1.8/euro> rdf:type owl:NamedIndividual ,
                                                           :Currency ;
-                                                 rdfs:label "Euro"@en .
+                                                 rdfs:label "euro"@en .
 
 
 ###  http://www.wurvoc.org/vocabularies/om-1.8/kelvin
 <http://www.wurvoc.org/vocabularies/om-1.8/kelvin> rdf:type owl:NamedIndividual ,
                                                             :TemperatureUnit ;
                                                    rdfs:comment "The kelvin is a unit of temperature defined as 1/273.16 of the thermodynamic temperature of the triple point of water."@en ;
-                                                   rdfs:label "Kelvin"^^xsd:string .
+                                                   rdfs:label "kelvin"^^xsd:string .
 
 
 ###  http://www.wurvoc.org/vocabularies/om-1.8/kilowatt
 <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt> rdf:type owl:NamedIndividual ,
                                                               :PowerUnit ;
-                                                     rdfs:label "Kilowatt"^^xsd:string .
+                                                     rdfs:label "kilowatt"^^xsd:string .
 
 
 ###  http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour
@@ -2826,20 +2828,20 @@ webprotege:Zone rdf:type owl:Class ;
 <http://www.wurvoc.org/vocabularies/om-1.8/pascal> rdf:type owl:NamedIndividual ,
                                                             :PressureUnit ;
                                                    rdfs:comment "The pascal is a unit of pressure and stress defined as newton divided by square metre = joule divided by cubic metre = kilogram divided by metre second squared."@en ;
-                                                   rdfs:label "Pascal"^^xsd:string .
+                                                   rdfs:label "pascal"^^xsd:string .
 
 
 ###  http://www.wurvoc.org/vocabularies/om-1.8/pound_sterling
 <http://www.wurvoc.org/vocabularies/om-1.8/pound_sterling> rdf:type owl:NamedIndividual ,
                                                                     :Currency ;
-                                                           rdfs:label "Great Britain Pound Sterling"^^xsd:string .
+                                                           rdfs:label "Great Britain pound sterling"^^xsd:string .
 
 
 ###  http://www.wurvoc.org/vocabularies/om-1.8/watt
 <http://www.wurvoc.org/vocabularies/om-1.8/watt> rdf:type owl:NamedIndividual ,
                                                           :PowerUnit ;
                                                  rdfs:comment "The watt is a unit of power defined as joule divided by second = newton times metre divided by second = volt times ampere = kilogram times square metre divided by second to the power 3."@en ;
-                                                 rdfs:label "Watt"^^xsd:string .
+                                                 rdfs:label "watt"^^xsd:string .
 
 
 ###  https://w3id.org/saref#Cleaning
@@ -2875,7 +2877,7 @@ webprotege:Zone rdf:type owl:Class ;
 :EnergyEfficiency rdf:type owl:NamedIndividual ,
                            :Task ;
                   rdfs:comment "A type of task for which a device is designed"^^xsd:string ;
-                  rdfs:label "Energy Efficiency"^^xsd:string .
+                  rdfs:label "EnergyEfficiency"^^xsd:string .
 
 
 ###  https://w3id.org/saref#Entertainment
@@ -2889,28 +2891,28 @@ webprotege:Zone rdf:type owl:Class ;
 :GetCurrentMeterValue rdf:type owl:NamedIndividual ,
                                :GetCurrentMeterValueCommand ;
                       rdfs:comment "The command GET CURRENT METER VALUE. It is used to instantiate the GetCurrentMeterValueCommand class. "^^xsd:string ;
-                      rdfs:label "Get Current Meter Value"^^xsd:string .
+                      rdfs:label "Get current meter value"^^xsd:string .
 
 
 ###  https://w3id.org/saref#GetMeterData
 :GetMeterData rdf:type owl:NamedIndividual ,
                        :GetMeterDataCommand ;
               rdfs:comment "The command GET METER DATA. It is used to instantiate the GetMeterDataCommand class. "^^xsd:string ;
-              rdfs:label "Get Meter Data"^^xsd:string .
+              rdfs:label "Get meter data"^^xsd:string .
 
 
 ###  https://w3id.org/saref#GetMeterHistory
 :GetMeterHistory rdf:type owl:NamedIndividual ,
                           :GetMeterHistoryCommand ;
                  rdfs:comment "The command GET METER HISTORY. It is used to instantiate the GetMeterHistoryCommand class. "^^xsd:string ;
-                 rdfs:label "Get Meter History"^^xsd:string .
+                 rdfs:label "Get meter history"^^xsd:string .
 
 
 ###  https://w3id.org/saref#GetSensingData
 :GetSensingData rdf:type owl:NamedIndividual ,
                          :GetSensingDataCommand ;
                 rdfs:comment "The command GET SENSING DATA. It is used to instantiate the GetSensingDataCommand class. "^^xsd:string ;
-                rdfs:label "Get Sensing Data"^^xsd:string .
+                rdfs:label "Get sensing data"^^xsd:string .
 
 
 ###  https://w3id.org/saref#Lighting
@@ -3041,16 +3043,12 @@ webprotege:Zone rdf:type owl:Class ;
 :watt_hour rdf:type owl:NamedIndividual ,
                     :EnergyUnit ;
            rdfs:comment "The Watt Hor is a unit of energy equivalent to one watt (1 W) of power expended for one hour (1 h) of time. An energy expenditure of 1 Wh represents 3600 joules "^^xsd:string ;
-           rdfs:label "Watt hour"^^xsd:string .
+           rdfs:label "watt hour"^^xsd:string .
 
 
 #################################################################
 #    Annotations
 #################################################################
-
-webprotege:Owner rdfs:label "Owner" ,
-                            "owner" .
-
 
 webprotege:hasFloor rdfs:label "has floor" .
 
