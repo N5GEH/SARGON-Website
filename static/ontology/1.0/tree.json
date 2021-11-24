@@ -277,11 +277,51 @@
                                             {
                                                 "name": "/ontology/1.0/classes/Damper",
                                                 "children": []
+                                            },
+                                            {
+                                                "name": "/ontology/1.0/classes/Electric_time_control",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "/ontology/1.0/classes/Flow_meter",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "/ontology/1.0/classes/Switching_device",
+                                                "children": []
                                             }
                                         ]
                                     },
-                                    
-                                    
+                                    {
+                                        "name": "/ontology/1.0/classes/Flow_moving_device",
+                                        "children":[
+                                            {
+                                                "name": "/ontology/1.0/classes/Compressor",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "/ontology/1.0/classes/Fan",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "/ontology/1.0/classes/Pump",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "/ontology/1.0/classes/Flow_storage_device",
+                                        "children":[
+                                            {
+                                                "name": "/ontology/1.0/classes/Electronic_flow_storage_device",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "/ontology/1.0/classes/Tank",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
                                     {
                                         "name": "/ontology/1.0/classes/Flow_terminal",
                                         "children":[

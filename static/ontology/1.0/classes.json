@@ -1780,40 +1780,7 @@
         "inDomainOf": [], 
         "shaclDetails": "{}"
     },
-    {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_device", 
-        "version": "1.0", 
-        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "class", 
-        "types": [
-            "http://www.w3.org/2002/07/owl#Class"
-        ], 
-        "name": "Flow Device", 
-        "path": "/ontology/1.0/classes/Flow_device", 
-        "labels": [], 
-        "rdfs_label" : ["Flow device"], 
-        "generatedLabel": "Flow device", 
-        "generatedAlias": "Fd", 
-        "superclasses": [
-            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/BuildingRelated"
-
-        ], 
-        "subclasses": [
-        ], 
-        "comments": [""], 
-        "definitions": [], 
-        "equivalentClasses": [], 
-        "hierarchy": [
-            "/ontology/1.0/#Classes", 
-            "/ontology/1.0/classes/Device",
-            "/ontology/1.0/classes/Building_related",
-            "/ontology/1.0/classes/Flow_device"
-        ], 
-        "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
-    },
+   
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_device", 
         "version": "1.0", 
@@ -2256,6 +2223,114 @@
             "/ontology/1.0/classes/Flow_device",
             "/ontology/1.0/classes/Flow_controller",
             "/ontology/1.0/classes/Damper"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Electronic_time_control", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Electronic time control", 
+        "path": "/ontology/1.0/classes/Electronic_time_control", 
+        "labels": [], 
+        "rdfs_label" : ["Electronic time control"], 
+        "generatedLabel": "Electronic time control", 
+        "generatedAlias": "Etc", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_controller"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_controller",
+            "/ontology/1.0/classes/Electronic_time_control"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_meter", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Flow meter", 
+        "path": "/ontology/1.0/classes/Flow_meter", 
+        "labels": [], 
+        "rdfs_label" : ["Flow meter"], 
+        "generatedLabel": "Flow meter", 
+        "generatedAlias": "Fm", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_controller"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_controller",
+            "/ontology/1.0/classes/Flow_meter"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Switching_device", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Switching_device", 
+        "path": "/ontology/1.0/classes/Switching_device", 
+        "labels": [], 
+        "rdfs_label" : ["Switching_device"], 
+        "generatedLabel": "Switching_device", 
+        "generatedAlias": "Sd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_controller"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_controller",
+            "/ontology/1.0/classes/Switching_device"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
