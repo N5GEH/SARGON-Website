@@ -607,7 +607,43 @@
         "generatedLabel": "Flow controller",
         "definitions": [""], 
         "type": "class", 
-        "path": "/ontology/1.0/classes/Energy_conversion_device", 
+        "path": "/ontology/1.0/classes/Flow_controller", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "D",
+        "generatedLabel": "Damper",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Damper", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "Etc",
+        "generatedLabel": "Electronic time control",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Electronic_time_control", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "Fm",
+        "generatedLabel": "Flow meter",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Flow_meter", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "Sd",
+        "generatedLabel": "Switching device",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Switching_device", 
         "version": "1.0", 
         "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
     },
@@ -621,11 +657,56 @@
         "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
     },
     {
+        "generatedAlias": "C",
+        "generatedLabel": "Compressor",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Compressor", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "F",
+        "generatedLabel": "Fan",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Fan", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "P",
+        "generatedLabel": "Pump",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Pump", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
         "generatedAlias": "Fsd",
         "generatedLabel": "Flow storage device",
         "definitions": [""], 
         "type": "class", 
         "path": "/ontology/1.0/classes/Flow_storage_device", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "Efsd",
+        "generatedLabel": "Electronic flow storage device",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Electronic_flow_storage_device", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "T",
+        "generatedLabel": "Tank",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/ETank", 
         "version": "1.0", 
         "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
     },

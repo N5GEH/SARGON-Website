@@ -69,11 +69,19 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Compressor/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Control_device/",
     component: c1
   },
   {
     path: "/ontology/1.0/classes/Controller/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Damper/",
     component: c1
   },
   {
@@ -97,7 +105,19 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Electronic_flow_storage_device/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Electronic_time_control/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Energy_conversion_device/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Fan/",
     component: c1
   },
   {
@@ -110,6 +130,10 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Flow_device/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Flow_meter/",
     component: c1
   },
   {
@@ -201,6 +225,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Pump/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/RVK/",
     component: c1
   },
@@ -250,6 +278,14 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Switch/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Switching_device/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Tank/",
     component: c1
   },
   {

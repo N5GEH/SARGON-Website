@@ -2206,6 +2206,10 @@
 
         ], 
         "subclasses": [
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Damper",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Electronic_time_control",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_meter",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Switching_device"
         ], 
         "comments": [""], 
         "definitions": [], 
@@ -2216,6 +2220,150 @@
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
             "/ontology/1.0/classes/Flow_controller"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Damper", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Damper", 
+        "path": "/ontology/1.0/classes/Damper", 
+        "labels": [], 
+        "rdfs_label" : ["Damper"], 
+        "generatedLabel": "Damper", 
+        "generatedAlias": "D", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_controller"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_controller",
+            "/ontology/1.0/classes/Damper"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Electronic_time_control", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Electronic time control", 
+        "path": "/ontology/1.0/classes/Electronic_time_control", 
+        "labels": [], 
+        "rdfs_label" : ["Electronic time control"], 
+        "generatedLabel": "Electronic time control", 
+        "generatedAlias": "Etc", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_controller"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_controller",
+            "/ontology/1.0/classes/Electronic_time_control"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_meter", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Flow meter", 
+        "path": "/ontology/1.0/classes/Flow_meter", 
+        "labels": [], 
+        "rdfs_label" : ["Flow meter"], 
+        "generatedLabel": "Flow meter", 
+        "generatedAlias": "Fm", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_controller"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_controller",
+            "/ontology/1.0/classes/Flow_meter"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Switching_device", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Switching_device", 
+        "path": "/ontology/1.0/classes/Switching_device", 
+        "labels": [], 
+        "rdfs_label" : ["Switching_device"], 
+        "generatedLabel": "Switching_device", 
+        "generatedAlias": "Sd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_controller"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_controller",
+            "/ontology/1.0/classes/Switching_device"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -2241,6 +2389,9 @@
 
         ], 
         "subclasses": [
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Compressor",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Fan",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Pump"
         ], 
         "comments": [""], 
         "definitions": [], 
@@ -2251,6 +2402,114 @@
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
             "/ontology/1.0/classes/Flow_moving_device"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Compressor", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Compressor", 
+        "path": "/ontology/1.0/classes/Compressor", 
+        "labels": [], 
+        "rdfs_label" : ["Compressor"], 
+        "generatedLabel": "Compressor", 
+        "generatedAlias": "C", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_moving_device"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_moving_device",
+            "/ontology/1.0/classes/Compressor"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Fan", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Fan", 
+        "path": "/ontology/1.0/classes/Fan", 
+        "labels": [], 
+        "rdfs_label" : ["Fan"], 
+        "generatedLabel": "Fan", 
+        "generatedAlias": "F", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_moving_device"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_moving_device",
+            "/ontology/1.0/classes/Fan"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Pump", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Pump", 
+        "path": "/ontology/1.0/classes/Pump", 
+        "labels": [], 
+        "rdfs_label" : ["Pump"], 
+        "generatedLabel": "Pump", 
+        "generatedAlias": "P", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_moving_device"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_moving_device",
+            "/ontology/1.0/classes/Pump"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -2276,6 +2535,8 @@
 
         ], 
         "subclasses": [
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Electronic_flow_storage_device",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tank"
         ], 
         "comments": [""], 
         "definitions": [], 
@@ -2286,6 +2547,78 @@
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
             "/ontology/1.0/classes/Flow_storage_device"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Electronic_flow_storage_device", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Electronic flow storage device", 
+        "path": "/ontology/1.0/classes/Electronic_flow_storage_device", 
+        "labels": [], 
+        "rdfs_label" : ["Electronic flow storage device"], 
+        "generatedLabel": "Electronic flow storage device", 
+        "generatedAlias": "Efsd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_storage_device"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_storage_device",
+            "/ontology/1.0/classes/Electronic_flow_storage_device"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tank", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Tank", 
+        "path": "/ontology/1.0/classes/Tank", 
+        "labels": [], 
+        "rdfs_label" : ["Tank"], 
+        "generatedLabel": "Tank", 
+        "generatedAlias": "T", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_storage_device"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_storage_device",
+            "/ontology/1.0/classes/Tank"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
