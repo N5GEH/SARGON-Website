@@ -1,6 +1,5 @@
 [
-    {
-        
+    {  
         "name": "/ontology/1.0/#Classes", 
         "children": [
             {
@@ -54,78 +53,78 @@
                 "name": "/ontology/1.0/classes/Command", 
                 "children": [
                     {
-                        "name": "/ontology/1.0/classes/Close_Command", 
+                        "name": "/ontology/1.0/classes/Close_command", 
                         "children": []
                     },
                     {
-                        "name": "/ontology/1.0/classes/Get_Command", 
+                        "name": "/ontology/1.0/classes/Get_command", 
                         "children": [ 
                             {
-                                "name": "/ontology/1.0/classes/Get_Current_Meter_Value_Command", 
+                                "name": "/ontology/1.0/classes/Get_current_meter_value_command", 
                                 "children": []
                             },
                             {
-                                "name": "/ontology/1.0/classes/Get_Meter_Data_Command", 
+                                "name": "/ontology/1.0/classes/Get_meter_data_command", 
                                 "children": []
                             },
                             {
-                                "name": "/ontology/1.0/classes/Get_Meter_History_Command", 
+                                "name": "/ontology/1.0/classes/Get_meter_history_command", 
                                 "children": []
                             },
                             {
-                                "name": "/ontology/1.0/classes/Get_Sensing_Data_Command", 
+                                "name": "/ontology/1.0/classes/Get_sensing_data_command", 
                                 "children": []
                             }
 
                         ]
                     },
                     {
-                        "name": "/ontology/1.0/classes/Notify_Command", 
+                        "name": "/ontology/1.0/classes/Notify_command", 
                         "children": []
                     },
                     {
-                        "name": "/ontology/1.0/classes/Off_Command", 
+                        "name": "/ontology/1.0/classes/Off_command", 
                         "children": []
                     },
                     {
-                        "name": "/ontology/1.0/classes/On_Command", 
+                        "name": "/ontology/1.0/classes/On_command", 
                         "children": []
                     },
                     {
-                        "name": "/ontology/1.0/classes/Pause_Command", 
+                        "name": "/ontology/1.0/classes/Pause_command", 
                         "children": []
                     },
                     {
-                        "name": "/ontology/1.0/classes/Set_Level_Command", 
+                        "name": "/ontology/1.0/classes/Set_level_command", 
                         "children": [
                             {
-                                "name": "/ontology/1.0/classes/Set_Absolute_Level_Command", 
+                                "name": "/ontology/1.0/classes/Set_absolute_level_command", 
                                 "children": []
                             },
                             {
-                                "name": "/ontology/1.0/classes/Set_Relative_Level_Command", 
+                                "name": "/ontology/1.0/classes/Set_relative_level_command", 
                                 "children": []
                             }
                         ]
                     },
                     {
-                        "name": "/ontology/1.0/classes/Start_Command", 
+                        "name": "/ontology/1.0/classes/Start_command", 
                         "children": []
                     },
                     {
-                        "name": "/ontology/1.0/classes/Step_Down_Command", 
+                        "name": "/ontology/1.0/classes/Step_down_command", 
                         "children": []
                     },
                     {
-                        "name": "/ontology/1.0/classes/Step_Up_Command", 
+                        "name": "/ontology/1.0/classes/Step_up_command", 
                         "children": []
                     },
                     {
-                        "name": "/ontology/1.0/classes/Stop_Command", 
+                        "name": "/ontology/1.0/classes/Stop_command", 
                         "children": []
                     },
                     {
-                        "name": "/ontology/1.0/classes/Toggle_Command", 
+                        "name": "/ontology/1.0/classes/Toggle_command", 
                         "children": []
                     }
                 ]
@@ -160,10 +159,10 @@
                 "name" : "/ontology/1.0/classes/Device",
                 "children" : [
                     {
-                        "name" : "/ontology/1.0/classes/Building_Related",
+                        "name" : "/ontology/1.0/classes/Building_related",
                         "children" : [
                             {
-                                "name" : "/ontology/1.0/classes/Control_Device",
+                                "name" : "/ontology/1.0/classes/Control_device",
                                 "children" : [
                                     {
                                         "name" : "/ontology/1.0/classes/Actuator",
@@ -176,11 +175,11 @@
                                                 "name": "/ontology/1.0/classes/Switch",
                                                 "children" : [
                                                     {
-                                                        "name": "/ontology/1.0/classes/Door_Switch",
+                                                        "name": "/ontology/1.0/classes/Door_switch",
                                                         "children": []
                                                     },
                                                     {
-                                                        "name": "/ontology/1.0/classes/Light_Switch",
+                                                        "name": "/ontology/1.0/classes/Light_switch",
                                                         "children": []
                                                     }
 
@@ -202,23 +201,23 @@
                                         "name": "/ontology/1.0/classes/Sensor",
                                         "children": [
                                             {
-                                                "name": "/ontology/1.0/classes/Air_Flow_Sensor",
+                                                "name": "/ontology/1.0/classes/Air_flow_sensor",
                                                 "children":[]
                                             },
                                             {
-                                                "name": "/ontology/1.0/classes/Electricity_Sensor",
+                                                "name": "/ontology/1.0/classes/Electricity_sensor",
                                                 "children":[]
                                             },
                                             {
-                                                "name": "/ontology/1.0/classes/Smoke_Sensor",
+                                                "name": "/ontology/1.0/classes/Smoke_sensor",
                                                 "children":[]
                                             },
                                             {
-                                                "name": "/ontology/1.0/classes/Temperature_Sensor",
+                                                "name": "/ontology/1.0/classes/Temperature_sensor",
                                                 "children":[]
                                             },
                                             {
-                                                "name": "/ontology/1.0/classes/Water_Flow_Sensor",
+                                                "name": "/ontology/1.0/classes/Water_flow_sensor",
                                                 "children":[]
                                             }
 
@@ -231,7 +230,7 @@
                                 ]
                             },
                             {
-                                "name" : "/ontology/1.0/classes/Flow_Device",
+                                "name" : "/ontology/1.0/classes/Flow_device",
                                 "children" : [
 
                                 ]

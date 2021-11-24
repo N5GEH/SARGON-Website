@@ -9,6 +9,14 @@ const c8 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/
 
 export default [
   {
+    path: "/ontology/1.0/classes/Actuator/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Air_flow_sensor/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Angle/",
     component: c1
   },
@@ -17,11 +25,19 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Building_related/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Channel/",
     component: c1
   },
   {
-    path: "/ontology/1.0/classes/Close_Command/",
+    path: "/ontology/1.0/classes/Close_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Coal/",
     component: c1
   },
   {
@@ -29,7 +45,43 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Commodity/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Control_device/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Controller/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Day_of_week/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Device/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Door_switch/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Electricity/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Electricity_sensor/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Floor/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Flow_device/",
     component: c1
   },
   {
@@ -37,23 +89,67 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/classes/Get_Command/",
+    path: "/ontology/1.0/classes/Gas/",
     component: c1
   },
   {
-    path: "/ontology/1.0/classes/Get_Current_Meter_Value_Command/",
+    path: "/ontology/1.0/classes/Get_command/",
     component: c1
   },
   {
-    path: "/ontology/1.0/classes/Get_Meter_Data_Command/",
+    path: "/ontology/1.0/classes/Get_current_meter_value_command/",
     component: c1
   },
   {
-    path: "/ontology/1.0/classes/Get_Meter_History_Command/",
+    path: "/ontology/1.0/classes/Get_meter_data_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Get_meter_history_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Get_sensing_data_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Grid_related/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Light_switch/",
     component: c1
   },
   {
     path: "/ontology/1.0/classes/Maqnitute/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Notify_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Off_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/On_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Open_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/PID/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Pause_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/RVK/",
     component: c1
   },
   {
@@ -65,11 +161,67 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Sensor/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Set_absolute_level_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Set_level_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Set_relative_level_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Smoke_sensor/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Start_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Step_down_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Step_up_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Stop_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Switch/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Temperature_sensor/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Tenant/",
     component: c1
   },
   {
     path: "/ontology/1.0/classes/Timestamp/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Toggle_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Water/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Water_flow_sensor/",
     component: c1
   },
   {

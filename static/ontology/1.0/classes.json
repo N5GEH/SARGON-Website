@@ -1,6 +1,5 @@
 [
     {
-
         "id": "1.0^https://w3id.org/saref#BuildingRelated", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
@@ -358,7 +357,7 @@
         ], 
         "subclasses": [
             "https://w3id.org/saref#GetCommand",
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Close_Command",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Close_command",
             "https://w3id.org/saref#GetCommand",
             "https://w3id.org/saref#NotifyCommand",
             "https://w3id.org/saref#OffCommand",
@@ -384,7 +383,7 @@
         "shaclDetails": "{}"
     }, 
     {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Close_Command", 
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Close_command", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
@@ -392,12 +391,12 @@
             "http://www.w3.org/2002/07/owl#Class"
             
         ], 
-        "name": "Close Command", 
-        "path": "/ontology/1.0/classes/Close_Command", 
+        "name": "Close command", 
+        "path": "/ontology/1.0/classes/Close_command", 
         "labels": [],
-        "rdfs_label" : ["Close Command"], 
-        "generatedLabel": "Close_Command", 
-        "generatedAlias": "CC", 
+        "rdfs_label" : ["Close command"], 
+        "generatedLabel": "Close command", 
+        "generatedAlias": "Cc", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
             "https://w3id.org/saref#Command"
@@ -410,7 +409,7 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Command", 
-            "/ontology/1.0/classes/Close_Command"
+            "/ontology/1.0/classes/Close_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -425,11 +424,11 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Get Command", 
-        "path": "/ontology/1.0/classes/Get_Command", 
+        "path": "/ontology/1.0/classes/Get_command", 
         "labels": [], 
-        "rdfs_label" : ["Get Command"], 
-        "generatedLabel": "Get Command", 
-        "generatedAlias": "GC", 
+        "rdfs_label" : ["Get command"], 
+        "generatedLabel": "Get command", 
+        "generatedAlias": "Gc", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
             "https://w3id.org/saref#Command"
@@ -446,7 +445,7 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Command", 
-            "/ontology/1.0/classes/Get_Command"
+            "/ontology/1.0/classes/Get_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -459,11 +458,11 @@
         "type": "class", 
         "types": ["http://www.w3.org/2002/07/owl#Class"], 
         "name": "Get Current Meter Value Command", 
-        "path": "/ontology/1.0/classes/Get_Current_Meter_Value_Command", 
+        "path": "/ontology/1.0/classes/Get_current_meter_value_command", 
         "labels": [], 
-        "rdfs_label" : ["Get Current Meter Value Command"], 
-        "generatedLabel": "Get Current Meter Value Command", 
-        "generatedAlias": "GCMVC", 
+        "rdfs_label" : ["Get current meter value command"], 
+        "generatedLabel": "Get current meter value command", 
+        "generatedAlias": "Gcmvc", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b59", 
             "https://w3id.org/saref#GetCommand"
@@ -474,8 +473,8 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Command", 
-            "/ontology/1.0/classes/Get_Command", 
-            "/ontology/1.0/classes/Get_Current_Meter_Value_Command"
+            "/ontology/1.0/classes/Get_command", 
+            "/ontology/1.0/classes/Get_current_meter_value_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -487,12 +486,12 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": ["http://www.w3.org/2002/07/owl#Class"], 
-        "name": "Get Meter Data Command", 
-        "path": "/ontology/1.0/classes/Get_Meter_Data_Command", 
+        "name": "Get meter data command", 
+        "path": "/ontology/1.0/classes/Get_meter_data_command", 
         "labels": [], 
-        "rdfs_label" : ["Get Meter Data Command"], 
-        "generatedLabel": "Get Meter Data Command", 
-        "generatedAlias": "GMDC", 
+        "rdfs_label" : ["Get meter data command"], 
+        "generatedLabel": "Get meter data command", 
+        "generatedAlias": "Gmdc", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b59", 
             "https://w3id.org/saref#GetCommand"
@@ -503,8 +502,8 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Command", 
-            "/ontology/1.0/classes/Get_Command", 
-            "/ontology/1.0/classes/Get_Meter_Data_Command"
+            "/ontology/1.0/classes/Get_command", 
+            "/ontology/1.0/classes/Get_meter_data_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -516,12 +515,12 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": ["http://www.w3.org/2002/07/owl#Class"], 
-        "name": "Get Meter History Command", 
-        "path": "/ontology/1.0/classes/Get_Meter_History_Command", 
+        "name": "Get meter history command", 
+        "path": "/ontology/1.0/classes/Get_meter_history_command", 
         "labels": [], 
-        "rdfs_label" : ["Get Meter History Command"], 
-        "generatedLabel": "Get Meter History Command", 
-        "generatedAlias": "GMHC", 
+        "rdfs_label" : ["Get meter history command"], 
+        "generatedLabel": "Get meter history command", 
+        "generatedAlias": "Gmhc", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b59", 
             "https://w3id.org/saref#GetCommand"
@@ -532,8 +531,8 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Command", 
-            "/ontology/1.0/classes/Get_Command", 
-            "/ontology/1.0/classes/Get_Meter_History_Command"
+            "/ontology/1.0/classes/Get_command", 
+            "/ontology/1.0/classes/Get_meter_history_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -545,12 +544,12 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": ["http://www.w3.org/2002/07/owl#Class"], 
-        "name": "Get Sensing Data Command", 
-        "path": "/ontology/1.0/classes/Get_Sensing_Data_Command", 
+        "name": "Get sensing data command", 
+        "path": "/ontology/1.0/classes/Get_sensing_data_command", 
         "labels": [], 
-        "rdfs_label" : ["Get Sensing Data Command"], 
-        "generatedLabel": "Get Sensing Data Command", 
-        "generatedAlias": "GSDC", 
+        "rdfs_label" : ["Get sensing data command"], 
+        "generatedLabel": "Get sensing data command", 
+        "generatedAlias": "Gsdc", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b59", 
             "https://w3id.org/saref#GetCommand"
@@ -561,8 +560,8 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Command", 
-            "/ontology/1.0/classes/Get_Command", 
-            "/ontology/1.0/classes/Get_Sensing_Data_Command"
+            "/ontology/1.0/classes/Get_command", 
+            "/ontology/1.0/classes/Get_sensing_data_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -576,12 +575,12 @@
         "types": [
             "http://www.w3.org/2002/07/owl#Class"
         ], 
-        "name": "Notify Command", 
-        "path": "/ontology/1.0/classes/Notify_Command", 
+        "name": "Notify command", 
+        "path": "/ontology/1.0/classes/Notify_command", 
         "labels": [], 
-        "rdfs_label" : ["Notify Command"], 
-        "generatedLabel": "Notify_Command", 
-        "generatedAlias": "NC", 
+        "rdfs_label" : ["Notify command"], 
+        "generatedLabel": "Notify command", 
+        "generatedAlias": "Nc", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
             "https://w3id.org/saref#Command"
@@ -594,7 +593,7 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Command", 
-            "/ontology/1.0/classes/Notify_Command"
+            "/ontology/1.0/classes/Notify_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -608,12 +607,12 @@
         "types": [
             "http://www.w3.org/2002/07/owl#Class"
         ], 
-        "name": "Off Command", 
-        "path": "/ontology/1.0/classes/Off_Command", 
+        "name": "Off command", 
+        "path": "/ontology/1.0/classes/Off_command", 
         "labels": [], 
-        "rdfs_label" : ["Off Command"], 
-        "generatedLabel": "Off_Command", 
-        "generatedAlias": "OC", 
+        "rdfs_label" : ["Off command"], 
+        "generatedLabel": "Off command", 
+        "generatedAlias": "Oc", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
             "https://w3id.org/saref#Command"
@@ -626,7 +625,7 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Command", 
-            "/ontology/1.0/classes/Off_Command"
+            "/ontology/1.0/classes/Off_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -641,11 +640,11 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "On Command", 
-        "path": "/ontology/1.0/classes/On_Command", 
+        "path": "/ontology/1.0/classes/On_command", 
         "labels": [], 
-        "rdfs_label" : ["On Command"], 
-        "generatedLabel": "On_Command", 
-        "generatedAlias": "OC", 
+        "rdfs_label" : ["On command"], 
+        "generatedLabel": "On command", 
+        "generatedAlias": "Oc", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
             "https://w3id.org/saref#Command"
@@ -658,7 +657,7 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Command", 
-            "/ontology/1.0/classes/On_Command"
+            "/ontology/1.0/classes/On_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -673,11 +672,11 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "On Command", 
-        "path": "/ontology/1.0/classes/Open_Command", 
+        "path": "/ontology/1.0/classes/Open_command", 
         "labels": [], 
-        "rdfs_label" : ["Open Command"], 
-        "generatedLabel": "Open_Command", 
-        "generatedAlias": "OC", 
+        "rdfs_label" : ["Open command"], 
+        "generatedLabel": "Open command", 
+        "generatedAlias": "Oc", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
             "https://w3id.org/saref#Command"
@@ -690,7 +689,7 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Command", 
-            "/ontology/1.0/classes/Open_Command"
+            "/ontology/1.0/classes/Open_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -705,11 +704,11 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Pause Command", 
-        "path": "/ontology/1.0/classes/Pause_Command", 
+        "path": "/ontology/1.0/classes/Pause_command", 
         "labels": [], 
-        "rdfs_label" : ["Pause Command"], 
-        "generatedLabel": "Pause_Command", 
-        "generatedAlias": "PC", 
+        "rdfs_label" : ["Pause command"], 
+        "generatedLabel": "Pause command", 
+        "generatedAlias": "Pc", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
             "https://w3id.org/saref#Command"
@@ -722,7 +721,7 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Command", 
-            "/ontology/1.0/classes/Pause_Command"
+            "/ontology/1.0/classes/Pause_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -737,11 +736,11 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Set Level Command", 
-        "path": "/ontology/1.0/classes/Set_Level_Command", 
+        "path": "/ontology/1.0/classes/Set_level_command", 
         "labels": [], 
-        "rdfs_label" : ["Set Level Command"], 
-        "generatedLabel": "Set Level Command", 
-        "generatedAlias": "SLC", 
+        "rdfs_label" : ["Set level command"], 
+        "generatedLabel": "Set level command", 
+        "generatedAlias": "Slc", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
             "https://w3id.org/saref#Command"
@@ -757,7 +756,7 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Command", 
-            "/ontology/1.0/classes/Set_Level_Command"
+            "/ontology/1.0/classes/Set_level_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -771,12 +770,12 @@
         "types": [
             "http://www.w3.org/2002/07/owl#Class"
         ], 
-        "name": "Set Absolute Level Command", 
-        "path": "/ontology/1.0/classes/Set_Absolute_Level_Command", 
+        "name": "Set absolute level command", 
+        "path": "/ontology/1.0/classes/Set_absolute_level_command", 
         "labels": [], 
-        "rdfs_label" : ["Set Absolute Level Command"], 
-        "generatedLabel": "Set Absolute Level Command", 
-        "generatedAlias": "SALC", 
+        "rdfs_label" : ["Set absolute level command"], 
+        "generatedLabel": "Set absolute level command", 
+        "generatedAlias": "Salc", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
             "https://w3id.org/saref#SetLevelCommand"
@@ -789,8 +788,8 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Command", 
-            "/ontology/1.0/classes/Set_Level_Command",
-            "/ontology/1.0/classes/Set_Absolute_Level_Command"
+            "/ontology/1.0/classes/Set_level_command",
+            "/ontology/1.0/classes/Set_absolute_level_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -804,12 +803,12 @@
         "types": [
             "http://www.w3.org/2002/07/owl#Class"
         ], 
-        "name": "Set Relative Level Command", 
-        "path": "/ontology/1.0/classes/Set_Relative_Level_Command", 
+        "name": "Set relative level command", 
+        "path": "/ontology/1.0/classes/Set_relative_level_command", 
         "labels": [], 
-        "rdfs_label" : ["Set Relative Level Command"], 
-        "generatedLabel": "Set Relative Level Command", 
-        "generatedAlias": "SRLC", 
+        "rdfs_label" : ["Set relative level command"], 
+        "generatedLabel": "Set relative level command", 
+        "generatedAlias": "Srlc", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
             "https://w3id.org/saref#SetLevelCommand"
@@ -822,8 +821,8 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Command", 
-            "/ontology/1.0/classes/Set_Level_Command",
-            "/ontology/1.0/classes/Set_Relative_Level_Command"
+            "/ontology/1.0/classes/Set_level_command",
+            "/ontology/1.0/classes/Set_relative_level_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -838,11 +837,11 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Start Command", 
-        "path": "/ontology/1.0/classes/Start_Command", 
+        "path": "/ontology/1.0/classes/Start_command", 
         "labels": [], 
-        "rdfs_label" : ["Start Command"], 
-        "generatedLabel": "Start Command", 
-        "generatedAlias": "SC", 
+        "rdfs_label" : ["Start command"], 
+        "generatedLabel": "Start command", 
+        "generatedAlias": "Sc", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
             "https://w3id.org/saref#Command"
@@ -855,7 +854,7 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Command", 
-            "/ontology/1.0/classes/Start_Command"
+            "/ontology/1.0/classes/Start_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -870,11 +869,11 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Start Command", 
-        "path": "/ontology/1.0/classes/Step_Down_Command", 
+        "path": "/ontology/1.0/classes/Step_down_command", 
         "labels": [], 
-        "rdfs_label" : ["Step Down Command"], 
-        "generatedLabel": "Step Down Command", 
-        "generatedAlias": "SC", 
+        "rdfs_label" : ["Step down command"], 
+        "generatedLabel": "Step down command", 
+        "generatedAlias": "Sdc", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
             "https://w3id.org/saref#Command"
@@ -887,7 +886,7 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Command", 
-            "/ontology/1.0/classes/Step_Down_Command"
+            "/ontology/1.0/classes/Step_down_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -901,12 +900,12 @@
         "types": [
             "http://www.w3.org/2002/07/owl#Class"
         ], 
-        "name": "Start Command", 
-        "path": "/ontology/1.0/classes/Step_Up_Command", 
+        "name": "Step up command", 
+        "path": "/ontology/1.0/classes/Step_up_command", 
         "labels": [], 
-        "rdfs_label" : ["Step Up Command"], 
-        "generatedLabel": "Step Up Command", 
-        "generatedAlias": "SC", 
+        "rdfs_label" : ["Step up command"], 
+        "generatedLabel": "Step up command", 
+        "generatedAlias": "Suc", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
             "https://w3id.org/saref#Command"
@@ -919,7 +918,7 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Command", 
-            "/ontology/1.0/classes/Step_Up_Command"
+            "/ontology/1.0/classes/Step_up_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -934,11 +933,11 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Stop Command", 
-        "path": "/ontology/1.0/classes/Stop_Command", 
+        "path": "/ontology/1.0/classes/Stop_command", 
         "labels": [], 
-        "rdfs_label" : ["Stop Command"], 
-        "generatedLabel": "Stop Command", 
-        "generatedAlias": "SC", 
+        "rdfs_label" : ["Stop command"], 
+        "generatedLabel": "Stop command", 
+        "generatedAlias": "Sc", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
             "https://w3id.org/saref#Command"
@@ -951,7 +950,7 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Command", 
-            "/ontology/1.0/classes/Stop_Command"
+            "/ontology/1.0/classes/Stop_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -965,12 +964,12 @@
         "types": [
             "http://www.w3.org/2002/07/owl#Class"
         ], 
-        "name": "Toggle Command", 
-        "path": "/ontology/1.0/classes/Toggle_Command", 
+        "name": "Toggle command", 
+        "path": "/ontology/1.0/classes/Toggle_command", 
         "labels": [], 
-        "rdfs_label" : ["Toggle Command"], 
-        "generatedLabel": "Toggle Command", 
-        "generatedAlias": "SC", 
+        "rdfs_label" : ["Toggle command"], 
+        "generatedLabel": "Toggle command", 
+        "generatedAlias": "Tc", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970", 
             "https://w3id.org/saref#Command"
@@ -983,7 +982,7 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Command", 
-            "/ontology/1.0/classes/Toggle_Command"
+            "/ontology/1.0/classes/Toggle_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -1161,11 +1160,11 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Day_Of_Week", 
-        "path": "/ontology/1.0/classes/Day_Of_Week", 
+        "path": "/ontology/1.0/classes/Day_of_week", 
         "labels": [], 
-        "rdfs_label" : ["Day Of Week"], 
-        "generatedLabel": "Day Of Week", 
-        "generatedAlias": "DOW", 
+        "rdfs_label" : ["Day of week"], 
+        "generatedLabel": "Day of week", 
+        "generatedAlias": "Dow", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
         ], 
@@ -1176,7 +1175,7 @@
         "equivalentClasses": [], 
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/classes/Day_Of_Week"
+            "/ontology/1.0/classes/Day_of_week"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -1220,12 +1219,12 @@
         "types": [
             "http://www.w3.org/2002/07/owl#Class"
         ], 
-        "name": "Building Related", 
-        "path": "/ontology/1.0/classes/Building_Related", 
+        "name": "Building related", 
+        "path": "/ontology/1.0/classes/Building_related", 
         "labels": [], 
-        "rdfs_label" : ["Building Related"], 
-        "generatedLabel": "Building Related", 
-        "generatedAlias": "BR", 
+        "rdfs_label" : ["Building related"], 
+        "generatedLabel": "Building related", 
+        "generatedAlias": "Br", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
             "https://w3id.org/saref#Device"
@@ -1240,7 +1239,7 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
-            "/ontology/1.0/classes/Building_Related"
+            "/ontology/1.0/classes/Building_related"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -1255,10 +1254,10 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Control Device", 
-        "path": "/ontology/1.0/classes/Control_Device", 
+        "path": "/ontology/1.0/classes/Control_device", 
         "labels": [], 
-        "rdfs_label" : ["Control Device"], 
-        "generatedLabel": "Control Device", 
+        "rdfs_label" : ["Control device"], 
+        "generatedLabel": "Control device", 
         "generatedAlias": "CD", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
@@ -1274,8 +1273,8 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
-            "/ontology/1.0/classes/Building_Related",
-            "/ontology/1.0/classes/Control_Device"
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Control_device"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -1290,11 +1289,11 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Flow Device", 
-        "path": "/ontology/1.0/classes/Flow_Device", 
+        "path": "/ontology/1.0/classes/Flow_device", 
         "labels": [], 
-        "rdfs_label" : ["Flow Device"], 
-        "generatedLabel": "Flow Device", 
-        "generatedAlias": "FD", 
+        "rdfs_label" : ["Flow device"], 
+        "generatedLabel": "Flow device", 
+        "generatedAlias": "Fd", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
             "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/BuildingRelated"
@@ -1308,8 +1307,8 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
-            "/ontology/1.0/classes/Building_Related",
-            "/ontology/1.0/classes/Flow_Device"
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -1324,11 +1323,11 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Building Related", 
-        "path": "/ontology/1.0/classes/Grid_Related", 
+        "path": "/ontology/1.0/classes/Grid_related", 
         "labels": [], 
-        "rdfs_label" : ["Grid Related"], 
-        "generatedLabel": "Grid Related", 
-        "generatedAlias": "GR", 
+        "rdfs_label" : ["Grid related"], 
+        "generatedLabel": "Grid related", 
+        "generatedAlias": "Gr", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
             "https://w3id.org/saref#Device"
@@ -1341,7 +1340,7 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
-            "/ontology/1.0/classes/Grid_Related"
+            "/ontology/1.0/classes/Grid_related"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -1375,8 +1374,8 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
-            "/ontology/1.0/classes/Building_Related",
-            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Control_device",
             "/ontology/1.0/classes/Actuator"
         ], 
         "inRangeOf": [], 
@@ -1409,8 +1408,8 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
-            "/ontology/1.0/classes/Building_Related",
-            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Control_device",
             "/ontology/1.0/classes/Actuator",
             "/ontology/1.0/classes/RVK"
         ], 
@@ -1446,8 +1445,8 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
-            "/ontology/1.0/classes/Building_Related",
-            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Control_device",
             "/ontology/1.0/classes/Actuator",
             "/ontology/1.0/classes/Switch"
         ], 
@@ -1463,12 +1462,12 @@
         "types": [
             "http://www.w3.org/2002/07/owl#Class"
         ], 
-        "name": "Switch", 
-        "path": "/ontology/1.0/classes/Door_Switch", 
+        "name": "Door switch", 
+        "path": "/ontology/1.0/classes/Door_switch", 
         "labels": [], 
-        "rdfs_label" : ["Door Switch"], 
-        "generatedLabel": "Door Switch", 
-        "generatedAlias": "DS", 
+        "rdfs_label" : ["Door switch"], 
+        "generatedLabel": "Door switch", 
+        "generatedAlias": "Ds", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
             "https://w3id.org/saref#Switch"
@@ -1481,11 +1480,11 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
-            "/ontology/1.0/classes/Building_Related",
-            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Control_device",
             "/ontology/1.0/classes/Actuator",
             "/ontology/1.0/classes/Switch",
-            "/ontology/1.0/classes/Door_Switch"
+            "/ontology/1.0/classes/Door_switch"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -1500,10 +1499,10 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Switch", 
-        "path": "/ontology/1.0/classes/Light_Switch", 
+        "path": "/ontology/1.0/classes/Light_switch", 
         "labels": [], 
-        "rdfs_label" : ["Light Switch"], 
-        "generatedLabel": "Light Switch", 
+        "rdfs_label" : ["Light switch"], 
+        "generatedLabel": "Light switch", 
         "generatedAlias": "LS", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
@@ -1517,11 +1516,11 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
-            "/ontology/1.0/classes/Building_Related",
-            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Control_device",
             "/ontology/1.0/classes/Actuator",
             "/ontology/1.0/classes/Switch",
-            "/ontology/1.0/classes/Light_Switch"
+            "/ontology/1.0/classes/Light_switch"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -1555,8 +1554,8 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
-            "/ontology/1.0/classes/Building_Related",
-            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Control_device",
             "/ontology/1.0/classes/Controller"
         ], 
         "inRangeOf": [], 
@@ -1591,8 +1590,8 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
-            "/ontology/1.0/classes/Building_Related",
-            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Control_device",
             "/ontology/1.0/classes/Controller",
             "/ontology/1.0/classes/PID"
         ], 
@@ -1619,11 +1618,11 @@
             "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/ControlDevice"
         ], 
         "subclasses": [
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/AirFlowSensor",
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/ElectricitySensor",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Air_flow_sensor",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Electricity_sensor",
             "https://w3id.org/saref#SmokeSensor",
             "https://w3id.org/saref#TemperatureSensor",
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/WaterFlowSensor"
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Water_flow_sensor"
         ], 
         "comments": ["A device that detects and responds to events or changes in the physical environment such as light, motion, or temperature changes. Further, a device of category saref:Sensor that performs a saref:SensingFunction."], 
         "definitions": [], 
@@ -1631,8 +1630,8 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
-            "/ontology/1.0/classes/Building_Related",
-            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Control_device",
             "/ontology/1.0/classes/Sensor"
         ], 
         "inRangeOf": [], 
@@ -1640,19 +1639,19 @@
         "shaclDetails": "{}"
     },
     {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/AirFlowSensor",
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Air_flow_sensor",
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
             "http://www.w3.org/2002/07/owl#Class"
         ], 
-        "name": "AirFlowSensor", 
-        "path": "/ontology/1.0/classes/Air_Flow_Sensor", 
+        "name": "Air flow sensor", 
+        "path": "/ontology/1.0/classes/Air_flow_sensor", 
         "labels": [], 
-        "rdfs_label" : ["Air Flow Sensor"], 
-        "generatedLabel": "Air Flow Sensor", 
-        "generatedAlias": "AFS", 
+        "rdfs_label" : ["Air flow sensor"], 
+        "generatedLabel": "Air flow sensor", 
+        "generatedAlias": "Afs", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
             "https://w3id.org/saref#Sensor"
@@ -1665,29 +1664,29 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
-            "/ontology/1.0/classes/Building_Related",
-            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Control_device",
             "/ontology/1.0/classes/Sensor",
-            "/ontology/1.0/classes/Air_Flow_Sensor"
+            "/ontology/1.0/classes/Air_flow_sensor"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
         "shaclDetails": "{}"
     },
     {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/ElectricitySensor",
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Electricity_sensor",
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
             "http://www.w3.org/2002/07/owl#Class"
         ], 
-        "name": "ElectricitySensor", 
-        "path": "/ontology/1.0/classes/Electricity_Sensor", 
+        "name": "Electricity sensor", 
+        "path": "/ontology/1.0/classes/Electricity_sensor", 
         "labels": [], 
-        "rdfs_label" : ["Electricity Sensor"], 
-        "generatedLabel": "Electricity Sensor", 
-        "generatedAlias": "ES", 
+        "rdfs_label" : ["Electricity sensor"], 
+        "generatedLabel": "Electricity sensor", 
+        "generatedAlias": "Es", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
             "https://w3id.org/saref#Sensor"
@@ -1700,10 +1699,10 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
-            "/ontology/1.0/classes/Building_Related",
-            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Control_device",
             "/ontology/1.0/classes/Sensor",
-            "/ontology/1.0/classes/Electricity_Sensor"
+            "/ontology/1.0/classes/Electricity_sensor"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -1718,11 +1717,11 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "SmokeSensor", 
-        "path": "/ontology/1.0/classes/Smoke_Sensor", 
+        "path": "/ontology/1.0/classes/Smoke_sensor", 
         "labels": [], 
-        "rdfs_label" : ["Smoke Sensor"], 
-        "generatedLabel": "Smoke Sensor", 
-        "generatedAlias": "SS", 
+        "rdfs_label" : ["Smoke sensor"], 
+        "generatedLabel": "Smoke sensor", 
+        "generatedAlias": "Ss", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
             "https://w3id.org/saref#Sensor"
@@ -1735,10 +1734,10 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
-            "/ontology/1.0/classes/Building_Related",
-            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Control_device",
             "/ontology/1.0/classes/Sensor",
-            "/ontology/1.0/classes/Smoke_Sensor"
+            "/ontology/1.0/classes/Smoke_sensor"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -1753,11 +1752,11 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "TemperatureSensor", 
-        "path": "/ontology/1.0/classes/Temperature_Sensor", 
+        "path": "/ontology/1.0/classes/Temperature_sensor", 
         "labels": [], 
-        "rdfs_label" : ["Temperature Sensor"], 
-        "generatedLabel": "Temperature Sensor", 
-        "generatedAlias": "TS", 
+        "rdfs_label" : ["Temperature sensor"], 
+        "generatedLabel": "Temperature sensor", 
+        "generatedAlias": "Ts", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
             "https://w3id.org/saref#Sensor"
@@ -1770,17 +1769,17 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
-            "/ontology/1.0/classes/Building_Related",
-            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Control_device",
             "/ontology/1.0/classes/Sensor",
-            "/ontology/1.0/classes/Temperature_Sensor"
+            "/ontology/1.0/classes/Temperature_sensor"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
         "shaclDetails": "{}"
     },
     {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/WaterFlowSensor",
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Water_flow_sensor",
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
@@ -1788,11 +1787,11 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Water Flow Sensor", 
-        "path": "/ontology/1.0/classes/Water_Flow_Sensor", 
+        "path": "/ontology/1.0/classes/Water_flow_sensor", 
         "labels": [], 
-        "rdfs_label" : ["Water Flow Sensor"], 
-        "generatedLabel": "Water Flow Sensor", 
-        "generatedAlias": "WFS", 
+        "rdfs_label" : ["Water flow sensor"], 
+        "generatedLabel": "Water flow sensor", 
+        "generatedAlias": "Wfs", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
             "https://w3id.org/saref#Sensor"
@@ -1805,10 +1804,10 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
-            "/ontology/1.0/classes/Building_Related",
-            "/ontology/1.0/classes/Control_Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Control_device",
             "/ontology/1.0/classes/Sensor",
-            "/ontology/1.0/classes/Water_Flow_Sensor"
+            "/ontology/1.0/classes/Water_flow_sensor"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
