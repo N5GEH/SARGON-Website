@@ -503,7 +503,6 @@
         "version": "1.0", 
         "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#"
     },
-
     {
         "generatedAlias": "Fd",
         "generatedLabel": "Flow device",
@@ -512,7 +511,144 @@
         "path": "/ontology/1.0/classes/Flow_device", 
         "version": "1.0", 
         "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "Fd",
+        "generatedLabel": "Flow device",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Flow_device", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "Ecd",
+        "generatedLabel": "Energy conversion device",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Energy_conversion_device", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "Air",
+        "generatedLabel": "Air to air heat recovery",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Air_to_air_heat_recovery", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "B",
+        "generatedLabel": "Boiler",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Boiler", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "B",
+        "generatedLabel": "Burner",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Burner", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "C",
+        "generatedLabel": "Chiller",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Chiller", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "C",
+        "generatedLabel": "Coil",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Coil", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "HP",
+        "generatedLabel": "HP",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/HP", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "H",
+        "generatedLabel": "Humidifier",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Humidifier", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "Tb",
+        "generatedLabel": "Tube bundler",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Tube_bundler", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "Fc",
+        "generatedLabel": "Flow controller",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Energy_conversion_device", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "Fmd",
+        "generatedLabel": "Flow moving device",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Flow_moving_device", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "Fsd",
+        "generatedLabel": "Flow storage device",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Flow_storage_device", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "Ft",
+        "generatedLabel": "Flow terminal",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Flow_terminal", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "Ftd",
+        "generatedLabel": "Flow terminal device",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Flow_terminal_device", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
     }
+    
+    
 
     
 

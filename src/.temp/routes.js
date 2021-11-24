@@ -17,7 +17,15 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Air_to_air_heat_recovery/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Angle/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Boiler/",
     component: c1
   },
   {
@@ -29,7 +37,15 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Burner/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Channel/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Chiller/",
     component: c1
   },
   {
@@ -38,6 +54,10 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Coal/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Coil/",
     component: c1
   },
   {
@@ -77,11 +97,35 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Energy_conversion_device/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Floor/",
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Flow_controller/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Flow_device/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Flow_moving_device/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Flow_storage_device/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Flow_terminal/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Flow_terminal_device/",
     component: c1
   },
   {
@@ -114,6 +158,14 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Grid_related/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/HP/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Humidifier/",
     component: c1
   },
   {
@@ -214,6 +266,10 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Toggle_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Tube_bundle/",
     component: c1
   },
   {

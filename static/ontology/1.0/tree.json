@@ -232,6 +232,85 @@
                             {
                                 "name" : "/ontology/1.0/classes/Flow_device",
                                 "children" : [
+                                    {
+                                        "name": "/ontology/1.0/classes/Energy_conversion_device",
+                                        "children":[
+                                            {
+                                                "name": "/ontology/1.0/classes/Air_to_air_heat_recovery",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "/ontology/1.0/classes/Boiler",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "/ontology/1.0/classes/Burner",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "/ontology/1.0/classes/Chiller",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "/ontology/1.0/classes/Coil",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "/ontology/1.0/classes/HP",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "/ontology/1.0/classes/Humidifier",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "/ontology/1.0/classes/Tube_bundle",
+                                                "children": []
+                                            }
+
+                                        ]
+
+                                    },
+                                    {
+                                        "name": "/ontology/1.0/classes/Flow_controller",
+                                        "children":[
+                                            {
+
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "/ontology/1.0/classes/Flow_moving_device",
+                                        "children":[
+                                            {
+
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "/ontology/1.0/classes/Flow_storage_device",
+                                        "children":[
+                                            {
+
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "/ontology/1.0/classes/Flow_terminal",
+                                        "children":[
+                                            {
+
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "/ontology/1.0/classes/Flow_terminal_device",
+                                        "children":[
+                                            {
+
+                                            }
+                                        ]
+                                    }
 
                                 ]
                             }

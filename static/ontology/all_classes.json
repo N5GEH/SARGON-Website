@@ -1813,7 +1813,557 @@
         "inRangeOf": [], 
         "inDomainOf": [], 
         "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_device", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Flow Device", 
+        "path": "/ontology/1.0/classes/Flow_device", 
+        "labels": [], 
+        "rdfs_label" : ["Flow device"], 
+        "generatedLabel": "Flow device", 
+        "generatedAlias": "Fd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/BuildingRelated"
+
+        ], 
+        "subclasses": [
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Energy_conversion_device",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_controller",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_moving_device",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_storage_device",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_terminal",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_terminal_device"
+
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Energy_conversion_device", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Energy conversion device", 
+        "path": "/ontology/1.0/classes/Energy_conversion_device", 
+        "labels": [], 
+        "rdfs_label" : ["Energy conversion device"], 
+        "generatedLabel": "Energy conversion device", 
+        "generatedAlias": "Ecd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_device"
+
+        ], 
+        "subclasses": [
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Air_to_air_heat_recovery",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Boiler",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Burner",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Chiller",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Coil",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/HP",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Humidifer",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tube_bundle"
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Energy_conversion_device"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Air_to_air_heat_recovery", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Air to air heat recovery", 
+        "path": "/ontology/1.0/classes/Air_to_air_heat_recovery", 
+        "labels": [], 
+        "rdfs_label" : ["Air to air heat recovery"], 
+        "generatedLabel": "Air to air heat recovery", 
+        "generatedAlias": "air", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Energy_conversion_device"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Energy_conversion_device",
+            "/ontology/1.0/classes/Air_to_air_heat_recovery"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Boiler", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Boiler", 
+        "path": "/ontology/1.0/classes/Boiler", 
+        "labels": [], 
+        "rdfs_label" : ["Boiler"], 
+        "generatedLabel": "Boiler", 
+        "generatedAlias": "B", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Energy_conversion_device"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Energy_conversion_device",
+            "/ontology/1.0/classes/Boiler"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Burner", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Burner", 
+        "path": "/ontology/1.0/classes/Burner", 
+        "labels": [], 
+        "rdfs_label" : ["Burner"], 
+        "generatedLabel": "Burner", 
+        "generatedAlias": "B", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Energy_conversion_device"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Energy_conversion_device",
+            "/ontology/1.0/classes/Burner"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Chiller", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Chiller", 
+        "path": "/ontology/1.0/classes/Chiller", 
+        "labels": [], 
+        "rdfs_label" : ["Chiller"], 
+        "generatedLabel": "Chiller", 
+        "generatedAlias": "C", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Energy_conversion_device"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Energy_conversion_device",
+            "/ontology/1.0/classes/Chiller"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Coil", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Coil", 
+        "path": "/ontology/1.0/classes/Coil", 
+        "labels": [], 
+        "rdfs_label" : ["Coil"], 
+        "generatedLabel": "Coil", 
+        "generatedAlias": "C", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Energy_conversion_device"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Energy_conversion_device",
+            "/ontology/1.0/classes/Coil"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/HP", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "HP", 
+        "path": "/ontology/1.0/classes/HP", 
+        "labels": [], 
+        "rdfs_label" : ["HP"], 
+        "generatedLabel": "HP", 
+        "generatedAlias": "HP", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Energy_conversion_device"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Energy_conversion_device",
+            "/ontology/1.0/classes/HP"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Humidifier", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Humidifier", 
+        "path": "/ontology/1.0/classes/Humidifier", 
+        "labels": [], 
+        "rdfs_label" : ["Humidifier"], 
+        "generatedLabel": "Humidifier", 
+        "generatedAlias": "H", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Energy_conversion_device"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Energy_conversion_device",
+            "/ontology/1.0/classes/Humidifier"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tube_bundle", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Tube bundle", 
+        "path": "/ontology/1.0/classes/Tube_bundle", 
+        "labels": [], 
+        "rdfs_label" : ["Tube bundle"], 
+        "generatedLabel": "Tube bundle", 
+        "generatedAlias": "Tb", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Energy_conversion_device"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Energy_conversion_device",
+            "/ontology/1.0/classes/Tube_bundle"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_controller", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Flow controller", 
+        "path": "/ontology/1.0/classes/Flow_controller", 
+        "labels": [], 
+        "rdfs_label" : ["Flow controller"], 
+        "generatedLabel": "Flow controller", 
+        "generatedAlias": "Fc", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_device"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_controller"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_moving_device", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Flow moving device", 
+        "path": "/ontology/1.0/classes/Flow_moving_device", 
+        "labels": [], 
+        "rdfs_label" : ["Flow moving device"], 
+        "generatedLabel": "Flow moving device", 
+        "generatedAlias": "Fmd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_device"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_moving_device"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_storage_device", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Flow storage device", 
+        "path": "/ontology/1.0/classes/Flow_storage_device", 
+        "labels": [], 
+        "rdfs_label" : ["Flow storage device"], 
+        "generatedLabel": "Flow storage device", 
+        "generatedAlias": "Fsd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_device"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_storage_device"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_terminal", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Flow terminal", 
+        "path": "/ontology/1.0/classes/Flow_terminal", 
+        "labels": [], 
+        "rdfs_label" : ["Flow terminal"], 
+        "generatedLabel": "Flow terminal", 
+        "generatedAlias": "Ft", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_terminal"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_terminal"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_terminal_device", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Flow terminal", 
+        "path": "/ontology/1.0/classes/Flow_terminal_device", 
+        "labels": [], 
+        "rdfs_label" : ["Flow terminal device"], 
+        "generatedLabel": "Flow terminal device", 
+        "generatedAlias": "Ftd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_terminal_device"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_terminal_device"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
     }
+
+
+
     
 
 
