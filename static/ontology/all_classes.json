@@ -2607,6 +2607,45 @@
         "generatedAlias": "Ft", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_device"
+
+        ], 
+        "subclasses": [
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Audio_visual_appliance", 
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Communication_appliance", 
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Lamp", 
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Space_heater"
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_terminal"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Audio_visual_appliance", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Audio visual appliance", 
+        "path": "/ontology/1.0/classes/Audio_visual_appliance", 
+        "labels": [], 
+        "rdfs_label" : ["Audio visual appliance"], 
+        "generatedLabel": "Audio visual appliance", 
+        "generatedAlias": "Ava", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
             "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_terminal"
 
         ], 
@@ -2620,7 +2659,116 @@
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
-            "/ontology/1.0/classes/Flow_terminal"
+            "/ontology/1.0/classes/Flow_terminal",
+            "/ontology/1.0/classes/Audio_visual_appliance"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Communication_appliance", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Communication appliance", 
+        "path": "/ontology/1.0/classes/Communication_appliance", 
+        "labels": [], 
+        "rdfs_label" : ["Communication appliance"], 
+        "generatedLabel": "Communication appliance", 
+        "generatedAlias": "Ca", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_terminal"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_terminal",
+            "/ontology/1.0/classes/Communication_appliance"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Lamp", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Lamp", 
+        "path": "/ontology/1.0/classes/Lamp", 
+        "labels": [], 
+        "rdfs_label" : ["Lamp"], 
+        "generatedLabel": "Lamp", 
+        "generatedAlias": "L", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_terminal"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_terminal",
+            "/ontology/1.0/classes/Lamp"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Space_heater", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Space heater", 
+        "path": "/ontology/1.0/classes/Space_heater", 
+        "labels": [], 
+        "rdfs_label" : ["Space heater"], 
+        "generatedLabel": "Space heater", 
+        "generatedAlias": "Sh", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_terminal"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_terminal",
+            "/ontology/1.0/classes/Space_heater"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -2646,6 +2794,8 @@
 
         ], 
         "subclasses": [
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Filter",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Interceptor"
         ], 
         "comments": [""], 
         "definitions": [], 
@@ -2656,6 +2806,78 @@
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
             "/ontology/1.0/classes/Flow_terminal_device"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Filter", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Filter", 
+        "path": "/ontology/1.0/classes/Filter", 
+        "labels": [], 
+        "rdfs_label" : ["Filter"], 
+        "generatedLabel": "Filter", 
+        "generatedAlias": "F", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_device"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_terminal_device",
+            "/ontology/1.0/classes/Filter"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Interceptor", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Interceptor", 
+        "path": "/ontology/1.0/classes/Interceptor", 
+        "labels": [], 
+        "rdfs_label" : ["Interceptor"], 
+        "generatedLabel": "Interceptor", 
+        "generatedAlias": "I", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_device"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device",
+            "/ontology/1.0/classes/Flow_terminal_device",
+            "/ontology/1.0/classes/Interceptor"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 

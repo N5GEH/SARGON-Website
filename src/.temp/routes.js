@@ -25,6 +25,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Audio_visual_appliance/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Boiler/",
     component: c1
   },
@@ -66,6 +70,10 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Commodity/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Communication_appliance/",
     component: c1
   },
   {
@@ -118,6 +126,10 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Fan/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Filter/",
     component: c1
   },
   {
@@ -193,6 +205,14 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Interceptor/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Lamp/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Light_switch/",
     component: c1
   },
@@ -258,6 +278,10 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Smoke_sensor/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Space_heater/",
     component: c1
   },
   {

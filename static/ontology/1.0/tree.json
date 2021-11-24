@@ -279,7 +279,7 @@
                                                 "children": []
                                             },
                                             {
-                                                "name": "/ontology/1.0/classes/Electric_time_control",
+                                                "name": "/ontology/1.0/classes/Electronic_time_control",
                                                 "children": []
                                             },
                                             {
@@ -326,7 +326,20 @@
                                         "name": "/ontology/1.0/classes/Flow_terminal",
                                         "children":[
                                             {
-
+                                                "name": "/ontology/1.0/classes/Audio_visual_appliance",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "/ontology/1.0/classes/Communication_appliance",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "/ontology/1.0/classes/Lamp",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "/ontology/1.0/classes/Space_heater",
+                                                "children": []
                                             }
                                         ]
                                     },
@@ -334,7 +347,12 @@
                                         "name": "/ontology/1.0/classes/Flow_terminal_device",
                                         "children":[
                                             {
-
+                                                "name": "/ontology/1.0/classes/Filter",
+                                                "children": []
+                                            },
+                                            {
+                                                "name": "/ontology/1.0/classes/Interceptor",
+                                                "children": []
                                             }
                                         ]
                                     }
