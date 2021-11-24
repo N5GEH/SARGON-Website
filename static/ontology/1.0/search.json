@@ -387,15 +387,6 @@
         "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
     },
     {
-        "generatedAlias": "Fd",
-        "generatedLabel": "Flow device",
-        "definitions": [""], 
-        "type": "class", 
-        "path": "/ontology/1.0/classes/Flow_device", 
-        "version": "1.0", 
-        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
-    },
-    {
         "generatedAlias": "A",
         "generatedLabel": "Actuator",
         "definitions": ["A device responsible for moving or controlling a mechanism or system by performing an actuating function"], 
@@ -511,6 +502,16 @@
         "path": "/ontology/1.0/classes/Temparature_sensor", 
         "version": "1.0", 
         "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#"
+    },
+
+    {
+        "generatedAlias": "Fd",
+        "generatedLabel": "Flow device",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Flow_device", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
     }
 
     

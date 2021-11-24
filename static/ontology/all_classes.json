@@ -1280,40 +1280,7 @@
         "inDomainOf": [], 
         "shaclDetails": "{}"
     },
-    {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice", 
-        "version": "1.0", 
-        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "class", 
-        "types": [
-            "http://www.w3.org/2002/07/owl#Class"
-        ], 
-        "name": "Flow Device", 
-        "path": "/ontology/1.0/classes/Flow_device", 
-        "labels": [], 
-        "rdfs_label" : ["Flow device"], 
-        "generatedLabel": "Flow device", 
-        "generatedAlias": "Fd", 
-        "superclasses": [
-            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/BuildingRelated"
-
-        ], 
-        "subclasses": [
-        ], 
-        "comments": [""], 
-        "definitions": [], 
-        "equivalentClasses": [], 
-        "hierarchy": [
-            "/ontology/1.0/#Classes", 
-            "/ontology/1.0/classes/Device",
-            "/ontology/1.0/classes/Building_related",
-            "/ontology/1.0/classes/Flow_device"
-        ], 
-        "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
-    },
+    
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/GridRelated", 
         "version": "1.0", 
@@ -1808,6 +1775,40 @@
             "/ontology/1.0/classes/Control_device",
             "/ontology/1.0/classes/Sensor",
             "/ontology/1.0/classes/Water_flow_sensor"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_device", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Flow Device", 
+        "path": "/ontology/1.0/classes/Flow_device", 
+        "labels": [], 
+        "rdfs_label" : ["Flow device"], 
+        "generatedLabel": "Flow device", 
+        "generatedAlias": "Fd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/BuildingRelated"
+
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Flow_device"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
