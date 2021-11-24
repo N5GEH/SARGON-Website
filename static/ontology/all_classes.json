@@ -1182,7 +1182,7 @@
         "shaclDetails": "{}"
     },
     {
-        "id": "https://w3id.org/saref#Device", 
+        "id": "https://w3id.org/saref#Device",
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
@@ -1199,6 +1199,8 @@
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
         ], 
         "subclasses": [
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/BuildingRelated", 
+            "https://w3id.org/saref#EnergyRelated"
         ], 
         "comments": ["A tangible object designed to accomplish a particular task in households, common public buildings or offices. In order to accomplish this task, the device performs one or more functions. For example, a washing machine is designed to wash (task) and to accomplish this task it performs a start and stop function. Devices can be structured in categories (subclasses) that reflect the different domain in which a device is used, e.g., smart appliances domain (subclass FunctionRelated) vs. building domain (subclass BuildingRelated) vs. smart grid domain (subclass EnergyRelated). New categories can be defined,if needed, to reflect other differences, for example different points of view, such as the point of view of the device's user vs. the point of view of the device's manufacturer. We propose a list of devices that are relevant for the purpose of SAREF, but this list can be extended."], 
         "definitions": [], 
@@ -1275,39 +1277,6 @@
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Control_device"
-        ], 
-        "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
-    },
-    
-    {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/GridRelated", 
-        "version": "1.0", 
-        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "class", 
-        "types": [
-            "http://www.w3.org/2002/07/owl#Class"
-        ], 
-        "name": "Building Related", 
-        "path": "/ontology/1.0/classes/Grid_related", 
-        "labels": [], 
-        "rdfs_label" : ["Grid related"], 
-        "generatedLabel": "Grid related", 
-        "generatedAlias": "Gr", 
-        "superclasses": [
-            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
-            "https://w3id.org/saref#Device"
-        ], 
-        "subclasses": [
-        ], 
-        "comments": ["A category that considers devices based on energy consumption information and profiles to optimize energy efficiency."], 
-        "definitions": [], 
-        "equivalentClasses": [], 
-        "hierarchy": [
-            "/ontology/1.0/#Classes", 
-            "/ontology/1.0/classes/Device",
-            "/ontology/1.0/classes/Grid_related"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -2882,24 +2851,427 @@
         "inRangeOf": [], 
         "inDomainOf": [], 
         "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#GridRelated", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Grid Related", 
+        "path": "/ontology/1.0/classes/Grid_related", 
+        "labels": [], 
+        "rdfs_label" : ["Grid related"], 
+        "generatedLabel": "Grid related", 
+        "generatedAlias": "Gr", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Device"
+        ], 
+        "subclasses": [
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Convertor",
+            "https://w3id.org/saref#Generator",
+            "https://w3id.org/saref#Load",
+            "https://w3id.org/saref#Meter",
+            "https://w3id.org/saref#MicroRenewable",
+            "https://w3id.org/saref#Storage",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Transformer"
+        ], 
+        "comments": ["A category that considers devices based on energy consumption information and profiles to optimize energy efficiency."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Grid_related"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Convertor", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Convertor", 
+        "path": "/ontology/1.0/classes/Convertor", 
+        "labels": [], 
+        "rdfs_label" : ["Convertor"], 
+        "generatedLabel": "Convertor", 
+        "generatedAlias": "C", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#GridRelated"
+        ], 
+        "subclasses": [
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/AC-DC",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/CT-VT",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/DC-DC",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/HV-DC"
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Grid_related",
+            "/ontology/1.0/classes/Convertor"
+
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/AC-DC", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "AC-DC", 
+        "path": "/ontology/1.0/classes/AC-DC", 
+        "labels": [], 
+        "rdfs_label" : ["AC-DC"], 
+        "generatedLabel": "AC-DC", 
+        "generatedAlias": "AC-DC", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Convertor"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Grid_related",
+            "/ontology/1.0/classes/Convertor",
+            "/ontology/1.0/classes/AC-DC"
+
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/CT-VT", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "CT-VT", 
+        "path": "/ontology/1.0/classes/CT-VT", 
+        "labels": [], 
+        "rdfs_label" : ["CT-VT"], 
+        "generatedLabel": "CT-VT", 
+        "generatedAlias": "CT-VT", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Convertor"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Grid_related",
+            "/ontology/1.0/classes/Convertor",
+            "/ontology/1.0/classes/CT-VT"
+
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/DC-DC", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "DC-DC", 
+        "path": "/ontology/1.0/classes/DC-DC", 
+        "labels": [], 
+        "rdfs_label" : ["DC-DC"], 
+        "generatedLabel": "DC-DC", 
+        "generatedAlias": "DC-DC", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Convertor"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Grid_related",
+            "/ontology/1.0/classes/Convertor",
+            "/ontology/1.0/classes/DC-DC"
+
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/HV-DC", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "HV-DC", 
+        "path": "/ontology/1.0/classes/HV-DC", 
+        "labels": [], 
+        "rdfs_label" : ["HV-DC"], 
+        "generatedLabel": "HV-DC", 
+        "generatedAlias": "HV-DC", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Convertor"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Grid_related",
+            "/ontology/1.0/classes/Convertor",
+            "/ontology/1.0/classes/HV-DC"
+
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Generator", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Generator", 
+        "path": "/ontology/1.0/classes/Generator", 
+        "labels": [], 
+        "rdfs_label" : ["Generator"], 
+        "generatedLabel": "Generator", 
+        "generatedAlias": "G", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#GridRelated"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Grid_related",
+            "/ontology/1.0/classes/Generator"
+
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Load", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Load", 
+        "path": "/ontology/1.0/classes/Load", 
+        "labels": [], 
+        "rdfs_label" : ["Load"], 
+        "generatedLabel": "Load", 
+        "generatedAlias": "L", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#GridRelated"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Grid_related",
+            "/ontology/1.0/classes/Load"
+
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Meter", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Meter", 
+        "path": "/ontology/1.0/classes/Meter", 
+        "labels": [], 
+        "rdfs_label" : ["Meter"], 
+        "generatedLabel": "Meter", 
+        "generatedAlias": "M", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#GridRelated"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A device built to accurately detect and display a quantity in a form readable by a human being. Further, a device of category saref:Meter that performs a saref:MeteringFunction."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Grid_related",
+            "/ontology/1.0/classes/Meter"
+
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#MicroRenewable", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Micro renewable", 
+        "path": "/ontology/1.0/classes/Micro_renewable", 
+        "labels": [], 
+        "rdfs_label" : ["Micro renewable"], 
+        "generatedLabel": "Micro renewable", 
+        "generatedAlias": "Mr", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#GridRelated"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A device that generates renewable energy from natural resources such as teh sun, wind and water"], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Grid_related",
+            "/ontology/1.0/classes/Micro_renewable"
+
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Storage", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Storage", 
+        "path": "/ontology/1.0/classes/Storage", 
+        "labels": [], 
+        "rdfs_label" : ["Storage"], 
+        "generatedLabel": "Storage", 
+        "generatedAlias": "S", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#GridRelated"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A type of energy-related device that stores energy"], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Grid_related",
+            "/ontology/1.0/classes/Storage"
+
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Transformer", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Transformer", 
+        "path": "/ontology/1.0/classes/Transformer", 
+        "labels": [], 
+        "rdfs_label" : ["Transformer"], 
+        "generatedLabel": "Transformer", 
+        "generatedAlias": "T", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#GridRelated"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Grid_related",
+            "/ontology/1.0/classes/Transformer"
+
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
     }
 
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 ]

@@ -364,7 +364,53 @@
                     },
                     {
                         "name" : "/ontology/1.0/classes/Grid_Related",
-                        "children" : []
+                        "children" : [
+                            {
+                                "name":"/ontology/1.0/classes/Convertor",
+                                "children":[
+                                    {
+                                        "name":"/ontology/1.0/classes/AC-DC",
+                                        "children":[]
+                                    },
+                                    {
+                                        "name":"/ontology/1.0/classes/CT-VT",
+                                        "children":[]
+                                    },
+                                    {
+                                        "name":"/ontology/1.0/classes/DC-DC",
+                                        "children":[]
+                                    },
+                                    {
+                                        "name":"/ontology/1.0/classes/HV-DC",
+                                        "children":[]
+                                    }
+                                ]
+                            },
+                            {
+                                "name":"/ontology/1.0/classes/Generator",
+                                "children":[]
+                            },
+                            {
+                                "name":"/ontology/1.0/classes/Load",
+                                "children":[]
+                            },
+                            {
+                                "name":"/ontology/1.0/classes/Meter",
+                                "children":[]
+                            },
+                            {
+                                "name":"/ontology/1.0/classes/Micro_renewable",
+                                "children":[]
+                            },
+                            {
+                                "name":"/ontology/1.0/classes/Storage",
+                                "children":[]
+                            },
+                            {
+                                "name":"/ontology/1.0/classes/Transformer",
+                                "children":[]
+                            }
+                        ]
                     }
 
                     
