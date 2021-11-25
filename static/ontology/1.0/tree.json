@@ -363,7 +363,7 @@
                         ]
                     },
                     {
-                        "name" : "/ontology/1.0/classes/Grid_Related",
+                        "name" : "/ontology/1.0/classes/Grid_related",
                         "children" : [
                             {
                                 "name":"/ontology/1.0/classes/Convertor",
@@ -392,7 +392,16 @@
                             },
                             {
                                 "name":"/ontology/1.0/classes/Load",
-                                "children":[]
+                                "children":[
+                                    {
+                                        "name":"/ontology/1.0/classes/Lighting_device",
+                                        "children":[]
+                                    },
+                                    {
+                                        "name":"/ontology/1.0/classes/Washing_machine",
+                                        "children":[]
+                                    }
+                                ]
                             },
                             {
                                 "name":"/ontology/1.0/classes/Meter",

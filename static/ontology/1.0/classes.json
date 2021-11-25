@@ -3122,6 +3122,8 @@
             "https://w3id.org/saref#GridRelated"
         ], 
         "subclasses": [
+            "https://w3id.org/saref#LightingDevice",
+            "https://w3id.org/saref#WashingMachine"
         ], 
         "comments": [""], 
         "definitions": [], 
@@ -3131,6 +3133,76 @@
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Load"
+
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#LightingDevice", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Lighting device", 
+        "path": "/ontology/1.0/classes/Lighting_device", 
+        "labels": [], 
+        "rdfs_label" : ["Lighting device"], 
+        "generatedLabel": "Lighting device", 
+        "generatedAlias": "Ld", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Load"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A device used for illumination, irradiation, signaling, or projection"], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Grid_related",
+            "/ontology/1.0/classes/Load",
+            "/ontology/1.0/classes/Lighting_device"
+
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#WashingMachine", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Washing machine", 
+        "path": "/ontology/1.0/classes/Washing_machine", 
+        "labels": [], 
+        "rdfs_label" : ["Washing machine"], 
+        "generatedLabel": "Washing machine", 
+        "generatedAlias": "Wm", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Load"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A device of category saref:Appliance and saref:Load that accomplishes the task saref:Washing, performs an actuating function of type saref:StartStopFunction, can be found in the state saref:StartStopState, and can have a saref:Profile that characterizes its energy consumption. "], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Grid_related",
+            "/ontology/1.0/classes/Load",
+            "/ontology/1.0/classes/Washing_machine"
 
         ], 
         "inRangeOf": [], 

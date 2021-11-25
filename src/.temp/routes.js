@@ -9,6 +9,22 @@ const c8 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/
 
 export default [
   {
+    path: "/ontology/1.0/classes/AC-DC/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/CT-VT/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/DC-DC/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/HV-DC/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Actuator/",
     component: c1
   },
@@ -86,6 +102,10 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Controller/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Convertor/",
     component: c1
   },
   {
@@ -173,6 +193,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Generator/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Get_command/",
     component: c1
   },
@@ -217,7 +241,23 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Lighting_device/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Load/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Maqnitute/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Meter/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Micro_renewable/",
     component: c1
   },
   {
@@ -301,6 +341,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Storage/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Switch/",
     component: c1
   },
@@ -329,7 +373,15 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Transformer/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Tube_bundle/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Washing_machine/",
     component: c1
   },
   {
