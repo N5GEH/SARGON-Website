@@ -233,6 +233,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Generalized_duration_description/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Generator/",
     component: c1
   },
@@ -370,6 +374,10 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Open_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Open_state/",
     component: c1
   },
   {
@@ -553,6 +561,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Temporal unit/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Temporal_duration/",
     component: c1
   },
@@ -574,6 +586,10 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Time/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Time_duration/",
     component: c1
   },
   {

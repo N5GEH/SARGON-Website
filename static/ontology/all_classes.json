@@ -5233,7 +5233,7 @@
             "http://www.w3.org/2006/time#TemporalDuration"
         ], 
         "subclasses": [
-            
+            "http://www.w3.org/2006/time#DurationDescription"
         ], 
         "comments": ["Description of temporal extent structured with separate values for the various elements of a calendar-clock system."], 
         "definitions": [], 
@@ -5242,6 +5242,75 @@
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_duration",
             "/ontology/1.0/classes/Generalized_duration_description"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#DurationDescription", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Duration description", 
+        "path": "/ontology/1.0/classes/Duration_description", 
+        "labels": [], 
+        "rdfs_label" : ["Duration_description"], 
+        "generatedLabel": "Duration description", 
+        "generatedAlias": "Dd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "http://www.w3.org/2006/time#GeneralDurationDescription"
+        ], 
+        "subclasses": [
+            "http://www.w3.org/2006/time#Year"
+        ], 
+        "comments": ["Description of temporal extent structured with separate values for the various elements of a calendar-clock system. The temporal reference system is fixed to Gregorian Calendar, and the range of each of the numeric properties is restricted to xsd:decimal"], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Temporal_duration",
+            "/ontology/1.0/classes/Generalized_duration_description",
+            "/ontology/1.0/classes/Duration_description"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#Year", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Year", 
+        "path": "/ontology/1.0/classes/Year", 
+        "labels": [], 
+        "rdfs_label" : ["Year"], 
+        "generatedLabel": "Year", 
+        "generatedAlias": "Y", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "http://www.w3.org/2006/time#DurationDescription"
+        ], 
+        "subclasses": [
+            
+        ], 
+        "comments": ["Year was proposed in the 2006 version of OWL-Time as an example of how DurationDescription could be specialized to allow for a duration to be restricted to a number of years."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Temporal_duration",
+            "/ontology/1.0/classes/Generalized_duration_description",
+            "/ontology/1.0/classes/Duration_description",
+            "/ontology/1.0/classes/Year"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 

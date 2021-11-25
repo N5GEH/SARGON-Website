@@ -692,7 +692,17 @@
             },
             {
                 "name":"/ontology/1.0/classes/Temporal_entity",
-                "children":[]
+                "children":[
+                    {
+                        "name":"/ontology/1.0/classes/Time_instant",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Time_interval",
+                        "children":[]
+                    }
+                    
+                ]
             },
             {
                 "name":"/ontology/1.0/classes/Temporal_position",
