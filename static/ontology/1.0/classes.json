@@ -3580,16 +3580,16 @@
         ], 
         "subclasses": [
         ], 
-        "comments": ["A marketable item for which there is demand, but which is supplied without qualitative differentiation across a market. SAREF refers to energy commodities such as electricity, gas, coal and oil. "], 
+        "comments": ["The functionality necessary to accomplish the task for which a Device is designed. A device can be designed to perform more than one function. Functions can be structured in categories (subclasses) that reflect different points of view, for example, considering the specific application area for which a function can be used (e.g., light, temperature, motion, heat, power, etc.), or the capability that a function can support (e.g., receive, reply, notify, etc.), and so forth.  "], 
         "definitions": [], 
         "equivalentClasses": [], 
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/classes/Commodity"
+            "/ontology/1.0/classes/Function"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
         "shaclDetails": "{}"
-    },
+    }
 
 ]
