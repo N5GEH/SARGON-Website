@@ -145,6 +145,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Energy_meter/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Fan/",
     component: c1
   },
@@ -281,7 +285,19 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/PMU/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/PV/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Pause_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Power_meter/",
     component: c1
   },
   {
@@ -378,6 +394,10 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Tube_bundle/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/WPP/",
     component: c1
   },
   {

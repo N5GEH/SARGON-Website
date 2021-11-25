@@ -422,11 +422,25 @@
                             },
                             {
                                 "name":"/ontology/1.0/classes/Micro_renewable",
-                                "children":[]
+                                "children":[
+                                    {
+                                        "name":"/ontology/1.0/classes/PV",
+                                        "children":[]
+                                    },
+                                    {
+                                        "name":"/ontology/1.0/classes/WPP",
+                                        "children":[]
+                                    }
+                                ]
                             },
                             {
                                 "name":"/ontology/1.0/classes/Storage",
-                                "children":[]
+                                "children":[
+                                    {
+                                        "name":"/ontology/1.0/classes/Battery_storage",
+                                        "children":[]
+                                    }
+                                ]
                             },
                             {
                                 "name":"/ontology/1.0/classes/Transformer",

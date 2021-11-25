@@ -3370,6 +3370,8 @@
             "https://w3id.org/saref#GridRelated"
         ], 
         "subclasses": [
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/PV",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/WPP"
         ], 
         "comments": ["A device that generates renewable energy from natural resources such as teh sun, wind and water"], 
         "definitions": [], 
@@ -3379,6 +3381,76 @@
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Micro_renewable"
+
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/PV",
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "PV", 
+        "path": "/ontology/1.0/classes/PV", 
+        "labels": [], 
+        "rdfs_label" : ["PV"], 
+        "generatedLabel": "PV", 
+        "generatedAlias": "PV", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#MicroRenewable"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Grid_related",
+            "/ontology/1.0/classes/Micro_renewable",
+            "/ontology/1.0/classes/PV"
+
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/WPP",
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "WPP", 
+        "path": "/ontology/1.0/classes/WPP", 
+        "labels": [], 
+        "rdfs_label" : ["WPP"], 
+        "generatedLabel": "WPP", 
+        "generatedAlias": "WPP", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#MicroRenewable"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Grid_related",
+            "/ontology/1.0/classes/Micro_renewable",
+            "/ontology/1.0/classes/WPP"
 
         ], 
         "inRangeOf": [], 
@@ -3404,6 +3476,7 @@
             "https://w3id.org/saref#GridRelated"
         ], 
         "subclasses": [
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Battery_storage"
         ], 
         "comments": ["A type of energy-related device that stores energy"], 
         "definitions": [], 
@@ -3413,6 +3486,41 @@
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Storage"
+
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Battery_storage", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Battery storage", 
+        "path": "/ontology/1.0/classes/Storage", 
+        "labels": [], 
+        "rdfs_label" : ["Battery storage"], 
+        "generatedLabel": "Battery storage", 
+        "generatedAlias": "Bs", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Storage"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Grid_related",
+            "/ontology/1.0/classes/Storage",
+            "/ontology/1.0/classes/Battery_storage"
 
         ], 
         "inRangeOf": [], 
