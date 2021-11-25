@@ -3592,6 +3592,134 @@
         "shaclDetails": "{}"
     },
     {
+        "id": "https://w3id.org/saref#ActuatingFunction", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Actuating Function", 
+        "path": "/ontology/1.0/classes/Actuating_function", 
+        "labels": [], 
+        "rdfs_label" : ["Actuating_function"], 
+        "generatedLabel": "Actuating function", 
+        "generatedAlias": "F", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Function"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A function that allows to transmit data to actuators, such as level settings (e.g., temperature) or binary switching (e.g., open/close, on/off)"], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Function",
+            "/ontology/1.0/classes/Actuating_function"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#EventFunction", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Event Function", 
+        "path": "/ontology/1.0/classes/Event_function", 
+        "labels": [], 
+        "rdfs_label" : ["Event_function"], 
+        "generatedLabel": "Event function", 
+        "generatedAlias": "Ef", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Function"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A function that allows to notify another device that a certain threshold value has been exceeded."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Function",
+            "/ontology/1.0/classes/Event_function"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#MeteringFunction", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "MEtering Function", 
+        "path": "/ontology/1.0/classes/Metering_function", 
+        "labels": [], 
+        "rdfs_label" : ["Metering_function"], 
+        "generatedLabel": "Metering function", 
+        "generatedAlias": "Mf", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Function"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A function that allows to get data from a meter, such as current meter reading or instantaneous demand."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Function",
+            "/ontology/1.0/classes/Metering_function"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#SensingFunction", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Sensing Function", 
+        "path": "/ontology/1.0/classes/Sensing_function", 
+        "labels": [], 
+        "rdfs_label" : ["Sensing_function"], 
+        "generatedLabel": "Sensing function", 
+        "generatedAlias": "Sf", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Function"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A function that allows to transmit data from sensors, such as measurement values (e.g., temperature) or sensing data (e.g., occupancy)."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Function",
+            "/ontology/1.0/classes/Sensing_function"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
         "id": "https://w3id.org/saref#Measurement", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 

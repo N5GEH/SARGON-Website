@@ -454,7 +454,24 @@
             },
             {
                 "name":"/ontology/1.0/classes/Function",
-                "children":[]
+                "children":[
+                    {
+                        "name":"/ontology/1.0/classes/Actuating_function",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Event_function",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Metering_function",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Sensing_function",
+                        "children":[]
+                    }
+                ]
             },
             {
                 "name":"/ontology/1.0/classes/Measurement",
