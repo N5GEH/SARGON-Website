@@ -394,7 +394,7 @@
         "name": "Close command", 
         "path": "/ontology/1.0/classes/Close_command", 
         "labels": [],
-        "rdfs_label" : ["Close command"], 
+        "rdfs_label" : ["Close_command"], 
         "generatedLabel": "Close command", 
         "generatedAlias": "Cc", 
         "superclasses": [
@@ -426,7 +426,7 @@
         "name": "Get Command", 
         "path": "/ontology/1.0/classes/Get_command", 
         "labels": [], 
-        "rdfs_label" : ["Get command"], 
+        "rdfs_label" : ["Get_command"], 
         "generatedLabel": "Get command", 
         "generatedAlias": "Gc", 
         "superclasses": [
@@ -460,7 +460,7 @@
         "name": "Get Current Meter Value Command", 
         "path": "/ontology/1.0/classes/Get_current_meter_value_command", 
         "labels": [], 
-        "rdfs_label" : ["Get current meter value command"], 
+        "rdfs_label" : ["Get_current_meter_value_command"], 
         "generatedLabel": "Get current meter value command", 
         "generatedAlias": "Gcmvc", 
         "superclasses": [
@@ -489,7 +489,7 @@
         "name": "Get meter data command", 
         "path": "/ontology/1.0/classes/Get_meter_data_command", 
         "labels": [], 
-        "rdfs_label" : ["Get meter data command"], 
+        "rdfs_label" : ["Get_meter_data_command"], 
         "generatedLabel": "Get meter data command", 
         "generatedAlias": "Gmdc", 
         "superclasses": [
@@ -518,7 +518,7 @@
         "name": "Get meter history command", 
         "path": "/ontology/1.0/classes/Get_meter_history_command", 
         "labels": [], 
-        "rdfs_label" : ["Get meter history command"], 
+        "rdfs_label" : ["Get_meter_history_command"], 
         "generatedLabel": "Get meter history command", 
         "generatedAlias": "Gmhc", 
         "superclasses": [
@@ -547,7 +547,7 @@
         "name": "Get sensing data command", 
         "path": "/ontology/1.0/classes/Get_sensing_data_command", 
         "labels": [], 
-        "rdfs_label" : ["Get sensing data command"], 
+        "rdfs_label" : ["Get_sensing_data_command"], 
         "generatedLabel": "Get sensing data command", 
         "generatedAlias": "Gsdc", 
         "superclasses": [
@@ -578,7 +578,7 @@
         "name": "Notify command", 
         "path": "/ontology/1.0/classes/Notify_command", 
         "labels": [], 
-        "rdfs_label" : ["Notify command"], 
+        "rdfs_label" : ["Notify_command"], 
         "generatedLabel": "Notify command", 
         "generatedAlias": "Nc", 
         "superclasses": [
@@ -610,7 +610,7 @@
         "name": "Off command", 
         "path": "/ontology/1.0/classes/Off_command", 
         "labels": [], 
-        "rdfs_label" : ["Off command"], 
+        "rdfs_label" : ["Off_command"], 
         "generatedLabel": "Off command", 
         "generatedAlias": "Oc", 
         "superclasses": [
@@ -642,7 +642,7 @@
         "name": "On Command", 
         "path": "/ontology/1.0/classes/On_command", 
         "labels": [], 
-        "rdfs_label" : ["On command"], 
+        "rdfs_label" : ["On_command"], 
         "generatedLabel": "On command", 
         "generatedAlias": "Oc", 
         "superclasses": [
@@ -674,7 +674,7 @@
         "name": "On Command", 
         "path": "/ontology/1.0/classes/Open_command", 
         "labels": [], 
-        "rdfs_label" : ["Open command"], 
+        "rdfs_label" : ["Open_command"], 
         "generatedLabel": "Open command", 
         "generatedAlias": "Oc", 
         "superclasses": [
@@ -706,7 +706,7 @@
         "name": "Pause Command", 
         "path": "/ontology/1.0/classes/Pause_command", 
         "labels": [], 
-        "rdfs_label" : ["Pause command"], 
+        "rdfs_label" : ["Pause_command"], 
         "generatedLabel": "Pause command", 
         "generatedAlias": "Pc", 
         "superclasses": [
@@ -738,7 +738,7 @@
         "name": "Set Level Command", 
         "path": "/ontology/1.0/classes/Set_level_command", 
         "labels": [], 
-        "rdfs_label" : ["Set level command"], 
+        "rdfs_label" : ["Set_level_command"], 
         "generatedLabel": "Set level command", 
         "generatedAlias": "Slc", 
         "superclasses": [
@@ -773,7 +773,7 @@
         "name": "Set absolute level command", 
         "path": "/ontology/1.0/classes/Set_absolute_level_command", 
         "labels": [], 
-        "rdfs_label" : ["Set absolute level command"], 
+        "rdfs_label" : ["Set_absolute_level_command"], 
         "generatedLabel": "Set absolute level command", 
         "generatedAlias": "Salc", 
         "superclasses": [
@@ -806,7 +806,7 @@
         "name": "Set relative level command", 
         "path": "/ontology/1.0/classes/Set_relative_level_command", 
         "labels": [], 
-        "rdfs_label" : ["Set relative level command"], 
+        "rdfs_label" : ["Set_relative_level_command"], 
         "generatedLabel": "Set relative level command", 
         "generatedAlias": "Srlc", 
         "superclasses": [
@@ -839,7 +839,7 @@
         "name": "Start Command", 
         "path": "/ontology/1.0/classes/Start_command", 
         "labels": [], 
-        "rdfs_label" : ["Start command"], 
+        "rdfs_label" : ["Start_command"], 
         "generatedLabel": "Start command", 
         "generatedAlias": "Sc", 
         "superclasses": [
@@ -871,7 +871,7 @@
         "name": "Start Command", 
         "path": "/ontology/1.0/classes/Step_down_command", 
         "labels": [], 
-        "rdfs_label" : ["Step down command"], 
+        "rdfs_label" : ["Step_down_command"], 
         "generatedLabel": "Step down command", 
         "generatedAlias": "Sdc", 
         "superclasses": [
@@ -903,7 +903,7 @@
         "name": "Step up command", 
         "path": "/ontology/1.0/classes/Step_up_command", 
         "labels": [], 
-        "rdfs_label" : ["Step up command"], 
+        "rdfs_label" : ["Step_up_command"], 
         "generatedLabel": "Step up command", 
         "generatedAlias": "Suc", 
         "superclasses": [
@@ -935,7 +935,7 @@
         "name": "Stop Command", 
         "path": "/ontology/1.0/classes/Stop_command", 
         "labels": [], 
-        "rdfs_label" : ["Stop command"], 
+        "rdfs_label" : ["Stop_command"], 
         "generatedLabel": "Stop command", 
         "generatedAlias": "Sc", 
         "superclasses": [
@@ -967,7 +967,7 @@
         "name": "Toggle command", 
         "path": "/ontology/1.0/classes/Toggle_command", 
         "labels": [], 
-        "rdfs_label" : ["Toggle command"], 
+        "rdfs_label" : ["Toggle_command"], 
         "generatedLabel": "Toggle command", 
         "generatedAlias": "Tc", 
         "superclasses": [
@@ -1162,7 +1162,7 @@
         "name": "Day_Of_Week", 
         "path": "/ontology/1.0/classes/Day_of_week", 
         "labels": [], 
-        "rdfs_label" : ["Day of week"], 
+        "rdfs_label" : ["Day_of_week"], 
         "generatedLabel": "Day of week", 
         "generatedAlias": "Dow", 
         "superclasses": [
@@ -1224,7 +1224,7 @@
         "name": "Building related", 
         "path": "/ontology/1.0/classes/Building_related", 
         "labels": [], 
-        "rdfs_label" : ["Building related"], 
+        "rdfs_label" : ["Building_related"], 
         "generatedLabel": "Building related", 
         "generatedAlias": "Br", 
         "superclasses": [
@@ -1258,7 +1258,7 @@
         "name": "Control Device", 
         "path": "/ontology/1.0/classes/Control_device", 
         "labels": [], 
-        "rdfs_label" : ["Control device"], 
+        "rdfs_label" : ["Control_device"], 
         "generatedLabel": "Control device", 
         "generatedAlias": "CD", 
         "superclasses": [
@@ -1401,7 +1401,7 @@
         "name": "Door switch", 
         "path": "/ontology/1.0/classes/Door_switch", 
         "labels": [], 
-        "rdfs_label" : ["Door switch"], 
+        "rdfs_label" : ["Door_switch"], 
         "generatedLabel": "Door switch", 
         "generatedAlias": "Ds", 
         "superclasses": [
@@ -1437,7 +1437,7 @@
         "name": "Switch", 
         "path": "/ontology/1.0/classes/Light_switch", 
         "labels": [], 
-        "rdfs_label" : ["Light switch"], 
+        "rdfs_label" : ["Light_switch"], 
         "generatedLabel": "Light switch", 
         "generatedAlias": "LS", 
         "superclasses": [
@@ -1585,7 +1585,7 @@
         "name": "Air flow sensor", 
         "path": "/ontology/1.0/classes/Air_flow_sensor", 
         "labels": [], 
-        "rdfs_label" : ["Air flow sensor"], 
+        "rdfs_label" : ["Air_flow_sensor"], 
         "generatedLabel": "Air flow sensor", 
         "generatedAlias": "Afs", 
         "superclasses": [
@@ -1620,7 +1620,7 @@
         "name": "Electricity sensor", 
         "path": "/ontology/1.0/classes/Electricity_sensor", 
         "labels": [], 
-        "rdfs_label" : ["Electricity sensor"], 
+        "rdfs_label" : ["Electricity_sensor"], 
         "generatedLabel": "Electricity sensor", 
         "generatedAlias": "Es", 
         "superclasses": [
@@ -1655,7 +1655,7 @@
         "name": "SmokeSensor", 
         "path": "/ontology/1.0/classes/Smoke_sensor", 
         "labels": [], 
-        "rdfs_label" : ["Smoke sensor"], 
+        "rdfs_label" : ["Smoke_sensor"], 
         "generatedLabel": "Smoke sensor", 
         "generatedAlias": "Ss", 
         "superclasses": [
@@ -1690,7 +1690,7 @@
         "name": "TemperatureSensor", 
         "path": "/ontology/1.0/classes/Temperature_sensor", 
         "labels": [], 
-        "rdfs_label" : ["Temperature sensor"], 
+        "rdfs_label" : ["Temperature_sensor"], 
         "generatedLabel": "Temperature sensor", 
         "generatedAlias": "Ts", 
         "superclasses": [
@@ -1725,7 +1725,7 @@
         "name": "Water Flow Sensor", 
         "path": "/ontology/1.0/classes/Water_flow_sensor", 
         "labels": [], 
-        "rdfs_label" : ["Water flow sensor"], 
+        "rdfs_label" : ["Water_flow_sensor"], 
         "generatedLabel": "Water flow sensor", 
         "generatedAlias": "Wfs", 
         "superclasses": [
@@ -1761,7 +1761,7 @@
         "name": "Flow Device", 
         "path": "/ontology/1.0/classes/Flow_device", 
         "labels": [], 
-        "rdfs_label" : ["Flow device"], 
+        "rdfs_label" : ["Flow_device"], 
         "generatedLabel": "Flow device", 
         "generatedAlias": "Fd", 
         "superclasses": [
@@ -1802,7 +1802,7 @@
         "name": "Energy conversion device", 
         "path": "/ontology/1.0/classes/Energy_conversion_device", 
         "labels": [], 
-        "rdfs_label" : ["Energy conversion device"], 
+        "rdfs_label" : ["Energy_conversion_device"], 
         "generatedLabel": "Energy conversion device", 
         "generatedAlias": "Ecd", 
         "superclasses": [
@@ -1845,7 +1845,7 @@
         "name": "Air to air heat recovery", 
         "path": "/ontology/1.0/classes/Air_to_air_heat_recovery", 
         "labels": [], 
-        "rdfs_label" : ["Air to air heat recovery"], 
+        "rdfs_label" : ["Air_to_air_heat_recovery"], 
         "generatedLabel": "Air to air heat recovery", 
         "generatedAlias": "air", 
         "superclasses": [
@@ -2097,7 +2097,7 @@
         "name": "Tube bundle", 
         "path": "/ontology/1.0/classes/Tube_bundle", 
         "labels": [], 
-        "rdfs_label" : ["Tube bundle"], 
+        "rdfs_label" : ["Tube_bundle"], 
         "generatedLabel": "Tube bundle", 
         "generatedAlias": "Tb", 
         "superclasses": [
@@ -2133,7 +2133,7 @@
         "name": "Flow controller", 
         "path": "/ontology/1.0/classes/Flow_controller", 
         "labels": [], 
-        "rdfs_label" : ["Flow controller"], 
+        "rdfs_label" : ["Flow_controller"], 
         "generatedLabel": "Flow controller", 
         "generatedAlias": "Fc", 
         "superclasses": [
@@ -2208,7 +2208,7 @@
         "name": "Electronic time control", 
         "path": "/ontology/1.0/classes/Electronic_time_control", 
         "labels": [], 
-        "rdfs_label" : ["Electronic time control"], 
+        "rdfs_label" : ["Electronic_time_control"], 
         "generatedLabel": "Electronic time control", 
         "generatedAlias": "Etc", 
         "superclasses": [
@@ -2244,7 +2244,7 @@
         "name": "Flow meter", 
         "path": "/ontology/1.0/classes/Flow_meter", 
         "labels": [], 
-        "rdfs_label" : ["Flow meter"], 
+        "rdfs_label" : ["Flow_meter"], 
         "generatedLabel": "Flow meter", 
         "generatedAlias": "Fm", 
         "superclasses": [
@@ -2316,7 +2316,7 @@
         "name": "Flow moving device", 
         "path": "/ontology/1.0/classes/Flow_moving_device", 
         "labels": [], 
-        "rdfs_label" : ["Flow moving device"], 
+        "rdfs_label" : ["Flow_moving_device"], 
         "generatedLabel": "Flow moving device", 
         "generatedAlias": "Fmd", 
         "superclasses": [
@@ -2462,7 +2462,7 @@
         "name": "Flow storage device", 
         "path": "/ontology/1.0/classes/Flow_storage_device", 
         "labels": [], 
-        "rdfs_label" : ["Flow storage device"], 
+        "rdfs_label" : ["Flow_storage_device"], 
         "generatedLabel": "Flow storage device", 
         "generatedAlias": "Fsd", 
         "superclasses": [
@@ -2499,7 +2499,7 @@
         "name": "Electronic flow storage device", 
         "path": "/ontology/1.0/classes/Electronic_flow_storage_device", 
         "labels": [], 
-        "rdfs_label" : ["Electronic flow storage device"], 
+        "rdfs_label" : ["Electronic_flow_storage_device"], 
         "generatedLabel": "Electronic flow storage device", 
         "generatedAlias": "Efsd", 
         "superclasses": [
@@ -2571,7 +2571,7 @@
         "name": "Flow terminal", 
         "path": "/ontology/1.0/classes/Flow_terminal", 
         "labels": [], 
-        "rdfs_label" : ["Flow terminal"], 
+        "rdfs_label" : ["Flow_terminal"], 
         "generatedLabel": "Flow terminal", 
         "generatedAlias": "Ft", 
         "superclasses": [
@@ -2610,7 +2610,7 @@
         "name": "Audio visual appliance", 
         "path": "/ontology/1.0/classes/Audio_visual_appliance", 
         "labels": [], 
-        "rdfs_label" : ["Audio visual appliance"], 
+        "rdfs_label" : ["Audio_visual_appliance"], 
         "generatedLabel": "Audio visual appliance", 
         "generatedAlias": "Ava", 
         "superclasses": [
@@ -2646,7 +2646,7 @@
         "name": "Communication appliance", 
         "path": "/ontology/1.0/classes/Communication_appliance", 
         "labels": [], 
-        "rdfs_label" : ["Communication appliance"], 
+        "rdfs_label" : ["Communication_appliance"], 
         "generatedLabel": "Communication appliance", 
         "generatedAlias": "Ca", 
         "superclasses": [
@@ -2718,7 +2718,7 @@
         "name": "Space heater", 
         "path": "/ontology/1.0/classes/Space_heater", 
         "labels": [], 
-        "rdfs_label" : ["Space heater"], 
+        "rdfs_label" : ["Space_heater"], 
         "generatedLabel": "Space heater", 
         "generatedAlias": "Sh", 
         "superclasses": [
@@ -2754,7 +2754,7 @@
         "name": "Flow terminal", 
         "path": "/ontology/1.0/classes/Flow_terminal_device", 
         "labels": [], 
-        "rdfs_label" : ["Flow terminal device"], 
+        "rdfs_label" : ["Flow_terminal_device"], 
         "generatedLabel": "Flow terminal device", 
         "generatedAlias": "Ftd", 
         "superclasses": [
@@ -2863,7 +2863,7 @@
         "name": "Grid Related", 
         "path": "/ontology/1.0/classes/Grid_related", 
         "labels": [], 
-        "rdfs_label" : ["Grid related"], 
+        "rdfs_label" : ["Grid_related"], 
         "generatedLabel": "Grid related", 
         "generatedAlias": "Gr", 
         "superclasses": [
@@ -3150,7 +3150,7 @@
         "name": "Lighting device", 
         "path": "/ontology/1.0/classes/Lighting_device", 
         "labels": [], 
-        "rdfs_label" : ["Lighting device"], 
+        "rdfs_label" : ["Lighting_device"], 
         "generatedLabel": "Lighting device", 
         "generatedAlias": "Ld", 
         "superclasses": [
@@ -3185,7 +3185,7 @@
         "name": "Washing machine", 
         "path": "/ontology/1.0/classes/Washing_machine", 
         "labels": [], 
-        "rdfs_label" : ["Washing machine"], 
+        "rdfs_label" : ["Washing_machine"], 
         "generatedLabel": "Washing machine", 
         "generatedAlias": "Wm", 
         "superclasses": [
@@ -3257,7 +3257,7 @@
         "name": "Energy Meter", 
         "path": "/ontology/1.0/classes/Energy_meter", 
         "labels": [], 
-        "rdfs_label" : ["Energy Meter"], 
+        "rdfs_label" : ["Energy_Meter"], 
         "generatedLabel": "Energy Meter", 
         "generatedAlias": "EM", 
         "superclasses": [
@@ -3327,7 +3327,7 @@
         "name": "Power meter", 
         "path": "/ontology/1.0/classes/Power_meter", 
         "labels": [], 
-        "rdfs_label" : ["Power meter"], 
+        "rdfs_label" : ["Power_meter"], 
         "generatedLabel": "Power meter", 
         "generatedAlias": "Power meter", 
         "superclasses": [
@@ -3362,7 +3362,7 @@
         "name": "Micro renewable", 
         "path": "/ontology/1.0/classes/Micro_renewable", 
         "labels": [], 
-        "rdfs_label" : ["Micro renewable"], 
+        "rdfs_label" : ["Micro_renewable"], 
         "generatedLabel": "Micro renewable", 
         "generatedAlias": "Mr", 
         "superclasses": [
@@ -3503,7 +3503,7 @@
         "name": "Battery storage", 
         "path": "/ontology/1.0/classes/Storage", 
         "labels": [], 
-        "rdfs_label" : ["Battery storage"], 
+        "rdfs_label" : ["Battery_storage"], 
         "generatedLabel": "Battery storage", 
         "generatedAlias": "Bs", 
         "superclasses": [
