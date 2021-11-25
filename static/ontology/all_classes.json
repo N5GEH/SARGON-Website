@@ -4133,6 +4133,23 @@
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
         ], 
         "subclasses": [
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/CO2_level",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Current",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow",
+            "https://w3id.org/saref#Humidity",
+            "https://w3id.org/saref#Light",
+            "https://w3id.org/saref#Motion",
+            "https://w3id.org/saref#Occupancy",
+            "https://w3id.org/saref#Power",
+            "https://w3id.org/saref#Pressure",
+            "https://w3id.org/saref#Price",
+            "https://w3id.org/saref#Smoke",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/State_of_charge",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tap_position",
+            "https://w3id.org/saref#Temperature",
+            "https://w3id.org/saref#Time",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Voltage",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Volume"
         ], 
         "comments": ["Anything that can be sensed, measured or controlled in households, common public buildings or offices. We propose here a list of properties that are relevant for the purpose of SAREF, but this list can be extended."], 
         "definitions": [], 
@@ -4140,6 +4157,536 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Property"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/CO2_level", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "CO2_level", 
+        "path": "/ontology/1.0/classes/CO2_level", 
+        "labels": [], 
+        "rdfs_label" : ["CO2_level"], 
+        "generatedLabel": "CO2_level", 
+        "generatedAlias": "Cl", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Property"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A property related to measurements of CO2 level in the air. Measured in ppm."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Property",
+            "/ontology/1.0/classes/CO2_level"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Current", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Current", 
+        "path": "/ontology/1.0/classes/Current", 
+        "labels": [], 
+        "rdfs_label" : ["Current"], 
+        "generatedLabel": "Current", 
+        "generatedAlias": "C", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Property"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A property related to measurements measured in Ampere (A)."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Property",
+            "/ontology/1.0/classes/Current"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Flow", 
+        "path": "/ontology/1.0/classes/Flow", 
+        "labels": [], 
+        "rdfs_label" : ["Flow"], 
+        "generatedLabel": "Flow", 
+        "generatedAlias": "F", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Property"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A property related to measurements of rates of flow, measured in m³/s. This may for instance be used to measure air flow in ventilation or water flow in district heating systems."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Property",
+            "/ontology/1.0/classes/Flow"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Humidity", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Humidity", 
+        "path": "/ontology/1.0/classes/Humidity", 
+        "labels": [], 
+        "rdfs_label" : ["Humidity"], 
+        "generatedLabel": "Humidity", 
+        "generatedAlias": "H", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Property"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A saref:Property related to some measurements that are characterized by a certain value that is measured in a humidity unit."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Property",
+            "/ontology/1.0/classes/Humidity"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Light", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Light", 
+        "path": "/ontology/1.0/classes/Light", 
+        "labels": [], 
+        "rdfs_label" : ["Light"], 
+        "generatedLabel": "Light", 
+        "generatedAlias": "L", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Property"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A saref:Property related to some measurements that are characterized by a certain value that is measured in a illuminance unit (lux)."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Property",
+            "/ontology/1.0/classes/Light"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Motion", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Motion", 
+        "path": "/ontology/1.0/classes/Motion", 
+        "labels": [], 
+        "rdfs_label" : ["Motion"], 
+        "generatedLabel": "Motion", 
+        "generatedAlias": "M", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Property"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A saref:Property related to some measurements that are characterized by a certain value that is measured in a unit of measure for motion."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Property",
+            "/ontology/1.0/classes/Motion"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Occupancy", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Occupancy", 
+        "path": "/ontology/1.0/classes/Occupancy", 
+        "labels": [], 
+        "rdfs_label" : ["Occupancy"], 
+        "generatedLabel": "Occupancy", 
+        "generatedAlias": "O", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Property"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A saref:Property related to some measurements that are characterized by a certain value (saref:hasValue property) that is measured in a unit of measure for occupancy."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Property",
+            "/ontology/1.0/classes/Occupancy"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Power", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Power", 
+        "path": "/ontology/1.0/classes/Power", 
+        "labels": [], 
+        "rdfs_label" : ["Power"], 
+        "generatedLabel": "Power", 
+        "generatedAlias": "P", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Property"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A saref:Property related to some measurements that are characterized by a certain value that is measured in a power unit (such as watt or kilowatt).  Further specializations of the saref:Power class can be found in the SAREF4ENER extension, where classes such as PowerMax, PowerMin and PowerExpected are defined."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Property",
+            "/ontology/1.0/classes/Power"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Pressure", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Pressure", 
+        "path": "/ontology/1.0/classes/Pressure", 
+        "labels": [], 
+        "rdfs_label" : ["Pressure"], 
+        "generatedLabel": "Pressure", 
+        "generatedAlias": "P", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Property"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A saref:Property related to some measurements that are characterized by a certain value that is measured in a pressure unit (bar or pascal)."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Property",
+            "/ontology/1.0/classes/Pressure"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Price", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Price", 
+        "path": "/ontology/1.0/classes/Price", 
+        "labels": [], 
+        "rdfs_label" : ["Price"], 
+        "generatedLabel": "Price", 
+        "generatedAlias": "P", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Property"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A saref:Property crelated to some measurements that are characterized by a certain value that is measured using saref:Currency."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Property",
+            "/ontology/1.0/classes/Price"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Smoke", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Smoke", 
+        "path": "/ontology/1.0/classes/Smoke", 
+        "labels": [], 
+        "rdfs_label" : ["Smoke"], 
+        "generatedLabel": "Smoke", 
+        "generatedAlias": "S", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A saref:Property related to some measurements that are characterized by a certain value that is measured in a unit of measure for smoke."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Smoke"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/State_of_charge", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "State of charge", 
+        "path": "/ontology/1.0/classes/State_of_charge", 
+        "labels": [], 
+        "rdfs_label" : ["State_of_charge"], 
+        "generatedLabel": "State_of_charge", 
+        "generatedAlias": "S", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A property related to measurements of the battery status of a device. Measured in %. 100 % means fully charged. 0 % no charge."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/State_of_charge"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tap_position", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Tap position", 
+        "path": "/ontology/1.0/classes/Tap_position", 
+        "labels": [], 
+        "rdfs_label" : ["Tap_position"], 
+        "generatedLabel": "Tap position", 
+        "generatedAlias": "Tp", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Tap_position"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Temperature", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Temperature", 
+        "path": "/ontology/1.0/classes/Temperature", 
+        "labels": [], 
+        "rdfs_label" : ["Temperature"], 
+        "generatedLabel": "Temperature", 
+        "generatedAlias": "T", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Temperature"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Time", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Time", 
+        "path": "/ontology/1.0/classes/Time", 
+        "labels": [], 
+        "rdfs_label" : ["Time"], 
+        "generatedLabel": "Time", 
+        "generatedAlias": "T", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A saref:Property that allows to specify the time concept in terms of instants or intervals according to the imported W3C Time ontology."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Time"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Voltage", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Voltage", 
+        "path": "/ontology/1.0/classes/Voltage", 
+        "labels": [], 
+        "rdfs_label" : ["Voltage"], 
+        "generatedLabel": "Voltage", 
+        "generatedAlias": "V", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["Voltage in Volts"], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Voltage"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Volume", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Volume", 
+        "path": "/ontology/1.0/classes/Volume", 
+        "labels": [], 
+        "rdfs_label" : ["Volume"], 
+        "generatedLabel": "Volume", 
+        "generatedAlias": "V", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A property related to measurements measured in volume. Volume is measured in m³."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Volume"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -4163,6 +4710,7 @@
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
         ], 
         "subclasses": [
+            "https://w3id.org/saref#SwitchOnService"
         ], 
         "comments": ["A service is a representation of a function to a network that makes the function discoverable, registerable, remotely controllable by other devices in the network. A service can represent one or more functions. A Service is offered by a device that wants (a certain set of) its function(s) to be discoverable, registerable, remotely controllable by other devices in the network. A Service must specify the device that is offering the service and the function(s) to be represented."], 
         "definitions": [], 
@@ -4170,6 +4718,38 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Service"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#SwitchOnService", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Switch on service", 
+        "path": "/ontology/1.0/classes/Switch_on_service", 
+        "labels": [], 
+        "rdfs_label" : ["Switch_on_service"], 
+        "generatedLabel": "Switch on service", 
+        "generatedAlias": "S", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A type of service that represents an on/off function to the network."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Service",
+            "/ontology/1.0/classes/Switch_on_service"
+
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -4193,6 +4773,10 @@
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
         ], 
         "subclasses": [
+            "https://w3id.org/saref#MultiLevelState",
+            "https://w3id.org/saref#OnOffState",
+            "https://w3id.org/saref#OpenCloseState",
+            "https://w3id.org/saref#StartStopState"
         ], 
         "comments": ["The state in which a device can be found, e.g, ON/OFF/STANDBY, or ONLINE/OFFLINE. We propose here a list of states that are relevant for the purpose of SAREF, but this list can be extended."], 
         "definitions": [], 
@@ -4200,6 +4784,372 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/State"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#MultiLevelState", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Multi level state", 
+        "path": "/ontology/1.0/classes/Multi_level_state", 
+        "labels": [], 
+        "rdfs_label" : ["Multi_level_state"], 
+        "generatedLabel": "Multi level state", 
+        "generatedAlias": "Mls", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#State"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A type of state."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/State",
+            "/ontology/1.0/classes/Multi_level_state"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#OnOffState", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "On off state", 
+        "path": "/ontology/1.0/classes/On_off_state", 
+        "labels": [], 
+        "rdfs_label" : ["On_off_state"], 
+        "generatedLabel": "On off state", 
+        "generatedAlias": "Oos", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#State"
+        ], 
+        "subclasses": [
+            "https://w3id.org/saref#OnState",
+            "https://w3id.org/saref#OffState"
+        ], 
+        "comments": ["A type of state."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/State",
+            "/ontology/1.0/classes/On_off_state"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#OnState", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "On state", 
+        "path": "/ontology/1.0/classes/On_state", 
+        "labels": [], 
+        "rdfs_label" : ["On_state"], 
+        "generatedLabel": "On state", 
+        "generatedAlias": "Os", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#OnOffState"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A type of state."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/State",
+            "/ontology/1.0/classes/On_off_state",
+            "/ontology/1.0/classes/On_state"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#OffState", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "On state", 
+        "path": "/ontology/1.0/classes/Off_state", 
+        "labels": [], 
+        "rdfs_label" : ["Off_state"], 
+        "generatedLabel": "Off state", 
+        "generatedAlias": "Os", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#OnOffState"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A type of state."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/State",
+            "/ontology/1.0/classes/On_off_state",
+            "/ontology/1.0/classes/Off_state"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#OpenCloseState", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Open close state", 
+        "path": "/ontology/1.0/classes/Open_close_state", 
+        "labels": [], 
+        "rdfs_label" : ["Open_close_state"], 
+        "generatedLabel": "Open close state", 
+        "generatedAlias": "Ocs", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#State"
+        ], 
+        "subclasses": [
+            "https://w3id.org/saref#OpenState",
+            "https://w3id.org/saref#CloseState"
+        ], 
+        "comments": ["A type of state."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/State",
+            "/ontology/1.0/classes/Open_close_state"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#OpenState", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Open state", 
+        "path": "/ontology/1.0/classes/Open_close_state", 
+        "labels": [], 
+        "rdfs_label" : ["Open_state"], 
+        "generatedLabel": "Open state", 
+        "generatedAlias": "Os", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#OpenCloseState"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A type of state."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/State",
+            "/ontology/1.0/classes/Open_close_state",
+            "/ontology/1.0/classes/Open_state"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#CloseState", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Close state", 
+        "path": "/ontology/1.0/classes/Close_state", 
+        "labels": [], 
+        "rdfs_label" : ["Close_state"], 
+        "generatedLabel": "Close state", 
+        "generatedAlias": "Cs", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#OpenCloseState"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A type of state."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/State",
+            "/ontology/1.0/classes/Open_close_state",
+            "/ontology/1.0/classes/Close_state"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#StartStopState", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Start stop state", 
+        "path": "/ontology/1.0/classes/Start_stop_state", 
+        "labels": [], 
+        "rdfs_label" : ["Start_stop_state"], 
+        "generatedLabel": "Start stop state", 
+        "generatedAlias": "Sss", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#State"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A type of state."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/State",
+            "/ontology/1.0/classes/Start_stop_state"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#StartStopState", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Start stop state", 
+        "path": "/ontology/1.0/classes/Start_stop_state", 
+        "labels": [], 
+        "rdfs_label" : ["Start_stop_state"], 
+        "generatedLabel": "Start stop state", 
+        "generatedAlias": "Sss", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#State"
+        ], 
+        "subclasses": [
+            "https://w3id.org/saref#StartState",
+            "https://w3id.org/saref#StopState"
+        ], 
+        "comments": ["A type of state."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/State",
+            "/ontology/1.0/classes/Start_stop_state"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#StartState", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Start state", 
+        "path": "/ontology/1.0/classes/Start_state", 
+        "labels": [], 
+        "rdfs_label" : ["Start_state"], 
+        "generatedLabel": "Start state", 
+        "generatedAlias": "Ss", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#State",
+            "https://w3id.org/saref#StartStopState"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A type of state."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/State",
+            "/ontology/1.0/classes/Start_stop_state",
+            "/ontology/1.0/classes/Start_state"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#StopState", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Stop state", 
+        "path": "/ontology/1.0/classes/Stop_state", 
+        "labels": [], 
+        "rdfs_label" : ["Stop_state"], 
+        "generatedLabel": "Stop state", 
+        "generatedAlias": "Ss", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#State",
+            "https://w3id.org/saref#StartStopState"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A type of state."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/State",
+            "/ontology/1.0/classes/Start_stop_state",
+            "/ontology/1.0/classes/Stop_state"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 

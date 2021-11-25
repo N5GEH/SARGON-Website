@@ -526,15 +526,133 @@
             },
             {
                 "name":"/ontology/1.0/classes/Property",
-                "children":[]
+                "children":[
+                    {
+                        "name":"/ontology/1.0/classes/CO2_level",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Current",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Flow",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Humidity",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Light",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Motion",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Occupancy",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Power",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Pressure",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Price",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Smoke",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/State_of_charge",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Tap_position",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Temperature",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Time",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Voltage",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Volume",
+                        "children":[]
+                    }
+                ]
             },
             {
                 "name":"/ontology/1.0/classes/Service",
-                "children":[]
+                "children":[
+                    {
+                        "name":"/ontology/1.0/classes/Switch_on_service",
+                        "children":[]
+                    }
+                ]
             },
             {
                 "name":"/ontology/1.0/classes/State",
-                "children":[]
+                "children":[
+                    {
+                        "name":"/ontology/1.0/classes/Multi_level_state",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/On_off_state",
+                        "children":[
+                            {
+                                "name":"/ontology/1.0/classes/Off_state",
+                                "children":[]
+                            },
+                            {
+                                "name":"/ontology/1.0/classes/On_state",
+                                "children":[]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Open_close_state",
+                        "children":[
+                            {
+                                "name":"/ontology/1.0/classes/Open_state",
+                                "children":[]
+                            },
+                            {
+                                "name":"/ontology/1.0/classes/Close_state",
+                                "children":[]
+                            }
+                        ]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Start_stop_state",
+                        "children":[
+                            {
+                                "name":"/ontology/1.0/classes/Start_state",
+                                "children":[]
+                            },
+                            {
+                                "name":"/ontology/1.0/classes/Stop_state",
+                                "children":[]
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "name":"/ontology/1.0/classes/Task",
