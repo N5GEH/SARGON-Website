@@ -405,7 +405,20 @@
                             },
                             {
                                 "name":"/ontology/1.0/classes/Meter",
-                                "children":[]
+                                "children":[
+                                    {
+                                        "name":"/ontology/1.0/classes/Energy_meter",
+                                        "children":[]
+                                    },
+                                    {
+                                        "name":"/ontology/1.0/classes/PMU",
+                                        "children":[]
+                                    },
+                                    {
+                                        "name":"/ontology/1.0/classes/Power_meter",
+                                        "children":[]
+                                    }
+                                ]
                             },
                             {
                                 "name":"/ontology/1.0/classes/Micro_renewable",

@@ -3228,6 +3228,9 @@
             "https://w3id.org/saref#GridRelated"
         ], 
         "subclasses": [
+            "https://w3id.org/saref#EnergyMeter",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/PMU",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Power_meter"
         ], 
         "comments": ["A device built to accurately detect and display a quantity in a form readable by a human being. Further, a device of category saref:Meter that performs a saref:MeteringFunction."], 
         "definitions": [], 
@@ -3237,6 +3240,111 @@
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Meter"
+
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#EnergyMeter", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Energy Meter", 
+        "path": "/ontology/1.0/classes/Energy_meter", 
+        "labels": [], 
+        "rdfs_label" : ["Energy Meter"], 
+        "generatedLabel": "Energy Meter", 
+        "generatedAlias": "EM", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Meter"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["An energy meter is a device of category saref:Meter that consists of a meter, accomplishes the tasks saref:MeterReading and saref:EnergyEfficiency, performs the saref:MeteringFunction and is used for the purpose of measuring the saref:Energy property."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Grid_related",
+            "/ontology/1.0/classes/Meter",
+            "/ontology/1.0/classes/Energy_meter"
+
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/PMU", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "PMU", 
+        "path": "/ontology/1.0/classes/PMU", 
+        "labels": [], 
+        "rdfs_label" : ["PMU"], 
+        "generatedLabel": "PMU", 
+        "generatedAlias": "PMU", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Meter"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Grid_related",
+            "/ontology/1.0/classes/Meter",
+            "/ontology/1.0/classes/PMU"
+
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Power_meter", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Power meter", 
+        "path": "/ontology/1.0/classes/Power_meter", 
+        "labels": [], 
+        "rdfs_label" : ["Power meter"], 
+        "generatedLabel": "Power meter", 
+        "generatedAlias": "Power meter", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Meter"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Grid_related",
+            "/ontology/1.0/classes/Meter",
+            "/ontology/1.0/classes/Power_meter"
 
         ], 
         "inRangeOf": [], 
