@@ -457,7 +457,29 @@
                 "children":[
                     {
                         "name":"/ontology/1.0/classes/Actuating_function",
-                        "children":[]
+                        "children":[
+                            {
+                                "name":"/ontology/1.0/classes/Level_control_function",
+                                "children":[]
+                            },
+                            {
+                                "name":"/ontology/1.0/classes/On_off_function",
+                                "children":[]
+                            },
+                            {
+                                "name":"/ontology/1.0/classes/Open_close_function",
+                                "children":[]
+                            },
+                            {
+                                "name":"/ontology/1.0/classes/Start_stop_function",
+                                "children":[]
+                            },
+                            {
+                                "name":"/ontology/1.0/classes/Tap_position",
+                                "children":[]
+                            }
+
+                        ]
                     },
                     {
                         "name":"/ontology/1.0/classes/Event_function",

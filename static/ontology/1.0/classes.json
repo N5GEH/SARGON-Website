@@ -3610,6 +3610,11 @@
             "https://w3id.org/saref#Function"
         ], 
         "subclasses": [
+            "https://w3id.org/saref#LevelControlFunction",
+            "https://w3id.org/saref#OnOffFunction",
+            "https://w3id.org/saref#OpenCloseFunction",
+            "https://w3id.org/saref#StartStopFunction",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tap_position"
         ], 
         "comments": ["A function that allows to transmit data to actuators, such as level settings (e.g., temperature) or binary switching (e.g., open/close, on/off)"], 
         "definitions": [], 
@@ -3618,6 +3623,171 @@
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Function",
             "/ontology/1.0/classes/Actuating_function"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#LevelControlFunction", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Actuating Function", 
+        "path": "/ontology/1.0/classes/Level_control_function",
+        "labels": [], 
+        "rdfs_label" : ["Level_control_function"], 
+        "generatedLabel": "Level control function", 
+        "generatedAlias": "Lcf", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#ActuatingFunction"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["An actuating function that allows to do level adjustments of an actuator in a certain range (e.g., 0%-100%), such as dimming a light or set the speed of an electric motor. "], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Function",
+            "/ontology/1.0/classes/Actuating_function",
+            "/ontology/1.0/classes/Level_control_function"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#OnOffFunction", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "On off Function", 
+        "path": "/ontology/1.0/classes/On_off_function",
+        "labels": [], 
+        "rdfs_label" : ["On_off_function"], 
+        "generatedLabel": "On off function", 
+        "generatedAlias": "Oof", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#ActuatingFunction"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["An actuating function that allows to switch on and off an actuator."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Function",
+            "/ontology/1.0/classes/Actuating_function",
+            "/ontology/1.0/classes/On_off_function"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#OpenCloseFunction", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Open close Function", 
+        "path": "/ontology/1.0/classes/Open_close_function",
+        "labels": [], 
+        "rdfs_label" : ["Open_close_function"], 
+        "generatedLabel": "Open close function", 
+        "generatedAlias": "Ocf", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#ActuatingFunction"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["An actuating function that allows to open and close a device."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Function",
+            "/ontology/1.0/classes/Actuating_function",
+            "/ontology/1.0/classes/Open_close_function"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#StartStopFunction", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Start stop function", 
+        "path": "/ontology/1.0/classes/Start_stop_function",
+        "labels": [], 
+        "rdfs_label" : ["Start_stop_function"], 
+        "generatedLabel": "Start stop function", 
+        "generatedAlias": "Ssf", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#ActuatingFunction"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["An actuating function that allows to start and stop a device."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Function",
+            "/ontology/1.0/classes/Actuating_function",
+            "/ontology/1.0/classes/Start_stop_function"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tap_position",
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Tap position", 
+        "path": "/ontology/1.0/classes/Tap_position",
+        "labels": [], 
+        "rdfs_label" : ["Tap_position"], 
+        "generatedLabel": "Tap position", 
+        "generatedAlias": "Tp", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#ActuatingFunction"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [""], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Function",
+            "/ontology/1.0/classes/Actuating_function",
+            "/ontology/1.0/classes/Tap_position"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
