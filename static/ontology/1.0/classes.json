@@ -25,8 +25,7 @@
         "definitions": ["A category that includes devices as described by building related data models, such as IFC and FIEMSER "], 
         "equivalentClasses": [], 
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
-            "/ontology/1.0/classes/Building"
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -45,8 +44,7 @@
         "generatedLabel": "Floor", 
         "generatedAlias": "F",
         "superclasses": [
-            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
-            "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class",
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561",
             "1.0^https://w3id.org/saref#BuildingRelated"
         ], 
         "subclasses": [
@@ -77,7 +75,6 @@
         "generatedAlias": "R",
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
-            "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class",
             "1.0^https://w3id.org/saref#BuildingRelated"
         ], 
         "subclasses": [
@@ -107,8 +104,7 @@
         "generatedLabel": "Tenant", 
         "generatedAlias": "T",
         "superclasses": [
-            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
-            "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class",
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561",
             "1.0^https://w3id.org/saref#BuildingRelated"
         ], 
         "subclasses": [
@@ -139,7 +135,6 @@
         "generatedAlias": "Z",
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
-            "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class",
             "1.0^https://w3id.org/saref#BuildingRelated"
         ], 
         "subclasses": [
@@ -169,8 +164,7 @@
         "generatedLabel": "Channel", 
         "generatedAlias": "C",
         "superclasses": [
-            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
-            "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class"
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561"
         ], 
         "subclasses": [
         ],
@@ -197,8 +191,7 @@
         "generatedLabel": "Angle", 
         "generatedAlias": "A",
         "superclasses": [
-            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
-            "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class",
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561",
             "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel"
         ], 
         "subclasses": [
@@ -228,8 +221,7 @@
         "generatedLabel": "Frequency", 
         "generatedAlias": "F",
         "superclasses": [
-            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
-            "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class",
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561",
             "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel"
         ], 
         "subclasses": [
@@ -3556,6 +3548,36 @@
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Transformer"
 
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Function", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Function", 
+        "path": "/ontology/1.0/classes/Function", 
+        "labels": [], 
+        "rdfs_label" : ["Function"], 
+        "generatedLabel": "Function", 
+        "generatedAlias": "F", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["The functionality necessary to accomplish the task for which a Device is designed. A device can be designed to perform more than one function. Functions can be structured in categories (subclasses) that reflect different points of view, for example, considering the specific application area for which a function can be used (e.g., light, temperature, motion, heat, power, etc.), or the capability that a function can support (e.g., receive, reply, notify, etc.), and so forth. "], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Function"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 

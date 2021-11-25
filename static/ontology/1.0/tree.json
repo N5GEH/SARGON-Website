@@ -451,7 +451,55 @@
 
                     
                 ]
-            }   
+            },
+            {
+                "name":"/ontology/1.0/classes/Function",
+                "children":[]
+            },
+            {
+                "name":"/ontology/1.0/classes/Measurement",
+                "children":[]
+            },
+            {
+                "name":"/ontology/1.0/classes/Profile",
+                "children":[]
+            },
+            {
+                "name":"/ontology/1.0/classes/Property",
+                "children":[]
+            },
+            {
+                "name":"/ontology/1.0/classes/Service",
+                "children":[]
+            },
+            {
+                "name":"/ontology/1.0/classes/State",
+                "children":[]
+            },
+            {
+                "name":"/ontology/1.0/classes/Task",
+                "children":[]
+            },
+            {
+                "name":"/ontology/1.0/classes/Temporal_reference_system",
+                "children":[]
+            },
+            {
+                "name":"/ontology/1.0/classes/Temporal_duration",
+                "children":[]
+            },
+            {
+                "name":"/ontology/1.0/classes/Temporal_entity",
+                "children":[]
+            },
+            {
+                "name":"/ontology/1.0/classes/Temporal_position",
+                "children":[]
+            },
+            {
+                "name":"/ontology/1.0/classes/Temporal_zone",
+                "children":[]
+            }    
         ]
     }
 ]
