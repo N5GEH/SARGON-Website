@@ -25,6 +25,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Actuating_function/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Actuator/",
     component: c1
   },
@@ -61,6 +65,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/CO2_level/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Channel/",
     component: c1
   },
@@ -70,6 +78,10 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Close_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Close_state/",
     component: c1
   },
   {
@@ -106,6 +118,14 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Convertor/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Currency_unit/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Current/",
     component: c1
   },
   {
@@ -149,6 +169,14 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Energy_unit/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Event_function/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Fan/",
     component: c1
   },
@@ -158,6 +186,10 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Floor/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Flow/",
     component: c1
   },
   {
@@ -237,11 +269,23 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Humidity/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Interceptor/",
     component: c1
   },
   {
     path: "/ontology/1.0/classes/Lamp/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Level_control_function/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Light/",
     component: c1
   },
   {
@@ -261,7 +305,15 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Measurement/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Meter/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Metering_function/",
     component: c1
   },
   {
@@ -269,7 +321,19 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Motion/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Multi_level_state/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Notify_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Occupancy/",
     component: c1
   },
   {
@@ -277,7 +341,31 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Off_state/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/On_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/On_off_function/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/On_off_state/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/On_state/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Open_close_function/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Open_close_state/",
     component: c1
   },
   {
@@ -301,7 +389,35 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Power/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Power_meter/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Power_unit/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Pressure/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Pressure_unit/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Price/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Profile/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Property/",
     component: c1
   },
   {
@@ -321,7 +437,15 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Sensing_function/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Sensor/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Service/",
     component: c1
   },
   {
@@ -337,6 +461,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Smoke/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Smoke_sensor/",
     component: c1
   },
@@ -346,6 +474,26 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Start_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Start_state/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Start_stop_function/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Start_stop_state/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/State/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/State_of_charge/",
     component: c1
   },
   {
@@ -361,11 +509,19 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Stop_state/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Storage/",
     component: c1
   },
   {
     path: "/ontology/1.0/classes/Switch/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Switch_on_service/",
     component: c1
   },
   {
@@ -377,11 +533,51 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Tap_position/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Task/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Temperature/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Temperature_sensor/",
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Temperature_unit/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Temporal_duration/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Temporal_entity/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Temporal_position/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Temporal_reference_system/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Tenant/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Time/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Time_zone/",
     component: c1
   },
   {
@@ -398,6 +594,14 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Tube_bundle/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Voltage/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Volume/",
     component: c1
   },
   {

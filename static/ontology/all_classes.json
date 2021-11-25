@@ -4964,7 +4964,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Open state", 
-        "path": "/ontology/1.0/classes/Open_close_state", 
+        "path": "/ontology/1.0/classes/Open_state", 
         "labels": [], 
         "rdfs_label" : ["Open_state"], 
         "generatedLabel": "Open state", 
@@ -5040,40 +5040,6 @@
             "https://w3id.org/saref#State"
         ], 
         "subclasses": [
-        ], 
-        "comments": ["A type of state."], 
-        "definitions": [], 
-        "equivalentClasses": [], 
-        "hierarchy": [
-            "/ontology/1.0/#Classes", 
-            "/ontology/1.0/classes/State",
-            "/ontology/1.0/classes/Start_stop_state"
-        ], 
-        "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
-    },
-    {
-        "id": "https://w3id.org/saref#StartStopState", 
-        "version": "1.0", 
-        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "class", 
-        "types": [
-            "http://www.w3.org/2002/07/owl#Class"
-        ], 
-        "name": "Start stop state", 
-        "path": "/ontology/1.0/classes/Start_stop_state", 
-        "labels": [], 
-        "rdfs_label" : ["Start_stop_state"], 
-        "generatedLabel": "Start stop state", 
-        "generatedAlias": "Sss", 
-        "superclasses": [
-            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
-            "https://w3id.org/saref#State"
-        ], 
-        "subclasses": [
-            "https://w3id.org/saref#StartState",
-            "https://w3id.org/saref#StopState"
         ], 
         "comments": ["A type of state."], 
         "definitions": [], 
@@ -5233,6 +5199,9 @@
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
         ], 
         "subclasses": [
+            "http://www.w3.org/2006/time#GeneralDurationDescription", 
+            "http://www.w3.org/2006/time#TemporalUnit",
+            "http://www.w3.org/2006/time#Duration"
         ], 
         "comments": ["Time extent; duration of a time interval separate from its particular start position."], 
         "definitions": [], 
@@ -5240,6 +5209,103 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_duration"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#GeneralDurationDescription", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Generalized duration description", 
+        "path": "/ontology/1.0/classes/Generalized_duration_description", 
+        "labels": [], 
+        "rdfs_label" : ["Generalized_duration_description"], 
+        "generatedLabel": "Generalized duration description", 
+        "generatedAlias": "Gdd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "http://www.w3.org/2006/time#TemporalDuration"
+        ], 
+        "subclasses": [
+            
+        ], 
+        "comments": ["Description of temporal extent structured with separate values for the various elements of a calendar-clock system."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Temporal_duration",
+            "/ontology/1.0/classes/Generalized_duration_description"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#TemporalUnit", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Temporal unit", 
+        "path": "/ontology/1.0/classes/Temporal unit", 
+        "labels": [], 
+        "rdfs_label" : ["Temporal_unit"], 
+        "generatedLabel": "Temporal unit", 
+        "generatedAlias": "Tu", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "http://www.w3.org/2006/time#TemporalDuration"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["Duration of a temporal extent expressed as a number scaled by a temporal unit"], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Temporal_duration",
+            "/ontology/1.0/classes/Temporal_unit"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#TimeDuration", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Time duration", 
+        "path": "/ontology/1.0/classes/Time_duration", 
+        "labels": [], 
+        "rdfs_label" : ["Time_duration"], 
+        "generatedLabel": "Time duration", 
+        "generatedAlias": "Td", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "http://www.w3.org/2006/time#TimeDuration"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["Duration of a temporal extent expressed as a number scaled by a temporal unit"], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Temporal_duration",
+            "/ontology/1.0/classes/Time_unit"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 

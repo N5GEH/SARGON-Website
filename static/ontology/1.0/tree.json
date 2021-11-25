@@ -664,7 +664,20 @@
             },
             {
                 "name":"/ontology/1.0/classes/Temporal_duration",
-                "children":[]
+                "children":[
+                    {
+                        "name":"/ontology/1.0/classes/Generalized_duration_description",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Temporal_unit",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Time_duration",
+                        "children":[]
+                    }
+                ]
             },
             {
                 "name":"/ontology/1.0/classes/Temporal_entity",
