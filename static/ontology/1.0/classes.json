@@ -3833,7 +3833,7 @@
         "types": [
             "http://www.w3.org/2002/07/owl#Class"
         ], 
-        "name": "MEtering Function", 
+        "name": "Metering Function", 
         "path": "/ontology/1.0/classes/Metering_function", 
         "labels": [], 
         "rdfs_label" : ["Metering_function"], 
@@ -3907,6 +3907,12 @@
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
         ], 
         "subclasses": [
+            "https://w3id.org/saref#Currency",
+            "https://w3id.org/saref#EnergyUnit",
+            "https://w3id.org/saref#PowerUnit",
+            "https://w3id.org/saref#PressureUnit",
+            "https://w3id.org/saref#TemperatureUnit"
+
         ], 
         "comments": ["Represents the measured value made over a property. It is also linked to the unit of measure in which the value is expressed and the timestamp of the measurement."], 
         "definitions": [], 
@@ -3914,6 +3920,166 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Measurement"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#Currency", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Currency unit", 
+        "path": "/ontology/1.0/classes/Currency_unit", 
+        "labels": [], 
+        "rdfs_label" : ["Currency unit"], 
+        "generatedLabel": "Currency_unit", 
+        "generatedAlias": "Cu", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Measurement"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["The unit of measure for price."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Measurement",
+            "/ontology/1.0/classes/Currency_unit"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#EnergyUnit", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Energy unit", 
+        "path": "/ontology/1.0/classes/Energy_unit", 
+        "labels": [], 
+        "rdfs_label" : ["Energy unit"], 
+        "generatedLabel": "Energy_unit", 
+        "generatedAlias": "Eu", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Measurement"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["The unit of measure for energy."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Measurement",
+            "/ontology/1.0/classes/Energy_unit"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#PowerUnit", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Power unit", 
+        "path": "/ontology/1.0/classes/Power_unit", 
+        "labels": [], 
+        "rdfs_label" : ["Power unit"], 
+        "generatedLabel": "Power_unit", 
+        "generatedAlias": "Pu", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Measurement"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["The unit of measure for power."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Measurement",
+            "/ontology/1.0/classes/Power_unit"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#PressureUnit", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Pressure unit", 
+        "path": "/ontology/1.0/classes/Pressure_unit", 
+        "labels": [], 
+        "rdfs_label" : ["Pressure unit"], 
+        "generatedLabel": "Pressure_unit", 
+        "generatedAlias": "Pu", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Measurement"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["The unit of measure for pressure."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Measurement",
+            "/ontology/1.0/classes/Pressure_unit"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#TemperatureUnit", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Temperature_unit", 
+        "path": "/ontology/1.0/classes/Temperature_unit", 
+        "labels": [], 
+        "rdfs_label" : ["Temperature unit"], 
+        "generatedLabel": "Temperature_unit", 
+        "generatedAlias": "Tu", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "https://w3id.org/saref#Measurement"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["The unit of measure for temperature."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Measurement",
+            "/ontology/1.0/classes/Temperature_unit"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 

@@ -497,7 +497,28 @@
             },
             {
                 "name":"/ontology/1.0/classes/Measurement",
-                "children":[]
+                "children":[
+                    {
+                        "name":"/ontology/1.0/classes/Currency_unit",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Energy_unit",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Power_unit",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Pressure_unit",
+                        "children":[]
+                    },
+                    {
+                        "name":"/ontology/1.0/classes/Temperature_unit",
+                        "children":[]
+                    }
+                ]
             },
             {
                 "name":"/ontology/1.0/classes/Profile",
