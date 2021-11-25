@@ -193,6 +193,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Function/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Gas/",
     component: c1
   },
