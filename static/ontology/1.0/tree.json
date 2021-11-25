@@ -667,7 +667,18 @@
                 "children":[
                     {
                         "name":"/ontology/1.0/classes/Generalized_duration_description",
-                        "children":[]
+                        "children":[
+                            {
+                                "name":"/ontology/1.0/classes/Duration_description",
+                                "children":[
+                                    {
+                                        "name":"/ontology/1.0/classes/Year",
+                                        "children":[]
+                                    }
+                                ]
+                            }
+
+                        ]
                     },
                     {
                         "name":"/ontology/1.0/classes/Temporal_unit",
