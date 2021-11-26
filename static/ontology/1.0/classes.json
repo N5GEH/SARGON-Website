@@ -5512,6 +5512,41 @@
         "shaclDetails": "{}"
     },
     {
+        "id": "http://www.w3.org/2006/time#DateTimeInterval", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Date-time interval", 
+        "path": "/ontology/1.0/classes/Date_time_interval", 
+        "labels": [], 
+        "rdfs_label" : ["Date_time_interval"], 
+        "generatedLabel": "Date_time_interval", 
+        "generatedAlias": "Dti", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "http://www.w3.org/2006/time#Interval"
+        ], 
+        "subclasses": [
+            "http://www.w3.org/2006/time#DateTimeInterval"
+        ], 
+        "comments": ["DateTimeInterval is a subclass of ProperInterval, defined using the multi-element DateTimeDescription."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Temporal_entity",
+            "/ontology/1.0/classes/Time_interval",
+            "/ontology/1.0/classes/Proper_interval",
+            "/ontology/1.0/classes/Date_time_interval"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
         "id": "http://www.w3.org/2006/time#TemporalPosition", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
