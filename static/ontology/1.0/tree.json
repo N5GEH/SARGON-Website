@@ -699,7 +699,17 @@
                     },
                     {
                         "name":"/ontology/1.0/classes/Time_interval",
-                        "children":[]
+                        "children":[
+                            {
+                                "name":"/ontology/1.0/classes/Proper_interval",
+                                "children":[
+                                    {
+                                        "name":"/ontology/1.0/classes/Date_time_interval",
+                                        "children":[]
+                                    }
+                                ]
+                            }
+                        ]
                     }
                     
                 ]

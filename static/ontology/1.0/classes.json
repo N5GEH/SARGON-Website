@@ -5398,6 +5398,8 @@
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
         ], 
         "subclasses": [
+            "http://www.w3.org/2006/time#Instant",
+            "http://www.w3.org/2006/time#Interval"
         ], 
         "comments": ["A temporal interval or instant."], 
         "definitions": [], 
@@ -5405,6 +5407,105 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_entity"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#Instant", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Time instant", 
+        "path": "/ontology/1.0/classes/Time_instant", 
+        "labels": [], 
+        "rdfs_label" : ["Time_instant"], 
+        "generatedLabel": "Time instant", 
+        "generatedAlias": "Ti", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "http://www.w3.org/2006/time#TemporalEntity"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A temporal entity with zero extent or duration."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Temporal_entity",
+            "/ontology/1.0/classes/Time_instant"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#Interval", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Time interval", 
+        "path": "/ontology/1.0/classes/Time_interval", 
+        "labels": [], 
+        "rdfs_label" : ["Time_interval"], 
+        "generatedLabel": "Time interval", 
+        "generatedAlias": "Ti", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "http://www.w3.org/2006/time#TemporalEntity"
+        ], 
+        "subclasses": [
+            "http://www.w3.org/2006/time#ProperInterval"
+        ], 
+        "comments": ["A temporal entity with an extent or duration."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Temporal_entity",
+            "/ontology/1.0/classes/Time_interval"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#ProperInterval", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Proper interval", 
+        "path": "/ontology/1.0/classes/Proper_interval", 
+        "labels": [], 
+        "rdfs_label" : ["Proper_interval"], 
+        "generatedLabel": "Proper interval", 
+        "generatedAlias": "Pi", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "http://www.w3.org/2006/time#Interval"
+        ], 
+        "subclasses": [
+            "http://www.w3.org/2006/time#DateTimeInterval"
+        ], 
+        "comments": ["A temporal entity with non-zero extent or duration, i.e. for which the value of the beginning and end are different."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Temporal_entity",
+            "/ontology/1.0/classes/Time_interval",
+            "/ontology/1.0/classes/Proper_interval"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
