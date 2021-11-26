@@ -704,7 +704,26 @@
                                 "name":"/ontology/1.0/classes/Proper_interval",
                                 "children":[
                                     {
-                                        "name":"/ontology/1.0/classes/Date_time_interval",
+                                        "name":"/ontology/1.0/classes/Generalized_date_time_description",
+                                        "children":[
+                                            {
+                                                "name" : "/ontology/1.0/classes/Date_time_description",
+                                                "children" : [
+                                                    {
+                                                        "name" : "/ontology/1.0/classes/January",
+                                                        "children" : []
+                                                    },
+                                                    {
+                                                        "name" : "/ontology/1.0/classes/Month_of_year",
+                                                        "children" : []
+                                                    }
+                                                ]
+                                                    
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name":"/ontology/1.0/classes/Time_position",
                                         "children":[]
                                     }
                                 ]
@@ -716,7 +735,12 @@
             },
             {
                 "name":"/ontology/1.0/classes/Temporal_position",
-                "children":[]
+                "children":[
+                    {
+                        "name":"/ontology/1.0/classes/Date_time_interval",
+                        "children":[]
+                    }
+                ]
             },
             {
                 "name":"/ontology/1.0/classes/Time_zone",

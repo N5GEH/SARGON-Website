@@ -5530,7 +5530,6 @@
             "http://www.w3.org/2006/time#Interval"
         ], 
         "subclasses": [
-            "http://www.w3.org/2006/time#DateTimeInterval"
         ], 
         "comments": ["DateTimeInterval is a subclass of ProperInterval, defined using the multi-element DateTimeDescription."], 
         "definitions": [], 
@@ -5564,6 +5563,8 @@
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
         ], 
         "subclasses": [
+            "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+
         ], 
         "comments": ["A position on a time-line"], 
         "definitions": [], 
@@ -5571,6 +5572,174 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_position"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#GeneralDateTimeDescription", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Generalized date-time description", 
+        "path": "/ontology/1.0/classes/Generalized_date_time_description", 
+        "labels": [], 
+        "rdfs_label" : ["Generalized_date_time_description"], 
+        "generatedLabel": "Generalized date time description", 
+        "generatedAlias": "Gdtd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "http://www.w3.org/2006/time#TemporalPosition"
+        ], 
+        "subclasses": [
+            "http://www.w3.org/2006/time#DateTimeDescription"
+        ], 
+        "comments": ["Some combinations of properties are redundant - for example, within a specified :year if :dayOfYear is provided then :day and :month can be computed, and vice versa. Individual values should be consistent with each other and the calendar, indicated through the value of the :hasTRS property."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Temporal_position",
+            "/ontology/1.0/classes/Generalized_date_time_description"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#TimePosition", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Time position", 
+        "path": "/ontology/1.0/classes/Time_position", 
+        "labels": [], 
+        "rdfs_label" : ["Time_position"], 
+        "generatedLabel": "Time position", 
+        "generatedAlias": "Tp", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "http://www.w3.org/2006/time#TemporalPosition"
+        ], 
+        "subclasses": [
+            
+        ], 
+        "comments": ["A temporal position described using either a (nominal) value from an ordinal reference system, or a (numeric) value in a temporal coordinate system."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Temporal_position",
+            "/ontology/1.0/classes/Time_position"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#DateTimeDescription", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Date-time description", 
+        "path": "/ontology/1.0/classes/Date_time_description", 
+        "labels": [], 
+        "rdfs_label" : ["Date_time_description"], 
+        "generatedLabel": "Date time description", 
+        "generatedAlias": "Dtd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+        ], 
+        "subclasses": [
+            "http://www.w3.org/2006/time#January",
+            "http://www.w3.org/2006/time#MonthOfYear"
+        ], 
+        "comments": ["Description of date and time structured with separate values for the various elements of a calendar-clock system. The temporal reference system is fixed to Gregorian Calendar, and the range of year, month, day properties restricted to corresponding XML Schema types xsd:gYear, xsd:gMonth and xsd:gDay, respectively."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Temporal_position",
+            "/ontology/1.0/classes/Generalized_date_time_description"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#January", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "January", 
+        "path": "/ontology/1.0/classes/January", 
+        "labels": [], 
+        "rdfs_label" : ["January"], 
+        "generatedLabel": "January", 
+        "generatedAlias": "J", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "http://www.w3.org/2006/time#DateTimeDescription"
+        ], 
+        "subclasses": [
+            
+        ], 
+        "comments": ["This class was present in the 2006 version of OWL-Time. It was presented as an example of how DateTimeDescription could be specialized, but does not belong in the revised ontology. "], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Temporal_position",
+            "/ontology/1.0/classes/Generalized_date_time_description",
+            "/ontology/1.0/classes/January"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": [], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#MonthOfYear", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ], 
+        "name": "Month_of_year", 
+        "path": "/ontology/1.0/classes/Month_of_year", 
+        "labels": [], 
+        "rdfs_label" : ["Month_of_year"], 
+        "generatedLabel": "Month_of_year", 
+        "generatedAlias": "Moy", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
+            "http://www.w3.org/2006/time#DateTimeDescription"
+        ], 
+        "subclasses": [
+            
+        ], 
+        "comments": ["The month of the year."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/classes/Temporal_position",
+            "/ontology/1.0/classes/Generalized_date_time_description",
+            "/ontology/1.0/classes/Month_of_year"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
