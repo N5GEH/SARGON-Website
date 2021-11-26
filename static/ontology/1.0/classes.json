@@ -5671,7 +5671,8 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_position",
-            "/ontology/1.0/classes/Generalized_date_time_description"
+            "/ontology/1.0/classes/Generalized_date_time_description",
+            "/ontology/1.0/classes/Date_time_description"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -5705,6 +5706,7 @@
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_position",
             "/ontology/1.0/classes/Generalized_date_time_description",
+            "/ontology/1.0/classes/Date_time_description",
             "/ontology/1.0/classes/January"
         ], 
         "inRangeOf": [], 
@@ -5719,11 +5721,11 @@
         "types": [
             "http://www.w3.org/2002/07/owl#Class"
         ], 
-        "name": "Month_of_year", 
+        "name": "Month of year", 
         "path": "/ontology/1.0/classes/Month_of_year", 
         "labels": [], 
         "rdfs_label" : ["Month_of_year"], 
-        "generatedLabel": "Month_of_year", 
+        "generatedLabel": "Month of year", 
         "generatedAlias": "Moy", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
@@ -5739,6 +5741,7 @@
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_position",
             "/ontology/1.0/classes/Generalized_date_time_description",
+            "/ontology/1.0/classes/Date_time_description",
             "/ontology/1.0/classes/Month_of_year"
         ], 
         "inRangeOf": [], 
