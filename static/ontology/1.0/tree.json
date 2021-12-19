@@ -745,8 +745,49 @@
             {
                 "name":"/ontology/1.0/classes/Time_zone",
                 "children":[]
+            },
+            {
+                
             }    
         ]
+    },
+    {
+        "name": "/ontology/1.0/#Properties", 
+        "children": [
+            {
+                "name":"/ontology/1.0/#Object_Properties",
+                "children":[
+                    {
+                        "name":"/ontology/1.0/properties/Temporal_position",
+                        "children":[
+                            {
+                                "name":"/ontology/1.0/properties/Time_position",
+                                "children":[]
+                            },
+                            {
+                                "name":"/ontology/1.0/properties/in_date-time_description",
+                                "children":[]
+                            }
+                            
+                            
+                        ]
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/Temporal_reference_system_used",
+                        "children":[]
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/accomplishes",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/acts_upon",
+                        "children" : []
+                    }
+                ]
+            }
+        ]
     }
+
 ]
 

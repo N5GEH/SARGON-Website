@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const pick = require("lodash.pick");
-const sargonClasses = require("./static/ontology/all_classes.json");
+const sargonClasses = require("./static/ontology/all_objects.json");
 
 
 const { pathPrefix } = require("./gridsome.config");
@@ -53,11 +53,12 @@ module.exports = function (api, options) {
                         node.equivalentClasses
                     ),
                     hierarchy: node.hierarchy,
-                    inRangeOf: store.createReference("Relationship", node.inRangeOf),
-                    inDomainOf: store.createReference("Relationship", node.inDomainOf),
+                    inRangeOf: store.createReference("Class", node.inRangeOf),
+                    inDomainOf: store.createReference("Class", node.inDomainOf),
                     shaclDetails: node.shaclDetails,
                 });
         });
+       
     });
 
     api.beforeBuild(({ config, store }) => {

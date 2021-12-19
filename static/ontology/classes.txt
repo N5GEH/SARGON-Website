@@ -5586,9 +5586,9 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Generalized date-time description", 
-        "path": "/ontology/1.0/classes/Generalized_date-time_description", 
+        "path": "/ontology/1.0/classes/Generalized_date_time_description", 
         "labels": [], 
-        "rdfs_label" : ["Generalized_date-time_description"], 
+        "rdfs_label" : ["Generalized_date_time_description"], 
         "generatedLabel": "Generalized date time description", 
         "generatedAlias": "Gdtd", 
         "superclasses": [
@@ -5604,7 +5604,7 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_position",
-            "/ontology/1.0/classes/Generalized_date-time_description"
+            "/ontology/1.0/classes/Generalized_date_time_description"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
@@ -5671,7 +5671,7 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_position",
-            "/ontology/1.0/classes/Generalized_date-time_description",
+            "/ontology/1.0/classes/Generalized_date_time_description",
             "/ontology/1.0/classes/Date_time_description"
         ], 
         "inRangeOf": [], 
@@ -5705,7 +5705,7 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_position",
-            "/ontology/1.0/classes/Generalized_date-time_description",
+            "/ontology/1.0/classes/Generalized_date_time_description",
             "/ontology/1.0/classes/Date_time_description",
             "/ontology/1.0/classes/January"
         ], 
@@ -5740,7 +5740,7 @@
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_position",
-            "/ontology/1.0/classes/Generalized_date-time_description",
+            "/ontology/1.0/classes/Generalized_date_time_description",
             "/ontology/1.0/classes/Date_time_description",
             "/ontology/1.0/classes/Month_of_year"
         ], 

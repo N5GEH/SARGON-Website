@@ -101,8 +101,9 @@
         </div>
 
 
+        Domain
         <div class="block sm:flex text-gray-600" v-if="classNode.inDomainOf && classNode.inDomainOf.length">
-            <div class="l-auto h-auto sm:w-1/6 bg-gray-100 h-12 rounded-lg  px-4 py-2 mt-4 ml-4">InDomainOf</div>
+            <div class="l-auto h-auto sm:w-1/6 bg-gray-100 h-12 rounded-lg  px-4 py-2 mt-4 ml-4">Domain</div>
             <div class="l-auto h-auto sm:w-5/6 h-12 overflow-auto mt-2">
                 <ul class="text-normal text-gray-200 mt-4 ml-4">
                     <li class="text-l text-gray-600 mt-4 ml-4"
@@ -117,6 +118,7 @@
                 </ul>
             </div>
         </div>
+
 
 
         <div class="block sm:flex text-gray-600" v-if="classNode.inRangeOf && classNode.inRangeOf.length">

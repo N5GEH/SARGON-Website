@@ -9,6 +9,30 @@ const c8 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/
 
 export default [
   {
+    path: "/ontology/1.0/properties/in_date-time_description/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/accomplishes/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/acts_upon/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/Temporal_position/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/Temporal_reference_system_used/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/Time_position/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/AC-DC/",
     component: c1
   },
@@ -18,6 +42,10 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/DC-DC/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Generalized_date-time_description/",
     component: c1
   },
   {
@@ -133,6 +161,14 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Date_time_description/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Date_time_interval/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Day_of_week/",
     component: c1
   },
@@ -142,6 +178,10 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Door_switch/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Duration_description/",
     component: c1
   },
   {
@@ -281,6 +321,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/January/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Lamp/",
     component: c1
   },
@@ -322,6 +366,10 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Micro_renewable/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Month_of_year/",
     component: c1
   },
   {
@@ -422,6 +470,10 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Profile/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Proper_interval/",
     component: c1
   },
   {
@@ -593,6 +645,18 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Time_instant/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Time_interval/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Time_position/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Time_zone/",
     component: c1
   },
@@ -634,6 +698,10 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Water_flow_sensor/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Year/",
     component: c1
   },
   {

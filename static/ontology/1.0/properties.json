@@ -1,0 +1,266 @@
+[
+    {
+        "id": "http://www.w3.org/2006/time#inTemporalPosition", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "Temporal position", 
+        "path": "/ontology/1.0/properties/Temporal_position", 
+        "labels": [], 
+        "rdfs_label" : ["Temporal_position"], 
+        
+        "generatedLabel": "Temporal_position", 
+        "generatedAlias": "Tp", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["Position of a time instant."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/Temporal_position"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#Instant"
+        ], 
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#TimePosition"
+        ], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#inTimePosition", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "Time position", 
+        "path": "/ontology/1.0/properties/Time_position", 
+        "labels": [], 
+        "rdfs_label" : ["Time position"], 
+        
+        "generatedLabel": "Time_position", 
+        "generatedAlias": "Tp", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["Position of an instant, expressed as a temporal coordinate or nominal value."], 
+        "definitions": ["Position of a time instant expressed as a TimePosition"], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/Temporal_position",
+            "/ontology/1.0/properties/Time_position"
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#Instant"
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#TimePosition"
+        ], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#inTimePosition", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "Time position", 
+        "path": "/ontology/1.0/properties/Time_position", 
+        "labels": [], 
+        "rdfs_label" : ["Time position"], 
+        
+        "generatedLabel": "Time_position", 
+        "generatedAlias": "Tp", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["Position of an instant, expressed as a temporal coordinate or nominal value."], 
+        "definitions": ["Position of a time instant expressed as a TimePosition"], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/Temporal_position",
+            "/ontology/1.0/properties/Time_position"
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#Instant"
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#TimePosition"
+        ], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#inDateTime", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "in date-time description", 
+        "path": "/ontology/1.0/properties/in_date-time_description", 
+        "labels": [], 
+        "rdfs_label" : ["in date-time description"], 
+       
+        "generatedLabel": "in date-time description", 
+        "generatedAlias": "idd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["Position of an instant, expressed using a structured description."], 
+        "definitions": ["Position of an instant, expressed using a structured description"], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/Temporal_position",
+            "/ontology/1.0/properties/in_date-time_position"
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#Instant"
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+        ], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#hasTRS", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "Temporal reference system used", 
+        "path": "/ontology/1.0/properties/Temporal_reference_system_used", 
+        "labels": [], 
+        "rdfs_label" : ["in date-time description"], 
+       
+        "generatedLabel": "in date-time description", 
+        "generatedAlias": "idd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["The temporal reference system used by a temporal position or extent description."], 
+        "definitions": ["The temporal reference system used by a temporal position or extent description."], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/Temporal_reference_system_used"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#TRS"
+        ], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#accomplishes", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "accomplishes", 
+        "path": "/ontology/1.0/properties/accomplishes", 
+        "labels": [], 
+        "rdfs_label" : ["accomplishes"], 
+       
+        "generatedLabel": "accomplishesn", 
+        "generatedAlias": "a", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A relationship between a certain entity (e.g., a device) and the task it accomplishes."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/accomplishes"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+            
+        ], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#acts_upon", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "acts upon", 
+        "path": "/ontology/1.0/properties/acts_upon", 
+        "labels": [], 
+        "rdfs_label" : ["acts_upon"], 
+       
+        "generatedLabel": "acts_upon", 
+        "generatedAlias": "a", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A relationship between a command and a state."], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/acts_upon"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+            
+        ], 
+        "shaclDetails": "{}"
+    }
+]

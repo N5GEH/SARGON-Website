@@ -56,7 +56,7 @@
 
                 <div class="mt-16 mb-8 ml-4 text-3xl">
                     
-                    <span class="font-bold leading-tight mt-16 mb-8 mr-4">{{$page.class.generatedLabel}}</span>
+                    <span class="font-bold leading-tight mt-16 mb-8 mr-4">{{$page.class.name}}</span>
                     <span class="text-xs font-bold bg-customcolors-blue1 text-white my-auto mx-2 p-1 px-2 rounded font-left my-auto align-middle">{{ $page.class.type.toUpperCase() }}</span>
                     <span class="text-xs bg-customcolors-blue1 text-white my-auto mx-2 p-1 px-2 rounded my-auto align-middle">{{ `v${$page.class.version}` }}</span>
                 </div>
@@ -136,6 +136,15 @@
                     </div>
                 </div>
 
+                <div class="block sm:flex text-gray-600" v-if="$page.class.definitions && $page.class.definitions.length && $page.class.definitions[0].length">
+                    <div class="l-auto h-auto sm:w-1/6 bg-gray-100 h-12 rounded-lg  px-4 py-2 mt-4 ml-4">Definition:</div>
+                    <div class="l-auto h-auto sm:w-5/6  h-12 overflow-auto">
+                        <div class="rounded-lg px-4 py-2 mt-4 ml-4 definition" :key="definition" v-for="definition in $page.class.definitions">
+                            {{definition}}
+                        </div>
+                    </div>
+                </div>
+
 
                 <div class="block sm:flex text-gray-600" v-if="$page.class.superclasses && $page.class.superclasses.length">
                     <div class="l-auto h-auto sm:w-1/6 bg-gray-100 h-12 rounded-lg  px-4 py-2 mt-4 ml-4">Parent Classes</div>
@@ -175,7 +184,7 @@
 
 
                 <div class="block sm:flex text-gray-600" v-if="$page.class.inDomainOf && $page.class.inDomainOf.length">
-                    <div class="l-auto h-auto sm:w-1/6 bg-gray-100 h-12 rounded-lg  px-4 py-2 mt-4 ml-4">InDomainOf</div>
+                    <div class="l-auto h-auto sm:w-1/6 bg-gray-100 h-12 rounded-lg  px-4 py-2 mt-4 ml-4">Domain</div>
                     <div class="l-auto h-auto sm:w-5/6 h-12 overflow-auto mt-2">
                         <ul class="text-normal text-gray-200 mt-4 ml-4">
                             <li class="text-l text-gray-600 mt-4 ml-4"
@@ -193,7 +202,7 @@
 
 
                 <div class="block sm:flex text-gray-600" v-if="$page.class.inRangeOf && $page.class.inRangeOf.length">
-                    <div class="l-auto h-auto sm:w-1/6 bg-gray-100 h-12 rounded-lg  px-4 py-2 mt-4 ml-4">InRangeOf</div>
+                    <div class="l-auto h-auto sm:w-1/6 bg-gray-100 h-12 rounded-lg  px-4 py-2 mt-4 ml-4">Range</div>
                     <div class="l-auto h-auto sm:w-5/6 h-12 overflow-auto mt-2">
                         <ul class="text-normal text-gray-200 mt-4 ml-4">
                             <li class="text-l text-gray-600 mt-4 ml-4"
@@ -256,6 +265,16 @@
     type
     types
     rdfs_label
+    inDomainOf
+    {
+        generatedLabel
+        path
+    }
+    inRangeOf
+    {
+        generatedLabel
+        path
+    }
     generatedLabel
     shaclDetails
     definitions
