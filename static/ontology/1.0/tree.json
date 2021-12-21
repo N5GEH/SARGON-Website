@@ -935,6 +935,10 @@
                     {
                         "name" : "/ontology/1.0/properties/has_typical_consumption",
                         "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_zone",
+                        "children" : []
                     }
 
 

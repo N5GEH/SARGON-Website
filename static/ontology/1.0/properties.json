@@ -1586,6 +1586,42 @@
         ],
         "inRangeOf": [
         ]
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/has_zone", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has zone", 
+        "path": "/ontology/1.0/properties/has_zone", 
+        "labels": [], 
+        "rdfs_label" : ["has zone"], 
+       
+        "generatedLabel": "has zone", 
+        "generatedAlias": "hz", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_zone"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ]
     }
     
 
