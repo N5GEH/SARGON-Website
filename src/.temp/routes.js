@@ -25,6 +25,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/properties/has_beginning/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/properties/has_building/",
     component: c1
   },
@@ -33,11 +37,91 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/properties/has_duration/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_duration_description/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_end/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/properties/has_floor/",
     component: c1
   },
   {
     path: "/ontology/1.0/properties/has_function/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_meter_reading/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_meter_reading_type/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_price/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_profile/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_room/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_sensing_range/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_sensor/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_sensor_state/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_sensor_type/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_sub_zone/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_temporal_duration/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_tenant/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_threshold_measurement/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_time/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_time_instant_inside/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_typical_consumption/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_zone/",
     component: c1
   },
   {

@@ -96,11 +96,9 @@
                             <li class="text-l text-gray-600 mt-4 ml-4"
                                 v-for="type in $page.class.rdfs_label"
                                 :key="type">
-                                <a
-                                        :href="type"
-                                        class="block mr-4 text-gray-700 font-normal">
+                                
                                     {{ type.split('#').pop() }}
-                                </a>
+                                
                             </li>
                         </ul>
                     </div>
@@ -114,10 +112,12 @@
                             <li class="text-l text-gray-600 mt-4 ml-4"
                                 v-for="equivalentClass in $page.class.equivalentClasses"
                                 :key="equivalentClass.id">
-                                <div class="block mr-4 text-gray-700 font-normal">
-                                    {{ equivalentClass.generatedLabel }}
-                                </div>
                                 
+                                <g-link
+                                        :to="equivalentClass.path"
+                                        class="block mr-4 text-gray-700 font-normal">
+                                    {{ equivalentClass.generatedLabel }}
+                                </g-link>
                             </li>
                         </ul>
                     </div>
