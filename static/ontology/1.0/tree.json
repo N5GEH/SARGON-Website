@@ -783,7 +783,40 @@
                     {
                         "name" : "/ontology/1.0/properties/acts_upon",
                         "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/after",
+                        "children" : [
+                            {
+                                "name" : "/ontology/1.0/properties/interval_after",
+                                "children" :[]
+                            }
+                        ]
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/before",
+                        "children" : [
+                            {
+                                "name" : "/ontology/1.0/properties/interval_before",
+                                "children" :[]
+                            }
+                        ]
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/connected_actuator",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/connected_sensor",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/consists_of",
+                        "children" : []
                     }
+
+                    
+
                 ]
             }
         ]

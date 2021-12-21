@@ -6005,6 +6005,275 @@
             
         ], 
         "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#after", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "after", 
+        "path": "/ontology/1.0/properties/after", 
+        "labels": [], 
+        "rdfs_label" : ["after"], 
+       
+        "generatedLabel": "after", 
+        "generatedAlias": "a", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["Gives directionality to time. If a temporal entity T1 is after another temporal entity T2, then the beginning of T1 is after the end of T2."], 
+        "definitions": ["Gives directionality to time. If a temporal entity T1 is after another temporal entity T2, then the beginning of T1 is after the end of T2."], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/after"
+            
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#TemporalEntity"
+            
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#TemporalEntity"
+        ], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#intervalAfter", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "interval after", 
+        "path": "/ontology/1.0/properties/interval_after", 
+        "labels": [], 
+        "rdfs_label" : ["interval_after"], 
+       
+        "generatedLabel": "interval after", 
+        "generatedAlias": "ia", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["If a proper interval T1 is intervalAfter another proper interval T2, then the beginning of T1 is after the end of T2."], 
+        "definitions": ["If a proper interval T1 is intervalAfter another proper interval T2, then the beginning of T1 is after the end of T2."], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/after",
+            "/ontology/1.0/properties/interval_after"
+            
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+            
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+        ], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#before", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "before", 
+        "path": "/ontology/1.0/properties/before", 
+        "labels": [], 
+        "rdfs_label" : ["before"], 
+       
+        "generatedLabel": "before", 
+        "generatedAlias": "b", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["Gives directionality to time. If a temporal entity T1 is before another temporal entity T2, then the end of T1 is before the beginning of T2. Thus, 'before' can be considered to be basic to instants and derived for intervals."], 
+        "definitions": ["Gives directionality to time. If a temporal entity T1 is before another temporal entity T2, then the end of T1 is before the beginning of T2. Thus, 'before' can be considered to be basic to instants and derived for intervals."], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/before"
+            
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#TemporalEntity"
+            
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#TemporalEntity"
+        ], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#intervalBefore", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "interval before", 
+        "path": "/ontology/1.0/properties/interval_before", 
+        "labels": [], 
+        "rdfs_label" : ["interval_before"], 
+       
+        "generatedLabel": "interval before", 
+        "generatedAlias": "ib", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["If a proper interval T1 is intervalBefore another proper interval T2, then the end of T1 is before the beginning of T2."], 
+        "definitions": ["If a proper interval T1 is intervalBefore another proper interval T2, then the end of T1 is before the beginning of T2."], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/before",
+            "/ontology/1.0/properties/interval_before"
+            
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+            
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+        ], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/connected_actuator", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "connected actuator", 
+        "path": "/ontology/1.0/properties/connected_actuator", 
+        "labels": [], 
+        "rdfs_label" : ["connected actuator"], 
+       
+        "generatedLabel": "connected actuator", 
+        "generatedAlias": "cd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/connected_actuator"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/connected_sensor", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "connected sensor", 
+        "path": "/ontology/1.0/properties/connected_sensor", 
+        "labels": [], 
+        "rdfs_label" : ["connected sensor"], 
+       
+        "generatedLabel": "connected sensor", 
+        "generatedAlias": "cs", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/connected_sensor"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#consistsOf", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "consists of", 
+        "path": "/ontology/1.0/properties/consists_of", 
+        "labels": [], 
+        "rdfs_label" : ["consists of"], 
+       
+        "generatedLabel": "consists of", 
+        "generatedAlias": "co", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A relationship indicating a composite entity that consists of other entities (e.g., a temperature/humidity sensor that consists of a temperature sensor and a humidity sensor)"],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/consists_of"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ], 
+        "shaclDetails": "{}"
     }
     
     
