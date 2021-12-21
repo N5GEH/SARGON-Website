@@ -849,7 +849,49 @@
                     {
                         "name" : "/ontology/1.0/properties/has_function",
                         "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_meter_reading",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_meter_reading_type",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_price",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_profile",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_room",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_sensing_range",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_sensor",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_sensor_type",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_state",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_sub_zone",
+                        "children" : []
                     }
+
+
 
 
 

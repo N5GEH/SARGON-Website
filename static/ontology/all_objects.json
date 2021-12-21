@@ -6570,8 +6570,7 @@
             
         ],
         "inRangeOf": [
-        ], 
-        "":""
+        ]
     },
     {
         "id": "https://w3id.org/saref#hasFunction", 
@@ -6581,10 +6580,11 @@
         "types": [
             "http://www.w3.org/2002/07/owl#ObjectProperty"
         ], 
-        "name": "has floor", 
+        "name": "has function", 
         "path": "/ontology/1.0/properties/has_function", 
         "labels": ["has function"], 
-        "rdfs_label" : ["has function"],  
+        "rdfs_label" : ["has function"], 
+       
         "generatedLabel": "has function", 
         "generatedAlias": "hf", 
         "superclasses": [
@@ -6606,9 +6606,364 @@
             
         ],
         "inRangeOf": [
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#hasMeterReading", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
         ], 
-        "":""
+        "name": "has meter reading", 
+        "path": "/ontology/1.0/properties/has_meter_reading", 
+        "labels": ["has meter reading"], 
+        "rdfs_label" : ["has meter reading"], 
+       
+        "generatedLabel": "has meter reading", 
+        "generatedAlias": "hmr", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A relationship between a metering function and the measurement of the reading."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_meter_reading"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#hasMeterReadingType", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has meter reading type", 
+        "path": "/ontology/1.0/properties/has_meter_reading_type", 
+        "labels": ["has meter reading type"], 
+        "rdfs_label" : ["has meter reading type"], 
+       
+        "generatedLabel": "has meter reading type", 
+        "generatedAlias": "hmrt", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A relationship identifying the reading type of a measurement (e.g., Water, Gas, Pressure , Energy , Power, etc.)."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_meter_reading_type"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#hasPrice", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has price", 
+        "path": "/ontology/1.0/properties/has_price", 
+        "labels": ["has price"], 
+        "rdfs_label" : ["has price"], 
+       
+        "generatedLabel": "has price", 
+        "generatedAlias": "hp", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A relationships indentifying the price associated to an entity."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_price"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#hasProfile", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has profile", 
+        "path": "/ontology/1.0/properties/has_profile", 
+        "labels": ["has profile"], 
+        "rdfs_label" : ["has profile"], 
+       
+        "generatedLabel": "has profile", 
+        "generatedAlias": "hp", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A relationship associating a profile to a certain entity (e.g., a device)."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_profile"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ]
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/has_room", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has room", 
+        "path": "/ontology/1.0/properties/has_room", 
+        "labels": [], 
+        "rdfs_label" : ["has room"], 
+       
+        "generatedLabel": "has room", 
+        "generatedAlias": "hr", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["Things that have rooms..."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_room"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#hasSensingRange", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has sensing range", 
+        "path": "/ontology/1.0/properties/has_sensing_range", 
+        "labels": [], 
+        "rdfs_label" : ["has sensing range"], 
+       
+        "generatedLabel": "has sensing range", 
+        "generatedAlias": "hr", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A relationship between a sensing function and a measurement identifying the range of a sensor detection."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_sensing_range"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ]
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/has_sensor", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has sensor", 
+        "path": "/ontology/1.0/properties/has_sensor", 
+        "labels": [], 
+        "rdfs_label" : ["has sensor"], 
+       
+        "generatedLabel": "has sensor", 
+        "generatedAlias": "hs", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_sensor"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#hasSensorType", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has sensor type", 
+        "path": "/ontology/1.0/properties/has_sensor_type", 
+        "labels": [], 
+        "rdfs_label" : ["has sensor type"], 
+       
+        "generatedLabel": "has sensor type", 
+        "generatedAlias": "hst", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A relationship identifying the sensing type of a sensor detection (i.e., Temperature, Occupancy, Humidity, Motion , Smoke, Pressure, etc.) "],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_sensor_type"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#hasState", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has sensor state", 
+        "path": "/ontology/1.0/properties/has_sensor_state", 
+        "labels": [], 
+        "rdfs_label" : ["has sensor state"], 
+       
+        "generatedLabel": "has sensor state", 
+        "generatedAlias": "hss", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A relationship identifying the type of state of a device."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_state"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ]
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/has_sub_zone", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has sub zone", 
+        "path": "/ontology/1.0/properties/has_sub_zone", 
+        "labels": [], 
+        "rdfs_label" : ["has sub zone"], 
+       
+        "generatedLabel": "has sub zone", 
+        "generatedAlias": "hsb", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_sub_zone"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ]
     }
+    
+    
     
     
 
