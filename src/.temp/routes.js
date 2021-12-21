@@ -13,11 +13,31 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/properties/interval_after/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/interval_before/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/connected_actuator/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/before/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/properties/accomplishes/",
     component: c1
   },
   {
     path: "/ontology/1.0/properties/acts_upon/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/after/",
     component: c1
   },
   {
