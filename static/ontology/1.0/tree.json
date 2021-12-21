@@ -889,7 +889,29 @@
                     {
                         "name" : "/ontology/1.0/properties/has_sub_zone",
                         "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_temporal_duration",
+                        "children" : [
+                            {
+                                "name" : "/ontology/1.0/properties/has_duration",
+                                "children" :[]
+                            },
+                            {
+                                "name" : "/ontology/1.0/properties/has_duration_description",
+                                "children" :[]
+                            }
+                        ]
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_tenant",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_threshold_measurement",
+                        "children" : []
                     }
+
 
 
 

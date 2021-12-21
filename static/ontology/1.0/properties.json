@@ -1197,6 +1197,153 @@
         ],
         "inRangeOf": [
         ]
+    },
+    {
+        "id": "http://www.w3.org/2006/time#hasTemporalDuration", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has temporal duration", 
+        "path": "/ontology/1.0/properties/has_temporal_duration", 
+        "labels": [], 
+        "rdfs_label" : ["has temporal duration"], 
+       
+        "generatedLabel": "has temporal duration", 
+        "generatedAlias": "htd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_temporal_duration"
+            
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#TemporalEntity"
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#TemporalDuration"
+        ]
+    },
+    {
+        "id": "http://www.w3.org/2006/time#hasDuration", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has duration", 
+        "path": "/ontology/1.0/properties/has_duration", 
+        "labels": [], 
+        "rdfs_label" : ["has duration"], 
+       
+        "generatedLabel": "has duration", 
+        "generatedAlias": "hd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_temporal_duration",
+            "/ontology/1.0/properties/has_duration"
+        
+
+        ], 
+        "inDomainOf": [
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#Duration"
+        ]
+    },
+    {
+        "id": "http://www.w3.org/2006/time#hasDurationDescription", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has duration description", 
+        "path": "/ontology/1.0/properties/has_duration_description", 
+        "labels": [], 
+        "rdfs_label" : ["has duration description"], 
+       
+        "generatedLabel": "has duration description", 
+        "generatedAlias": "hdd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["Duration of a temporal entity, expressed using a structured description."],
+        "definitions": ["Duration of a temporal entity, expressed using a structured description."], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_temporal_duration",
+            "/ontology/1.0/properties/has_duration_description"
+            
+
+        ], 
+        "inDomainOf": [
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#GeneralDurationDescription"
+        ]
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/has_tenant", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has tenant", 
+        "path": "/ontology/1.0/properties/has_tenant", 
+        "labels": [], 
+        "rdfs_label" : ["has tenant"], 
+       
+        "generatedLabel": "has tenant", 
+        "generatedAlias": "ht", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_tenant"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ]
     }
     
     
