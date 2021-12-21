@@ -144,6 +144,24 @@
                     </div>
                 </div>
 
+                 <div class="block sm:flex text-gray-600" v-if="$page.class.skos_notes && $page.class.skos_notes.length && $page.class.skos_notes[0].length">
+                    <div class="l-auto h-auto sm:w-1/6 bg-gray-100 h-12 rounded-lg  px-4 py-2 mt-4 ml-4">skos-note:</div>
+                    <div class="l-auto h-auto sm:w-5/6  h-12 overflow-auto">
+                        <div class="rounded-lg px-4 py-2 mt-4 ml-4 definition" :key="skos_note" v-for="skos_note in $page.class.skos_notes">
+                            {{skos_note}}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block sm:flex text-gray-600" v-if="$page.class.skos_historyNotes && $page.class.skos_historyNotes.length && $page.class.skos_historyNotes[0].length">
+                    <div class="l-auto h-auto sm:w-1/6 bg-gray-100 h-12 rounded-lg  px-4 py-2 mt-4 ml-4">skos_historyNote:</div>
+                    <div class="l-auto h-auto sm:w-5/6  h-12 overflow-auto">
+                        <div class="rounded-lg px-4 py-2 mt-4 ml-4 definition" :key="skos_historyNote" v-for="skos_historyNote in $page.class.skos_historyNotes">
+                            {{skos_historyNote}}
+                        </div>
+                    </div>
+                </div>
+
 
                 <div class="block sm:flex text-gray-600" v-if="$page.class.superclasses && $page.class.superclasses.length">
                     <div class="l-auto h-auto sm:w-1/6 bg-gray-100 h-12 rounded-lg  px-4 py-2 mt-4 ml-4">Parent Classes</div>
@@ -263,6 +281,8 @@
     generatedLabel
     path
     }
+    skos_notes
+    skos_historyNotes
     hierarchy
     
      

@@ -9,11 +9,31 @@ const c8 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/
 
 export default [
   {
+    path: "/ontology/1.0/properties/w3_has_time/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/properties/in_date-time_description/",
     component: c1
   },
   {
     path: "/ontology/1.0/properties/has_date-time_description/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/in_building/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/in_floor/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/in_room/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/in_time_zone/",
     component: c1
   },
   {

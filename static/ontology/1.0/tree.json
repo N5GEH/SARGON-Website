@@ -912,7 +912,7 @@
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_time",
+                        "name" : "/ontology/1.0/properties/w3_has_time",
                         "children" : [
                             {
                                 "name" : "/ontology/1.0/properties/has_beginning",
@@ -939,7 +939,25 @@
                     {
                         "name" : "/ontology/1.0/properties/has_zone",
                         "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/in_building",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/in_floor",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/in_room",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/in_time_zone",
+                        "children" : []
                     }
+
+
 
 
 

@@ -23,7 +23,7 @@
         ],
         "comments": ["A category that includes devices as described by building related data models, such as IFC and FIEMSER "], 
         "definitions": ["A category that includes devices as described by building related data models, such as IFC and FIEMSER "], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Building"
@@ -53,7 +53,7 @@
         ],
         "comments": [""], 
         "definitions": [""], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Building",
@@ -84,7 +84,7 @@
         ],
         "comments": ["A room in a building. This class may be used to group devices."], 
         "definitions": [""], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Building",
@@ -115,7 +115,7 @@
         ],
         "comments": ["A class that describes information about a tenant in a building."], 
         "definitions": [""], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Building",
@@ -146,7 +146,7 @@
         ],
         "comments": [""], 
         "definitions": [""], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Building",
@@ -176,7 +176,7 @@
         ],
         "comments": [""], 
         "definitions": [""], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes"
         ], 
@@ -205,7 +205,7 @@
         ],
         "comments": [""], 
         "definitions": [""], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes",
             "/ontology/1.0/objects/Channel",
@@ -236,7 +236,7 @@
         ],
         "comments": [""], 
         "definitions": [""], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes",
             "/ontology/1.0/objects/Channel",
@@ -267,7 +267,7 @@
         ],
         "comments": [""], 
         "definitions": [""], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes",
             "/ontology/1.0/objects/Channel",
@@ -298,7 +298,7 @@
         ],
         "comments": [""], 
         "definitions": [""], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes",
             "/ontology/1.0/objects/Channel",
@@ -329,7 +329,7 @@
         ],
         "comments": [""], 
         "definitions": [""], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes",
             "/ontology/1.0/objects/Channel",
@@ -373,7 +373,7 @@
         ],
         "comments": ["A directive that a device must support to perform a certain function. A command may act upon a state, but does not necessarily act upon a state. For example, the ON command acts upon the ON/OFF state, but the GET command does not act upon any state, it simply gives a directive to retrieve a certain value. We propose here a list of commands that are relevant for the purpose of SAREF, but this list can be extended."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Command"
@@ -405,7 +405,7 @@
         ], 
         "comments": ["A type of command"], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Command", 
@@ -441,7 +441,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Command", 
@@ -469,7 +469,7 @@
         ], 
         "subclasses": [], 
         "comments": ["A type of get command"], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Command", 
@@ -498,7 +498,7 @@
         ], 
         "subclasses": [], 
         "comments": ["A type of get command"], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Command", 
@@ -527,7 +527,7 @@
         ], 
         "subclasses": [], 
         "comments": ["A type of get command"], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Command", 
@@ -556,7 +556,7 @@
         ], 
         "subclasses": [], 
         "comments": ["A type of get command"], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Command", 
@@ -589,7 +589,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Command", 
@@ -621,7 +621,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Command", 
@@ -653,7 +653,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Command", 
@@ -685,7 +685,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Command", 
@@ -717,7 +717,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Command", 
@@ -752,7 +752,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Command", 
@@ -784,7 +784,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Command", 
@@ -817,7 +817,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Command", 
@@ -850,7 +850,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Command", 
@@ -882,7 +882,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Command", 
@@ -914,7 +914,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Command", 
@@ -946,7 +946,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Command", 
@@ -978,7 +978,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Command", 
@@ -1013,7 +1013,7 @@
         ], 
         "comments": ["A marketable item for which there is demand, but which is supplied without qualitative differentiation across a market. SAREF refers to energy commodities such as electricity, gas, coal and oil. "], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Commodity"
@@ -1044,7 +1044,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Commodity",
@@ -1077,7 +1077,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Commodity",
@@ -1109,7 +1109,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Commodity",
@@ -1141,7 +1141,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Commodity",
@@ -1172,7 +1172,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Day_of_week"
@@ -1204,7 +1204,7 @@
         ], 
         "comments": ["A tangible object designed to accomplish a particular task in households, common public buildings or offices. In order to accomplish this task, the device performs one or more functions. For example, a washing machine is designed to wash (task) and to accomplish this task it performs a start and stop function. Devices can be structured in categories (subclasses) that reflect the different domain in which a device is used, e.g., smart appliances domain (subclass FunctionRelated) vs. building domain (subclass BuildingRelated) vs. smart grid domain (subclass EnergyRelated). New categories can be defined,if needed, to reflect other differences, for example different points of view, such as the point of view of the device's user vs. the point of view of the device's manufacturer. We propose a list of devices that are relevant for the purpose of SAREF, but this list can be extended."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Device"
@@ -1237,7 +1237,7 @@
         ], 
         "comments": ["A building represents a structure that provides shelter for its occupants or contents and stands in one place. The building is also used to provide a basic element within the spatial structure hierarchy for the components of a building project (together with site, storey, and space)."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Device",
@@ -1271,7 +1271,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/objects/Device",
@@ -1306,7 +1306,7 @@
         ], 
         "comments": ["A device responsible for moving or controlling a mechanism or system by performing an actuating function"], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -1340,7 +1340,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -1377,7 +1377,7 @@
         ], 
         "comments": ["A device of category saref:Actuator that performs an actuating function of type saref:OnOffFunction or saref:OpenCloseFunction"], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -1412,7 +1412,7 @@
         ], 
         "comments": ["A device of category saref:Actuator that consists of a switch, accomplishes the task saref:Safety, performs the saref:OpenCloseFunction, is used for controlling a door, and can be found in the state saref:OpenCloseState."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -1448,7 +1448,7 @@
         ], 
         "comments": ["A device of category saref:Actuator that consists of a switch, accomplishes the task saref:Lighting, performs the saref:OnOffFunction, measures the property saref:Light, and can be found in the state saref:OnOffState. It can offer a switch on service."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -1486,7 +1486,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -1522,7 +1522,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -1562,7 +1562,7 @@
         ], 
         "comments": ["A device that detects and responds to events or changes in the physical environment such as light, motion, or temperature changes. Further, a device of category saref:Sensor that performs a saref:SensingFunction."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -1596,7 +1596,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -1631,7 +1631,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -1666,7 +1666,7 @@
         ], 
         "comments": ["A device that consists of a sensor, has category saref:Sensor, performs the saref:SensingFunction and saref:EventFunction (which notifies that a certain threshold has been exceeded), and is used for the purpose of sensing a property of type saref:Smoke."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -1701,7 +1701,7 @@
         ], 
         "comments": ["A device that consists of a sensor, has category saref:Sensor, performs the saref:SensingFunction and is used for the purpose of sensing a property of type saref:Temperature"], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -1736,7 +1736,7 @@
         ], 
         "comments": [], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -1780,7 +1780,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -1822,7 +1822,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -1857,7 +1857,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -1893,7 +1893,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -1929,7 +1929,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -1965,7 +1965,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2001,7 +2001,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2037,7 +2037,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2073,7 +2073,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2109,7 +2109,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2149,7 +2149,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2184,7 +2184,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2220,7 +2220,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2256,7 +2256,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2292,7 +2292,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2331,7 +2331,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2366,7 +2366,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2402,7 +2402,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2438,7 +2438,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2476,7 +2476,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2511,7 +2511,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2547,7 +2547,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2587,7 +2587,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2622,7 +2622,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2658,7 +2658,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2694,7 +2694,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2730,7 +2730,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2768,7 +2768,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2803,7 +2803,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2839,7 +2839,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2881,7 +2881,7 @@
         ], 
         "comments": ["A category that considers devices based on energy consumption information and profiles to optimize energy efficiency."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2917,7 +2917,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2951,7 +2951,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -2986,7 +2986,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -3021,7 +3021,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -3056,7 +3056,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -3091,7 +3091,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -3127,7 +3127,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -3161,7 +3161,7 @@
         ], 
         "comments": ["A device used for illumination, irradiation, signaling, or projection"], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -3196,7 +3196,7 @@
         ], 
         "comments": ["A device of category saref:Appliance and saref:Load that accomplishes the task saref:Washing, performs an actuating function of type saref:StartStopFunction, can be found in the state saref:StartStopState, and can have a saref:Profile that characterizes its energy consumption. "], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -3234,7 +3234,7 @@
         ], 
         "comments": ["A device built to accurately detect and display a quantity in a form readable by a human being. Further, a device of category saref:Meter that performs a saref:MeteringFunction."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -3268,7 +3268,7 @@
         ], 
         "comments": ["An energy meter is a device of category saref:Meter that consists of a meter, accomplishes the tasks saref:MeterReading and saref:EnergyEfficiency, performs the saref:MeteringFunction and is used for the purpose of measuring the saref:Energy property."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -3303,7 +3303,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -3338,7 +3338,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -3375,7 +3375,7 @@
         ], 
         "comments": ["A device that generates renewable energy from natural resources such as teh sun, wind and water"], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -3409,7 +3409,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -3444,7 +3444,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -3480,7 +3480,7 @@
         ], 
         "comments": ["A type of energy-related device that stores energy"], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -3514,7 +3514,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -3549,7 +3549,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Device",
@@ -3582,7 +3582,7 @@
         ], 
         "comments": ["The functionality necessary to accomplish the task for which a Device is designed. A device can be designed to perform more than one function. Functions can be structured in categories (subclasses) that reflect different points of view, for example, considering the specific application area for which a function can be used (e.g., light, temperature, motion, heat, power, etc.), or the capability that a function can support (e.g., receive, reply, notify, etc.), and so forth.  "], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Function"
@@ -3618,7 +3618,7 @@
         ], 
         "comments": ["A function that allows to transmit data to actuators, such as level settings (e.g., temperature) or binary switching (e.g., open/close, on/off)"], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Function",
@@ -3650,7 +3650,7 @@
         ], 
         "comments": ["An actuating function that allows to do level adjustments of an actuator in a certain range (e.g., 0%-100%), such as dimming a light or set the speed of an electric motor. "], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Function",
@@ -3683,7 +3683,7 @@
         ], 
         "comments": ["An actuating function that allows to switch on and off an actuator."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Function",
@@ -3716,7 +3716,7 @@
         ], 
         "comments": ["An actuating function that allows to open and close a device."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Function",
@@ -3749,7 +3749,7 @@
         ], 
         "comments": ["An actuating function that allows to start and stop a device."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Function",
@@ -3782,7 +3782,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Function",
@@ -3815,7 +3815,7 @@
         ], 
         "comments": ["A function that allows to notify another device that a certain threshold value has been exceeded."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Function",
@@ -3847,7 +3847,7 @@
         ], 
         "comments": ["A function that allows to get data from a meter, such as current meter reading or instantaneous demand."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Function",
@@ -3879,7 +3879,7 @@
         ], 
         "comments": ["A function that allows to transmit data from sensors, such as measurement values (e.g., temperature) or sensing data (e.g., occupancy)."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Function",
@@ -3916,7 +3916,7 @@
         ], 
         "comments": ["Represents the measured value made over a property. It is also linked to the unit of measure in which the value is expressed and the timestamp of the measurement."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Measurement"
@@ -3947,7 +3947,7 @@
         ], 
         "comments": ["The unit of measure for price."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Measurement",
@@ -3979,7 +3979,7 @@
         ], 
         "comments": ["The unit of measure for energy."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Measurement",
@@ -4011,7 +4011,7 @@
         ], 
         "comments": ["The unit of measure for power."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Measurement",
@@ -4043,7 +4043,7 @@
         ], 
         "comments": ["The unit of measure for pressure."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Measurement",
@@ -4075,7 +4075,7 @@
         ], 
         "comments": ["The unit of measure for temperature."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Measurement",
@@ -4106,7 +4106,7 @@
         ], 
         "comments": ["A specification associated to a device to collect information about a certain Property (e.g., Energy) or Commodity (e.g.Water) for optimizing its usage in the home, office or building in which the device is located. This specification is about a certain Property or Commodity (saref:isAbout), can be calculated over a time span (saref:hasTime ) and can be associated to some costs (saref:hasPrice). An example is the Power Profile defined in the SAREF4ENER extension that can be associated to a device for optimizing the Energy efficiency in the home, office or building in which the device is located."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Profile"
@@ -4153,7 +4153,7 @@
         ], 
         "comments": ["Anything that can be sensed, measured or controlled in households, common public buildings or offices. We propose here a list of properties that are relevant for the purpose of SAREF, but this list can be extended."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Property"
@@ -4184,7 +4184,7 @@
         ], 
         "comments": ["A property related to measurements of CO2 level in the air. Measured in ppm."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Property",
@@ -4216,7 +4216,7 @@
         ], 
         "comments": ["A property related to measurements measured in Ampere (A)."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Property",
@@ -4248,7 +4248,7 @@
         ], 
         "comments": ["A property related to measurements of rates of flow, measured in m³/s. This may for instance be used to measure air flow in ventilation or water flow in district heating systems."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Property",
@@ -4280,7 +4280,7 @@
         ], 
         "comments": ["A saref:Property related to some measurements that are characterized by a certain value that is measured in a humidity unit."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Property",
@@ -4312,7 +4312,7 @@
         ], 
         "comments": ["A saref:Property related to some measurements that are characterized by a certain value that is measured in a illuminance unit (lux)."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Property",
@@ -4344,7 +4344,7 @@
         ], 
         "comments": ["A saref:Property related to some measurements that are characterized by a certain value that is measured in a unit of measure for motion."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Property",
@@ -4376,7 +4376,7 @@
         ], 
         "comments": ["A saref:Property related to some measurements that are characterized by a certain value (saref:hasValue property) that is measured in a unit of measure for occupancy."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Property",
@@ -4408,7 +4408,7 @@
         ], 
         "comments": ["A saref:Property related to some measurements that are characterized by a certain value that is measured in a power unit (such as watt or kilowatt).  Further specializations of the saref:Power class can be found in the SAREF4ENER extension, where classes such as PowerMax, PowerMin and PowerExpected are defined."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Property",
@@ -4440,7 +4440,7 @@
         ], 
         "comments": ["A saref:Property related to some measurements that are characterized by a certain value that is measured in a pressure unit (bar or pascal)."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Property",
@@ -4472,7 +4472,7 @@
         ], 
         "comments": ["A saref:Property crelated to some measurements that are characterized by a certain value that is measured using saref:Currency."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Property",
@@ -4503,7 +4503,7 @@
         ], 
         "comments": ["A saref:Property related to some measurements that are characterized by a certain value that is measured in a unit of measure for smoke."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Smoke"
@@ -4533,7 +4533,7 @@
         ], 
         "comments": ["A property related to measurements of the battery status of a device. Measured in %. 100 % means fully charged. 0 % no charge."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/State_of_charge"
@@ -4563,7 +4563,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Tap_position"
@@ -4593,7 +4593,7 @@
         ], 
         "comments": [""], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temperature"
@@ -4623,7 +4623,7 @@
         ], 
         "comments": ["A saref:Property that allows to specify the time concept in terms of instants or intervals according to the imported W3C Time ontology."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Time"
@@ -4653,7 +4653,7 @@
         ], 
         "comments": ["Voltage in Volts"], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Voltage"
@@ -4683,7 +4683,7 @@
         ], 
         "comments": ["A property related to measurements measured in volume. Volume is measured in m³."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Volume"
@@ -4714,7 +4714,7 @@
         ], 
         "comments": ["A service is a representation of a function to a network that makes the function discoverable, registerable, remotely controllable by other devices in the network. A service can represent one or more functions. A Service is offered by a device that wants (a certain set of) its function(s) to be discoverable, registerable, remotely controllable by other devices in the network. A Service must specify the device that is offering the service and the function(s) to be represented."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Service"
@@ -4744,7 +4744,7 @@
         ], 
         "comments": ["A type of service that represents an on/off function to the network."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Service",
@@ -4780,7 +4780,7 @@
         ], 
         "comments": ["The state in which a device can be found, e.g, ON/OFF/STANDBY, or ONLINE/OFFLINE. We propose here a list of states that are relevant for the purpose of SAREF, but this list can be extended."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/State"
@@ -4811,7 +4811,7 @@
         ], 
         "comments": ["A type of state."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/State",
@@ -4845,7 +4845,7 @@
         ], 
         "comments": ["A type of state."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/State",
@@ -4877,7 +4877,7 @@
         ], 
         "comments": ["A type of state."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/State",
@@ -4910,7 +4910,7 @@
         ], 
         "comments": ["A type of state."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/State",
@@ -4945,7 +4945,7 @@
         ], 
         "comments": ["A type of state."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/State",
@@ -4977,7 +4977,7 @@
         ], 
         "comments": ["A type of state."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/State",
@@ -5010,7 +5010,7 @@
         ], 
         "comments": ["A type of state."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/State",
@@ -5043,7 +5043,7 @@
         ], 
         "comments": ["A type of state."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/State",
@@ -5076,7 +5076,7 @@
         ], 
         "comments": ["A type of state."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/State",
@@ -5110,7 +5110,7 @@
         ], 
         "comments": ["A type of state."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/State",
@@ -5142,7 +5142,7 @@
         ], 
         "comments": ["The goal for which a device is designed (from a user perspective). For example, a washing machine is designed for the task of washing. We propose here a list of tasks that are relevant for the purpose of SAREF, but this list can be extended."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Task"
@@ -5172,7 +5172,7 @@
         ], 
         "comments": ["A temporal reference system, such as a temporal coordinate system (with an origin, direction, and scale), a calendar-clock combination, or a (possibly hierarchical) ordinal system. This is a stub class, representing the set of all temporal reference systems."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_reference_system"
@@ -5205,7 +5205,7 @@
         ], 
         "comments": ["Time extent; duration of a time interval separate from its particular start position."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_duration"
@@ -5237,7 +5237,7 @@
         ], 
         "comments": ["Description of temporal extent structured with separate values for the various elements of a calendar-clock system."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_duration",
@@ -5270,7 +5270,7 @@
         ], 
         "comments": ["Description of temporal extent structured with separate values for the various elements of a calendar-clock system. The temporal reference system is fixed to Gregorian Calendar, and the range of each of the numeric properties is restricted to xsd:decimal"], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_duration",
@@ -5304,7 +5304,7 @@
         ], 
         "comments": ["Year was proposed in the 2006 version of OWL-Time as an example of how DurationDescription could be specialized to allow for a duration to be restricted to a number of years."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_duration",
@@ -5338,7 +5338,7 @@
         ], 
         "comments": ["Duration of a temporal extent expressed as a number scaled by a temporal unit"], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_duration",
@@ -5370,7 +5370,7 @@
         ], 
         "comments": ["Duration of a temporal extent expressed as a number scaled by a temporal unit"], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_duration",
@@ -5403,7 +5403,7 @@
         ], 
         "comments": ["A temporal interval or instant."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_entity"
@@ -5434,7 +5434,7 @@
         ], 
         "comments": ["A temporal entity with zero extent or duration."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_entity",
@@ -5467,7 +5467,7 @@
         ], 
         "comments": ["A temporal entity with an extent or duration."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_entity",
@@ -5500,7 +5500,7 @@
         ], 
         "comments": ["A temporal entity with non-zero extent or duration, i.e. for which the value of the beginning and end are different."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_entity",
@@ -5533,7 +5533,7 @@
         ], 
         "comments": ["DateTimeInterval is a subclass of ProperInterval, defined using the multi-element DateTimeDescription."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_entity",
@@ -5568,7 +5568,7 @@
         ], 
         "comments": ["A position on a time-line"], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_position"
@@ -5600,7 +5600,7 @@
         ], 
         "comments": ["Some combinations of properties are redundant - for example, within a specified :year if :dayOfYear is provided then :day and :month can be computed, and vice versa. Individual values should be consistent with each other and the calendar, indicated through the value of the :hasTRS property."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_position",
@@ -5633,7 +5633,7 @@
         ], 
         "comments": ["A temporal position described using either a (nominal) value from an ordinal reference system, or a (numeric) value in a temporal coordinate system."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_position",
@@ -5667,7 +5667,7 @@
         ], 
         "comments": ["Description of date and time structured with separate values for the various elements of a calendar-clock system. The temporal reference system is fixed to Gregorian Calendar, and the range of year, month, day properties restricted to corresponding XML Schema types xsd:gYear, xsd:gMonth and xsd:gDay, respectively."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_position",
@@ -5701,7 +5701,7 @@
         ], 
         "comments": ["This class was present in the 2006 version of OWL-Time. It was presented as an example of how DateTimeDescription could be specialized, but does not belong in the revised ontology. "], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_position",
@@ -5736,7 +5736,7 @@
         ], 
         "comments": ["The month of the year."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Temporal_position",
@@ -5769,7 +5769,7 @@
         ], 
         "comments": ["A Time Zone specifies the amount by which the local time is offset from UTC. A time zone is usually denoted geographically (e.g. Australian Eastern Daylight Time), with a constant value in a given region. The region where it applies and the offset from UTC are specified by a locally recognised governing authority."], 
         "definitions": [], 
-        "equivalentClasses": [], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
             "/ontology/1.0/classes/Time_zone"

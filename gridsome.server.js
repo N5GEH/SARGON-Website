@@ -48,6 +48,8 @@ module.exports = function (api, options) {
                     subclasses: store.createReference("Class", node.subclasses),
                     comments: node.comments,
                     definitions: node.definitions,
+                    skos_notes: node.skos_notes,
+                    skos_historyNotes: node.skos_historyNotes,
                     equivalentClasses: store.createReference(
                         "Class",
                         node.equivalentClasses
