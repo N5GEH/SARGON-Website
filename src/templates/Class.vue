@@ -114,11 +114,10 @@
                             <li class="text-l text-gray-600 mt-4 ml-4"
                                 v-for="equivalentClass in $page.class.equivalentClasses"
                                 :key="equivalentClass.id">
-                                <g-link
-                                        :to="equivalentClass.path"
-                                        class="block mr-4 text-gray-700 font-normal">
+                                <div class="block mr-4 text-gray-700 font-normal">
                                     {{ equivalentClass.generatedLabel }}
-                                </g-link>
+                                </div>
+                                
                             </li>
                         </ul>
                     </div>
