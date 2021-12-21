@@ -32,8 +32,7 @@
         ], 
         "inRangeOf": [
             "http://www.w3.org/2006/time#TimePosition"
-        ], 
-        "shaclDetails": "{}"
+        ]
     },
     {
         "id": "http://www.w3.org/2006/time#inTimePosition", 
@@ -70,8 +69,7 @@
         ],
         "inRangeOf": [
             "http://www.w3.org/2006/time#TimePosition"
-        ], 
-        "shaclDetails": "{}"
+        ]
     },
     {
         "id": "http://www.w3.org/2006/time#inTimePosition", 
@@ -108,8 +106,7 @@
         ],
         "inRangeOf": [
             "http://www.w3.org/2006/time#TimePosition"
-        ], 
-        "shaclDetails": "{}"
+        ]
     },
     {
         "id": "http://www.w3.org/2006/time#inDateTime", 
@@ -146,8 +143,7 @@
         ],
         "inRangeOf": [
             "http://www.w3.org/2006/time#GeneralDateTimeDescription"
-        ], 
-        "shaclDetails": "{}"
+        ]
     },
     {
         "id": "http://www.w3.org/2006/time#hasTRS", 
@@ -184,8 +180,7 @@
         ],
         "inRangeOf": [
             "http://www.w3.org/2006/time#TRS"
-        ], 
-        "shaclDetails": "{}"
+        ]
     },
     {
         "id": "https://w3id.org/saref#accomplishes", 
@@ -222,8 +217,7 @@
         ],
         "inRangeOf": [
             
-        ], 
-        "shaclDetails": "{}"
+        ]
     },
     {
         "id": "https://w3id.org/saref#acts_upon", 
@@ -260,8 +254,7 @@
         ],
         "inRangeOf": [
             
-        ], 
-        "shaclDetails": "{}"
+        ]
     },
     {
         "id": "http://www.w3.org/2006/time#after", 
@@ -299,8 +292,7 @@
         ],
         "inRangeOf": [
             "http://www.w3.org/2006/time#TemporalEntity"
-        ], 
-        "shaclDetails": "{}"
+        ]
     },
     {
         "id": "http://www.w3.org/2006/time#intervalAfter", 
@@ -339,8 +331,7 @@
         ],
         "inRangeOf": [
             "http://www.w3.org/2006/time#ProperInterval"
-        ], 
-        "shaclDetails": "{}"
+        ]
     },
     {
         "id": "http://www.w3.org/2006/time#before", 
@@ -378,8 +369,7 @@
         ],
         "inRangeOf": [
             "http://www.w3.org/2006/time#TemporalEntity"
-        ], 
-        "shaclDetails": "{}"
+        ]
     },
     {
         "id": "http://www.w3.org/2006/time#intervalBefore", 
@@ -418,8 +408,7 @@
         ],
         "inRangeOf": [
             "http://www.w3.org/2006/time#ProperInterval"
-        ], 
-        "shaclDetails": "{}"
+        ]
     },
     {
         "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/connected_actuator", 
@@ -455,8 +444,7 @@
             
         ],
         "inRangeOf": [
-        ], 
-        "shaclDetails": "{}"
+        ]
     },
     {
         "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/connected_sensor", 
@@ -492,8 +480,7 @@
             
         ],
         "inRangeOf": [
-        ], 
-        "shaclDetails": "{}"
+        ]
     },
     {
         "id": "https://w3id.org/saref#consistsOf", 
@@ -529,23 +516,22 @@
             
         ],
         "inRangeOf": [
-        ], 
-        "shaclDetails": "{}"
+        ]
     },
     {
-        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/contained_of", 
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/containe_of", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
             "http://www.w3.org/2002/07/owl#ObjectProperty"
         ], 
-        "name": "connected sensor", 
-        "path": "/ontology/1.0/properties/contained_of", 
+        "name": "containe of", 
+        "path": "/ontology/1.0/properties/containe_of", 
         "labels": [], 
-        "rdfs_label" : ["contained of"], 
+        "rdfs_label" : ["containe of"], 
        
-        "generatedLabel": "contained of", 
+        "generatedLabel": "containe of", 
         "generatedAlias": "co", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
@@ -566,8 +552,7 @@
             
         ],
         "inRangeOf": [
-        ], 
-        "shaclDetails": "{}"
+        ]
     },
     {
         "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/controlled_property", 
@@ -603,8 +588,7 @@
             
         ],
         "inRangeOf": [
-        ], 
-        "shaclDetails": "{}"
+        ]
     },
     {
         "id": "https://w3id.org/saref#controlsProperty", 
@@ -640,8 +624,7 @@
             
         ],
         "inRangeOf": [
-        ], 
-        "shaclDetails": "{}"
+        ]
     },
     {
         "id": "http://www.w3.org/2006/time#dayOfWeek", 
@@ -678,8 +661,7 @@
         ],
         "inRangeOf": [
             "http://www.w3.org/2006/time#DayOfWeek"
-        ], 
-        "shaclDetails": "{}"
+        ]
     },
     {
         "id": "http://www.w3.org/2006/time#hasDateTimeDescription", 
@@ -716,8 +698,7 @@
         ],
         "inRangeOf": [
             "http://www.w3.org/2006/time#GeneralDateTimeDescription"
-        ], 
-        "shaclDetails": "{}"
+        ]
     },
     {
         "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/has_building", 
@@ -753,8 +734,7 @@
             
         ],
         "inRangeOf": [
-        ], 
-        "shaclDetails": "{}"
+        ]
     },
     {
         "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/has_channel", 
@@ -790,8 +770,79 @@
             
         ],
         "inRangeOf": [
+        ]
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/has_floor", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
         ], 
-        "shaclDetails": "{}"
+        "name": "has floor", 
+        "path": "/ontology/1.0/properties/has_floor", 
+        "labels": [], 
+        "rdfs_label" : ["has floor"], 
+       
+        "generatedLabel": "has floor", 
+        "generatedAlias": "hf", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_floor"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#hasFunction", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has floor", 
+        "path": "/ontology/1.0/properties/has_function", 
+        "labels": ["has function"], 
+        "rdfs_label" : ["has function"], 
+       
+        "generatedLabel": "has function", 
+        "generatedAlias": "hf", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A relationship identifying the type of function of a device."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_function"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ]
     }
 
 

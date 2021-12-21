@@ -55,7 +55,6 @@ module.exports = function (api, options) {
                     hierarchy: node.hierarchy,
                     inRangeOf: store.createReference("Class", node.inRangeOf),
                     inDomainOf: store.createReference("Class", node.inDomainOf),
-                    shaclDetails: node.shaclDetails,
                 });
         });
        

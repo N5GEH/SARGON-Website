@@ -13,6 +13,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/properties/has_date-time_description/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/properties/interval_after/",
     component: c1
   },
@@ -21,7 +25,47 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/properties/has_building/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_channel/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_floor/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_function/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/day_of_week/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/properties/connected_actuator/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/connected_sensor/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/consists_of/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/containe_of/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/controlled_property/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/controls_property/",
     component: c1
   },
   {

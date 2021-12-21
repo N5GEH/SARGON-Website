@@ -841,7 +841,16 @@
                     {
                         "name" : "/ontology/1.0/properties/has_channel",
                         "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_floor",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_function",
+                        "children" : []
                     }
+
 
 
 

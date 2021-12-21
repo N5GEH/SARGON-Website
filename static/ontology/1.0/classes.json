@@ -29,8 +29,8 @@
             "/ontology/1.0/objects/Building"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": []
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Floor", 
@@ -60,8 +60,8 @@
             "/ontology/1.0/objects/Floor"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": []
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Room", 
@@ -91,8 +91,8 @@
             "/ontology/1.0/objects/Room"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": []
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Tenant", 
@@ -122,8 +122,8 @@
             "/ontology/1.0/objects/Tenant"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Zone", 
@@ -153,8 +153,8 @@
             "/ontology/1.0/objects/Tenant"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Channel", 
@@ -181,8 +181,8 @@
             "/ontology/1.0/#Classes"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Angle", 
@@ -212,8 +212,8 @@
             "/ontology/1.0/objects/Angle"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Frequency", 
@@ -243,8 +243,8 @@
             "/ontology/1.0/objects/Frequency"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Maqnitute", 
@@ -274,8 +274,8 @@
             "/ontology/1.0/objects/Maqnitute"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Rocf", 
@@ -305,8 +305,8 @@
             "/ontology/1.0/objects/Rocf"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Timestamp", 
@@ -336,8 +336,8 @@
             "/ontology/1.0/objects/Timestamp"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Command", 
@@ -379,8 +379,8 @@
             "/ontology/1.0/objects/Command"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     }, 
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Close_command", 
@@ -412,8 +412,8 @@
             "/ontology/1.0/objects/Close_command"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     }, 
     {
         "id": "https://w3id.org/saref#GetCommand", 
@@ -448,8 +448,8 @@
             "/ontology/1.0/objects/Get_command"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     }, 
     {
         "id": "https://w3id.org/saref#GetCurrentMeterValueCommand", 
@@ -477,8 +477,8 @@
             "/ontology/1.0/objects/Get_current_meter_value_command"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     }, 
     {
         "id": "https://w3id.org/saref#GetMeterDataCommand", 
@@ -506,8 +506,8 @@
             "/ontology/1.0/objects/Get_meter_data_command"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#GetMeterHistoryCommand", 
@@ -535,8 +535,8 @@
             "/ontology/1.0/objects/Get_meter_history_command"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#GetSensingDataCommand", 
@@ -564,8 +564,8 @@
             "/ontology/1.0/objects/Get_sensing_data_command"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#NotifyCommand", 
@@ -596,8 +596,8 @@
             "/ontology/1.0/objects/Notify_command"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#OffCommand", 
@@ -628,8 +628,8 @@
             "/ontology/1.0/objects/Off_command"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#OnCommand", 
@@ -660,8 +660,8 @@
             "/ontology/1.0/objects/On_command"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#OpenCommand", 
@@ -692,8 +692,8 @@
             "/ontology/1.0/objects/Open_command"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#PauseCommand", 
@@ -724,8 +724,8 @@
             "/ontology/1.0/objects/Pause_command"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#SetLevelCommand", 
@@ -759,8 +759,8 @@
             "/ontology/1.0/objects/Set_level_command"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#SetAbsoluteLevelCommand", 
@@ -792,8 +792,8 @@
             "/ontology/1.0/objects/Set_absolute_level_command"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#SetRelativeLevelCommand", 
@@ -825,8 +825,8 @@
             "/ontology/1.0/objects/Set_relative_level_command"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#StartCommand", 
@@ -857,8 +857,8 @@
             "/ontology/1.0/objects/Start_command"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#StepDownCommand", 
@@ -889,8 +889,8 @@
             "/ontology/1.0/objects/Step_down_command"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#StepUpCommand", 
@@ -921,8 +921,8 @@
             "/ontology/1.0/objects/Step_up_command"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#StopCommand", 
@@ -953,8 +953,8 @@
             "/ontology/1.0/objects/Stop_command"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#ToggleCommand", 
@@ -985,8 +985,8 @@
             "/ontology/1.0/objects/Toggle_command"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Commodity", 
@@ -1019,8 +1019,8 @@
             "/ontology/1.0/objects/Commodity"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Coal", 
@@ -1052,8 +1052,8 @@
 
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Electricity", 
@@ -1084,8 +1084,8 @@
             "/ontology/1.0/objects/Electricity"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Gas", 
@@ -1116,8 +1116,8 @@
             "/ontology/1.0/objects/Gas"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Water", 
@@ -1148,8 +1148,8 @@
             "/ontology/1.0/objects/Water"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "http://www.w3.org/2006/time#DayOfWeek", 
@@ -1159,7 +1159,7 @@
         "types": [
             "http://www.w3.org/2002/07/owl#Class"
         ], 
-        "name": "Day_Of_Week", 
+        "name": "Day Of Week", 
         "path": "/ontology/1.0/objects/Day_of_week", 
         "labels": [], 
         "rdfs_label" : ["Day_of_week"], 
@@ -1178,8 +1178,8 @@
             "/ontology/1.0/objects/Day_of_week"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Device",
@@ -1210,8 +1210,8 @@
             "/ontology/1.0/objects/Device"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/BuildingRelated", 
@@ -1244,8 +1244,8 @@
             "/ontology/1.0/objects/Building_related"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/ControlDevice", 
@@ -1279,8 +1279,8 @@
             "/ontology/1.0/objects/Control_device"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Actuator", 
@@ -1315,8 +1315,8 @@
             "/ontology/1.0/classes/Actuator"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/RVK", 
@@ -1350,8 +1350,8 @@
             "/ontology/1.0/classes/RVK"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Switch", 
@@ -1387,8 +1387,8 @@
             "/ontology/1.0/classes/Switch"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#DoorSwitch", 
@@ -1423,8 +1423,8 @@
             "/ontology/1.0/classes/Door_switch"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#LightSwitch", 
@@ -1459,8 +1459,8 @@
             "/ontology/1.0/classes/Light_switch"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Controller", 
@@ -1495,8 +1495,8 @@
             "/ontology/1.0/classes/Controller"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/PID", 
@@ -1532,8 +1532,8 @@
             "/ontology/1.0/classes/PID"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Sensor", 
@@ -1571,8 +1571,8 @@
             "/ontology/1.0/classes/Sensor"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Air_flow_sensor",
@@ -1606,8 +1606,8 @@
             "/ontology/1.0/classes/Air_flow_sensor"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Electricity_sensor",
@@ -1641,8 +1641,8 @@
             "/ontology/1.0/classes/Electricity_sensor"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#SmokeSensor",
@@ -1676,8 +1676,8 @@
             "/ontology/1.0/classes/Smoke_sensor"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#TemperatureSensor",
@@ -1711,8 +1711,8 @@
             "/ontology/1.0/classes/Temperature_sensor"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Water_flow_sensor",
@@ -1746,8 +1746,8 @@
             "/ontology/1.0/classes/Water_flow_sensor"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
    
     {
@@ -1788,8 +1788,8 @@
             "/ontology/1.0/classes/Flow_device"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Energy_conversion_device", 
@@ -1831,8 +1831,8 @@
             "/ontology/1.0/classes/Energy_conversion_device"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Air_to_air_heat_recovery", 
@@ -1867,8 +1867,8 @@
             "/ontology/1.0/classes/Air_to_air_heat_recovery"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Boiler", 
@@ -1903,8 +1903,8 @@
             "/ontology/1.0/classes/Boiler"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Burner", 
@@ -1939,8 +1939,8 @@
             "/ontology/1.0/classes/Burner"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Chiller", 
@@ -1975,8 +1975,8 @@
             "/ontology/1.0/classes/Chiller"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Coil", 
@@ -2011,8 +2011,8 @@
             "/ontology/1.0/classes/Coil"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/HP", 
@@ -2047,8 +2047,8 @@
             "/ontology/1.0/classes/HP"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Humidifier", 
@@ -2083,8 +2083,8 @@
             "/ontology/1.0/classes/Humidifier"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tube_bundle", 
@@ -2119,8 +2119,8 @@
             "/ontology/1.0/classes/Tube_bundle"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_controller", 
@@ -2158,8 +2158,8 @@
             "/ontology/1.0/classes/Flow_controller"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Damper", 
@@ -2194,8 +2194,8 @@
             "/ontology/1.0/classes/Damper"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Electronic_time_control", 
@@ -2230,8 +2230,8 @@
             "/ontology/1.0/classes/Electronic_time_control"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_meter", 
@@ -2266,8 +2266,8 @@
             "/ontology/1.0/classes/Flow_meter"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Switching_device", 
@@ -2302,8 +2302,8 @@
             "/ontology/1.0/classes/Switching_device"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_moving_device", 
@@ -2340,8 +2340,8 @@
             "/ontology/1.0/classes/Flow_moving_device"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Compressor", 
@@ -2376,8 +2376,8 @@
             "/ontology/1.0/classes/Compressor"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Fan", 
@@ -2412,8 +2412,8 @@
             "/ontology/1.0/classes/Fan"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Pump", 
@@ -2448,8 +2448,8 @@
             "/ontology/1.0/classes/Pump"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_storage_device", 
@@ -2485,8 +2485,8 @@
             "/ontology/1.0/classes/Flow_storage_device"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Electronic_flow_storage_device", 
@@ -2521,8 +2521,8 @@
             "/ontology/1.0/classes/Electronic_flow_storage_device"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tank", 
@@ -2557,8 +2557,8 @@
             "/ontology/1.0/classes/Tank"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_terminal", 
@@ -2596,8 +2596,8 @@
             "/ontology/1.0/classes/Flow_terminal"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Audio_visual_appliance", 
@@ -2632,8 +2632,8 @@
             "/ontology/1.0/classes/Audio_visual_appliance"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Communication_appliance", 
@@ -2668,8 +2668,8 @@
             "/ontology/1.0/classes/Communication_appliance"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Lamp", 
@@ -2704,8 +2704,8 @@
             "/ontology/1.0/classes/Lamp"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Space_heater", 
@@ -2740,8 +2740,8 @@
             "/ontology/1.0/classes/Space_heater"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_terminal_device", 
@@ -2777,8 +2777,8 @@
             "/ontology/1.0/classes/Flow_terminal_device"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Filter", 
@@ -2813,8 +2813,8 @@
             "/ontology/1.0/classes/Filter"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Interceptor", 
@@ -2849,8 +2849,8 @@
             "/ontology/1.0/classes/Interceptor"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#GridRelated", 
@@ -2888,8 +2888,8 @@
             "/ontology/1.0/classes/Grid_related"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Convertor", 
@@ -2926,8 +2926,8 @@
 
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/AC-DC", 
@@ -2961,8 +2961,8 @@
 
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/CT-VT", 
@@ -2996,8 +2996,8 @@
 
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/DC-DC", 
@@ -3031,8 +3031,8 @@
 
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/HV-DC", 
@@ -3066,8 +3066,8 @@
 
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Generator", 
@@ -3100,8 +3100,8 @@
 
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Load", 
@@ -3136,8 +3136,8 @@
 
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#LightingDevice", 
@@ -3171,8 +3171,8 @@
 
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#WashingMachine", 
@@ -3206,8 +3206,8 @@
 
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Meter", 
@@ -3243,8 +3243,8 @@
 
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#EnergyMeter", 
@@ -3278,8 +3278,8 @@
 
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/PMU", 
@@ -3313,8 +3313,8 @@
 
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Power_meter", 
@@ -3348,8 +3348,8 @@
 
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#MicroRenewable", 
@@ -3384,8 +3384,8 @@
 
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/PV",
@@ -3419,8 +3419,8 @@
 
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/WPP",
@@ -3454,8 +3454,8 @@
 
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Storage", 
@@ -3489,8 +3489,8 @@
 
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Battery_storage", 
@@ -3524,8 +3524,8 @@
 
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Transformer", 
@@ -3558,8 +3558,8 @@
 
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Function", 
@@ -3588,8 +3588,8 @@
             "/ontology/1.0/classes/Function"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#ActuatingFunction", 
@@ -3625,8 +3625,8 @@
             "/ontology/1.0/classes/Actuating_function"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#LevelControlFunction", 
@@ -3658,8 +3658,8 @@
             "/ontology/1.0/classes/Level_control_function"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#OnOffFunction", 
@@ -3691,8 +3691,8 @@
             "/ontology/1.0/classes/On_off_function"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#OpenCloseFunction", 
@@ -3724,8 +3724,8 @@
             "/ontology/1.0/classes/Open_close_function"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#StartStopFunction", 
@@ -3757,8 +3757,8 @@
             "/ontology/1.0/classes/Start_stop_function"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tap_position",
@@ -3790,8 +3790,8 @@
             "/ontology/1.0/classes/Tap_position"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#EventFunction", 
@@ -3822,8 +3822,8 @@
             "/ontology/1.0/classes/Event_function"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#MeteringFunction", 
@@ -3854,8 +3854,8 @@
             "/ontology/1.0/classes/Metering_function"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#SensingFunction", 
@@ -3886,8 +3886,8 @@
             "/ontology/1.0/classes/Sensing_function"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Measurement", 
@@ -3922,8 +3922,8 @@
             "/ontology/1.0/classes/Measurement"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Currency", 
@@ -3954,8 +3954,8 @@
             "/ontology/1.0/classes/Currency_unit"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#EnergyUnit", 
@@ -3986,8 +3986,8 @@
             "/ontology/1.0/classes/Energy_unit"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#PowerUnit", 
@@ -4018,8 +4018,8 @@
             "/ontology/1.0/classes/Power_unit"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#PressureUnit", 
@@ -4050,8 +4050,8 @@
             "/ontology/1.0/classes/Pressure_unit"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#TemperatureUnit", 
@@ -4082,8 +4082,8 @@
             "/ontology/1.0/classes/Temperature_unit"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Profile", 
@@ -4112,8 +4112,8 @@
             "/ontology/1.0/classes/Profile"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Property", 
@@ -4159,8 +4159,8 @@
             "/ontology/1.0/classes/Property"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/CO2_level", 
@@ -4191,8 +4191,8 @@
             "/ontology/1.0/classes/CO2_level"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Current", 
@@ -4223,8 +4223,8 @@
             "/ontology/1.0/classes/Current"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow", 
@@ -4255,8 +4255,8 @@
             "/ontology/1.0/classes/Flow"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Humidity", 
@@ -4287,8 +4287,8 @@
             "/ontology/1.0/classes/Humidity"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Light", 
@@ -4319,8 +4319,8 @@
             "/ontology/1.0/classes/Light"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Motion", 
@@ -4351,8 +4351,8 @@
             "/ontology/1.0/classes/Motion"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Occupancy", 
@@ -4383,8 +4383,8 @@
             "/ontology/1.0/classes/Occupancy"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Power", 
@@ -4415,8 +4415,8 @@
             "/ontology/1.0/classes/Power"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Pressure", 
@@ -4447,8 +4447,8 @@
             "/ontology/1.0/classes/Pressure"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Price", 
@@ -4479,8 +4479,8 @@
             "/ontology/1.0/classes/Price"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Smoke", 
@@ -4509,8 +4509,8 @@
             "/ontology/1.0/classes/Smoke"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/State_of_charge", 
@@ -4539,8 +4539,8 @@
             "/ontology/1.0/classes/State_of_charge"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tap_position", 
@@ -4569,8 +4569,8 @@
             "/ontology/1.0/classes/Tap_position"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Temperature", 
@@ -4599,8 +4599,8 @@
             "/ontology/1.0/classes/Temperature"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Time", 
@@ -4629,8 +4629,8 @@
             "/ontology/1.0/classes/Time"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Voltage", 
@@ -4659,8 +4659,8 @@
             "/ontology/1.0/classes/Voltage"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Volume", 
@@ -4689,8 +4689,8 @@
             "/ontology/1.0/classes/Volume"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Service", 
@@ -4720,8 +4720,8 @@
             "/ontology/1.0/classes/Service"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#SwitchOnService", 
@@ -4752,8 +4752,8 @@
 
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#State", 
@@ -4786,8 +4786,8 @@
             "/ontology/1.0/classes/State"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#MultiLevelState", 
@@ -4818,8 +4818,8 @@
             "/ontology/1.0/classes/Multi_level_state"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#OnOffState", 
@@ -4852,8 +4852,8 @@
             "/ontology/1.0/classes/On_off_state"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#OnState", 
@@ -4885,8 +4885,8 @@
             "/ontology/1.0/classes/On_state"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#OffState", 
@@ -4918,8 +4918,8 @@
             "/ontology/1.0/classes/Off_state"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#OpenCloseState", 
@@ -4952,8 +4952,8 @@
             "/ontology/1.0/classes/Open_close_state"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#OpenState", 
@@ -4985,8 +4985,8 @@
             "/ontology/1.0/classes/Open_state"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#CloseState", 
@@ -5018,8 +5018,8 @@
             "/ontology/1.0/classes/Close_state"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#StartStopState", 
@@ -5050,8 +5050,8 @@
             "/ontology/1.0/classes/Start_stop_state"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#StartState", 
@@ -5084,8 +5084,8 @@
             "/ontology/1.0/classes/Start_state"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#StopState", 
@@ -5118,8 +5118,8 @@
             "/ontology/1.0/classes/Stop_state"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "https://w3id.org/saref#Task", 
@@ -5148,8 +5148,8 @@
             "/ontology/1.0/classes/Task"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "http://www.w3.org/2006/time#TRS", 
@@ -5178,8 +5178,8 @@
             "/ontology/1.0/classes/Temporal_reference_system"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "http://www.w3.org/2006/time#TemporalDuration", 
@@ -5211,8 +5211,8 @@
             "/ontology/1.0/classes/Temporal_duration"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "http://www.w3.org/2006/time#GeneralDurationDescription", 
@@ -5244,8 +5244,8 @@
             "/ontology/1.0/classes/Generalized_duration_description"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "http://www.w3.org/2006/time#DurationDescription", 
@@ -5278,8 +5278,8 @@
             "/ontology/1.0/classes/Duration_description"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "http://www.w3.org/2006/time#Year", 
@@ -5313,8 +5313,8 @@
             "/ontology/1.0/classes/Year"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "http://www.w3.org/2006/time#TemporalUnit", 
@@ -5345,8 +5345,8 @@
             "/ontology/1.0/classes/Temporal_unit"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "http://www.w3.org/2006/time#TimeDuration", 
@@ -5377,8 +5377,8 @@
             "/ontology/1.0/classes/Time_unit"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "http://www.w3.org/2006/time#TemporalEntity", 
@@ -5409,8 +5409,8 @@
             "/ontology/1.0/classes/Temporal_entity"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "http://www.w3.org/2006/time#Instant", 
@@ -5441,8 +5441,8 @@
             "/ontology/1.0/classes/Time_instant"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "http://www.w3.org/2006/time#Interval", 
@@ -5474,8 +5474,8 @@
             "/ontology/1.0/classes/Time_interval"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "http://www.w3.org/2006/time#ProperInterval", 
@@ -5508,8 +5508,8 @@
             "/ontology/1.0/classes/Proper_interval"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "http://www.w3.org/2006/time#DateTimeInterval", 
@@ -5542,8 +5542,8 @@
             "/ontology/1.0/classes/Date_time_interval"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "http://www.w3.org/2006/time#TemporalPosition", 
@@ -5574,8 +5574,8 @@
             "/ontology/1.0/classes/Temporal_position"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "http://www.w3.org/2006/time#GeneralDateTimeDescription", 
@@ -5607,8 +5607,8 @@
             "/ontology/1.0/classes/Generalized_date-time_description"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "http://www.w3.org/2006/time#TimePosition", 
@@ -5640,8 +5640,8 @@
             "/ontology/1.0/classes/Time_position"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "http://www.w3.org/2006/time#DateTimeDescription", 
@@ -5675,8 +5675,8 @@
             "/ontology/1.0/classes/Date_time_description"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "http://www.w3.org/2006/time#January", 
@@ -5710,8 +5710,8 @@
             "/ontology/1.0/classes/January"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "http://www.w3.org/2006/time#MonthOfYear", 
@@ -5745,8 +5745,8 @@
             "/ontology/1.0/classes/Month_of_year"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     },
     {
         "id": "http://www.w3.org/2006/time#TimeZone", 
@@ -5775,8 +5775,8 @@
             "/ontology/1.0/classes/Time_zone"
         ], 
         "inRangeOf": [], 
-        "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "inDomainOf": [] 
+         
     }
 
 ]

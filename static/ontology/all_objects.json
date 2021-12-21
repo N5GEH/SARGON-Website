@@ -30,7 +30,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Floor", 
@@ -61,7 +61,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Room", 
@@ -92,7 +92,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tenant", 
@@ -123,7 +123,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Zone", 
@@ -154,7 +154,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel", 
@@ -182,7 +182,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Angle", 
@@ -213,7 +213,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Frequency", 
@@ -244,7 +244,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Maqnitute", 
@@ -275,7 +275,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Rocf", 
@@ -306,7 +306,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Timestamp", 
@@ -337,7 +337,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Command", 
@@ -380,7 +380,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     }, 
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Close_command", 
@@ -413,7 +413,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     }, 
     {
         "id": "https://w3id.org/saref#GetCommand", 
@@ -449,7 +449,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     }, 
     {
         "id": "https://w3id.org/saref#GetCurrentMeterValueCommand", 
@@ -478,7 +478,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     }, 
     {
         "id": "https://w3id.org/saref#GetMeterDataCommand", 
@@ -507,7 +507,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#GetMeterHistoryCommand", 
@@ -536,7 +536,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#GetSensingDataCommand", 
@@ -565,7 +565,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#NotifyCommand", 
@@ -597,7 +597,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#OffCommand", 
@@ -629,7 +629,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#OnCommand", 
@@ -661,7 +661,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#OpenCommand", 
@@ -693,7 +693,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#PauseCommand", 
@@ -725,7 +725,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#SetLevelCommand", 
@@ -760,7 +760,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#SetAbsoluteLevelCommand", 
@@ -793,7 +793,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#SetRelativeLevelCommand", 
@@ -826,7 +826,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#StartCommand", 
@@ -858,7 +858,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#StepDownCommand", 
@@ -890,7 +890,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#StepUpCommand", 
@@ -922,7 +922,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#StopCommand", 
@@ -954,7 +954,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#ToggleCommand", 
@@ -986,7 +986,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Commodity", 
@@ -1020,7 +1020,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Coal", 
@@ -1053,7 +1053,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Electricity", 
@@ -1085,7 +1085,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Gas", 
@@ -1117,7 +1117,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Water", 
@@ -1149,7 +1149,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#DayOfWeek", 
@@ -1159,7 +1159,7 @@
         "types": [
             "http://www.w3.org/2002/07/owl#Class"
         ], 
-        "name": "Day_Of_Week", 
+        "name": "Day Of Week", 
         "path": "/ontology/1.0/classes/Day_of_week", 
         "labels": [], 
         "rdfs_label" : ["Day_of_week"], 
@@ -1179,7 +1179,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Device",
@@ -1211,7 +1211,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/BuildingRelated", 
@@ -1245,7 +1245,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/ControlDevice", 
@@ -1280,7 +1280,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Actuator", 
@@ -1316,7 +1316,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/RVK", 
@@ -1351,7 +1351,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Switch", 
@@ -1388,7 +1388,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#DoorSwitch", 
@@ -1424,7 +1424,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#LightSwitch", 
@@ -1460,7 +1460,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Controller", 
@@ -1496,7 +1496,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/PID", 
@@ -1533,7 +1533,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Sensor", 
@@ -1572,7 +1572,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Air_flow_sensor",
@@ -1607,7 +1607,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Electricity_sensor",
@@ -1642,7 +1642,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#SmokeSensor",
@@ -1677,7 +1677,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#TemperatureSensor",
@@ -1712,7 +1712,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Water_flow_sensor",
@@ -1747,7 +1747,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
    
     {
@@ -1789,7 +1789,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Energy_conversion_device", 
@@ -1832,7 +1832,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Air_to_air_heat_recovery", 
@@ -1868,7 +1868,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Boiler", 
@@ -1904,7 +1904,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Burner", 
@@ -1940,7 +1940,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Chiller", 
@@ -1976,7 +1976,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Coil", 
@@ -2012,7 +2012,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/HP", 
@@ -2048,7 +2048,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Humidifier", 
@@ -2084,7 +2084,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tube_bundle", 
@@ -2120,7 +2120,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_controller", 
@@ -2159,7 +2159,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Damper", 
@@ -2195,7 +2195,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Electronic_time_control", 
@@ -2231,7 +2231,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_meter", 
@@ -2267,7 +2267,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Switching_device", 
@@ -2303,7 +2303,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_moving_device", 
@@ -2341,7 +2341,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Compressor", 
@@ -2377,7 +2377,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Fan", 
@@ -2413,7 +2413,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Pump", 
@@ -2449,7 +2449,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_storage_device", 
@@ -2486,7 +2486,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Electronic_flow_storage_device", 
@@ -2522,7 +2522,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tank", 
@@ -2558,7 +2558,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_terminal", 
@@ -2597,7 +2597,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Audio_visual_appliance", 
@@ -2633,7 +2633,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Communication_appliance", 
@@ -2669,7 +2669,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Lamp", 
@@ -2705,7 +2705,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Space_heater", 
@@ -2741,7 +2741,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow_terminal_device", 
@@ -2778,7 +2778,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Filter", 
@@ -2814,7 +2814,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Interceptor", 
@@ -2850,7 +2850,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#GridRelated", 
@@ -2889,7 +2889,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Convertor", 
@@ -2927,7 +2927,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/AC-DC", 
@@ -2962,7 +2962,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/CT-VT", 
@@ -2997,7 +2997,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/DC-DC", 
@@ -3032,7 +3032,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/HV-DC", 
@@ -3067,7 +3067,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Generator", 
@@ -3101,7 +3101,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Load", 
@@ -3137,7 +3137,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#LightingDevice", 
@@ -3172,7 +3172,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#WashingMachine", 
@@ -3207,7 +3207,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Meter", 
@@ -3244,7 +3244,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#EnergyMeter", 
@@ -3279,7 +3279,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/PMU", 
@@ -3314,7 +3314,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Power_meter", 
@@ -3349,7 +3349,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#MicroRenewable", 
@@ -3385,7 +3385,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/PV",
@@ -3420,7 +3420,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/WPP",
@@ -3455,7 +3455,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Storage", 
@@ -3490,7 +3490,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Battery_storage", 
@@ -3525,7 +3525,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Transformer", 
@@ -3559,7 +3559,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Function", 
@@ -3589,7 +3589,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#ActuatingFunction", 
@@ -3626,7 +3626,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#LevelControlFunction", 
@@ -3659,7 +3659,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#OnOffFunction", 
@@ -3692,7 +3692,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#OpenCloseFunction", 
@@ -3725,7 +3725,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#StartStopFunction", 
@@ -3758,7 +3758,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tap_position",
@@ -3791,7 +3791,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#EventFunction", 
@@ -3823,7 +3823,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#MeteringFunction", 
@@ -3855,7 +3855,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#SensingFunction", 
@@ -3887,7 +3887,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Measurement", 
@@ -3923,7 +3923,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Currency", 
@@ -3955,7 +3955,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#EnergyUnit", 
@@ -3987,7 +3987,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#PowerUnit", 
@@ -4019,7 +4019,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#PressureUnit", 
@@ -4051,7 +4051,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#TemperatureUnit", 
@@ -4083,7 +4083,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Profile", 
@@ -4113,7 +4113,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Property", 
@@ -4160,7 +4160,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/CO2_level", 
@@ -4192,7 +4192,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Current", 
@@ -4224,7 +4224,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Flow", 
@@ -4256,7 +4256,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Humidity", 
@@ -4288,7 +4288,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Light", 
@@ -4320,7 +4320,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Motion", 
@@ -4352,7 +4352,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Occupancy", 
@@ -4384,7 +4384,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Power", 
@@ -4416,7 +4416,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Pressure", 
@@ -4448,7 +4448,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Price", 
@@ -4480,7 +4480,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Smoke", 
@@ -4510,7 +4510,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/State_of_charge", 
@@ -4540,7 +4540,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tap_position", 
@@ -4570,7 +4570,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Temperature", 
@@ -4600,7 +4600,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Time", 
@@ -4630,7 +4630,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Voltage", 
@@ -4660,7 +4660,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Volume", 
@@ -4690,7 +4690,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Service", 
@@ -4721,7 +4721,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#SwitchOnService", 
@@ -4753,7 +4753,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#State", 
@@ -4787,7 +4787,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#MultiLevelState", 
@@ -4819,7 +4819,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#OnOffState", 
@@ -4853,7 +4853,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#OnState", 
@@ -4886,7 +4886,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#OffState", 
@@ -4919,7 +4919,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#OpenCloseState", 
@@ -4953,7 +4953,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#OpenState", 
@@ -4986,7 +4986,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#CloseState", 
@@ -5019,7 +5019,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#StartStopState", 
@@ -5051,7 +5051,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#StartState", 
@@ -5085,7 +5085,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#StopState", 
@@ -5119,7 +5119,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#Task", 
@@ -5149,7 +5149,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#TRS", 
@@ -5179,7 +5179,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#TemporalDuration", 
@@ -5212,7 +5212,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#GeneralDurationDescription", 
@@ -5245,7 +5245,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#DurationDescription", 
@@ -5279,7 +5279,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#Year", 
@@ -5314,7 +5314,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#TemporalUnit", 
@@ -5346,7 +5346,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#TimeDuration", 
@@ -5378,7 +5378,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#TemporalEntity", 
@@ -5410,7 +5410,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#Instant", 
@@ -5442,7 +5442,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#Interval", 
@@ -5475,7 +5475,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#ProperInterval", 
@@ -5509,7 +5509,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#DateTimeInterval", 
@@ -5543,7 +5543,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#TemporalPosition", 
@@ -5575,7 +5575,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#GeneralDateTimeDescription", 
@@ -5608,7 +5608,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#TimePosition", 
@@ -5641,7 +5641,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#DateTimeDescription", 
@@ -5676,7 +5676,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#January", 
@@ -5711,7 +5711,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#MonthOfYear", 
@@ -5746,7 +5746,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#TimeZone", 
@@ -5776,7 +5776,7 @@
         ], 
         "inRangeOf": [], 
         "inDomainOf": [], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#inTemporalPosition", 
@@ -5814,7 +5814,7 @@
         "inRangeOf": [
             "http://www.w3.org/2006/time#TimePosition"
         ], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#inTimePosition", 
@@ -5854,7 +5854,7 @@
         "inRangeOf": [
             "http://www.w3.org/2006/time#TimePosition"
         ], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#inDateTime", 
@@ -5892,7 +5892,7 @@
         "inRangeOf": [
             "http://www.w3.org/2006/time#GeneralDateTimeDescription"
         ], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#hasTRS", 
@@ -5930,7 +5930,7 @@
         "inRangeOf": [
             "http://www.w3.org/2006/time#TRS"
         ], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#accomplishes", 
@@ -5966,7 +5966,7 @@
         "inRangeOf": [
             
         ], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#acts_upon", 
@@ -6004,7 +6004,7 @@
         "inRangeOf": [
             
         ], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#after", 
@@ -6043,7 +6043,7 @@
         "inRangeOf": [
             "http://www.w3.org/2006/time#TemporalEntity"
         ], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#intervalAfter", 
@@ -6083,7 +6083,7 @@
         "inRangeOf": [
             "http://www.w3.org/2006/time#ProperInterval"
         ], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#before", 
@@ -6122,7 +6122,7 @@
         "inRangeOf": [
             "http://www.w3.org/2006/time#TemporalEntity"
         ], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#intervalBefore", 
@@ -6162,7 +6162,7 @@
         "inRangeOf": [
             "http://www.w3.org/2006/time#ProperInterval"
         ], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/connected_actuator", 
@@ -6199,7 +6199,7 @@
         ],
         "inRangeOf": [
         ], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/connected_sensor", 
@@ -6236,7 +6236,7 @@
         ],
         "inRangeOf": [
         ], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#consistsOf", 
@@ -6273,22 +6273,22 @@
         ],
         "inRangeOf": [
         ], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
-        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/contained_of", 
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/containe_of", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
             "http://www.w3.org/2002/07/owl#ObjectProperty"
         ], 
-        "name": "connected sensor", 
-        "path": "/ontology/1.0/properties/contained_of", 
+        "name": "containe of", 
+        "path": "/ontology/1.0/properties/containe_of", 
         "labels": [], 
-        "rdfs_label" : ["contained of"], 
+        "rdfs_label" : ["containe of"], 
        
-        "generatedLabel": "contained of", 
+        "generatedLabel": "containe of", 
         "generatedAlias": "co", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
@@ -6301,7 +6301,7 @@
         "hierarchy": [
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#Object_Properties",
-            "/ontology/1.0/properties/contained_of"
+            "/ontology/1.0/properties/containe_of"
             
 
         ], 
@@ -6310,7 +6310,7 @@
         ],
         "inRangeOf": [
         ], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/controlled_property", 
@@ -6347,7 +6347,7 @@
         ],
         "inRangeOf": [
         ], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://w3id.org/saref#controlsProperty", 
@@ -6384,7 +6384,7 @@
         ],
         "inRangeOf": [
         ], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#dayOfWeek", 
@@ -6422,7 +6422,7 @@
         "inRangeOf": [
             "http://www.w3.org/2006/time#DayOfWeek"
         ], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "http://www.w3.org/2006/time#hasDateTimeDescription", 
@@ -6460,7 +6460,7 @@
         "inRangeOf": [
             "http://www.w3.org/2006/time#GeneralDateTimeDescription"
         ], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/has_building", 
@@ -6497,7 +6497,7 @@
         ],
         "inRangeOf": [
         ], 
-        "shaclDetails": "{}"
+        "":""
     },
     {
         "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/has_channel", 
@@ -6534,7 +6534,80 @@
         ],
         "inRangeOf": [
         ], 
-        "shaclDetails": "{}"
+        "":""
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/has_floor", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has floor", 
+        "path": "/ontology/1.0/properties/has_floor", 
+        "labels": [], 
+        "rdfs_label" : ["has floor"], 
+       
+        "generatedLabel": "has floor", 
+        "generatedAlias": "hf", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_floor"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ], 
+        "":""
+    },
+    {
+        "id": "https://w3id.org/saref#hasFunction", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has floor", 
+        "path": "/ontology/1.0/properties/has_function", 
+        "labels": ["has function"], 
+        "rdfs_label" : ["has function"],  
+        "generatedLabel": "has function", 
+        "generatedAlias": "hf", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A relationship identifying the type of function of a device."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_function"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ], 
+        "":""
     }
     
     
