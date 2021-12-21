@@ -7536,6 +7536,220 @@
             "http://www.w3.org/2006/time#TimeZone"
 
         ]
+    },
+    {
+        "id": "http://www.w3.org/2006/time#intervalDisjoint", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "interval disjoint", 
+        "path": "/ontology/1.0/properties/interval_disjoint", 
+        "labels": [], 
+        "rdfs_label" : ["interval disjoint"], 
+       
+        "generatedLabel": "interval disjoint", 
+        "generatedAlias": "id", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["If a proper interval T1 is intervalDisjoint another proper interval T2, then the beginning of T1 is after the end of T2, or the end of T1 is before the beginning of T2, i.e. the intervals do not overlap in any way, but their ordering relationship is not known."],
+        "definitions": ["If a proper interval T1 is intervalDisjoint another proper interval T2, then the beginning of T1 is after the end of T2, or the end of T1 is before the beginning of T2, i.e. the intervals do not overlap in any way, but their ordering relationship is not known."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": ["This interval relation is not included in the 13 basic relationships defined in Allen (1984), but is defined in (T.3) as the union of :intervalBefore v :intervalAfter . However, that is outside OWL2 expressivity, so is implemented as an explicit property, with :intervalBefore , :intervalAfter as sub-properties."],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/interval_contains"
+            
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+            
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+
+        ]
+    },
+    {
+        "id": "http://www.w3.org/2006/time#intervalAfter", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "interval after", 
+        "path": "/ontology/1.0/properties/interval_after", 
+        "labels": [], 
+        "rdfs_label" : ["interval after"], 
+       
+        "generatedLabel": "interval after", 
+        "generatedAlias": "id", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["If a proper interval T1 is intervalAfter another proper interval T2, then the beginning of T1 is after the end of T2."],
+        "definitions": ["If a proper interval T1 is intervalAfter another proper interval T2, then the beginning of T1 is after the end of T2."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/interval_contains",
+            "/ontology/1.0/properties/interval_after"
+            
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+            
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+
+        ]
+    },
+    {
+        "id": "http://www.w3.org/2006/time#intervalBefore", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "interval before", 
+        "path": "/ontology/1.0/properties/interval_before", 
+        "labels": [], 
+        "rdfs_label" : ["interval before"], 
+       
+        "generatedLabel": "interval before", 
+        "generatedAlias": "ib", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["If a proper interval T1 is intervalBefore another proper interval T2, then the end of T1 is before the beginning of T2."],
+        "definitions": ["If a proper interval T1 is intervalBefore another proper interval T2, then the end of T1 is before the beginning of T2."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/interval_contains",
+            "/ontology/1.0/properties/interval_before"
+            
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+            
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+
+        ]
+    },
+    
+    
+    {
+        "id": "http://www.w3.org/2006/time#intervalEquals", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "interval equals", 
+        "path": "/ontology/1.0/properties/interval_equals", 
+        "labels": [], 
+        "rdfs_label" : ["interval equals"], 
+       
+        "generatedLabel": "interval equals", 
+        "generatedAlias": "ie", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["If a proper interval T1 is intervalEquals another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is coincident with the end of T2."],
+        "definitions": ["If a proper interval T1 is intervalEquals another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is coincident with the end of T2."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/interval_equals"
+            
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+            
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+
+        ]
+    },
+    {
+        "id": "http://www.w3.org/2006/time#intervalFinishedBy", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "interval_finished_by", 
+        "path": "/ontology/1.0/properties/interval_finished_by", 
+        "labels": [], 
+        "rdfs_label" : ["interval finished by"], 
+       
+        "generatedLabel": "interval finished by", 
+        "generatedAlias": "ifb", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["If a proper interval T1 is intervalFinishedBy another proper interval T2, then the beginning of T1 is before the beginning of T2, and the end of T1 is coincident with the end of T2."],
+        "definitions": ["If a proper interval T1 is intervalFinishedBy another proper interval T2, then the beginning of T1 is before the beginning of T2, and the end of T1 is coincident with the end of T2."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/interval_finished_by"
+            
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+            
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+
+        ]
     }
     
     

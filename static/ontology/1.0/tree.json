@@ -955,7 +955,33 @@
                     {
                         "name" : "/ontology/1.0/properties/in_time_zone",
                         "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/interval_contains",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/interval_disjoint",
+                        "children" : [
+                            {
+                                "name" : "/ontology/1.0/properties/interval_after",
+                                "children" :[]
+                            },
+                            {
+                                "name" : "/ontology/1.0/properties/interval_before",
+                                "children" :[]
+                            }
+                        ]
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/interval_equals",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/interval_finished_by",
+                        "children" : []
                     }
+
 
 
 
