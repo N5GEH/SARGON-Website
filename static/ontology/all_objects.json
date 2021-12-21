@@ -7108,6 +7108,248 @@
         ],
         "inRangeOf": [
         ]
+    },
+    {
+        "id": "https://w3id.org/saref#hasThresholdMeasurement", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has threshold measurement", 
+        "path": "/ontology/1.0/properties/has_threshold_measurement", 
+        "labels": [], 
+        "rdfs_label" : ["has threshold measurement"], 
+       
+        "generatedLabel": "has threshold measurement", 
+        "generatedAlias": "htm", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A relationship associated with an event function to notify that a certain threshold measurement has been exceeded."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_threshold_measurement"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ]
+    },
+    {
+        "id": "http://www.w3.org/2006/time#hasTime", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has time", 
+        "path": "/ontology/1.0/properties/has_time", 
+        "labels": [], 
+        "rdfs_label" : ["has time"], 
+       
+        "generatedLabel": "has time", 
+        "generatedAlias": "ht", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["Supports the association of a temporal entity (instant or interval) to any thing"],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_time"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ]
+    },
+    {
+        "id": "http://www.w3.org/2006/time#hasBeginning", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has beginning", 
+        "path": "/ontology/1.0/properties/has_beginning", 
+        "labels": [], 
+        "rdfs_label" : ["has beginning"], 
+       
+        "generatedLabel": "has beginning", 
+        "generatedAlias": "hb", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["Beginning of a temporal entity."],
+        "definitions": ["Beginning of a temporal entity."], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_time",
+            "/ontology/1.0/properties/has_beginning"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#TemporalEntity"
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#Instant"
+        ]
+    },
+    {
+        "id": "http://www.w3.org/2006/time#hasEnd", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has end", 
+        "path": "/ontology/1.0/properties/has_end", 
+        "labels": [], 
+        "rdfs_label" : ["has end"], 
+       
+        "generatedLabel": "has end", 
+        "generatedAlias": "he", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["End of a temporal entity."],
+        "definitions": ["End of a temporal entity."], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_time",
+            "/ontology/1.0/properties/has_end"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#TemporalEntity"
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#Instant"
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#hasTime", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has time", 
+        "path": "/ontology/1.0/properties/has_time", 
+        "labels": [], 
+        "rdfs_label" : ["has time"], 
+       
+        "generatedLabel": "has time", 
+        "generatedAlias": "ht", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A relationship to associate time information to an entity."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_time"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ]
+    },
+    {
+        "id": "http://www.w3.org/2006/time#inside", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has time instant inside", 
+        "path": "/ontology/1.0/properties/has_time_instant_inside", 
+        "labels": [], 
+        "rdfs_label" : ["has time instant inside"], 
+       
+        "generatedLabel": "has time instant inside", 
+        "generatedAlias": "htii", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["An instant that falls inside the interval. It is not intended to include beginnings and ends of intervals."],
+        "definitions": ["An instant that falls inside the interval. It is not intended to include beginnings and ends of intervals."], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_time_instant_inside"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#Interval"
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#Instant"
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#hasTypicalConsumption", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has typical consumption", 
+        "path": "/ontology/1.0/properties/has_typical_consumption", 
+        "labels": [], 
+        "rdfs_label" : ["has typical consumption"], 
+       
+        "generatedLabel": "has typical consumption", 
+        "generatedAlias": "htc", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A relationship identifying the typical (energy or power) consumption of a device."],
+        "definitions": ["A relationship identifying the typical (energy or power) consumption of a device."], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_typical_consumption"
+        ], 
+        "inDomainOf": [
+        ],
+        "inRangeOf": [
+        ]
     }
     
     

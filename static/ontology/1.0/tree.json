@@ -910,6 +910,31 @@
                     {
                         "name" : "/ontology/1.0/properties/has_threshold_measurement",
                         "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_time",
+                        "children" : [
+                            {
+                                "name" : "/ontology/1.0/properties/has_beginning",
+                                "children" :[]
+                            },
+                            {
+                                "name" : "/ontology/1.0/properties/has_end",
+                                "children" :[]
+                            }
+                        ]
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_time",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_time_instant_inside",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_typical_consumption",
+                        "children" : []
                     }
 
 
