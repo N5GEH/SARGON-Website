@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const pick = require("lodash.pick");
-const sargonClasses = require("./static/ontology/all_objects.json");
+const sargonObjects = require("./static/ontology/all_objects.json");
 
 
 const { pathPrefix } = require("./gridsome.config");
@@ -30,7 +30,7 @@ module.exports = function (api, options) {
             typeName: "Namespace",
         });
 
-        sargonClasses.forEach((node) => {
+        sargonObjects.forEach((node) => {
             if (node.path.charAt(0) == "/")
                 classes.addNode({
                     id: node.id,

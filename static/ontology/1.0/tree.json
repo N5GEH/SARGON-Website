@@ -813,7 +813,25 @@
                     {
                         "name" : "/ontology/1.0/properties/consists_of",
                         "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/contain_of",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/controlled_property",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/controls_property",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/day_of_week",
+                        "children" : []
                     }
+
+
 
                     
 

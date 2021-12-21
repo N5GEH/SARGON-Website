@@ -531,6 +531,155 @@
         "inRangeOf": [
         ], 
         "shaclDetails": "{}"
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/contained_of", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "connected sensor", 
+        "path": "/ontology/1.0/properties/contained_of", 
+        "labels": [], 
+        "rdfs_label" : ["contained of"], 
+       
+        "generatedLabel": "contained of", 
+        "generatedAlias": "co", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/contained_of"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/controlled_property", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "controlled property", 
+        "path": "/ontology/1.0/properties/controlled_property", 
+        "labels": [], 
+        "rdfs_label" : ["controlled property"], 
+       
+        "generatedLabel": "controlled property", 
+        "generatedAlias": "cp", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/controlled_property"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://w3id.org/saref#controlsProperty", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "controlled property", 
+        "path": "/ontology/1.0/properties/controls_property", 
+        "labels": [], 
+        "rdfs_label" : ["controlled property"], 
+       
+        "generatedLabel": "controlled property", 
+        "generatedAlias": "cp", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["A relationship specifying the Property that can be controlled by a certain Device."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/controls_property"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#dayOfWeek", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "day of week", 
+        "path": "/ontology/1.0/properties/day_of_week", 
+        "labels": [], 
+        "rdfs_label" : ["day_of_week"], 
+       
+        "generatedLabel": "day_of_week", 
+        "generatedAlias": "dow", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["The day of week, whose value is a member of the class time:DayOfWeek."],
+        "definitions": ["The day of week, whose value is a member of the class time:DayOfWeek."], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/day_of_week"
+            
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#DayOfWeek"
+        ], 
+        "shaclDetails": "{}"
     }
 
 ]
