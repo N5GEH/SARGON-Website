@@ -680,6 +680,119 @@
             "http://www.w3.org/2006/time#DayOfWeek"
         ], 
         "shaclDetails": "{}"
+    },
+    {
+        "id": "http://www.w3.org/2006/time#hasDateTimeDescription", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has date-time description", 
+        "path": "/ontology/1.0/properties/has_date-time_description", 
+        "labels": [], 
+        "rdfs_label" : ["has_date-time_description"], 
+       
+        "generatedLabel": "has_date-time_description", 
+        "generatedAlias": "hdd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": ["Value of DateTimeInterval expressed as a structured value. The beginning and end of the interval coincide with the limits of the shortest element in the description."],
+        "definitions": ["Value of DateTimeInterval expressed as a structured value. The beginning and end of the interval coincide with the limits of the shortest element in the description."], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_date-time_description"
+            
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#DateTimeInterval"
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+        ], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/has_building", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has building", 
+        "path": "/ontology/1.0/properties/has_building", 
+        "labels": [], 
+        "rdfs_label" : ["has building"], 
+       
+        "generatedLabel": "has building", 
+        "generatedAlias": "hb", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_building"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ], 
+        "shaclDetails": "{}"
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/has_channel", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has channel", 
+        "path": "/ontology/1.0/properties/has_channel", 
+        "labels": [], 
+        "rdfs_label" : ["has channel"], 
+       
+        "generatedLabel": "has channel", 
+        "generatedAlias": "hc", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/has_channel"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+        ], 
+        "shaclDetails": "{}"
     }
+
 
 ]

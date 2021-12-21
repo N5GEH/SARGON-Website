@@ -829,7 +829,21 @@
                     {
                         "name" : "/ontology/1.0/properties/day_of_week",
                         "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_date-time_description",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_building",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/has_channel",
+                        "children" : []
                     }
+
+
 
 
 
