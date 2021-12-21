@@ -980,6 +980,24 @@
                     {
                         "name" : "/ontology/1.0/properties/interval_finished_by",
                         "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/interval_in",
+                        "children" : [
+                            {
+                                "name" : "/ontology/1.0/properties/interval_during",
+                                "children" :[]
+                            },
+                            {
+                                "name" : "/ontology/1.0/properties/interval_finishes",
+                                "children" :[]
+                            },
+                            {
+                                "name" : "/ontology/1.0/properties/interval_starts",
+                                "children" :[]
+                            }
+
+                        ]
                     }
 
 

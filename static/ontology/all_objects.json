@@ -7717,7 +7717,7 @@
         "types": [
             "http://www.w3.org/2002/07/owl#ObjectProperty"
         ], 
-        "name": "interval_finished_by", 
+        "name": "interval finished by", 
         "path": "/ontology/1.0/properties/interval_finished_by", 
         "labels": [], 
         "rdfs_label" : ["interval finished by"], 
@@ -7739,6 +7739,177 @@
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#Object_Properties",
             "/ontology/1.0/properties/interval_finished_by"
+            
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+            
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+
+        ]
+    },
+    {
+        "id": "http://www.w3.org/2006/time#intervalIn", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "interval in", 
+        "path": "/ontology/1.0/properties/interval_in", 
+        "labels": [], 
+        "rdfs_label" : ["interval in"], 
+       
+        "generatedLabel": "interval in", 
+        "generatedAlias": "ii", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["If a proper interval T1 is intervalIn another proper interval T2, then the beginning of T1 is after the beginning of T2 or is coincident with the beginning of T2, and the end of T1 is before the end of T2, or is coincident with the end of T2, except that end of T1 may not be coincident with the end of T2 if the beginning of T1 is coincident with the beginning of T2."],
+        "definitions": ["If a proper interval T1 is intervalIn another proper interval T2, then the beginning of T1 is after the beginning of T2 or is coincident with the beginning of T2, and the end of T1 is before the end of T2, or is coincident with the end of T2, except that end of T1 may not be coincident with the end of T2 if the beginning of T1 is coincident with the beginning of T2."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": ["This interval relation is not included in the 13 basic relationships defined in Allen (1984), but is referred to as 'an important relationship' in Allen and Ferguson (1997). It is the disjoint union of :intervalStarts v :intervalDuring v :intervalFinishes . However, that is outside OWL2 expressivity, so is implemented as an explicit property, with :intervalStarts , :intervalDuring , :intervalFinishes as sub-properties."],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/interval_in"
+            
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+            
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+
+        ]
+    },
+    {
+        "id": "http://www.w3.org/2006/time#intervalDuring", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "interval during", 
+        "path": "/ontology/1.0/properties/interval_during", 
+        "labels": [], 
+        "rdfs_label" : ["interval during"], 
+       
+        "generatedLabel": "interval during", 
+        "generatedAlias": "id", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["If a proper interval T1 is intervalDuring another proper interval T2, then the beginning of T1 is after the beginning of T2, and the end of T1 is before the end of T2."],
+        "definitions": ["If a proper interval T1 is intervalDuring another proper interval T2, then the beginning of T1 is after the beginning of T2, and the end of T1 is before the end of T2."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/interval_in",
+            "/ontology/1.0/properties/interval_during"
+            
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+            
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+
+        ]
+    },
+    {
+        "id": "http://www.w3.org/2006/time#intervalFinishes", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "interval finishes", 
+        "path": "/ontology/1.0/properties/interval_finishes", 
+        "labels": [], 
+        "rdfs_label" : ["interval finishes"], 
+       
+        "generatedLabel": "interval finishes", 
+        "generatedAlias": "if", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["If a proper interval T1 is intervalFinishes another proper interval T2, then the beginning of T1 is after the beginning of T2, and the end of T1 is coincident with the end of T2."],
+        "definitions": ["If a proper interval T1 is intervalFinishes another proper interval T2, then the beginning of T1 is after the beginning of T2, and the end of T1 is coincident with the end of T2."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/interval_in",
+            "/ontology/1.0/properties/interval_finishes"
+            
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+            
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+
+        ]
+    },
+    {
+        "id": "http://www.w3.org/2006/time#intervalStarts", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "interval starts", 
+        "path": "/ontology/1.0/properties/interval_starts", 
+        "labels": [], 
+        "rdfs_label" : ["interval starts"], 
+       
+        "generatedLabel": "interval starts", 
+        "generatedAlias": "is", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["If a proper interval T1 is intervalStarts another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is before the end of T2."],
+        "definitions": ["If a proper interval T1 is intervalStarts another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is before the end of T2."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/interval_in",
+            "/ontology/1.0/properties/interval_starts"
             
 
         ], 
