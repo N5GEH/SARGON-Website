@@ -1134,9 +1134,21 @@
                 ]
             },
             {
-                "name":"/ontology/1.0/#Data_Properties",
-                "children":[
+                "name": "/ontology/1.0/#Data_Properties",
+                "children": [
                     {
+                        "name": "/ontology/1.0/properties/name_of_temporal_position",
+                        "children": [] 
+
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/numeric_value_of_temporal_duration",
+                        "children": [] 
+
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/numeric_value_of_temporal_position",
+                        "children": [] 
 
                     }
                 ]

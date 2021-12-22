@@ -9,7 +9,68 @@ const c8 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/
 
 export default [
   {
-    path: "/ontology/1.0/properties/w3_has_time/",
+    path: "/ontology/1.0/properties/temporal_unit_type/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/sub_category/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/ref_building/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/related_sensor/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/relates_to_measurement/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/relates_to_property/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/represents/",
+    component: c1
+  },
+  {
+    name: "__ontology_1_0_types_xsd_decimal",
+    path: "/ontology/1.0/types/xsd:decimal",
+    component: c1,
+    meta: {
+      dataPath: "/ontology/1.0/types/_xsd_decimal.json",
+      dynamic: true
+    }
+  },
+  {
+    path: "/ontology/1.0/properties/offers/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/name/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_time(w3_standard)/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/makes_measurement/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/month_of_year/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/live_in/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/located_at/",
     component: c1
   },
   {
@@ -42,6 +103,90 @@ export default [
   },
   {
     path: "/ontology/1.0/properties/interval_before/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/interval_disjoint/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/interval_during/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/interval_equals/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/interval_finished_by/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/interval_finishes/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/interval_in/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/interval_meets/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/interval_met_by/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/interval_overlapped_by/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/interval_overlaps/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/interval_started_by/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/interval_starts/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/is_about/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/is_accomplished_by/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/is_command_of/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/is_controlled_by_device/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/is_located_at/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/is_measured_by_device/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/is_measured_in/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/is_offered_by/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/is_used_for/",
     component: c1
   },
   {

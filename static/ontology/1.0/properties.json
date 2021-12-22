@@ -3366,7 +3366,8 @@
 
         ], 
         "inDomainOf": [
-            "http://www.w3.org/2006/time#TemporalUnit"
+            "http://www.w3.org/2006/time#TemporalUnit",
+            "https://www.w3.org/2001/XMLSchema#decimal"
         ],
         "inRangeOf": [
 

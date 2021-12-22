@@ -1,0 +1,28 @@
+[
+    {
+        "id": "https://www.w3.org/2001/XMLSchema#decimal", 
+        "version": "1.1", 
+        "namespace": "1.1", 
+        "type": "schema", 
+        "types": ["https://www.w3.org/2001/XMLSchema#decimal"], 
+        "name": "xsd:decimal", 
+        "path": "/ontology/1.0/types/xsd:decimal", 
+        "labels": [], 
+        "rdfs_label" : [""],
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+        ], 
+        "subclasses": [
+        ],
+        "comments": [""], 
+        "definitions": [""], 
+        "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/types/xsd:decimal"
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": []
+         
+    }
+]
