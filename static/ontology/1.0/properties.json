@@ -2243,6 +2243,334 @@
             "http://www.w3.org/2006/time#ProperInterval"
 
         ]
+    },
+    {
+        "id": "http://www.w3.org/2006/time#intervalMeets", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "interval meets", 
+        "path": "/ontology/1.0/properties/interval_meets", 
+        "labels": [], 
+        "rdfs_label" : ["interval meets"], 
+       
+        "generatedLabel": "interval meets", 
+        "generatedAlias": "im", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["If a proper interval T1 is intervalMeets another proper interval T2, then the end of T1 is coincident with the beginning of T2."],
+        "definitions": ["If a proper interval T1 is intervalMeets another proper interval T2, then the end of T1 is coincident with the beginning of T2."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/interval_meets"
+            
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+            
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+
+        ]
+    },
+    {
+        "id": "http://www.w3.org/2006/time#intervalOverlappedBy", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "interval overlapped by", 
+        "path": "/ontology/1.0/properties/interval_overlapped_by", 
+        "labels": [], 
+        "rdfs_label" : ["interval overlapped by"], 
+       
+        "generatedLabel": "interval overlapped by", 
+        "generatedAlias": "iob", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["If a proper interval T1 is intervalOverlappedBy another proper interval T2, then the beginning of T1 is after the beginning of T2, the beginning of T1 is before the end of T2, and the end of T1 is after the end of T2."],
+        "definitions": ["If a proper interval T1 is intervalOverlappedBy another proper interval T2, then the beginning of T1 is after the beginning of T2, the beginning of T1 is before the end of T2, and the end of T1 is after the end of T2."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/interval_overlapped_by"
+            
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+            
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+
+        ]
+    },
+    {
+        "id": "http://www.w3.org/2006/time#intervalOverlaps", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "interval overlaps", 
+        "path": "/ontology/1.0/properties/interval_overlaps", 
+        "labels": [], 
+        "rdfs_label" : ["interval overlaps"], 
+       
+        "generatedLabel": "interval overlaps", 
+        "generatedAlias": "io", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["If a proper interval T1 is intervalOverlaps another proper interval T2, then the beginning of T1 is before the beginning of T2, the end of T1 is after the beginning of T2, and the end of T1 is before the end of T2."],
+        "definitions": ["If a proper interval T1 is intervalOverlaps another proper interval T2, then the beginning of T1 is before the beginning of T2, the end of T1 is after the beginning of T2, and the end of T1 is before the end of T2."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/interval_overlaps"
+            
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+            
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+
+        ]
+    },
+    {
+        "id": "http://www.w3.org/2006/time#intervalStartedBy", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "interval started by", 
+        "path": "/ontology/1.0/properties/interval_started_by", 
+        "labels": [], 
+        "rdfs_label" : ["interval started by"], 
+       
+        "generatedLabel": "interval started by", 
+        "generatedAlias": "isb", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["If a proper interval T1 is intervalStarted another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is after the end of T2."],
+        "definitions": ["If a proper interval T1 is intervalStarted another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is after the end of T2."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/interval_started_by"
+            
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+            
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#ProperInterval"
+
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#isAbout", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "is about", 
+        "path": "/ontology/1.0/properties/is_about", 
+        "labels": [], 
+        "rdfs_label" : ["is about"], 
+       
+        "generatedLabel": "is about", 
+        "generatedAlias": "ia", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A relationship identifying what an entity, such as a Profile, is about."],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/is_About"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#isAccomplishedBy", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "is accomplished by", 
+        "path": "/ontology/1.0/properties/is_accomplished_by", 
+        "labels": [], 
+        "rdfs_label" : ["is accomplished by"], 
+       
+        "generatedLabel": "is accomplished by", 
+        "generatedAlias": "iab", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A relationship indentifying the task accomplished by a certain entity (e.g., a device)."],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/is_accomplished_by"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#isCommandOf", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "is command of", 
+        "path": "/ontology/1.0/properties/is_command_of", 
+        "labels": [], 
+        "rdfs_label" : ["is command of"], 
+       
+        "generatedLabel": "is command of", 
+        "generatedAlias": "ico", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A relationship between a command and a function."],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/is_command_of"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#isControlledByDevice", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "is controlled by device", 
+        "path": "/ontology/1.0/properties/is_controlled_by_device", 
+        "labels": [], 
+        "rdfs_label" : ["is controlled by device"], 
+       
+        "generatedLabel": "is controlled by device", 
+        "generatedAlias": "icbd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A relationship specifying the devices that can control a certain property"],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/is_controlled_by_device"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+
+        ]
     }
 
     

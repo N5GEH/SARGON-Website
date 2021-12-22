@@ -998,7 +998,45 @@
                             }
 
                         ]
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/interval_meets",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/interval_met_by",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/interval_overlapped_by",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/interval_overlaps",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/started_by",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/is_about",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/is_accomplished_by",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/is_command_of",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/is_controlled_by_device",
+                        "children" : []
                     }
+
+
 
 
 
