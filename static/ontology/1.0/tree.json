@@ -912,7 +912,7 @@
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/w3_has_time",
+                        "name" : "/ontology/1.0/properties/has_time(w3_standard)",
                         "children" : [
                             {
                                 "name" : "/ontology/1.0/properties/has_beginning",
@@ -1131,6 +1131,14 @@
 
                     
 
+                ]
+            },
+            {
+                "name":"/ontology/1.0/#Data_Properties",
+                "children":[
+                    {
+
+                    }
                 ]
             }
         ]
