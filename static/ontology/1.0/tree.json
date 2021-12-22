@@ -1034,6 +1034,30 @@
                     {
                         "name" : "/ontology/1.0/properties/is_controlled_by_device",
                         "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/is_located_at",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/is_measured_by_device",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/is_measured_in",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/is_offered_by",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/is_used_for",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/live_in",
+                        "children" : []
                     }
 
 

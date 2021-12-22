@@ -8291,7 +8291,248 @@
         "inRangeOf": [
 
         ]
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/is_located_at", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "is located at", 
+        "path": "/ontology/1.0/properties/is_located_at", 
+        "labels": [], 
+        "rdfs_label" : ["is_located_at"], 
+       
+        "generatedLabel": "is_located_at", 
+        "generatedAlias": "ila", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/is_located_at"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#isMeasuredByDevice", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "is measured by device", 
+        "path": "/ontology/1.0/properties/is_measured_by_device", 
+        "labels": [], 
+        "rdfs_label" : ["is_measured_by_device"], 
+       
+        "generatedLabel": "is_measured_by_device", 
+        "generatedAlias": "imbd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A relationship specifying the devices that can measure a certain property."],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/is_measured_by_device"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#isMeasuredIn", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "is measured in", 
+        "path": "/ontology/1.0/properties/is_measured_in", 
+        "labels": [], 
+        "rdfs_label" : ["is_measured_in"], 
+       
+        "generatedLabel": "is_measured_in", 
+        "generatedAlias": "imi", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A relationship identifying the unit of measure used for a certain entity."],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/is_measured_in"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#isOfferedBy", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "is offered in", 
+        "path": "/ontology/1.0/properties/is_offered_by", 
+        "labels": [], 
+        "rdfs_label" : ["is_offered_by"], 
+       
+        "generatedLabel": "is_offered_by", 
+        "generatedAlias": "iob", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A relationship between a service and a device that offers the service."],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/is_offered_by"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#isUsedFor", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "is used for", 
+        "path": "/ontology/1.0/properties/is_used_for", 
+        "labels": [], 
+        "rdfs_label" : ["is_used_for"], 
+       
+        "generatedLabel": "is_used_for", 
+        "generatedAlias": "iuf", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A relationship specifying the purpose for which a device is used for (e.g., controlling a Commodity)."],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/is_used_for"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+
+        ]
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/liveIn", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "live in", 
+        "path": "/ontology/1.0/properties/live_in", 
+        "labels": [], 
+        "rdfs_label" : ["live_in"], 
+       
+        "generatedLabel": "live_in", 
+        "generatedAlias": "li", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/live_in"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+
+        ]
     }
+
     
     
     
