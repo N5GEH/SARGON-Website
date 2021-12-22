@@ -1134,8 +1134,120 @@
                 ]
             },
             {
-                "name": "/ontology/1.0/#Data_Properties",
+                "name": "/ontology/1.0/#Data_properties",
                 "children": [
+                    {
+                        "name": "/ontology/1.0/properties/accuracy",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/active_power",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/address",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/control_asset",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/controll_asset",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/controlled_asset",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/created_at",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/current_level",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/data_provider",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/day",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/day_of_year",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/days_duration",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/description",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/floors_above_ground",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/floors_below_ground",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/has_XSD_duration",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/has_description",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/has_email",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/has_floor",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/has_manufacturer",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/has_mobile_number",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/has_model",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/has_name",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/has_timestamp",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/has_value",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/higher_limit",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/hour",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/hours_duration",
+                        "children": [] 
+                    },
                     {
                         "name": "/ontology/1.0/properties/name_of_temporal_position",
                         "children": [] 

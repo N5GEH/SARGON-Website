@@ -24,7 +24,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/Temporal_position"
         ], 
         "inDomainOf": [
@@ -59,7 +59,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/Temporal_position",
             "/ontology/1.0/properties/Time_position"
 
@@ -96,7 +96,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/Temporal_position",
             "/ontology/1.0/properties/Time_position"
 
@@ -133,7 +133,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/Temporal_position",
             "/ontology/1.0/properties/in_date-time_position"
 
@@ -170,7 +170,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/Temporal_reference_system_used"
             
 
@@ -207,7 +207,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/accomplishes"
             
 
@@ -244,7 +244,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/acts_upon"
             
 
@@ -281,7 +281,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/after"
             
 
@@ -319,7 +319,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/after",
             "/ontology/1.0/properties/interval_after"
             
@@ -358,7 +358,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/before"
             
 
@@ -396,7 +396,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/before",
             "/ontology/1.0/properties/interval_before"
             
@@ -435,7 +435,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/connected_actuator"
             
 
@@ -471,7 +471,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/connected_sensor"
             
 
@@ -507,7 +507,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/consists_of"
             
 
@@ -543,7 +543,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/contained_of"
             
 
@@ -579,7 +579,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/controlled_property"
             
 
@@ -615,7 +615,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/controls_property"
             
 
@@ -651,7 +651,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/day_of_week"
             
 
@@ -688,7 +688,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_date-time_description"
             
 
@@ -725,7 +725,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_building"
             
 
@@ -761,7 +761,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_channel"
             
 
@@ -797,7 +797,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_floor"
             
 
@@ -833,7 +833,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_function"
             
 
@@ -869,7 +869,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_meter_reading"
             
 
@@ -905,7 +905,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_meter_reading_type"
         ], 
         "inDomainOf": [
@@ -939,7 +939,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_price"
         ], 
         "inDomainOf": [
@@ -973,7 +973,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_profile"
         ], 
         "inDomainOf": [
@@ -1007,7 +1007,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_room"
             
 
@@ -1043,7 +1043,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_sensing_range"
             
 
@@ -1079,7 +1079,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_sensor"
             
 
@@ -1115,7 +1115,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_sensor_type"
             
 
@@ -1151,7 +1151,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_state"
             
 
@@ -1187,7 +1187,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_sub_zone"
             
 
@@ -1223,7 +1223,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_temporal_duration"
             
 
@@ -1260,7 +1260,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_temporal_duration",
             "/ontology/1.0/properties/has_duration"
         
@@ -1297,7 +1297,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_temporal_duration",
             "/ontology/1.0/properties/has_duration_description"
             
@@ -1334,7 +1334,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_tenant"
             
 
@@ -1370,7 +1370,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_threshold_measurement"
         ], 
         "inDomainOf": [
@@ -1404,7 +1404,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_time(w3_standard)"
         ], 
         "inDomainOf": [
@@ -1438,7 +1438,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_time",
             "/ontology/1.0/properties/has_beginning"
         ], 
@@ -1474,7 +1474,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_time",
             "/ontology/1.0/properties/has_end"
         ], 
@@ -1510,7 +1510,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_time"
         ], 
         "inDomainOf": [
@@ -1544,7 +1544,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_time_instant_inside"
         ], 
         "inDomainOf": [
@@ -1579,7 +1579,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_typical_consumption"
         ], 
         "inDomainOf": [
@@ -1612,7 +1612,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/has_zone"
             
 
@@ -1648,7 +1648,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/in_building"
             
 
@@ -1685,7 +1685,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/in_floor"
             
 
@@ -1722,7 +1722,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/in_room"
             
 
@@ -1761,7 +1761,7 @@
         "skos_notes": ["IANA maintains a database of timezones. These are well maintained and generally considered authoritative, but individual items are not available at individual URIs, so cannot be used directly in data expressed using OWL-Time. DBPedia provides a set of resources corresponding to the IANA timezones, with a URI for each (e.g. http://dbpedia.org/resource/Australia/Eucla). The World Clock service also provides a list of time zones with the description of each available as an individual webpage with a convenient individual URI (e.g. https://www.timeanddate.com/time/zones/acwst). These or other, similar, resources might be used as a value of the time:timeZone property."],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/in_time_zone"
             
 
@@ -1803,7 +1803,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/interval_contains"
             
 
@@ -1845,7 +1845,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/interval_contains"
             
 
@@ -1887,7 +1887,7 @@
         "skos_notes": ["This interval relation is not included in the 13 basic relationships defined in Allen (1984), but is defined in (T.3) as the union of :intervalBefore v :intervalAfter . However, that is outside OWL2 expressivity, so is implemented as an explicit property, with :intervalBefore , :intervalAfter as sub-properties."],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/interval_contains"
             
 
@@ -1929,7 +1929,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/interval_contains",
             "/ontology/1.0/properties/interval_after"
             
@@ -1972,7 +1972,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/interval_contains",
             "/ontology/1.0/properties/interval_before"
             
@@ -2017,7 +2017,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/interval_equals"
             
 
@@ -2059,7 +2059,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/interval_finished_by"
             
 
@@ -2101,7 +2101,7 @@
         "skos_notes": ["This interval relation is not included in the 13 basic relationships defined in Allen (1984), but is referred to as 'an important relationship' in Allen and Ferguson (1997). It is the disjoint union of :intervalStarts v :intervalDuring v :intervalFinishes . However, that is outside OWL2 expressivity, so is implemented as an explicit property, with :intervalStarts , :intervalDuring , :intervalFinishes as sub-properties."],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/interval_in"
             
 
@@ -2143,7 +2143,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/interval_in",
             "/ontology/1.0/properties/interval_during"
             
@@ -2186,7 +2186,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/interval_in",
             "/ontology/1.0/properties/interval_finishes"
             
@@ -2229,7 +2229,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/interval_in",
             "/ontology/1.0/properties/interval_starts"
             
@@ -2272,7 +2272,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/interval_meets"
             
 
@@ -2314,7 +2314,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/interval_overlapped_by"
             
 
@@ -2356,7 +2356,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/interval_overlaps"
             
 
@@ -2398,7 +2398,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/interval_started_by"
             
 
@@ -2440,7 +2440,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/is_About"
             
 
@@ -2480,7 +2480,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/is_accomplished_by"
             
 
@@ -2520,7 +2520,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/is_command_of"
             
 
@@ -2560,7 +2560,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/is_controlled_by_device"
             
 
@@ -2600,7 +2600,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/is_located_at"
             
 
@@ -2640,7 +2640,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/is_measured_by_device"
             
 
@@ -2680,7 +2680,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/is_measured_in"
             
 
@@ -2720,7 +2720,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/is_offered_by"
             
 
@@ -2760,7 +2760,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/is_used_for"
             
 
@@ -2800,7 +2800,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/live_in"
             
 
@@ -2840,7 +2840,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/located_at"
             
 
@@ -2880,7 +2880,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/located_in"
             
 
@@ -2920,7 +2920,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/makes_measurement"
             
 
@@ -2960,7 +2960,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/measures_property"
             
 
@@ -3000,7 +3000,7 @@
         "skos_notes": ["Feature at risk - added in 2017 revision, and not yet widely used. "],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/measures_property"
             
 
@@ -3040,7 +3040,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/name"
             
 
@@ -3080,7 +3080,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/offers"
             
 
@@ -3120,7 +3120,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/ref_building"
             
 
@@ -3160,7 +3160,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/related_sensor"
             
 
@@ -3200,7 +3200,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/relates_to_measurement"
             
 
@@ -3240,7 +3240,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/relates_to_property"
             
 
@@ -3280,7 +3280,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/represents"
             
 
@@ -3300,7 +3300,7 @@
         "types": [
             "http://www.w3.org/2002/07/owl#ObjectProperty"
         ], 
-        "name": "sub_category", 
+        "name": "sub category", 
         "path": "/ontology/1.0/properties/sub_category", 
         "labels": [], 
         "rdfs_label" : ["sub_category"], 
@@ -3320,7 +3320,7 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/sub_category"
             
 
@@ -3340,7 +3340,7 @@
         "types": [
             "http://www.w3.org/2002/07/owl#ObjectProperty"
         ], 
-        "name": "temporal_unit_type", 
+        "name": "temporal unit type", 
         "path": "/ontology/1.0/properties/temporal_unit_type", 
         "labels": [], 
         "rdfs_label" : ["temporal_unit_type"], 
@@ -3360,19 +3360,986 @@
         "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/#Object_properties",
             "/ontology/1.0/properties/temporal_unit_type"
             
 
         ], 
         "inDomainOf": [
-            "http://www.w3.org/2006/time#TemporalUnit",
-            "https://www.w3.org/2001/XMLSchema#decimal"
+            "http://www.w3.org/2006/time#TemporalUnit"
         ],
         "inRangeOf": [
 
         ]
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/accuracy", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "accuracy", 
+        "path": "/ontology/1.0/properties/accuracy", 
+        "labels": [], 
+        "rdfs_label" : ["accuracy"], 
+       
+        "generatedLabel": "accuracy", 
+        "generatedAlias": "a", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/accuracy"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/active_power", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "active power", 
+        "path": "/ontology/1.0/properties/active_power", 
+        "labels": [], 
+        "rdfs_label" : ["active_power"], 
+       
+        "generatedLabel": "active_power", 
+        "generatedAlias": "ap", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/active_power"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/address", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "address", 
+        "path": "/ontology/1.0/properties/address", 
+        "labels": [], 
+        "rdfs_label" : ["address"], 
+       
+        "generatedLabel": "address", 
+        "generatedAlias": "a", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/address"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/control_asset", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "control asset", 
+        "path": "/ontology/1.0/properties/control_asset", 
+        "labels": [], 
+        "rdfs_label" : ["control_asset"], 
+       
+        "generatedLabel": "control_asset", 
+        "generatedAlias": "ca", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/control_asset"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/controll_asset", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "controll asset", 
+        "path": "/ontology/1.0/properties/controll_asset", 
+        "labels": [], 
+        "rdfs_label" : ["controll_asset"], 
+       
+        "generatedLabel": "controll_asset", 
+        "generatedAlias": "ca", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/controll_asset"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/controlled_asset", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "controlled asset", 
+        "path": "/ontology/1.0/properties/controlled_asset", 
+        "labels": [], 
+        "rdfs_label" : ["controlled_asset"], 
+       
+        "generatedLabel": "controlled_asset", 
+        "generatedAlias": "ca", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/controlled_asset"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/created_at", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "created at", 
+        "path": "/ontology/1.0/properties/created_at", 
+        "labels": [], 
+        "rdfs_label" : ["created_at"], 
+       
+        "generatedLabel": "created_at", 
+        "generatedAlias": "ca", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/created_at"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/current_level", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "current level", 
+        "path": "/ontology/1.0/properties/current_level", 
+        "labels": [], 
+        "rdfs_label" : ["current_level"], 
+       
+        "generatedLabel": "current_level", 
+        "generatedAlias": "cl", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/current_level"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/data_provider", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "data provider", 
+        "path": "/ontology/1.0/properties/data_provider", 
+        "labels": [], 
+        "rdfs_label" : ["data_provider"], 
+       
+        "generatedLabel": "data_provider", 
+        "generatedAlias": "dp", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/data_provider"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#day", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "day", 
+        "path": "/ontology/1.0/properties/day", 
+        "labels": [], 
+        "rdfs_label" : ["day"], 
+       
+        "generatedLabel": "day", 
+        "generatedAlias": "d", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["Day position in a calendar-clock system. The range of this property is not specified, so can be replaced by any specific representation of a calendar day from any calendar. "],
+        "definitions": ["Day position in a calendar-clock system. The range of this property is not specified, so can be replaced by any specific representation of a calendar day from any calendar. "], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/day"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#dayOfYear", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "day of year", 
+        "path": "/ontology/1.0/properties/day_of_year", 
+        "labels": [], 
+        "rdfs_label" : ["day_of_year"], 
+       
+        "generatedLabel": "day_of_year", 
+        "generatedAlias": "doy", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The number of the day within the year."],
+        "definitions": ["The number of the day within the year."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/day_of_year"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#days", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "days duration", 
+        "path": "/ontology/1.0/properties/days_duration", 
+        "labels": [], 
+        "rdfs_label" : ["days_duration"], 
+       
+        "generatedLabel": "days_duration", 
+        "generatedAlias": "dd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["Length of, or element of the length of, a temporal extent expressed in days."],
+        "definitions": [":ength of, or element of the length of, a temporal extent expressed in days."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/day_of_year"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/description", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "description", 
+        "path": "/ontology/1.0/properties/description", 
+        "labels": [], 
+        "rdfs_label" : ["description"], 
+       
+        "generatedLabel": "description", 
+        "generatedAlias": "d", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/description"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/floors_above_ground", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "floors above ground", 
+        "path": "/ontology/1.0/properties/floors_above_ground", 
+        "labels": [], 
+        "rdfs_label" : ["floors_above_ground"], 
+       
+        "generatedLabel": "floors_above_ground", 
+        "generatedAlias": "fag", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/floors_above_ground"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/floors_below_ground", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "floors below ground", 
+        "path": "/ontology/1.0/properties/floors_below_ground", 
+        "labels": [], 
+        "rdfs_label" : ["floors_below_ground"], 
+       
+        "generatedLabel": "floors_below_ground", 
+        "generatedAlias": "fbg", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/floors_below_ground"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#hasXSDDuration", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has XSD duration", 
+        "path": "/ontology/1.0/properties/has_XSD_duration", 
+        "labels": [], 
+        "rdfs_label" : ["has_XSD_duration"], 
+       
+        "generatedLabel": "has_XSD_duration", 
+        "generatedAlias": "hXd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": ["Extent of a temporal entity, expressed using xsd:duration."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": ["Feature at risk - added in 2017 revision, and not yet widely used. In range of: duration"],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/has_XSD_duration"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#TemporalEntity"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#hasDescription", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has_description", 
+        "path": "/ontology/1.0/properties/has_description", 
+        "labels": [], 
+        "rdfs_label" : ["has_description"], 
+       
+        "generatedLabel": "has_description", 
+        "generatedAlias": "hd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A relationship providing a description of an entity (e.g., device)."],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/has_description"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#TemporalEntity"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/has_email", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has email", 
+        "path": "/ontology/1.0/properties/has_email", 
+        "labels": [], 
+        "rdfs_label" : ["has_email"], 
+       
+        "generatedLabel": "has_email", 
+        "generatedAlias": "he", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/has_email"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/has_floor", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has floor", 
+        "path": "/ontology/1.0/properties/has_floor", 
+        "labels": [], 
+        "rdfs_label" : ["has_floor"], 
+       
+        "generatedLabel": "has_floor", 
+        "generatedAlias": "hf", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/has_floor"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#hasManufacturer", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has manufacturer", 
+        "path": "/ontology/1.0/properties/has_manufacturer", 
+        "labels": [], 
+        "rdfs_label" : ["has_manufacturer"], 
+       
+        "generatedLabel": "has_manufacturer", 
+        "generatedAlias": "hm", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A relationship identifying the manufacturer of an entity (e.g., device). In range of xsd:string"],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/has_manufacturer"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/has_mobile_number", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has mobile number", 
+        "path": "/ontology/1.0/properties/has_mobile_number", 
+        "labels": [], 
+        "rdfs_label" : ["has_mobile_number"], 
+       
+        "generatedLabel": "has_mobile_number", 
+        "generatedAlias": "hmn", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/has_mobile_number"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/has_model", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has model", 
+        "path": "/ontology/1.0/properties/has_model", 
+        "labels": [], 
+        "rdfs_label" : ["has_model"], 
+       
+        "generatedLabel": "has_model", 
+        "generatedAlias": "hm", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/has_model"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#hasModel", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has model", 
+        "path": "/ontology/1.0/properties/has_model", 
+        "labels": [], 
+        "rdfs_label" : ["has_model"], 
+       
+        "generatedLabel": "has_model", 
+        "generatedAlias": "hm", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": ["in range of xsd:string"],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/has_model"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#hasName", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has name", 
+        "path": "/ontology/1.0/properties/has_name", 
+        "labels": [], 
+        "rdfs_label" : ["has_name"], 
+       
+        "generatedLabel": "has_name", 
+        "generatedAlias": "hn", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": ["in range of xsd:string"],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/has_name"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#hasTimestamp", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has timestamp", 
+        "path": "/ontology/1.0/properties/has_timestamp", 
+        "labels": [], 
+        "rdfs_label" : ["has_timestamp"], 
+       
+        "generatedLabel": "has_timestamp", 
+        "generatedAlias": "hn", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/has_timestamp"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#hasValue", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "has value", 
+        "path": "/ontology/1.0/properties/has_value", 
+        "labels": [], 
+        "rdfs_label" : ["has_value"], 
+       
+        "generatedLabel": "has_value", 
+        "generatedAlias": "hv", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/has_value"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/higher_limit", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "higher limit", 
+        "path": "/ontology/1.0/properties/higher_limit", 
+        "labels": [], 
+        "rdfs_label" : ["higher_limit"], 
+       
+        "generatedLabel": "higher_limit", 
+        "generatedAlias": "hl", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/higher_limit"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#hour", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "hour", 
+        "path": "/ontology/1.0/properties/hour", 
+        "labels": [], 
+        "rdfs_label" : ["hour"], 
+       
+        "generatedLabel": "hour", 
+        "generatedAlias": "h", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["Hour position in a calendar-clock system."],
+        "definitions": ["Hour position in a calendar-clock system."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": ["In range of xsd:nonNegativeInteger"],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/hour"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+        ],
+        "inRangeOf": []
     }
+
+    
+    
+    
 
 
     
