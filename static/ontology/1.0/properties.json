@@ -4335,6 +4335,78 @@
             "http://www.w3.org/2006/time#GeneralDateTimeDescription"
         ],
         "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#hours", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "hours duration", 
+        "path": "/ontology/1.0/properties/hours_duration", 
+        "labels": [], 
+        "rdfs_label" : ["hours_duration"], 
+       
+        "generatedLabel": "hours_duration", 
+        "generatedAlias": "hd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["length of, or element of the length of, a temporal extent expressed in hours."],
+        "definitions": ["length of, or element of the length of, a temporal extent expressed in hours."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": ["In range of xsd:nonNegativeInteger"],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/hours_duration"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDurationDescription"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#inXSDDateTimeStamp", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "in XSD date-time-stamp", 
+        "path": "/ontology/1.0/properties/in_XSD_date-time-stamp", 
+        "labels": [], 
+        "rdfs_label" : ["in_XSD_date-time-stamp"], 
+       
+        "generatedLabel": "in_XSD_date-time-stamp", 
+        "generatedAlias": "i", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["Position of an instant, expressed using xsd:dateTimeStamp."],
+        "definitions": ["Position of an instant, expressed using xsd:dateTimeStamp."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/hour"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#Instant"
+        ],
+        "inRangeOf": []
     }
 
     

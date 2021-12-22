@@ -1245,7 +1245,7 @@
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/hours_duration",
+                        "name": "/ontology/1.0/properties/in_XSD_date-time-stamp",
                         "children": [] 
                     },
                     {
