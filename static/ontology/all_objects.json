@@ -7169,7 +7169,7 @@
         "hierarchy": [
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#Object_Properties",
-            "/ontology/1.0/properties/has_time"
+            "/ontology/1.0/properties/has_time(w3_standard)"
         ], 
         "inDomainOf": [
             
