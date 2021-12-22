@@ -1058,6 +1058,62 @@
                     {
                         "name" : "/ontology/1.0/properties/live_in",
                         "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/located_at",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/located_in",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/makes_measurement",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/measures_property",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/month_of_year",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/name",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/offers",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/ref_building",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/related_sensor",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/relates_to_measurement",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/relates_to_property",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/represents",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/sub_category",
+                        "children" : []
+                    },
+                    {
+                        "name" : "/ontology/1.0/properties/temporal_unit_type",
+                        "children" : []
                     }
 
 

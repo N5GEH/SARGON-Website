@@ -8531,6 +8531,486 @@
         "inRangeOf": [
 
         ]
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/located_at", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "located at", 
+        "path": "/ontology/1.0/properties/located_at", 
+        "labels": [], 
+        "rdfs_label" : ["located_at"], 
+       
+        "generatedLabel": "located_at", 
+        "generatedAlias": "la", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/located_at"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#makesMeasurement", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "makes measurement", 
+        "path": "/ontology/1.0/properties/makes_measurement", 
+        "labels": [], 
+        "rdfs_label" : ["makes_measurement"], 
+       
+        "generatedLabel": "makes_measurement", 
+        "generatedAlias": "mm", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A relation between a device and the measurements it makes. Such measurement will link together the value of the measurement, its unit of measure and the property to which it relates."],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/makes_measurement"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+
+        ]
+    },
+    {
+        "id": "http://www.w3.org/2006/time#monthOfYear", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "month of year", 
+        "path": "/ontology/1.0/properties/month_of_year", 
+        "labels": [], 
+        "rdfs_label" : ["month_of_year"], 
+       
+        "generatedLabel": "month_of_year", 
+        "generatedAlias": "moy", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The month of the year, whose value is a member of the class time:MonthOfYear."],
+        "definitions": ["The month of the year, whose value is a member of the class time:MonthOfYear."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": ["Feature at risk - added in 2017 revision, and not yet widely used. "],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/measures_property"
+            
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+        ],
+        "inRangeOf": [
+            "http://www.w3.org/2006/time#MonthOfYear"
+        ]
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/name", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "name", 
+        "path": "/ontology/1.0/properties/name", 
+        "labels": [], 
+        "rdfs_label" : ["name"], 
+       
+        "generatedLabel": "name", 
+        "generatedAlias": "n", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/name"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#offers", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "offers", 
+        "path": "/ontology/1.0/properties/offers", 
+        "labels": [], 
+        "rdfs_label" : ["offers"], 
+       
+        "generatedLabel": "offers", 
+        "generatedAlias": "o", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A relationship between a device and a service."],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/offers"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+
+        ]
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/ref_building", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "ref_building", 
+        "path": "/ontology/1.0/properties/ref_building", 
+        "labels": [], 
+        "rdfs_label" : ["ref_building"], 
+       
+        "generatedLabel": "ref_building", 
+        "generatedAlias": "rb", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/ref_building"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+
+        ]
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/related_sensor", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "related_sensor", 
+        "path": "/ontology/1.0/properties/related_sensor", 
+        "labels": [], 
+        "rdfs_label" : ["related_sensor"], 
+       
+        "generatedLabel": "related_sensor", 
+        "generatedAlias": "rs", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/related_sensor"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#relatesToMeasurement", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "relates to measurement", 
+        "path": "/ontology/1.0/properties/relates_to_measurement", 
+        "labels": [], 
+        "rdfs_label" : ["relates_to_measurement"], 
+       
+        "generatedLabel": "relates_to_measurement", 
+        "generatedAlias": "rtm", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A relationship between a property and the measurements it relates to."],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/relates_to_measurement"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#relatesToProperty", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "relates to property", 
+        "path": "/ontology/1.0/properties/relates_to_property", 
+        "labels": [], 
+        "rdfs_label" : ["relates_to_property"], 
+       
+        "generatedLabel": "relates_to_property", 
+        "generatedAlias": "rtp", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A relationship between a measurement and the property it relates to."],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/relates_to_property"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+
+        ]
+    },
+    {
+        "id": "https://w3id.org/saref#represents", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "represents", 
+        "path": "/ontology/1.0/properties/represents", 
+        "labels": [], 
+        "rdfs_label" : ["represents"], 
+       
+        "generatedLabel": "represents", 
+        "generatedAlias": "r", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A relationship between a service and a function."],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/represents"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+
+        ]
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/sub_category", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "sub_category", 
+        "path": "/ontology/1.0/properties/sub_category", 
+        "labels": [], 
+        "rdfs_label" : ["sub_category"], 
+       
+        "generatedLabel": "sub_category", 
+        "generatedAlias": "rs", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/sub_category"
+            
+
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": [
+
+        ]
+    },
+    {
+        "id": "http://www.w3.org/2006/time#unitType", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "temporal_unit_type", 
+        "path": "/ontology/1.0/properties/temporal_unit_type", 
+        "labels": [], 
+        "rdfs_label" : ["temporal_unit_type"], 
+       
+        "generatedLabel": "temporal_unit_type", 
+        "generatedAlias": "tut", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The temporal unit which provides the precision of a date-time value or scale of a temporal extent"],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Object_Properties",
+            "/ontology/1.0/properties/temporal_unit_type"
+            
+
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#TemporalUnit"
+        ],
+        "inRangeOf": [
+
+        ]
     }
 
     
