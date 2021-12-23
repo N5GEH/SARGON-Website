@@ -1249,6 +1249,54 @@
                         "children": [] 
                     },
                     {
+                        "name": "/ontology/1.0/properties/in_XSD_date-time-stamp",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/in_XSD_g-Year",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/in_XSD_g-YearMonth",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/ipAddress",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/kp",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/listening",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/location",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/logging_interval",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/logical_node",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/lower_limit",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/max_active_power",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/max_reactive_power",
+                        "children": [] 
+                    },
+                    {
                         "name": "/ontology/1.0/properties/name_of_temporal_position",
                         "children": [] 
 

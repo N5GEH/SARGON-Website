@@ -54,7 +54,27 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/properties/name_of_temporal_position/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/numeric_value_of_temporal_duration/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/numeric_value_of_temporal_position/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/properties/makes_measurement/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/max_active_power/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/max_reactive_power/",
     component: c1
   },
   {
@@ -63,6 +83,10 @@ export default [
   },
   {
     path: "/ontology/1.0/properties/month_of_year/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/listening/",
     component: c1
   },
   {
@@ -78,7 +102,35 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/properties/location/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/logging_interval/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/logical_node/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/lower_limit/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/properties/in_XSD_date-time-stamp/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/kp/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/in_XSD_g-Year/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/in_XSD_g-YearMonth/",
     component: c1
   },
   {
@@ -159,6 +211,10 @@ export default [
   },
   {
     path: "/ontology/1.0/properties/interval_starts/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/ipAddress/",
     component: c1
   },
   {
