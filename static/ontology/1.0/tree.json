@@ -912,7 +912,7 @@
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_time(w3_standard)",
+                        "name" : "/ontology/1.0/properties/has_time_w3_standard",
                         "children" : [
                             {
                                 "name" : "/ontology/1.0/properties/has_beginning",

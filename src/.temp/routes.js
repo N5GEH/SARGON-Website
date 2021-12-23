@@ -54,11 +54,11 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_time(w3_standard)/",
+    path: "/ontology/1.0/properties/makes_measurement/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/makes_measurement/",
+    path: "/ontology/1.0/properties/measures_property/",
     component: c1
   },
   {
@@ -71,6 +71,14 @@ export default [
   },
   {
     path: "/ontology/1.0/properties/located_at/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/located_in/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/in_XSD_date-time-stamp/",
     component: c1
   },
   {
@@ -106,6 +114,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/properties/interval_contains/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/properties/interval_disjoint/",
     component: c1
   },
@@ -131,10 +143,6 @@ export default [
   },
   {
     path: "/ontology/1.0/properties/interval_meets/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/properties/interval_met_by/",
     component: c1
   },
   {
@@ -190,6 +198,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/properties/has_XSD_duration/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/properties/has_beginning/",
     component: c1
   },
@@ -202,11 +214,19 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/properties/has_description/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/properties/has_duration/",
     component: c1
   },
   {
     path: "/ontology/1.0/properties/has_duration_description/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_email/",
     component: c1
   },
   {
@@ -222,11 +242,27 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/properties/has_manufacturer/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/properties/has_meter_reading/",
     component: c1
   },
   {
     path: "/ontology/1.0/properties/has_meter_reading_type/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_mobile_number/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_model/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_name/",
     component: c1
   },
   {
@@ -282,7 +318,19 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/properties/has_time_w3_standard/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_timestamp/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/properties/has_typical_consumption/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/has_value/",
     component: c1
   },
   {
@@ -290,7 +338,47 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/properties/higher_limit/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/hour/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/hours_duration/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/floors_above_ground/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/floors_below_ground/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/data_provider/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/day/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/properties/day_of_week/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/day_of_year/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/days_duration/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/description/",
     component: c1
   },
   {
@@ -310,11 +398,31 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/properties/control_asset/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/controll_asset/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/controlled_asset/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/properties/controlled_property/",
     component: c1
   },
   {
     path: "/ontology/1.0/properties/controls_property/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/created_at/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/current_level/",
     component: c1
   },
   {
@@ -326,7 +434,19 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/properties/accuracy/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/active_power/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/properties/acts_upon/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/address/",
     component: c1
   },
   {

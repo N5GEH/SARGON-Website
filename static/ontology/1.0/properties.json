@@ -1388,7 +1388,7 @@
             "http://www.w3.org/2002/07/owl#ObjectProperty"
         ], 
         "name": "has time", 
-        "path": "/ontology/1.0/properties/has_time(w3_standard)", 
+        "path": "/ontology/1.0/properties/has_time_w3_standard", 
         "labels": [], 
         "rdfs_label" : ["has time"], 
        
@@ -1405,7 +1405,7 @@
         "hierarchy": [
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#Object_properties",
-            "/ontology/1.0/properties/has_time(w3_standard)"
+            "/ontology/1.0/properties/has_time_w3_standard"
         ], 
         "inDomainOf": [
             
