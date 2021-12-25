@@ -1319,17 +1319,134 @@
                     {
                         "name": "/ontology/1.0/properties/name_of_temporal_position",
                         "children": [] 
-
                     },
                     {
                         "name": "/ontology/1.0/properties/numeric_value_of_temporal_duration",
                         "children": [] 
-
                     },
                     {
                         "name": "/ontology/1.0/properties/numeric_value_of_temporal_position",
                         "children": [] 
-
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/opening_hours",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/operation_sequence",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/owner",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/primary_current",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/primary_voltage",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/reactive_power",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/readable_name",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/reverse_action",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/sample_interval",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/sample_rate",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/second",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/secondary_current",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/secondary_voltage",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/seconds_duration",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/serial_number",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/set_value",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/source",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/supplier_name",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/supported_network",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/supported_protocol",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/tap_position",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/td",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/ti",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/time_stamp",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/voltage_level",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/week",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/weeks_duration",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/writable",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/year",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/years_duration",
+                        "children": [] 
                     }
                 ]
             }
