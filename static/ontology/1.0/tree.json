@@ -1297,6 +1297,26 @@
                         "children": [] 
                     },
                     {
+                        "name": "/ontology/1.0/properties/minute",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/minutes",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/modified_at",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/month",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/months_duration",
+                        "children": [] 
+                    },
+                    {
                         "name": "/ontology/1.0/properties/name_of_temporal_position",
                         "children": [] 
 

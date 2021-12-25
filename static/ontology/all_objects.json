@@ -10592,6 +10592,148 @@
         "inRangeOf": []
     },
     {
+        "id": "http://www.w3.org/2006/time#minute", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "minute", 
+        "path": "/ontology/1.0/properties/minute", 
+        "labels": [], 
+        "rdfs_label" : ["minute"], 
+       
+        "generatedLabel": "minute", 
+        "generatedAlias": "minute", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["Minute position in a calendar-clock system."],
+        "definitions": ["Minute position in a calendar-clock system."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/minute"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#minutes", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "minutes", 
+        "path": "/ontology/1.0/properties/minutes", 
+        "labels": [], 
+        "rdfs_label" : ["minutes"], 
+       
+        "generatedLabel": "minutes", 
+        "generatedAlias": "minutes", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/minutes"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/properties/modified_at", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "modified_at", 
+        "path": "/ontology/1.0/properties/modified_at", 
+        "labels": [], 
+        "rdfs_label" : ["modified_at"], 
+       
+        "generatedLabel": "modified_at", 
+        "generatedAlias": "modified_at", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/modified_at"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#month", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ], 
+        "name": "month", 
+        "path": "/ontology/1.0/properties/month", 
+        "labels": [], 
+        "rdfs_label" : ["month"], 
+       
+        "generatedLabel": "month", 
+        "generatedAlias": "month", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["Month position in a calendar-clock system. The range of this property is not specified, so can be replaced by any specific representation of a calendar month from any calendar. "],
+        "definitions": ["Month position in a calendar-clock system. The range of this property is not specified, so can be replaced by any specific representation of a calendar month from any calendar. "], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/properties/month"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+        ],
+        "inRangeOf": []
+    },
+    {
         "id": "http://www.w3.org/2006/time#nominalPosition", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
