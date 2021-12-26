@@ -9,11 +9,107 @@ const c8 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/
 
 export default [
   {
+    path: "/ontology/1.0/properties/year/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/years_duration/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/week/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/weeks_duration/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/writable/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/voltage_level/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/tap_position/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/td/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/properties/temporal_unit_type/",
     component: c1
   },
   {
+    path: "/ontology/1.0/properties/ti/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/time_stamp/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/sample_interval/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/sample_rate/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/second/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/secondary_current/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/secondary_voltage/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/seconds_duration/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/serial_number/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/set_value/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/source/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/properties/sub_category/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/supplier_name/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/supported_network/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/supported_protocol/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/reactive_power/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/readable_name/",
     component: c1
   },
   {
@@ -37,6 +133,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/properties/reverse_action/",
+    component: c1
+  },
+  {
     name: "__ontology_1_0_types_xsd_decimal",
     path: "/ontology/1.0/types/xsd:decimal",
     component: c1,
@@ -46,7 +146,27 @@ export default [
     }
   },
   {
+    path: "/ontology/1.0/properties/primary_current/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/primary_voltage/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/properties/offers/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/opening_hours/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/operation_sequence/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/owner/",
     component: c1
   },
   {
@@ -82,7 +202,27 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/properties/minute/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/minutes/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/modified_at/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/month/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/properties/month_of_year/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/months_duration/",
     component: c1
   },
   {
@@ -251,6 +391,10 @@ export default [
   },
   {
     path: "/ontology/1.0/properties/is_used_for/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/issued/",
     component: c1
   },
   {
@@ -507,6 +651,10 @@ export default [
   },
   {
     path: "/ontology/1.0/properties/after/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/properties/Owner/",
     component: c1
   },
   {

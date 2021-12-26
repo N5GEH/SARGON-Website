@@ -1449,6 +1449,109 @@
                         "children": [] 
                     }
                 ]
+            },
+            {
+                "name": "/ontology/1.0/#Annotation_properties",
+                "children": [
+                    {
+                        "name": "/ontology/1.0/properties/Owner",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/description",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/issued",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/owl#backwardCompatibleWith",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/owl#deprecated",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/owl#incompatibleWith",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/owl#priorVersion",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/owl#versionInfo",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/pattern",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/publisher",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/rdfs#comment",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/rdfs#flow",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/rdfs#isDefinedBy",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/rdfs#label",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/rdfs#seeAlso",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/rdfs#changeNote",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/rdfs#definition",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/rdfs#editorialNote",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/rdfs#historyNote",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/rdfs#note",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/rdfs#prefLabel",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/rdfs#scopeNote",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/rdfs#source",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/properties/rdfs#title",
+                        "children": [] 
+                    }
+
+                    
+                ]
             }
         ]
     }
