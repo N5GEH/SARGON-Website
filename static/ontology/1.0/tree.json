@@ -758,14 +758,14 @@
                 "name":"/ontology/1.0/#Object_Properties",
                 "children":[
                     {
-                        "name":"/ontology/1.0/properties/Temporal_position",
+                        "name":"/ontology/1.0/object_properties/Temporal_position",
                         "children":[
                             {
-                                "name":"/ontology/1.0/properties/Time_position",
+                                "name":"/ontology/1.0/object_properties/Time_position",
                                 "children":[]
                             },
                             {
-                                "name":"/ontology/1.0/properties/in_date-time_description",
+                                "name":"/ontology/1.0/object_properties/in_date-time_description",
                                 "children":[]
                             }
                             
@@ -773,346 +773,346 @@
                         ]
                     },
                     {
-                        "name" : "/ontology/1.0/properties/Temporal_reference_system_used",
+                        "name" : "/ontology/1.0/object_properties/Temporal_reference_system_used",
                         "children":[]
                     },
                     {
-                        "name" : "/ontology/1.0/properties/accomplishes",
+                        "name" : "/ontology/1.0/object_properties/accomplishes",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/acts_upon",
+                        "name" : "/ontology/1.0/object_properties/acts_upon",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/after",
+                        "name" : "/ontology/1.0/object_properties/after",
                         "children" : [
                             {
-                                "name" : "/ontology/1.0/properties/interval_after",
+                                "name" : "/ontology/1.0/object_properties/interval_after",
                                 "children" :[]
                             }
                         ]
                     },
                     {
-                        "name" : "/ontology/1.0/properties/before",
+                        "name" : "/ontology/1.0/object_properties/before",
                         "children" : [
                             {
-                                "name" : "/ontology/1.0/properties/interval_before",
+                                "name" : "/ontology/1.0/object_properties/interval_before",
                                 "children" :[]
                             }
                         ]
                     },
                     {
-                        "name" : "/ontology/1.0/properties/connected_actuator",
+                        "name" : "/ontology/1.0/object_properties/connected_actuator",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/connected_sensor",
+                        "name" : "/ontology/1.0/object_properties/connected_sensor",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/consists_of",
+                        "name" : "/ontology/1.0/object_properties/consists_of",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/contain_of",
+                        "name" : "/ontology/1.0/object_properties/contain_of",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/controlled_property",
+                        "name" : "/ontology/1.0/object_properties/controlled_property",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/controls_property",
+                        "name" : "/ontology/1.0/object_properties/controls_property",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/day_of_week",
+                        "name" : "/ontology/1.0/object_properties/day_of_week",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_date-time_description",
+                        "name" : "/ontology/1.0/object_properties/has_date-time_description",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_building",
+                        "name" : "/ontology/1.0/object_properties/has_building",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_channel",
+                        "name" : "/ontology/1.0/object_properties/has_channel",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_floor",
+                        "name" : "/ontology/1.0/object_properties/has_floor",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_function",
+                        "name" : "/ontology/1.0/object_properties/has_function",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_meter_reading",
+                        "name" : "/ontology/1.0/object_properties/has_meter_reading",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_meter_reading_type",
+                        "name" : "/ontology/1.0/object_properties/has_meter_reading_type",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_price",
+                        "name" : "/ontology/1.0/object_properties/has_price",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_profile",
+                        "name" : "/ontology/1.0/object_properties/has_profile",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_room",
+                        "name" : "/ontology/1.0/object_properties/has_room",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_sensing_range",
+                        "name" : "/ontology/1.0/object_properties/has_sensing_range",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_sensor",
+                        "name" : "/ontology/1.0/object_properties/has_sensor",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_sensor_type",
+                        "name" : "/ontology/1.0/object_properties/has_sensor_type",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_state",
+                        "name" : "/ontology/1.0/object_properties/has_state",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_sub_zone",
+                        "name" : "/ontology/1.0/object_properties/has_sub_zone",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_temporal_duration",
+                        "name" : "/ontology/1.0/object_properties/has_temporal_duration",
                         "children" : [
                             {
-                                "name" : "/ontology/1.0/properties/has_duration",
+                                "name" : "/ontology/1.0/object_properties/has_duration",
                                 "children" :[]
                             },
                             {
-                                "name" : "/ontology/1.0/properties/has_duration_description",
+                                "name" : "/ontology/1.0/object_properties/has_duration_description",
                                 "children" :[]
                             }
                         ]
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_tenant",
+                        "name" : "/ontology/1.0/object_properties/has_tenant",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_threshold_measurement",
+                        "name" : "/ontology/1.0/object_properties/has_threshold_measurement",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_time_w3_standard",
+                        "name" : "/ontology/1.0/object_properties/has_time_w3_standard",
                         "children" : [
                             {
-                                "name" : "/ontology/1.0/properties/has_beginning",
+                                "name" : "/ontology/1.0/object_properties/has_beginning",
                                 "children" :[]
                             },
                             {
-                                "name" : "/ontology/1.0/properties/has_end",
+                                "name" : "/ontology/1.0/object_properties/has_end",
                                 "children" :[]
                             }
                         ]
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_time",
+                        "name" : "/ontology/1.0/object_properties/has_time",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_time_instant_inside",
+                        "name" : "/ontology/1.0/object_properties/has_time_instant_inside",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_typical_consumption",
+                        "name" : "/ontology/1.0/object_properties/has_typical_consumption",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/has_zone",
+                        "name" : "/ontology/1.0/object_properties/has_zone",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/in_building",
+                        "name" : "/ontology/1.0/object_properties/in_building",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/in_floor",
+                        "name" : "/ontology/1.0/object_properties/in_floor",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/in_room",
+                        "name" : "/ontology/1.0/object_properties/in_room",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/in_time_zone",
+                        "name" : "/ontology/1.0/object_properties/in_time_zone",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/interval_contains",
+                        "name" : "/ontology/1.0/object_properties/interval_contains",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/interval_disjoint",
+                        "name" : "/ontology/1.0/object_properties/interval_disjoint",
                         "children" : [
                             {
-                                "name" : "/ontology/1.0/properties/interval_after",
+                                "name" : "/ontology/1.0/object_properties/interval_after",
                                 "children" :[]
                             },
                             {
-                                "name" : "/ontology/1.0/properties/interval_before",
+                                "name" : "/ontology/1.0/object_properties/interval_before",
                                 "children" :[]
                             }
                         ]
                     },
                     {
-                        "name" : "/ontology/1.0/properties/interval_equals",
+                        "name" : "/ontology/1.0/object_properties/interval_equals",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/interval_finished_by",
+                        "name" : "/ontology/1.0/object_properties/interval_finished_by",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/interval_in",
+                        "name" : "/ontology/1.0/object_properties/interval_in",
                         "children" : [
                             {
-                                "name" : "/ontology/1.0/properties/interval_during",
+                                "name" : "/ontology/1.0/object_properties/interval_during",
                                 "children" :[]
                             },
                             {
-                                "name" : "/ontology/1.0/properties/interval_finishes",
+                                "name" : "/ontology/1.0/object_properties/interval_finishes",
                                 "children" :[]
                             },
                             {
-                                "name" : "/ontology/1.0/properties/interval_starts",
+                                "name" : "/ontology/1.0/object_properties/interval_starts",
                                 "children" :[]
                             }
 
                         ]
                     },
                     {
-                        "name" : "/ontology/1.0/properties/interval_meets",
+                        "name" : "/ontology/1.0/object_properties/interval_meets",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/interval_met_by",
+                        "name" : "/ontology/1.0/object_properties/interval_met_by",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/interval_overlapped_by",
+                        "name" : "/ontology/1.0/object_properties/interval_overlapped_by",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/interval_overlaps",
+                        "name" : "/ontology/1.0/object_properties/interval_overlaps",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/started_by",
+                        "name" : "/ontology/1.0/object_properties/started_by",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/is_about",
+                        "name" : "/ontology/1.0/object_properties/is_about",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/is_accomplished_by",
+                        "name" : "/ontology/1.0/object_properties/is_accomplished_by",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/is_command_of",
+                        "name" : "/ontology/1.0/object_properties/is_command_of",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/is_controlled_by_device",
+                        "name" : "/ontology/1.0/object_properties/is_controlled_by_device",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/is_located_at",
+                        "name" : "/ontology/1.0/object_properties/is_located_at",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/is_measured_by_device",
+                        "name" : "/ontology/1.0/object_properties/is_measured_by_device",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/is_measured_in",
+                        "name" : "/ontology/1.0/object_properties/is_measured_in",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/is_offered_by",
+                        "name" : "/ontology/1.0/object_properties/is_offered_by",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/is_used_for",
+                        "name" : "/ontology/1.0/object_properties/is_used_for",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/live_in",
+                        "name" : "/ontology/1.0/object_properties/live_in",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/located_at",
+                        "name" : "/ontology/1.0/object_properties/located_at",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/located_in",
+                        "name" : "/ontology/1.0/object_properties/located_in",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/makes_measurement",
+                        "name" : "/ontology/1.0/object_properties/makes_measurement",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/measures_property",
+                        "name" : "/ontology/1.0/object_properties/measures_property",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/month_of_year",
+                        "name" : "/ontology/1.0/object_properties/month_of_year",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/name",
+                        "name" : "/ontology/1.0/object_properties/name",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/offers",
+                        "name" : "/ontology/1.0/object_properties/offers",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/ref_building",
+                        "name" : "/ontology/1.0/object_properties/ref_building",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/related_sensor",
+                        "name" : "/ontology/1.0/object_properties/related_sensor",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/relates_to_measurement",
+                        "name" : "/ontology/1.0/object_properties/relates_to_measurement",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/relates_to_property",
+                        "name" : "/ontology/1.0/object_properties/relates_to_property",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/represents",
+                        "name" : "/ontology/1.0/object_properties/represents",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/sub_category",
+                        "name" : "/ontology/1.0/object_properties/sub_category",
                         "children" : []
                     },
                     {
-                        "name" : "/ontology/1.0/properties/temporal_unit_type",
+                        "name" : "/ontology/1.0/object_properties/temporal_unit_type",
                         "children" : []
                     }
 
@@ -1137,315 +1137,315 @@
                 "name": "/ontology/1.0/#Data_properties",
                 "children": [
                     {
-                        "name": "/ontology/1.0/properties/accuracy",
+                        "name": "/ontology/1.0/data_properties/accuracy",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/active_power",
+                        "name": "/ontology/1.0/data_properties/active_power",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/address",
+                        "name": "/ontology/1.0/data_properties/address",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/control_asset",
+                        "name": "/ontology/1.0/data_properties/control_asset",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/controll_asset",
+                        "name": "/ontology/1.0/data_properties/controll_asset",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/controlled_asset",
+                        "name": "/ontology/1.0/data_properties/controlled_asset",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/created_at",
+                        "name": "/ontology/1.0/data_properties/created_at",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/current_level",
+                        "name": "/ontology/1.0/data_properties/current_level",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/data_provider",
+                        "name": "/ontology/1.0/data_properties/data_provider",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/day",
+                        "name": "/ontology/1.0/data_properties/day",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/day_of_year",
+                        "name": "/ontology/1.0/data_properties/day_of_year",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/days_duration",
+                        "name": "/ontology/1.0/data_properties/days_duration",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/description",
+                        "name": "/ontology/1.0/data_properties/description",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/floors_above_ground",
+                        "name": "/ontology/1.0/data_properties/floors_above_ground",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/floors_below_ground",
+                        "name": "/ontology/1.0/data_properties/floors_below_ground",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/has_XSD_duration",
+                        "name": "/ontology/1.0/data_properties/has_XSD_duration",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/has_description",
+                        "name": "/ontology/1.0/data_properties/has_description",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/has_email",
+                        "name": "/ontology/1.0/data_properties/has_email",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/has_floor",
+                        "name": "/ontology/1.0/data_properties/has_floor",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/has_manufacturer",
+                        "name": "/ontology/1.0/data_properties/has_manufacturer",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/has_mobile_number",
+                        "name": "/ontology/1.0/data_properties/has_mobile_number",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/has_model",
+                        "name": "/ontology/1.0/data_properties/has_model",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/has_name",
+                        "name": "/ontology/1.0/data_properties/has_name",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/has_timestamp",
+                        "name": "/ontology/1.0/data_properties/has_timestamp",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/has_value",
+                        "name": "/ontology/1.0/data_properties/has_value",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/higher_limit",
+                        "name": "/ontology/1.0/data_properties/higher_limit",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/hour",
+                        "name": "/ontology/1.0/data_properties/hour",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/in_XSD_date-time-stamp",
+                        "name": "/ontology/1.0/data_properties/in_XSD_date-time-stamp",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/in_XSD_date-time-stamp",
+                        "name": "/ontology/1.0/data_properties/in_XSD_date-time-stamp",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/in_XSD_g-Year",
+                        "name": "/ontology/1.0/data_properties/in_XSD_g-Year",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/in_XSD_g-YearMonth",
+                        "name": "/ontology/1.0/data_properties/in_XSD_g-YearMonth",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/ipAddress",
+                        "name": "/ontology/1.0/data_properties/ipAddress",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/kp",
+                        "name": "/ontology/1.0/data_properties/kp",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/listening",
+                        "name": "/ontology/1.0/data_properties/listening",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/location",
+                        "name": "/ontology/1.0/data_properties/location",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/logging_interval",
+                        "name": "/ontology/1.0/data_properties/logging_interval",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/logical_node",
+                        "name": "/ontology/1.0/data_properties/logical_node",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/lower_limit",
+                        "name": "/ontology/1.0/data_properties/lower_limit",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/max_active_power",
+                        "name": "/ontology/1.0/data_properties/max_active_power",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/max_reactive_power",
+                        "name": "/ontology/1.0/data_properties/max_reactive_power",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/minute",
+                        "name": "/ontology/1.0/data_properties/minute",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/minutes",
+                        "name": "/ontology/1.0/data_properties/minutes",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/modified_at",
+                        "name": "/ontology/1.0/data_properties/modified_at",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/month",
+                        "name": "/ontology/1.0/data_properties/month",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/months_duration",
+                        "name": "/ontology/1.0/data_properties/months_duration",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/name_of_temporal_position",
+                        "name": "/ontology/1.0/data_properties/name_of_temporal_position",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/numeric_value_of_temporal_duration",
+                        "name": "/ontology/1.0/data_properties/numeric_value_of_temporal_duration",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/numeric_value_of_temporal_position",
+                        "name": "/ontology/1.0/data_properties/numeric_value_of_temporal_position",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/opening_hours",
+                        "name": "/ontology/1.0/data_properties/opening_hours",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/operation_sequence",
+                        "name": "/ontology/1.0/data_properties/operation_sequence",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/owner",
+                        "name": "/ontology/1.0/data_properties/owner",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/primary_current",
+                        "name": "/ontology/1.0/data_properties/primary_current",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/primary_voltage",
+                        "name": "/ontology/1.0/data_properties/primary_voltage",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/reactive_power",
+                        "name": "/ontology/1.0/data_properties/reactive_power",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/readable_name",
+                        "name": "/ontology/1.0/data_properties/readable_name",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/reverse_action",
+                        "name": "/ontology/1.0/data_properties/reverse_action",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/sample_interval",
+                        "name": "/ontology/1.0/data_properties/sample_interval",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/sample_rate",
+                        "name": "/ontology/1.0/data_properties/sample_rate",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/second",
+                        "name": "/ontology/1.0/data_properties/second",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/secondary_current",
+                        "name": "/ontology/1.0/data_properties/secondary_current",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/secondary_voltage",
+                        "name": "/ontology/1.0/data_properties/secondary_voltage",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/seconds_duration",
+                        "name": "/ontology/1.0/data_properties/seconds_duration",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/serial_number",
+                        "name": "/ontology/1.0/data_properties/serial_number",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/set_value",
+                        "name": "/ontology/1.0/data_properties/set_value",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/source",
+                        "name": "/ontology/1.0/data_properties/source",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/supplier_name",
+                        "name": "/ontology/1.0/data_properties/supplier_name",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/supported_network",
+                        "name": "/ontology/1.0/data_properties/supported_network",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/supported_protocol",
+                        "name": "/ontology/1.0/data_properties/supported_protocol",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/tap_position",
+                        "name": "/ontology/1.0/data_properties/tap_position",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/td",
+                        "name": "/ontology/1.0/data_properties/td",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/ti",
+                        "name": "/ontology/1.0/data_properties/ti",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/time_stamp",
+                        "name": "/ontology/1.0/data_properties/time_stamp",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/voltage_level",
+                        "name": "/ontology/1.0/data_properties/voltage_level",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/week",
+                        "name": "/ontology/1.0/data_properties/week",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/weeks_duration",
+                        "name": "/ontology/1.0/data_properties/weeks_duration",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/writable",
+                        "name": "/ontology/1.0/data_properties/writable",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/year",
+                        "name": "/ontology/1.0/data_properties/year",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/years_duration",
+                        "name": "/ontology/1.0/data_properties/years_duration",
                         "children": [] 
                     }
                 ]
@@ -1454,99 +1454,99 @@
                 "name": "/ontology/1.0/#Annotation_properties",
                 "children": [
                     {
-                        "name": "/ontology/1.0/properties/Owner",
+                        "name": "/ontology/1.0/annotation_properties/Owner",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/description",
+                        "name": "/ontology/1.0/annotation_properties/description",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/issued",
+                        "name": "/ontology/1.0/annotation_properties/issued",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/owl#backwardCompatibleWith",
+                        "name": "/ontology/1.0/annotation_properties/owl#backwardCompatibleWith",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/owl#deprecated",
+                        "name": "/ontology/1.0/annotation_properties/owl#deprecated",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/owl#incompatibleWith",
+                        "name": "/ontology/1.0/annotation_properties/owl#incompatibleWith",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/owl#priorVersion",
+                        "name": "/ontology/1.0/annotation_properties/owl#priorVersion",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/owl#versionInfo",
+                        "name": "/ontology/1.0/annotation_properties/owl#versionInfo",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/pattern",
+                        "name": "/ontology/1.0/annotation_properties/pattern",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/publisher",
+                        "name": "/ontology/1.0/annotation_properties/publisher",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/rdfs#comment",
+                        "name": "/ontology/1.0/annotation_properties/rdfs#comment",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/rdfs#flow",
+                        "name": "/ontology/1.0/annotation_properties/rdfs#flow",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/rdfs#isDefinedBy",
+                        "name": "/ontology/1.0/annotation_properties/rdfs#isDefinedBy",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/rdfs#label",
+                        "name": "/ontology/1.0/annotation_properties/rdfs#label",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/rdfs#seeAlso",
+                        "name": "/ontology/1.0/annotation_properties/rdfs#seeAlso",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/rdfs#changeNote",
+                        "name": "/ontology/1.0/annotation_properties/rdfs#changeNote",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/rdfs#definition",
+                        "name": "/ontology/1.0/annotation_properties/rdfs#definition",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/rdfs#editorialNote",
+                        "name": "/ontology/1.0/annotation_properties/rdfs#editorialNote",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/rdfs#historyNote",
+                        "name": "/ontology/1.0/annotation_properties/rdfs#historyNote",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/rdfs#note",
+                        "name": "/ontology/1.0/annotation_properties/rdfs#note",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/rdfs#prefLabel",
+                        "name": "/ontology/1.0/annotation_properties/rdfs#prefLabel",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/rdfs#scopeNote",
+                        "name": "/ontology/1.0/annotation_properties/rdfs#scopeNote",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/rdfs#source",
+                        "name": "/ontology/1.0/annotation_properties/rdfs#source",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/properties/rdfs#title",
+                        "name": "/ontology/1.0/annotation_properties/rdfs#title",
                         "children": [] 
                     }
 

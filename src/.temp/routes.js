@@ -9,664 +9,899 @@ const c8 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/
 
 export default [
   {
-    path: "/ontology/1.0/properties/year/",
+    path: "/ontology/1.0/object_properties/temporal_unit_type/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/years_duration/",
+    path: "/ontology/1.0/object_properties/sub_category/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/week/",
+    path: "/ontology/1.0/object_properties/ref_building/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/weeks_duration/",
+    path: "/ontology/1.0/object_properties/related_sensor/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/writable/",
+    path: "/ontology/1.0/object_properties/relates_to_measurement/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/voltage_level/",
+    path: "/ontology/1.0/object_properties/relates_to_property/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/tap_position/",
+    path: "/ontology/1.0/object_properties/represents/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/td/",
+    path: "/ontology/1.0/object_properties/offers/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/temporal_unit_type/",
+    path: "/ontology/1.0/data_properties/year/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/ti/",
+    path: "/ontology/1.0/data_properties/years_duration/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/time_stamp/",
+    path: "/ontology/1.0/object_properties/name/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/sample_interval/",
+    path: "/ontology/1.0/object_properties/makes_measurement/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/sample_rate/",
+    path: "/ontology/1.0/object_properties/measures_property/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/second/",
+    path: "/ontology/1.0/object_properties/month_of_year/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/secondary_current/",
+    path: "/ontology/1.0/data_properties/week/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/secondary_voltage/",
+    path: "/ontology/1.0/data_properties/weeks_duration/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/seconds_duration/",
+    path: "/ontology/1.0/data_properties/writable/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/serial_number/",
+    path: "/ontology/1.0/object_properties/live_in/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/set_value/",
+    path: "/ontology/1.0/object_properties/located_at/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/source/",
+    path: "/ontology/1.0/object_properties/located_in/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/sub_category/",
+    path: "/ontology/1.0/data_properties/voltage_level/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/supplier_name/",
+    path: "/ontology/1.0/object_properties/in_date-time_description/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/supported_network/",
+    path: "/ontology/1.0/data_properties/tap_position/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/supported_protocol/",
+    path: "/ontology/1.0/data_properties/td/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/reactive_power/",
+    path: "/ontology/1.0/data_properties/ti/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/readable_name/",
+    path: "/ontology/1.0/data_properties/time_stamp/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/ref_building/",
+    path: "/ontology/1.0/object_properties/has_date-time_description/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/related_sensor/",
+    path: "/ontology/1.0/object_properties/in_building/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/relates_to_measurement/",
+    path: "/ontology/1.0/object_properties/in_floor/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/relates_to_property/",
+    path: "/ontology/1.0/object_properties/in_room/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/represents/",
+    path: "/ontology/1.0/object_properties/in_time_zone/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/reverse_action/",
+    path: "/ontology/1.0/object_properties/interval_after/",
     component: c1
   },
   {
-    name: "__ontology_1_0_types_xsd_decimal",
-    path: "/ontology/1.0/types/xsd:decimal",
-    component: c1,
-    meta: {
-      dataPath: "/ontology/1.0/types/_xsd_decimal.json",
-      dynamic: true
-    }
+    path: "/ontology/1.0/object_properties/interval_before/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/interval_contains/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/interval_disjoint/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/interval_during/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/interval_equals/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/interval_finished_by/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/interval_finishes/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/interval_in/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/interval_meets/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/interval_overlapped_by/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/interval_overlaps/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/interval_started_by/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/interval_starts/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/is_about/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/is_accomplished_by/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/is_command_of/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/is_controlled_by_device/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/is_located_at/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/is_measured_by_device/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/is_measured_in/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/is_offered_by/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/is_used_for/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/data_properties/sample_interval/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/data_properties/sample_rate/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/data_properties/second/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/data_properties/secondary_current/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/data_properties/secondary_voltage/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/data_properties/seconds_duration/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/data_properties/serial_number/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/data_properties/set_value/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/data_properties/source/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/data_properties/supplier_name/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/data_properties/supported_network/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/data_properties/supported_protocol/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_beginning/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_building/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_channel/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_duration/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_duration_description/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_end/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_floor/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_function/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_meter_reading/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_meter_reading_type/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_price/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_profile/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_room/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_sensing_range/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_sensor/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_sensor_state/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_sensor_type/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_sub_zone/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_temporal_duration/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_tenant/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_threshold_measurement/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_time/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_time_instant_inside/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_time_w3_standard/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_typical_consumption/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/object_properties/has_zone/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/data_properties/reactive_power/",
+    component: c1
   },
   {
-    path: "/ontology/1.0/properties/primary_current/",
+    path: "/ontology/1.0/data_properties/readable_name/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/primary_voltage/",
+    path: "/ontology/1.0/data_properties/reverse_action/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/offers/",
+    path: "/ontology/1.0/annotation_properties/title/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/opening_hours/",
+    path: "/ontology/1.0/annotation_properties/seeAlso/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/operation_sequence/",
+    path: "/ontology/1.0/annotation_properties/source/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/owner/",
+    path: "/ontology/1.0/data_properties/primary_current/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/name/",
+    path: "/ontology/1.0/data_properties/primary_voltage/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/name_of_temporal_position/",
+    path: "/ontology/1.0/data_properties/opening_hours/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/numeric_value_of_temporal_duration/",
+    path: "/ontology/1.0/data_properties/operation_sequence/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/numeric_value_of_temporal_position/",
+    path: "/ontology/1.0/data_properties/owner/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/makes_measurement/",
+    path: "/ontology/1.0/object_properties/day_of_week/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/max_active_power/",
+    path: "/ontology/1.0/data_properties/name_of_temporal_position/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/max_reactive_power/",
+    path: "/ontology/1.0/data_properties/numeric_value_of_temporal_duration/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/measures_property/",
+    path: "/ontology/1.0/data_properties/numeric_value_of_temporal_position/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/minute/",
+    path: "/ontology/1.0/object_properties/connected_actuator/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/minutes/",
+    path: "/ontology/1.0/object_properties/connected_sensor/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/modified_at/",
+    path: "/ontology/1.0/object_properties/consists_of/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/month/",
+    path: "/ontology/1.0/object_properties/containe_of/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/month_of_year/",
+    path: "/ontology/1.0/object_properties/controlled_property/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/months_duration/",
+    path: "/ontology/1.0/object_properties/controls_property/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/listening/",
+    path: "/ontology/1.0/annotation_properties/pattern/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/live_in/",
+    path: "/ontology/1.0/annotation_properties/prefLabel/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/located_at/",
+    path: "/ontology/1.0/annotation_properties/publisher/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/located_in/",
+    path: "/ontology/1.0/data_properties/max_active_power/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/location/",
+    path: "/ontology/1.0/data_properties/max_reactive_power/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/logging_interval/",
+    path: "/ontology/1.0/data_properties/minute/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/logical_node/",
+    path: "/ontology/1.0/data_properties/minutes/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/lower_limit/",
+    path: "/ontology/1.0/data_properties/modified_at/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/in_XSD_date-time-stamp/",
+    path: "/ontology/1.0/data_properties/month/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/kp/",
+    path: "/ontology/1.0/data_properties/months_duration/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/in_XSD_g-Year/",
+    path: "/ontology/1.0/object_properties/before/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/in_XSD_g-YearMonth/",
+    path: "/ontology/1.0/annotation_properties/owl#backwardCompatibleWith/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/in_date-time_description/",
+    path: "/ontology/1.0/annotation_properties/owl#deprecated/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_date-time_description/",
+    path: "/ontology/1.0/annotation_properties/owl#incompatibleWith/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/in_building/",
+    path: "/ontology/1.0/annotation_properties/owl#priorVersion/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/in_floor/",
+    path: "/ontology/1.0/annotation_properties/owl#versionInfo/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/in_room/",
+    path: "/ontology/1.0/data_properties/listening/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/in_time_zone/",
+    path: "/ontology/1.0/data_properties/location/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/interval_after/",
+    path: "/ontology/1.0/data_properties/logging_interval/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/interval_before/",
+    path: "/ontology/1.0/data_properties/logical_node/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/interval_contains/",
+    path: "/ontology/1.0/data_properties/lower_limit/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/interval_disjoint/",
+    path: "/ontology/1.0/object_properties/accomplishes/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/interval_during/",
+    path: "/ontology/1.0/object_properties/acts_upon/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/interval_equals/",
+    path: "/ontology/1.0/object_properties/after/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/interval_finished_by/",
+    path: "/ontology/1.0/annotation_properties/note/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/interval_finishes/",
+    path: "/ontology/1.0/data_properties/in_XSD_date-time-stamp/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/interval_in/",
+    path: "/ontology/1.0/data_properties/kp/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/interval_meets/",
+    path: "/ontology/1.0/data_properties/in_XSD_g-Year/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/interval_overlapped_by/",
+    path: "/ontology/1.0/data_properties/in_XSD_g-YearMonth/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/interval_overlaps/",
+    path: "/ontology/1.0/annotation_properties/label/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/interval_started_by/",
+    path: "/ontology/1.0/data_properties/ipAddress/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/interval_starts/",
+    path: "/ontology/1.0/data_properties/has_XSD_duration/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/ipAddress/",
+    path: "/ontology/1.0/data_properties/has_description/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/is_about/",
+    path: "/ontology/1.0/data_properties/has_email/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/is_accomplished_by/",
+    path: "/ontology/1.0/data_properties/has_floor/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/is_command_of/",
+    path: "/ontology/1.0/data_properties/has_manufacturer/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/is_controlled_by_device/",
+    path: "/ontology/1.0/data_properties/has_mobile_number/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/is_located_at/",
+    path: "/ontology/1.0/data_properties/has_model/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/is_measured_by_device/",
+    path: "/ontology/1.0/data_properties/has_name/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/is_measured_in/",
+    path: "/ontology/1.0/data_properties/has_timestamp/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/is_offered_by/",
+    path: "/ontology/1.0/data_properties/has_value/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/is_used_for/",
+    path: "/ontology/1.0/data_properties/higher_limit/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/issued/",
+    path: "/ontology/1.0/data_properties/hour/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_XSD_duration/",
+    path: "/ontology/1.0/data_properties/hours_duration/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_beginning/",
+    path: "/ontology/1.0/annotation_properties/isDefinedBy/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_building/",
+    path: "/ontology/1.0/annotation_properties/issued/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_channel/",
+    path: "/ontology/1.0/data_properties/floors_above_ground/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_description/",
+    path: "/ontology/1.0/data_properties/floors_below_ground/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_duration/",
+    path: "/ontology/1.0/annotation_properties/historyNote/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_duration_description/",
+    path: "/ontology/1.0/object_properties/Temporal_position/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_email/",
+    path: "/ontology/1.0/object_properties/Temporal_reference_system_used/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_end/",
+    path: "/ontology/1.0/object_properties/Time_position/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_floor/",
+    path: "/ontology/1.0/objects/Actuator/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_function/",
+    path: "/ontology/1.0/objects/Angle/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_manufacturer/",
+    path: "/ontology/1.0/objects/Building_related/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_meter_reading/",
+    path: "/ontology/1.0/objects/Channel/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_meter_reading_type/",
+    path: "/ontology/1.0/objects/Close_command/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_mobile_number/",
+    path: "/ontology/1.0/objects/Coal/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_model/",
+    path: "/ontology/1.0/objects/Command/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_name/",
+    path: "/ontology/1.0/objects/Commodity/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_price/",
+    path: "/ontology/1.0/objects/Control_device/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_profile/",
+    path: "/ontology/1.0/objects/Day_of_week/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_room/",
+    path: "/ontology/1.0/objects/Device/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_sensing_range/",
+    path: "/ontology/1.0/objects/Electricity/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_sensor/",
+    path: "/ontology/1.0/objects/Floor/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_sensor_state/",
+    path: "/ontology/1.0/objects/Frequency/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_sensor_type/",
+    path: "/ontology/1.0/objects/Gas/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_sub_zone/",
+    path: "/ontology/1.0/objects/Get_command/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_temporal_duration/",
+    path: "/ontology/1.0/objects/Get_current_meter_value_command/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_tenant/",
+    path: "/ontology/1.0/objects/Get_meter_data_command/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_threshold_measurement/",
+    path: "/ontology/1.0/objects/Get_meter_history_command/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_time/",
+    path: "/ontology/1.0/objects/Get_sensing_data_command/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_time_instant_inside/",
+    path: "/ontology/1.0/objects/Maqnitute/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_time_w3_standard/",
+    path: "/ontology/1.0/objects/Notify_command/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_timestamp/",
+    path: "/ontology/1.0/objects/Off_command/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_typical_consumption/",
+    path: "/ontology/1.0/objects/On_command/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_value/",
+    path: "/ontology/1.0/objects/Open_command/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/has_zone/",
+    path: "/ontology/1.0/objects/Pause_command/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/higher_limit/",
+    path: "/ontology/1.0/objects/Rocf/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/hour/",
+    path: "/ontology/1.0/objects/Room/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/hours_duration/",
+    path: "/ontology/1.0/objects/Set_absolute_level_command/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/floors_above_ground/",
+    path: "/ontology/1.0/objects/Set_level_command/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/floors_below_ground/",
+    path: "/ontology/1.0/objects/Set_relative_level_command/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/data_provider/",
+    path: "/ontology/1.0/objects/Start_command/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/day/",
+    path: "/ontology/1.0/objects/Step_down_command/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/day_of_week/",
+    path: "/ontology/1.0/objects/Step_up_command/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/day_of_year/",
+    path: "/ontology/1.0/objects/Stop_command/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/days_duration/",
+    path: "/ontology/1.0/objects/Tenant/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/description/",
+    path: "/ontology/1.0/objects/Timestamp/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/connected_actuator/",
+    path: "/ontology/1.0/objects/Toggle_command/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/connected_sensor/",
+    path: "/ontology/1.0/objects/Water/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/consists_of/",
+    path: "/ontology/1.0/objects/Zone/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/containe_of/",
+    path: "/ontology/1.0/data_properties/data_provider/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/control_asset/",
+    path: "/ontology/1.0/data_properties/day/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/controll_asset/",
+    path: "/ontology/1.0/data_properties/day_of_year/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/controlled_asset/",
+    path: "/ontology/1.0/data_properties/days_duration/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/controlled_property/",
+    path: "/ontology/1.0/data_properties/description/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/controls_property/",
+    path: "/ontology/1.0/annotation_properties/flow/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/created_at/",
+    path: "/ontology/1.0/data_properties/control_asset/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/current_level/",
+    path: "/ontology/1.0/data_properties/controll_asset/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/before/",
+    path: "/ontology/1.0/data_properties/controlled_asset/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/accomplishes/",
+    path: "/ontology/1.0/data_properties/created_at/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/accuracy/",
+    path: "/ontology/1.0/data_properties/current_level/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/active_power/",
+    path: "/ontology/1.0/annotation_properties/editorialNote/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/acts_upon/",
+    path: "/ontology/1.0/annotation_properties/definition/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/address/",
+    path: "/ontology/1.0/annotation_properties/description/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/after/",
+    path: "/ontology/1.0/data_properties/accuracy/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/Owner/",
+    path: "/ontology/1.0/data_properties/active_power/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/Temporal_position/",
+    path: "/ontology/1.0/data_properties/address/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/Temporal_reference_system_used/",
+    path: "/ontology/1.0/annotation_properties/changeNote/",
     component: c1
   },
   {
-    path: "/ontology/1.0/properties/Time_position/",
+    path: "/ontology/1.0/annotation_properties/comment/",
     component: c1
   },
   {
@@ -694,19 +929,11 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/classes/Actuator/",
-    component: c1
-  },
-  {
     path: "/ontology/1.0/classes/Air_flow_sensor/",
     component: c1
   },
   {
     path: "/ontology/1.0/classes/Air_to_air_heat_recovery/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Angle/",
     component: c1
   },
   {
@@ -722,10 +949,6 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/classes/Building_related/",
-    component: c1
-  },
-  {
     path: "/ontology/1.0/classes/Burner/",
     component: c1
   },
@@ -734,15 +957,7 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/classes/Channel/",
-    component: c1
-  },
-  {
     path: "/ontology/1.0/classes/Chiller/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Close_command/",
     component: c1
   },
   {
@@ -750,19 +965,7 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/classes/Coal/",
-    component: c1
-  },
-  {
     path: "/ontology/1.0/classes/Coil/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Commodity/",
     component: c1
   },
   {
@@ -771,10 +974,6 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Compressor/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Control_device/",
     component: c1
   },
   {
@@ -806,23 +1005,11 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/classes/Day_of_week/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Device/",
-    component: c1
-  },
-  {
     path: "/ontology/1.0/classes/Door_switch/",
     component: c1
   },
   {
     path: "/ontology/1.0/classes/Duration_description/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Electricity/",
     component: c1
   },
   {
@@ -862,10 +1049,6 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/classes/Floor/",
-    component: c1
-  },
-  {
     path: "/ontology/1.0/classes/Flow/",
     component: c1
   },
@@ -898,15 +1081,7 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/classes/Frequency/",
-    component: c1
-  },
-  {
     path: "/ontology/1.0/classes/Function/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Gas/",
     component: c1
   },
   {
@@ -915,26 +1090,6 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Generator/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Get_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Get_current_meter_value_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Get_meter_data_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Get_meter_history_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Get_sensing_data_command/",
     component: c1
   },
   {
@@ -986,10 +1141,6 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/classes/Maqnitute/",
-    component: c1
-  },
-  {
     path: "/ontology/1.0/classes/Measurement/",
     component: c1
   },
@@ -1018,23 +1169,11 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/classes/Notify_command/",
-    component: c1
-  },
-  {
     path: "/ontology/1.0/classes/Occupancy/",
     component: c1
   },
   {
-    path: "/ontology/1.0/classes/Off_command/",
-    component: c1
-  },
-  {
     path: "/ontology/1.0/classes/Off_state/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/On_command/",
     component: c1
   },
   {
@@ -1058,10 +1197,6 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/classes/Open_command/",
-    component: c1
-  },
-  {
     path: "/ontology/1.0/classes/Open_state/",
     component: c1
   },
@@ -1075,10 +1210,6 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/PV/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Pause_command/",
     component: c1
   },
   {
@@ -1126,14 +1257,6 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/classes/Rocf/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Room/",
-    component: c1
-  },
-  {
     path: "/ontology/1.0/classes/Sensing_function/",
     component: c1
   },
@@ -1146,18 +1269,6 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/classes/Set_absolute_level_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Set_level_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Set_relative_level_command/",
-    component: c1
-  },
-  {
     path: "/ontology/1.0/classes/Smoke/",
     component: c1
   },
@@ -1167,10 +1278,6 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Space_heater/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Start_command/",
     component: c1
   },
   {
@@ -1191,18 +1298,6 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/State_of_charge/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Step_down_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Step_up_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Stop_command/",
     component: c1
   },
   {
@@ -1270,10 +1365,6 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/classes/Tenant/",
-    component: c1
-  },
-  {
     path: "/ontology/1.0/classes/Time/",
     component: c1
   },
@@ -1295,14 +1386,6 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Time_zone/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Timestamp/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/classes/Toggle_command/",
     component: c1
   },
   {
@@ -1330,10 +1413,6 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/classes/Water/",
-    component: c1
-  },
-  {
     path: "/ontology/1.0/classes/Water_flow_sensor/",
     component: c1
   },
@@ -1342,7 +1421,7 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/classes/Zone/",
+    path: "/ontology/1.0/annotation_properties/Owner/",
     component: c1
   },
   {

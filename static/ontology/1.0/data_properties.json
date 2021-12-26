@@ -1,0 +1,2792 @@
+[
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/accuracy", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "accuracy", 
+        "path": "/ontology/1.0/data_properties/accuracy", 
+        "labels": [], 
+        "rdfs_label" : ["accuracy"], 
+    
+        "generatedLabel": "accuracy", 
+        "generatedAlias": "a", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/accuracy"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/active_power", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "active power", 
+        "path": "/ontology/1.0/data_properties/active_power", 
+        "labels": [], 
+        "rdfs_label" : ["active_power"], 
+    
+        "generatedLabel": "active_power", 
+        "generatedAlias": "ap", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/active_power"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/address", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "address", 
+        "path": "/ontology/1.0/data_properties/address", 
+        "labels": [], 
+        "rdfs_label" : ["address"], 
+    
+        "generatedLabel": "address", 
+        "generatedAlias": "a", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/address"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/control_asset", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "control asset", 
+        "path": "/ontology/1.0/data_properties/control_asset", 
+        "labels": [], 
+        "rdfs_label" : ["control_asset"], 
+    
+        "generatedLabel": "control_asset", 
+        "generatedAlias": "ca", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/control_asset"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/controll_asset", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "controll asset", 
+        "path": "/ontology/1.0/data_properties/controll_asset", 
+        "labels": [], 
+        "rdfs_label" : ["controll_asset"], 
+    
+        "generatedLabel": "controll_asset", 
+        "generatedAlias": "ca", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/controll_asset"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/controlled_asset", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "controlled asset", 
+        "path": "/ontology/1.0/data_properties/controlled_asset", 
+        "labels": [], 
+        "rdfs_label" : ["controlled_asset"], 
+    
+        "generatedLabel": "controlled_asset", 
+        "generatedAlias": "ca", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/controlled_asset"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/created_at", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "created at", 
+        "path": "/ontology/1.0/data_properties/created_at", 
+        "labels": [], 
+        "rdfs_label" : ["created_at"], 
+    
+        "generatedLabel": "created_at", 
+        "generatedAlias": "ca", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/created_at"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/current_level", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "current level", 
+        "path": "/ontology/1.0/data_properties/current_level", 
+        "labels": [], 
+        "rdfs_label" : ["current_level"], 
+    
+        "generatedLabel": "current_level", 
+        "generatedAlias": "cl", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/current_level"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/data_provider", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "data provider", 
+        "path": "/ontology/1.0/data_properties/data_provider", 
+        "labels": [], 
+        "rdfs_label" : ["data_provider"], 
+    
+        "generatedLabel": "data_provider", 
+        "generatedAlias": "dp", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/data_provider"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#day", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "day", 
+        "path": "/ontology/1.0/data_properties/day", 
+        "labels": [], 
+        "rdfs_label" : ["day"], 
+    
+        "generatedLabel": "day", 
+        "generatedAlias": "d", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["Day position in a calendar-clock system. The range of this property is not specified, so can be replaced by any specific representation of a calendar day from any calendar. "],
+        "definitions": ["Day position in a calendar-clock system. The range of this property is not specified, so can be replaced by any specific representation of a calendar day from any calendar. "], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/day"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#dayOfYear", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "day of year", 
+        "path": "/ontology/1.0/data_properties/day_of_year", 
+        "labels": [], 
+        "rdfs_label" : ["day_of_year"], 
+    
+        "generatedLabel": "day_of_year", 
+        "generatedAlias": "doy", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The number of the day within the year."],
+        "definitions": ["The number of the day within the year."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/day_of_year"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#days", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "days duration", 
+        "path": "/ontology/1.0/data_properties/days_duration", 
+        "labels": [], 
+        "rdfs_label" : ["days_duration"], 
+    
+        "generatedLabel": "days_duration", 
+        "generatedAlias": "dd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["Length of, or element of the length of, a temporal extent expressed in days."],
+        "definitions": [":ength of, or element of the length of, a temporal extent expressed in days."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/day_of_year"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/description", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "description", 
+        "path": "/ontology/1.0/data_properties/description", 
+        "labels": [], 
+        "rdfs_label" : ["description"], 
+    
+        "generatedLabel": "description", 
+        "generatedAlias": "d", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/description"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/floors_above_ground", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "floors above ground", 
+        "path": "/ontology/1.0/data_properties/floors_above_ground", 
+        "labels": [], 
+        "rdfs_label" : ["floors_above_ground"], 
+    
+        "generatedLabel": "floors_above_ground", 
+        "generatedAlias": "fag", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/floors_above_ground"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/floors_below_ground", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "floors below ground", 
+        "path": "/ontology/1.0/data_properties/floors_below_ground", 
+        "labels": [], 
+        "rdfs_label" : ["floors_below_ground"], 
+    
+        "generatedLabel": "floors_below_ground", 
+        "generatedAlias": "fbg", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/floors_below_ground"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#hasXSDDuration", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "has XSD duration", 
+        "path": "/ontology/1.0/data_properties/has_XSD_duration", 
+        "labels": [], 
+        "rdfs_label" : ["has_XSD_duration"], 
+    
+        "generatedLabel": "has_XSD_duration", 
+        "generatedAlias": "hXd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": ["Extent of a temporal entity, expressed using xsd:duration."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": ["Feature at risk - added in 2017 revision, and not yet widely used. In range of: duration"],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/has_XSD_duration"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#TemporalEntity"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#hasDescription", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "has_description", 
+        "path": "/ontology/1.0/data_properties/has_description", 
+        "labels": [], 
+        "rdfs_label" : ["has_description"], 
+    
+        "generatedLabel": "has_description", 
+        "generatedAlias": "hd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A relationship providing a description of an entity (e.g., device)."],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/has_description"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#TemporalEntity"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/has_email", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "has email", 
+        "path": "/ontology/1.0/data_properties/has_email", 
+        "labels": [], 
+        "rdfs_label" : ["has_email"], 
+    
+        "generatedLabel": "has_email", 
+        "generatedAlias": "he", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/has_email"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/has_floor", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "has floor", 
+        "path": "/ontology/1.0/data_properties/has_floor", 
+        "labels": [], 
+        "rdfs_label" : ["has_floor"], 
+    
+        "generatedLabel": "has_floor", 
+        "generatedAlias": "hf", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/has_floor"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#hasManufacturer", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "has manufacturer", 
+        "path": "/ontology/1.0/data_properties/has_manufacturer", 
+        "labels": [], 
+        "rdfs_label" : ["has_manufacturer"], 
+    
+        "generatedLabel": "has_manufacturer", 
+        "generatedAlias": "hm", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A relationship identifying the manufacturer of an entity (e.g., device). In range of xsd:string"],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/has_manufacturer"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/has_mobile_number", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "has mobile number", 
+        "path": "/ontology/1.0/data_properties/has_mobile_number", 
+        "labels": [], 
+        "rdfs_label" : ["has_mobile_number"], 
+    
+        "generatedLabel": "has_mobile_number", 
+        "generatedAlias": "hmn", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/has_mobile_number"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/has_model", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "has model", 
+        "path": "/ontology/1.0/data_properties/has_model", 
+        "labels": [], 
+        "rdfs_label" : ["has_model"], 
+    
+        "generatedLabel": "has_model", 
+        "generatedAlias": "hm", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/has_model"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#hasModel", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "has model", 
+        "path": "/ontology/1.0/data_properties/has_model", 
+        "labels": [], 
+        "rdfs_label" : ["has_model"], 
+    
+        "generatedLabel": "has_model", 
+        "generatedAlias": "hm", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": ["in range of xsd:string"],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/has_model"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#hasName", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "has name", 
+        "path": "/ontology/1.0/data_properties/has_name", 
+        "labels": [], 
+        "rdfs_label" : ["has_name"], 
+    
+        "generatedLabel": "has_name", 
+        "generatedAlias": "hn", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": ["in range of xsd:string"],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/has_name"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#hasTimestamp", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "has timestamp", 
+        "path": "/ontology/1.0/data_properties/has_timestamp", 
+        "labels": [], 
+        "rdfs_label" : ["has_timestamp"], 
+    
+        "generatedLabel": "has_timestamp", 
+        "generatedAlias": "hn", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/has_timestamp"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#hasValue", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "has value", 
+        "path": "/ontology/1.0/data_properties/has_value", 
+        "labels": [], 
+        "rdfs_label" : ["has_value"], 
+    
+        "generatedLabel": "has_value", 
+        "generatedAlias": "hv", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/has_value"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/higher_limit", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "higher limit", 
+        "path": "/ontology/1.0/data_properties/higher_limit", 
+        "labels": [], 
+        "rdfs_label" : ["higher_limit"], 
+    
+        "generatedLabel": "higher_limit", 
+        "generatedAlias": "hl", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/higher_limit"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#hour", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "hour", 
+        "path": "/ontology/1.0/data_properties/hour", 
+        "labels": [], 
+        "rdfs_label" : ["hour"], 
+    
+        "generatedLabel": "hour", 
+        "generatedAlias": "h", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["Hour position in a calendar-clock system."],
+        "definitions": ["Hour position in a calendar-clock system."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": ["In range of xsd:nonNegativeInteger"],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/hour"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#hours", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "hours duration", 
+        "path": "/ontology/1.0/data_properties/hours_duration", 
+        "labels": [], 
+        "rdfs_label" : ["hours_duration"], 
+    
+        "generatedLabel": "hours_duration", 
+        "generatedAlias": "hd", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["length of, or element of the length of, a temporal extent expressed in hours."],
+        "definitions": ["length of, or element of the length of, a temporal extent expressed in hours."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": ["In range of xsd:nonNegativeInteger"],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/hours_duration"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDurationDescription"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#inXSDDateTimeStamp", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "in XSD date-time-stamp", 
+        "path": "/ontology/1.0/data_properties/in_XSD_date-time-stamp", 
+        "labels": [], 
+        "rdfs_label" : ["in_XSD_date-time-stamp"], 
+    
+        "generatedLabel": "in_XSD_date-time-stamp", 
+        "generatedAlias": "i", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["Position of an instant, expressed using xsd:dateTimeStamp."],
+        "definitions": ["Position of an instant, expressed using xsd:dateTimeStamp."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/in_XSD_date-time-stamp"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#Instant"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#inXSDDateTimeStamp", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "in XSD date-time-stamp", 
+        "path": "/ontology/1.0/data_properties/in_XSD_date-time-stamp", 
+        "labels": [], 
+        "rdfs_label" : ["in_XSD_date-time-stamp"], 
+    
+        "generatedLabel": "in_XSD_date-time-stamp", 
+        "generatedAlias": "i", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["Position of an instant, expressed using xsd:dateTimeStamp."],
+        "definitions": ["Position of an instant, expressed using xsd:dateTimeStamp."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/in_XSD_date-time-stamp"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#Instant"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#inXSDgYear", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "in XSD g-Year", 
+        "path": "/ontology/1.0/data_properties/in_XSD_g-Year", 
+        "labels": [], 
+        "rdfs_label" : ["in_XSD_g-Year"], 
+    
+        "generatedLabel": "in_XSD_g-Year", 
+        "generatedAlias": "i", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["Position of an instant, expressed using xsd:gYear."],
+        "definitions": ["Position of an instant, expressed using xsd:gYear,"], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/in_XSD_g-Year"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#Instant"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#inXSDgYearMonth", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "in XSD g-YearMonth", 
+        "path": "/ontology/1.0/data_properties/in_XSD_g-YearMonth", 
+        "labels": [], 
+        "rdfs_label" : ["in_XSD_g-YearMonth"], 
+    
+        "generatedLabel": "in_XSD_g-YearMonth", 
+        "generatedAlias": "i", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["Position of an instant, expressed using xsd:gYearMonth."],
+        "definitions": ["Position of an instant, expressed using xsd:gYearMonth,"], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/in_XSD_g-YearMonth"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#Instant"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/ipAddress", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "ipAddress", 
+        "path": "/ontology/1.0/data_properties/ipAddress", 
+        "labels": [], 
+        "rdfs_label" : ["ipAddress"], 
+    
+        "generatedLabel": "ipAddress", 
+        "generatedAlias": "ip", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/ipAddress"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/kp", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "kp", 
+        "path": "/ontology/1.0/data_properties/kp", 
+        "labels": [], 
+        "rdfs_label" : ["kp"], 
+    
+        "generatedLabel": "kp", 
+        "generatedAlias": "kp", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/kp"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/listening", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "listening", 
+        "path": "/ontology/1.0/data_properties/listening", 
+        "labels": [], 
+        "rdfs_label" : ["listening"], 
+    
+        "generatedLabel": "listening", 
+        "generatedAlias": "listening", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/listening"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/location", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "location", 
+        "path": "/ontology/1.0/data_properties/location", 
+        "labels": [], 
+        "rdfs_label" : ["location"], 
+    
+        "generatedLabel": "location", 
+        "generatedAlias": "location", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/location"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/logging_interval", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "logging interval", 
+        "path": "/ontology/1.0/data_properties/logging_interval", 
+        "labels": [], 
+        "rdfs_label" : ["logging_interval"], 
+    
+        "generatedLabel": "logging_interval", 
+        "generatedAlias": "logging_interval", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/logging_interval"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/logical_node", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "logical node", 
+        "path": "/ontology/1.0/data_properties/logical_node", 
+        "labels": [], 
+        "rdfs_label" : ["logical_node"], 
+    
+        "generatedLabel": "logical_node", 
+        "generatedAlias": "logical_node", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/logical_node"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/lower_limit", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "lower limit", 
+        "path": "/ontology/1.0/data_properties/lower_limit", 
+        "labels": [], 
+        "rdfs_label" : ["lower_limit"], 
+    
+        "generatedLabel": "lower_limit", 
+        "generatedAlias": "lower_limit", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/lower_limit"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/max_active_power", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "max active power", 
+        "path": "/ontology/1.0/data_properties/max_active_power", 
+        "labels": [], 
+        "rdfs_label" : ["max_active_power"], 
+    
+        "generatedLabel": "max_active_power", 
+        "generatedAlias": "max_active_power", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/max_active_power"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/max_reactive_power", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "max reactive power", 
+        "path": "/ontology/1.0/data_properties/max_reactive_power", 
+        "labels": [], 
+        "rdfs_label" : ["max_reactive_power"], 
+    
+        "generatedLabel": "max_reactive_power", 
+        "generatedAlias": "max_reactive_power", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/max_reactive_power"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#minute", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "minute", 
+        "path": "/ontology/1.0/data_properties/minute", 
+        "labels": [], 
+        "rdfs_label" : ["minute"], 
+    
+        "generatedLabel": "minute", 
+        "generatedAlias": "minute", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["Minute position in a calendar-clock system."],
+        "definitions": ["Minute position in a calendar-clock system."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/minute"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#minutes", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "minutes", 
+        "path": "/ontology/1.0/data_properties/minutes", 
+        "labels": [], 
+        "rdfs_label" : ["minutes"], 
+    
+        "generatedLabel": "minutes", 
+        "generatedAlias": "minutes", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/minutes"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/modified_at", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "modified at", 
+        "path": "/ontology/1.0/data_properties/modified_at", 
+        "labels": [], 
+        "rdfs_label" : ["modified_at"], 
+    
+        "generatedLabel": "modified_at", 
+        "generatedAlias": "modified_at", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/modified_at"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#month", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "month", 
+        "path": "/ontology/1.0/data_properties/month", 
+        "labels": [], 
+        "rdfs_label" : ["month"], 
+    
+        "generatedLabel": "month", 
+        "generatedAlias": "month", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["Month position in a calendar-clock system. The range of this property is not specified, so can be replaced by any specific representation of a calendar month from any calendar. "],
+        "definitions": ["Month position in a calendar-clock system. The range of this property is not specified, so can be replaced by any specific representation of a calendar month from any calendar. "], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/month"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#months", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "months duration", 
+        "path": "/ontology/1.0/data_properties/months_duration", 
+        "labels": [], 
+        "rdfs_label" : ["months_duration"], 
+    
+        "generatedLabel": "months_duration", 
+        "generatedAlias": "months_duration", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["Length of, or element of the length of, a temporal extent expressed in months. "],
+        "definitions": ["Length of, or element of the length of, a temporal extent expressed in months. "], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/months_duration"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDurationDescription"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#nominalPosition", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "name of temporal position", 
+        "path": "/ontology/1.0/data_properties/name_of_temporal_position", 
+        "labels": [], 
+        "rdfs_label" : ["name_of_temporal_position"], 
+    
+        "generatedLabel": "name_of_temporal_position", 
+        "generatedAlias": "name_of_temporal_position", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The (nominal) value indicating temporal position in an ordinal reference system."],
+        "definitions": ["The (nominal) value indicating temporal position in an ordinal reference system."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/name_of_temporal_position"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#TimePosition"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#numericDuration", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "numeric value of temporal duration", 
+        "path": "/ontology/1.0/data_properties/numeric_value_of_temporal_duration", 
+        "labels": [], 
+        "rdfs_label" : ["numeric_value_of_temporal_duration"], 
+    
+        "generatedLabel": "numeric_value_of_temporal_duration", 
+        "generatedAlias": "numeric_value_of_temporal_duration", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["Value of a temporal extent expressed as a decimal number scaled by a temporal unit."],
+        "definitions": ["Value of a temporal extent expressed as a decimal number scaled by a temporal unit."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/numeric_value_of_temporal_duration"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#Duration"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#numericPosition", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "numeric value of temporal position", 
+        "path": "/ontology/1.0/data_properties/numeric_value_of_temporal_position", 
+        "labels": [], 
+        "rdfs_label" : ["numeric_value_of_temporal_position"], 
+    
+        "generatedLabel": "numeric_value_of_temporal_position", 
+        "generatedAlias": "numeric_value_of_temporal_position", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The (numeric) value indicating position within a temporal coordinate system. "],
+        "definitions": ["The (numeric) value indicating position within a temporal coordinate system."], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/numeric_value_of_temporal_position"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#TimePosition"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/opening_hours", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "opening hours", 
+        "path": "/ontology/1.0/data_properties/opening_hours", 
+        "labels": [], 
+        "rdfs_label" : ["opening_hours"], 
+    
+        "generatedLabel": "opening_hours", 
+        "generatedAlias": "opening_hours", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/opening_hours"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },{
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/operation_sequence", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "operation sequence", 
+        "path": "/ontology/1.0/data_properties/operation_sequence", 
+        "labels": [], 
+        "rdfs_label" : ["operation_sequence"], 
+    
+        "generatedLabel": "operation_sequence", 
+        "generatedAlias": "operation_sequence", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/operation_sequence"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },{
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/owner", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "owner", 
+        "path": "/ontology/1.0/data_properties/owner", 
+        "labels": [], 
+        "rdfs_label" : ["owner"], 
+    
+        "generatedLabel": "owner", 
+        "generatedAlias": "owner", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/owner"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },{
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/primary_current", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "primary current", 
+        "path": "/ontology/1.0/data_properties/primary_current", 
+        "labels": [], 
+        "rdfs_label" : ["primary_current"], 
+    
+        "generatedLabel": "primary_current", 
+        "generatedAlias": "primary_current", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/primary_current"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },{
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/primary_voltage", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "primary voltage", 
+        "path": "/ontology/1.0/data_properties/primary_voltage", 
+        "labels": [], 
+        "rdfs_label" : ["primary_voltage"], 
+    
+        "generatedLabel": "primary_voltage", 
+        "generatedAlias": "primary_voltage", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/primary_voltage"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },{
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/reactive_power", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "reactive power", 
+        "path": "/ontology/1.0/data_properties/reactive_power", 
+        "labels": [], 
+        "rdfs_label" : ["reactive_power"], 
+    
+        "generatedLabel": "reactive_power", 
+        "generatedAlias": "reactive_power", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/reactive_power"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },{
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/readable_name", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "readable name", 
+        "path": "/ontology/1.0/data_properties/readable_name", 
+        "labels": [], 
+        "rdfs_label" : ["readable_name"], 
+    
+        "generatedLabel": "readable_name", 
+        "generatedAlias": "readable_name", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/readable_name"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/reverse_action", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "reverse action", 
+        "path": "/ontology/1.0/data_properties/reverse_action", 
+        "labels": [], 
+        "rdfs_label" : ["reverse_action"], 
+    
+        "generatedLabel": "reverse_action", 
+        "generatedAlias": "reverse_action", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/reverse_action"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/sample_interval", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "sample interval", 
+        "path": "/ontology/1.0/data_properties/sample_interval", 
+        "labels": [], 
+        "rdfs_label" : ["sample_interval"], 
+    
+        "generatedLabel": "sample_interval", 
+        "generatedAlias": "sample_interval", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/sample_interval"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/sample_rate", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "sample rate", 
+        "path": "/ontology/1.0/data_properties/sample_rate", 
+        "labels": [], 
+        "rdfs_label" : ["sample_rate"], 
+    
+        "generatedLabel": "sample_rate", 
+        "generatedAlias": "sample_rate", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/sample_rate"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/second", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "second", 
+        "path": "/ontology/1.0/data_properties/second", 
+        "labels": [], 
+        "rdfs_label" : ["second"], 
+    
+        "generatedLabel": "second", 
+        "generatedAlias": "second", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["Second position in a calendar-clock system."],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/second"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/secondary_current", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "secondary current", 
+        "path": "/ontology/1.0/data_properties/secondary_current", 
+        "labels": [], 
+        "rdfs_label" : ["secondary_current"], 
+    
+        "generatedLabel": "secondary_current", 
+        "generatedAlias": "secondary_current", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/secondary_current"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/secondary_voltage", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "secondary voltage", 
+        "path": "/ontology/1.0/data_properties/secondary_voltage", 
+        "labels": [], 
+        "rdfs_label" : ["secondary_voltage"], 
+    
+        "generatedLabel": "secondary_voltage", 
+        "generatedAlias": "secondary_voltage", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/secondary_voltage"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#seconds", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "seconds duration", 
+        "path": "/ontology/1.0/data_properties/seconds_duration", 
+        "labels": [], 
+        "rdfs_label" : ["seconds_duration"], 
+    
+        "generatedLabel": "seconds_duration", 
+        "generatedAlias": "seconds_duration", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/seconds_duration"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDurationDescription"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/serial_number", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "serial number", 
+        "path": "/ontology/1.0/data_properties/serial_number", 
+        "labels": [], 
+        "rdfs_label" : ["serial_number"], 
+    
+        "generatedLabel": "serial_number", 
+        "generatedAlias": "serial_number", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/serial_number"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/set_value", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "set value", 
+        "path": "/ontology/1.0/data_properties/set_value", 
+        "labels": [], 
+        "rdfs_label" : ["set_value"], 
+    
+        "generatedLabel": "set_value", 
+        "generatedAlias": "set_value", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/set_value"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/source", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "source", 
+        "path": "/ontology/1.0/data_properties/source", 
+        "labels": [], 
+        "rdfs_label" : ["source"], 
+    
+        "generatedLabel": "source", 
+        "generatedAlias": "source", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/source"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/supplier_name", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "supplier name", 
+        "path": "/ontology/1.0/data_properties/supplier_name", 
+        "labels": [], 
+        "rdfs_label" : ["supplier_name"], 
+    
+        "generatedLabel": "supplier_name", 
+        "generatedAlias": "supplier_name", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/supplier_name"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/supported_network", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "supported network", 
+        "path": "/ontology/1.0/data_properties/supported_network", 
+        "labels": [], 
+        "rdfs_label" : ["supported_network"], 
+    
+        "generatedLabel": "supported_network", 
+        "generatedAlias": "supported_network", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/supported_network"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/supported_protocol", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "supported protocol", 
+        "path": "/ontology/1.0/data_properties/supported_protocol", 
+        "labels": [], 
+        "rdfs_label" : ["supported_protocol"], 
+    
+        "generatedLabel": "supported_protocol", 
+        "generatedAlias": "supported_protocol", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/supported_protocol"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/tap_position", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "tap position", 
+        "path": "/ontology/1.0/data_properties/tap_position", 
+        "labels": [], 
+        "rdfs_label" : ["tap_position"], 
+    
+        "generatedLabel": "tap_position", 
+        "generatedAlias": "tap_position", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/tap_position"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/td", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "td", 
+        "path": "/ontology/1.0/data_properties/td", 
+        "labels": [], 
+        "rdfs_label" : ["td"], 
+    
+        "generatedLabel": "td", 
+        "generatedAlias": "td", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/td"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/ti", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "ti", 
+        "path": "/ontology/1.0/data_properties/ti", 
+        "labels": [], 
+        "rdfs_label" : ["ti"], 
+    
+        "generatedLabel": "ti", 
+        "generatedAlias": "ti", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/ti"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/time_stamp", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "time stamp", 
+        "path": "/ontology/1.0/data_properties/time_stamp", 
+        "labels": [], 
+        "rdfs_label" : ["time stamp"], 
+    
+        "generatedLabel": "time stamp", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/time_stamp"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/voltage_level", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "voltage level", 
+        "path": "/ontology/1.0/data_properties/voltage_level", 
+        "labels": [], 
+        "rdfs_label" : ["voltage level"], 
+    
+        "generatedLabel": "voltage level", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/voltage_level"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#week", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "week", 
+        "path": "/ontology/1.0/data_properties/week", 
+        "labels": [], 
+        "rdfs_label" : ["week"], 
+    
+        "generatedLabel": "week", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": ["Weeks are numbered differently depending on the calendar in use and the local language or cultural conventions (locale). ISO-8601 specifies that the first week of the year includes at least four days, and that Monday is the first day of the week. In that system, week 1 is the week that contains the first Thursday in the year."],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/week"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#weeks", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "weeks duration", 
+        "path": "/ontology/1.0/data_properties/weeks_duration", 
+        "labels": [], 
+        "rdfs_label" : ["weeks duration"], 
+    
+        "generatedLabel": "weeks duration", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": ["Longitud de, o elemento de la longitud de, una extensión temporal expresada en semanas."],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/weeks_duration"
+        ], 
+        "inDomainOf": [
+            "http://www.w3.org/2006/time#GeneralDurationDescription"
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/writable", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "writable", 
+        "path": "/ontology/1.0/data_properties/writable", 
+        "labels": [], 
+        "rdfs_label" : ["writable"], 
+    
+        "generatedLabel": "writable", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [""],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/writable"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/year", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "year", 
+        "path": "/ontology/1.0/data_properties/year", 
+        "labels": [], 
+        "rdfs_label" : ["year"], 
+    
+        "generatedLabel": "year", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["Year position in a calendar-clock system. The range of this property is not specified, so can be replaced by any specific representation of a calendar year from any calendar. "],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/year"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#years", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#DataProperty"
+        ], 
+        "name": "years duration", 
+        "path": "/ontology/1.0/data_properties/years_duration", 
+        "labels": [], 
+        "rdfs_label" : ["years duration"], 
+    
+        "generatedLabel": "years duration", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["Length of, or element of the length of, a temporal extent expressed in years."],
+        "definitions": [""], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Data_properties",
+            "/ontology/1.0/data_properties/years_duration"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    }
+]

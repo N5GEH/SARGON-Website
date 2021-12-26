@@ -1,0 +1,902 @@
+[
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/annotation_properties/Owner", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "Owner", 
+        "path": "/ontology/1.0/annotation_properties/Owner", 
+        "labels": [], 
+        "rdfs_label" : ["Owner"], 
+
+        "generatedLabel": "Owner", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/Owner"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/annotation_properties/description", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "description", 
+        "path": "/ontology/1.0/annotation_properties/description", 
+        "labels": [], 
+        "rdfs_label" : ["description"], 
+
+        "generatedLabel": "description", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/description"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://sargon-n5geh.netlify.app/ontology/1.0/annotation_properties/issued", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "issued", 
+        "path": "/ontology/1.0/annotation_properties/issued", 
+        "labels": [], 
+        "rdfs_label" : ["issued"], 
+
+        "generatedLabel": "issued", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/issued"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2002/07/owl#backwardCompatibleWith", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "owl:backwardCompatibleWith", 
+        "path": "/ontology/1.0/annotation_properties/owl#backwardCompatibleWith", 
+        "labels": [], 
+        "rdfs_label" : ["owl:backwardCompatibleWith"], 
+
+        "generatedLabel": "owl:backwardCompatibleWith", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/owl#backwardCompatibleWith"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2002/07/owl#deprecated", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "owl:deprecated", 
+        "path": "/ontology/1.0/annotation_properties/owl#deprecated", 
+        "labels": [], 
+        "rdfs_label" : ["owl:deprecated"], 
+
+        "generatedLabel": "owl:deprecated", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/owl#deprecated"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2002/07/owl#incompatibleWith", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "owl:incompatibleWith", 
+        "path": "/ontology/1.0/annotation_properties/owl#incompatibleWith", 
+        "labels": [], 
+        "rdfs_label" : ["owl:incompatibleWith"], 
+
+        "generatedLabel": "owl:incompatibleWith", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/owl#incompatibleWith"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2002/07/owl#priorVersion", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "owl:priorVersion", 
+        "path": "/ontology/1.0/annotation_properties/owl#priorVersion", 
+        "labels": [], 
+        "rdfs_label" : ["owl:priorVersion"], 
+
+        "generatedLabel": "owl:priorVersion", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/owl#priorVersion"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2002/07/owl#versionInfo", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "owl:versionInfo", 
+        "path": "/ontology/1.0/annotation_properties/owl#versionInfo", 
+        "labels": [], 
+        "rdfs_label" : ["owl:versionInfo"], 
+
+        "generatedLabel": "owl:versionInfo", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/owl#versionInfo"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2001/XMLSchema#pattern", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "Property:pattern", 
+        "path": "/ontology/1.0/annotation_properties/pattern", 
+        "labels": [], 
+        "rdfs_label" : [""], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/pattern"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2001/XMLSchema#pattern", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "Property:pattern", 
+        "path": "/ontology/1.0/annotation_properties/pattern", 
+        "labels": [], 
+        "rdfs_label" : [""], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/pattern"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://purl.org/dc/terms/publisher", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "Property:publisher", 
+        "path": "/ontology/1.0/annotation_properties/publisher", 
+        "labels": [], 
+        "rdfs_label" : [""], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/publisher"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2000/01/rdf-schema#comment", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "rdfs:comment", 
+        "path": "/ontology/1.0/annotation_properties/comment", 
+        "labels": [], 
+        "rdfs_label" : [""], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/comment"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2000/01/rdf-schema#flow", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "rdfs:flow", 
+        "path": "/ontology/1.0/annotation_properties/flow", 
+        "labels": [], 
+        "rdfs_label" : [""], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/flow"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "rdfs:isDefinedBy", 
+        "path": "/ontology/1.0/annotation_properties/isDefinedBy", 
+        "labels": [], 
+        "rdfs_label" : [""], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/isDefinedBy"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2000/01/rdf-schema#label", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "rdfs:label", 
+        "path": "/ontology/1.0/annotation_properties/label", 
+        "labels": [], 
+        "rdfs_label" : [""], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/label"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2000/01/rdf-schema#seeAlso", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "rdfs:seeAlso", 
+        "path": "/ontology/1.0/annotation_properties/seeAlso", 
+        "labels": [], 
+        "rdfs_label" : [""], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/seeAlso"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2004/02/skos/core#changeNote", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "skos:changeNote", 
+        "path": "/ontology/1.0/annotation_properties/changeNote", 
+        "labels": [], 
+        "rdfs_label" : [""], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/changeNote"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2004/02/skos/core#definition", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "skos:definition", 
+        "path": "/ontology/1.0/annotation_properties/definition", 
+        "labels": [], 
+        "rdfs_label" : [""], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/definition"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2004/02/skos/core#editorialNote", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "skos:editorialNote", 
+        "path": "/ontology/1.0/annotation_properties/editorialNote", 
+        "labels": [], 
+        "rdfs_label" : [""], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/editorialNote"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2004/02/skos/core#historyNote", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "skos:historyNote", 
+        "path": "/ontology/1.0/annotation_properties/historyNote", 
+        "labels": [], 
+        "rdfs_label" : [""], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/historyNote"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2004/02/skos/core#note", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "skos:note", 
+        "path": "/ontology/1.0/annotation_properties/note", 
+        "labels": [], 
+        "rdfs_label" : [""], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/note"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2004/02/skos/core#prefLabel", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "skos:prefLabel", 
+        "path": "/ontology/1.0/annotation_properties/prefLabel", 
+        "labels": [], 
+        "rdfs_label" : [""], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/prefLabel"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2004/02/skos/core#prefLabel", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "skos:scopeNote", 
+        "path": "/ontology/1.0/annotation_properties/scopeNote", 
+        "labels": [], 
+        "rdfs_label" : [""], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/scopeNote"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://purl.org/dc/terms/source", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "Property:source", 
+        "path": "/ontology/1.0/annotation_properties/source", 
+        "labels": [], 
+        "rdfs_label" : [""], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/source"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://purl.org/dc/terms/title", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ], 
+        "name": "Property:title", 
+        "path": "/ontology/1.0/annotation_properties/title", 
+        "labels": [], 
+        "rdfs_label" : [""], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Annotation_properties",
+            "/ontology/1.0/annotation_properties/title"
+        ], 
+        "inDomainOf": [
+            
+        ],
+        "inRangeOf": []
+    }
+]
