@@ -3378,7 +3378,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "accuracy", 
         "path": "/ontology/1.0/properties/accuracy", 
@@ -3412,7 +3412,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "active power", 
         "path": "/ontology/1.0/properties/active_power", 
@@ -3446,7 +3446,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "address", 
         "path": "/ontology/1.0/properties/address", 
@@ -3480,7 +3480,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "control asset", 
         "path": "/ontology/1.0/properties/control_asset", 
@@ -3514,7 +3514,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "controll asset", 
         "path": "/ontology/1.0/properties/controll_asset", 
@@ -3548,7 +3548,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "controlled asset", 
         "path": "/ontology/1.0/properties/controlled_asset", 
@@ -3582,7 +3582,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "created at", 
         "path": "/ontology/1.0/properties/created_at", 
@@ -3616,7 +3616,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "current level", 
         "path": "/ontology/1.0/properties/current_level", 
@@ -3650,7 +3650,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "data provider", 
         "path": "/ontology/1.0/properties/data_provider", 
@@ -3684,7 +3684,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "day", 
         "path": "/ontology/1.0/properties/day", 
@@ -3720,7 +3720,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "day of year", 
         "path": "/ontology/1.0/properties/day_of_year", 
@@ -3756,7 +3756,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "days duration", 
         "path": "/ontology/1.0/properties/days_duration", 
@@ -3792,7 +3792,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "description", 
         "path": "/ontology/1.0/properties/description", 
@@ -3826,7 +3826,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "floors above ground", 
         "path": "/ontology/1.0/properties/floors_above_ground", 
@@ -3860,7 +3860,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "floors below ground", 
         "path": "/ontology/1.0/properties/floors_below_ground", 
@@ -3894,7 +3894,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "has XSD duration", 
         "path": "/ontology/1.0/properties/has_XSD_duration", 
@@ -3930,7 +3930,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "has_description", 
         "path": "/ontology/1.0/properties/has_description", 
@@ -3966,7 +3966,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "has email", 
         "path": "/ontology/1.0/properties/has_email", 
@@ -4000,7 +4000,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "has floor", 
         "path": "/ontology/1.0/properties/has_floor", 
@@ -4034,7 +4034,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "has manufacturer", 
         "path": "/ontology/1.0/properties/has_manufacturer", 
@@ -4068,7 +4068,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "has mobile number", 
         "path": "/ontology/1.0/properties/has_mobile_number", 
@@ -4102,7 +4102,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "has model", 
         "path": "/ontology/1.0/properties/has_model", 
@@ -4136,7 +4136,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "has model", 
         "path": "/ontology/1.0/properties/has_model", 
@@ -4170,7 +4170,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "has name", 
         "path": "/ontology/1.0/properties/has_name", 
@@ -4204,7 +4204,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "has timestamp", 
         "path": "/ontology/1.0/properties/has_timestamp", 
@@ -4238,7 +4238,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "has value", 
         "path": "/ontology/1.0/properties/has_value", 
@@ -4272,7 +4272,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "higher limit", 
         "path": "/ontology/1.0/properties/higher_limit", 
@@ -4306,7 +4306,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "hour", 
         "path": "/ontology/1.0/properties/hour", 
@@ -4342,7 +4342,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "hours duration", 
         "path": "/ontology/1.0/properties/hours_duration", 
@@ -4378,7 +4378,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "in XSD date-time-stamp", 
         "path": "/ontology/1.0/properties/in_XSD_date-time-stamp", 
@@ -4414,7 +4414,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "in XSD date-time-stamp", 
         "path": "/ontology/1.0/properties/in_XSD_date-time-stamp", 
@@ -4450,7 +4450,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "in XSD g-Year", 
         "path": "/ontology/1.0/properties/in_XSD_g-Year", 
@@ -4486,7 +4486,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "in XSD g-YearMonth", 
         "path": "/ontology/1.0/properties/in_XSD_g-YearMonth", 
@@ -4522,7 +4522,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "ipAddress", 
         "path": "/ontology/1.0/properties/ipAddress", 
@@ -4556,7 +4556,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "kp", 
         "path": "/ontology/1.0/properties/kp", 
@@ -4590,7 +4590,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "listening", 
         "path": "/ontology/1.0/properties/listening", 
@@ -4624,7 +4624,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "location", 
         "path": "/ontology/1.0/properties/location", 
@@ -4658,7 +4658,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "logging interval", 
         "path": "/ontology/1.0/properties/logging_interval", 
@@ -4692,7 +4692,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "logical node", 
         "path": "/ontology/1.0/properties/logical_node", 
@@ -4726,7 +4726,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "lower limit", 
         "path": "/ontology/1.0/properties/lower_limit", 
@@ -4760,7 +4760,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "max active power", 
         "path": "/ontology/1.0/properties/max_active_power", 
@@ -4794,7 +4794,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "max reactive power", 
         "path": "/ontology/1.0/properties/max_reactive_power", 
@@ -4828,7 +4828,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "minute", 
         "path": "/ontology/1.0/properties/minute", 
@@ -4864,7 +4864,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "minutes", 
         "path": "/ontology/1.0/properties/minutes", 
@@ -4900,7 +4900,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "modified at", 
         "path": "/ontology/1.0/properties/modified_at", 
@@ -4934,7 +4934,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "month", 
         "path": "/ontology/1.0/properties/month", 
@@ -4970,7 +4970,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "months duration", 
         "path": "/ontology/1.0/properties/months_duration", 
@@ -5006,7 +5006,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "name of temporal position", 
         "path": "/ontology/1.0/properties/name_of_temporal_position", 
@@ -5042,7 +5042,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "numeric value of temporal duration", 
         "path": "/ontology/1.0/properties/numeric_value_of_temporal_duration", 
@@ -5078,7 +5078,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "numeric value of temporal position", 
         "path": "/ontology/1.0/properties/numeric_value_of_temporal_position", 
@@ -5114,7 +5114,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "opening hours", 
         "path": "/ontology/1.0/properties/opening_hours", 
@@ -5147,7 +5147,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "operation sequence", 
         "path": "/ontology/1.0/properties/operation_sequence", 
@@ -5180,7 +5180,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "owner", 
         "path": "/ontology/1.0/properties/owner", 
@@ -5213,7 +5213,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "primary current", 
         "path": "/ontology/1.0/properties/primary_current", 
@@ -5246,7 +5246,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "primary voltage", 
         "path": "/ontology/1.0/properties/primary_voltage", 
@@ -5279,7 +5279,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "reactive power", 
         "path": "/ontology/1.0/properties/reactive_power", 
@@ -5312,7 +5312,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "readable name", 
         "path": "/ontology/1.0/properties/readable_name", 
@@ -5346,7 +5346,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "reverse action", 
         "path": "/ontology/1.0/properties/reverse_action", 
@@ -5380,7 +5380,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "sample interval", 
         "path": "/ontology/1.0/properties/sample_interval", 
@@ -5414,7 +5414,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "sample rate", 
         "path": "/ontology/1.0/properties/sample_rate", 
@@ -5448,7 +5448,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "second", 
         "path": "/ontology/1.0/properties/second", 
@@ -5484,7 +5484,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "secondary current", 
         "path": "/ontology/1.0/properties/secondary_current", 
@@ -5520,7 +5520,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "secondary voltage", 
         "path": "/ontology/1.0/properties/secondary_voltage", 
@@ -5556,7 +5556,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "seconds duration", 
         "path": "/ontology/1.0/properties/seconds_duration", 
@@ -5592,7 +5592,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "serial number", 
         "path": "/ontology/1.0/properties/serial_number", 
@@ -5628,7 +5628,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "set value", 
         "path": "/ontology/1.0/properties/set_value", 
@@ -5664,7 +5664,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "source", 
         "path": "/ontology/1.0/properties/source", 
@@ -5700,7 +5700,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "supplier name", 
         "path": "/ontology/1.0/properties/supplier_name", 
@@ -5736,7 +5736,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "supported network", 
         "path": "/ontology/1.0/properties/supported_network", 
@@ -5772,7 +5772,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "supported protocol", 
         "path": "/ontology/1.0/properties/supported_protocol", 
@@ -5808,7 +5808,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "tap position", 
         "path": "/ontology/1.0/properties/tap_position", 
@@ -5844,7 +5844,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "td", 
         "path": "/ontology/1.0/properties/td", 
@@ -5880,7 +5880,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "ti", 
         "path": "/ontology/1.0/properties/ti", 
@@ -5916,7 +5916,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "time stamp", 
         "path": "/ontology/1.0/properties/time_stamp", 
@@ -5952,7 +5952,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "voltage level", 
         "path": "/ontology/1.0/properties/voltage_level", 
@@ -5988,7 +5988,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "week", 
         "path": "/ontology/1.0/properties/week", 
@@ -6024,7 +6024,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "weeks duration", 
         "path": "/ontology/1.0/properties/weeks_duration", 
@@ -6060,7 +6060,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "writable", 
         "path": "/ontology/1.0/properties/writable", 
@@ -6096,7 +6096,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "year", 
         "path": "/ontology/1.0/properties/year", 
@@ -6132,7 +6132,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "years duration", 
         "path": "/ontology/1.0/properties/years_duration", 
@@ -6168,7 +6168,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "Owner", 
         "path": "/ontology/1.0/properties/Owner", 
@@ -6204,7 +6204,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "description", 
         "path": "/ontology/1.0/properties/description", 
@@ -6240,7 +6240,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "issued", 
         "path": "/ontology/1.0/properties/issued", 
@@ -6276,10 +6276,10 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "owl:backwardCompatibleWith", 
-        "path": "/ontology/1.0/properties/issued", 
+        "path": "/ontology/1.0/properties/owl#backwardCompatibleWith", 
         "labels": [], 
         "rdfs_label" : ["owl:backwardCompatibleWith"], 
        

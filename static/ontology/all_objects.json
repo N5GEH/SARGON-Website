@@ -5926,7 +5926,7 @@
         "path": "/ontology/1.0/properties/in_date-time_description", 
         "labels": [], 
         "rdfs_label" : ["in date-time description"], 
-        
+    
         "generatedLabel": "in date-time description", 
         "generatedAlias": "idd", 
         "superclasses": [
@@ -5963,7 +5963,7 @@
         "path": "/ontology/1.0/properties/Temporal_reference_system_used", 
         "labels": [], 
         "rdfs_label" : ["in date-time description"], 
-        
+    
         "generatedLabel": "in date-time description", 
         "generatedAlias": "idd", 
         "superclasses": [
@@ -6000,7 +6000,7 @@
         "path": "/ontology/1.0/properties/accomplishes", 
         "labels": [], 
         "rdfs_label" : ["accomplishes"], 
-        
+    
         "generatedLabel": "accomplishesn", 
         "generatedAlias": "a", 
         "superclasses": [
@@ -6037,7 +6037,7 @@
         "path": "/ontology/1.0/properties/acts_upon", 
         "labels": [], 
         "rdfs_label" : ["acts_upon"], 
-        
+    
         "generatedLabel": "acts_upon", 
         "generatedAlias": "a", 
         "superclasses": [
@@ -6074,7 +6074,7 @@
         "path": "/ontology/1.0/properties/after", 
         "labels": [], 
         "rdfs_label" : ["after"], 
-        
+    
         "generatedLabel": "after", 
         "generatedAlias": "a", 
         "superclasses": [
@@ -6112,7 +6112,7 @@
         "path": "/ontology/1.0/properties/interval_after", 
         "labels": [], 
         "rdfs_label" : ["interval_after"], 
-        
+    
         "generatedLabel": "interval after", 
         "generatedAlias": "ia", 
         "superclasses": [
@@ -6151,7 +6151,7 @@
         "path": "/ontology/1.0/properties/before", 
         "labels": [], 
         "rdfs_label" : ["before"], 
-        
+    
         "generatedLabel": "before", 
         "generatedAlias": "b", 
         "superclasses": [
@@ -6189,7 +6189,7 @@
         "path": "/ontology/1.0/properties/interval_before", 
         "labels": [], 
         "rdfs_label" : ["interval_before"], 
-        
+    
         "generatedLabel": "interval before", 
         "generatedAlias": "ib", 
         "superclasses": [
@@ -6228,7 +6228,7 @@
         "path": "/ontology/1.0/properties/connected_actuator", 
         "labels": [], 
         "rdfs_label" : ["connected actuator"], 
-        
+    
         "generatedLabel": "connected actuator", 
         "generatedAlias": "cd", 
         "superclasses": [
@@ -6264,7 +6264,7 @@
         "path": "/ontology/1.0/properties/connected_sensor", 
         "labels": [], 
         "rdfs_label" : ["connected sensor"], 
-        
+    
         "generatedLabel": "connected sensor", 
         "generatedAlias": "cs", 
         "superclasses": [
@@ -6300,7 +6300,7 @@
         "path": "/ontology/1.0/properties/consists_of", 
         "labels": [], 
         "rdfs_label" : ["consists of"], 
-        
+    
         "generatedLabel": "consists of", 
         "generatedAlias": "co", 
         "superclasses": [
@@ -6336,7 +6336,7 @@
         "path": "/ontology/1.0/properties/containe_of", 
         "labels": [], 
         "rdfs_label" : ["containe of"], 
-        
+    
         "generatedLabel": "containe of", 
         "generatedAlias": "co", 
         "superclasses": [
@@ -6372,7 +6372,7 @@
         "path": "/ontology/1.0/properties/controlled_property", 
         "labels": [], 
         "rdfs_label" : ["controlled property"], 
-        
+    
         "generatedLabel": "controlled property", 
         "generatedAlias": "cp", 
         "superclasses": [
@@ -6408,7 +6408,7 @@
         "path": "/ontology/1.0/properties/controls_property", 
         "labels": [], 
         "rdfs_label" : ["controlled property"], 
-        
+    
         "generatedLabel": "controlled property", 
         "generatedAlias": "cp", 
         "superclasses": [
@@ -6444,7 +6444,7 @@
         "path": "/ontology/1.0/properties/day_of_week", 
         "labels": [], 
         "rdfs_label" : ["day_of_week"], 
-        
+    
         "generatedLabel": "day_of_week", 
         "generatedAlias": "dow", 
         "superclasses": [
@@ -6481,7 +6481,7 @@
         "path": "/ontology/1.0/properties/has_date-time_description", 
         "labels": [], 
         "rdfs_label" : ["has_date-time_description"], 
-        
+    
         "generatedLabel": "has_date-time_description", 
         "generatedAlias": "hdd", 
         "superclasses": [
@@ -6518,7 +6518,7 @@
         "path": "/ontology/1.0/properties/has_building", 
         "labels": [], 
         "rdfs_label" : ["has building"], 
-        
+    
         "generatedLabel": "has building", 
         "generatedAlias": "hb", 
         "superclasses": [
@@ -6554,7 +6554,7 @@
         "path": "/ontology/1.0/properties/has_channel", 
         "labels": [], 
         "rdfs_label" : ["has channel"], 
-        
+    
         "generatedLabel": "has channel", 
         "generatedAlias": "hc", 
         "superclasses": [
@@ -6590,7 +6590,7 @@
         "path": "/ontology/1.0/properties/has_floor", 
         "labels": [], 
         "rdfs_label" : ["has floor"], 
-        
+    
         "generatedLabel": "has floor", 
         "generatedAlias": "hf", 
         "superclasses": [
@@ -6626,7 +6626,7 @@
         "path": "/ontology/1.0/properties/has_function", 
         "labels": ["has function"], 
         "rdfs_label" : ["has function"], 
-        
+    
         "generatedLabel": "has function", 
         "generatedAlias": "hf", 
         "superclasses": [
@@ -6662,7 +6662,7 @@
         "path": "/ontology/1.0/properties/has_meter_reading", 
         "labels": ["has meter reading"], 
         "rdfs_label" : ["has meter reading"], 
-        
+    
         "generatedLabel": "has meter reading", 
         "generatedAlias": "hmr", 
         "superclasses": [
@@ -6698,7 +6698,7 @@
         "path": "/ontology/1.0/properties/has_meter_reading_type", 
         "labels": ["has meter reading type"], 
         "rdfs_label" : ["has meter reading type"], 
-        
+    
         "generatedLabel": "has meter reading type", 
         "generatedAlias": "hmrt", 
         "superclasses": [
@@ -6732,7 +6732,7 @@
         "path": "/ontology/1.0/properties/has_price", 
         "labels": ["has price"], 
         "rdfs_label" : ["has price"], 
-        
+    
         "generatedLabel": "has price", 
         "generatedAlias": "hp", 
         "superclasses": [
@@ -6766,7 +6766,7 @@
         "path": "/ontology/1.0/properties/has_profile", 
         "labels": ["has profile"], 
         "rdfs_label" : ["has profile"], 
-        
+    
         "generatedLabel": "has profile", 
         "generatedAlias": "hp", 
         "superclasses": [
@@ -6800,7 +6800,7 @@
         "path": "/ontology/1.0/properties/has_room", 
         "labels": [], 
         "rdfs_label" : ["has room"], 
-        
+    
         "generatedLabel": "has room", 
         "generatedAlias": "hr", 
         "superclasses": [
@@ -6836,7 +6836,7 @@
         "path": "/ontology/1.0/properties/has_sensing_range", 
         "labels": [], 
         "rdfs_label" : ["has sensing range"], 
-        
+    
         "generatedLabel": "has sensing range", 
         "generatedAlias": "hr", 
         "superclasses": [
@@ -6872,7 +6872,7 @@
         "path": "/ontology/1.0/properties/has_sensor", 
         "labels": [], 
         "rdfs_label" : ["has sensor"], 
-        
+    
         "generatedLabel": "has sensor", 
         "generatedAlias": "hs", 
         "superclasses": [
@@ -6908,7 +6908,7 @@
         "path": "/ontology/1.0/properties/has_sensor_type", 
         "labels": [], 
         "rdfs_label" : ["has sensor type"], 
-        
+    
         "generatedLabel": "has sensor type", 
         "generatedAlias": "hst", 
         "superclasses": [
@@ -6944,7 +6944,7 @@
         "path": "/ontology/1.0/properties/has_sensor_state", 
         "labels": [], 
         "rdfs_label" : ["has sensor state"], 
-        
+    
         "generatedLabel": "has sensor state", 
         "generatedAlias": "hss", 
         "superclasses": [
@@ -6980,7 +6980,7 @@
         "path": "/ontology/1.0/properties/has_sub_zone", 
         "labels": [], 
         "rdfs_label" : ["has sub zone"], 
-        
+    
         "generatedLabel": "has sub zone", 
         "generatedAlias": "hsb", 
         "superclasses": [
@@ -7016,7 +7016,7 @@
         "path": "/ontology/1.0/properties/has_temporal_duration", 
         "labels": [], 
         "rdfs_label" : ["has temporal duration"], 
-        
+    
         "generatedLabel": "has temporal duration", 
         "generatedAlias": "htd", 
         "superclasses": [
@@ -7053,7 +7053,7 @@
         "path": "/ontology/1.0/properties/has_duration", 
         "labels": [], 
         "rdfs_label" : ["has duration"], 
-        
+    
         "generatedLabel": "has duration", 
         "generatedAlias": "hd", 
         "superclasses": [
@@ -7090,7 +7090,7 @@
         "path": "/ontology/1.0/properties/has_duration_description", 
         "labels": [], 
         "rdfs_label" : ["has duration description"], 
-        
+    
         "generatedLabel": "has duration description", 
         "generatedAlias": "hdd", 
         "superclasses": [
@@ -7127,7 +7127,7 @@
         "path": "/ontology/1.0/properties/has_tenant", 
         "labels": [], 
         "rdfs_label" : ["has tenant"], 
-        
+    
         "generatedLabel": "has tenant", 
         "generatedAlias": "ht", 
         "superclasses": [
@@ -7163,7 +7163,7 @@
         "path": "/ontology/1.0/properties/has_threshold_measurement", 
         "labels": [], 
         "rdfs_label" : ["has threshold measurement"], 
-        
+    
         "generatedLabel": "has threshold measurement", 
         "generatedAlias": "htm", 
         "superclasses": [
@@ -7197,7 +7197,7 @@
         "path": "/ontology/1.0/properties/has_time_w3_standard", 
         "labels": [], 
         "rdfs_label" : ["has time"], 
-        
+    
         "generatedLabel": "has time", 
         "generatedAlias": "ht", 
         "superclasses": [
@@ -7231,7 +7231,7 @@
         "path": "/ontology/1.0/properties/has_beginning", 
         "labels": [], 
         "rdfs_label" : ["has beginning"], 
-        
+    
         "generatedLabel": "has beginning", 
         "generatedAlias": "hb", 
         "superclasses": [
@@ -7267,7 +7267,7 @@
         "path": "/ontology/1.0/properties/has_end", 
         "labels": [], 
         "rdfs_label" : ["has end"], 
-        
+    
         "generatedLabel": "has end", 
         "generatedAlias": "he", 
         "superclasses": [
@@ -7303,7 +7303,7 @@
         "path": "/ontology/1.0/properties/has_time", 
         "labels": [], 
         "rdfs_label" : ["has time"], 
-        
+    
         "generatedLabel": "has time", 
         "generatedAlias": "ht", 
         "superclasses": [
@@ -7337,7 +7337,7 @@
         "path": "/ontology/1.0/properties/has_time_instant_inside", 
         "labels": [], 
         "rdfs_label" : ["has time instant inside"], 
-        
+    
         "generatedLabel": "has time instant inside", 
         "generatedAlias": "htii", 
         "superclasses": [
@@ -7372,7 +7372,7 @@
         "path": "/ontology/1.0/properties/has_typical_consumption", 
         "labels": [], 
         "rdfs_label" : ["has typical consumption"], 
-        
+    
         "generatedLabel": "has typical consumption", 
         "generatedAlias": "htc", 
         "superclasses": [
@@ -7405,7 +7405,7 @@
         "path": "/ontology/1.0/properties/has_zone", 
         "labels": [], 
         "rdfs_label" : ["has zone"], 
-        
+    
         "generatedLabel": "has zone", 
         "generatedAlias": "hz", 
         "superclasses": [
@@ -7441,7 +7441,7 @@
         "path": "/ontology/1.0/properties/in_building", 
         "labels": [], 
         "rdfs_label" : ["in building"], 
-        
+    
         "generatedLabel": "in building", 
         "generatedAlias": "ib", 
         "superclasses": [
@@ -7477,7 +7477,7 @@
         "path": "/ontology/1.0/properties/in_floor", 
         "labels": [], 
         "rdfs_label" : ["in floor"], 
-        
+    
         "generatedLabel": "in floor", 
         "generatedAlias": "if", 
         "superclasses": [
@@ -7514,7 +7514,7 @@
         "path": "/ontology/1.0/properties/in_room", 
         "labels": [], 
         "rdfs_label" : ["in room"], 
-        
+    
         "generatedLabel": "in room", 
         "generatedAlias": "ir", 
         "superclasses": [
@@ -7551,7 +7551,7 @@
         "path": "/ontology/1.0/properties/in_time_zone", 
         "labels": [], 
         "rdfs_label" : ["in time zone"], 
-        
+    
         "generatedLabel": "in time zone", 
         "generatedAlias": "itz", 
         "superclasses": [
@@ -7593,7 +7593,7 @@
         "path": "/ontology/1.0/properties/interval_contains", 
         "labels": [], 
         "rdfs_label" : ["interval contains"], 
-        
+    
         "generatedLabel": "interval contains", 
         "generatedAlias": "ic", 
         "superclasses": [
@@ -7635,7 +7635,7 @@
         "path": "/ontology/1.0/properties/interval_contains", 
         "labels": [], 
         "rdfs_label" : ["interval contains"], 
-        
+    
         "generatedLabel": "interval contains", 
         "generatedAlias": "ic", 
         "superclasses": [
@@ -7677,7 +7677,7 @@
         "path": "/ontology/1.0/properties/interval_disjoint", 
         "labels": [], 
         "rdfs_label" : ["interval disjoint"], 
-        
+    
         "generatedLabel": "interval disjoint", 
         "generatedAlias": "id", 
         "superclasses": [
@@ -7719,7 +7719,7 @@
         "path": "/ontology/1.0/properties/interval_after", 
         "labels": [], 
         "rdfs_label" : ["interval after"], 
-        
+    
         "generatedLabel": "interval after", 
         "generatedAlias": "id", 
         "superclasses": [
@@ -7762,7 +7762,7 @@
         "path": "/ontology/1.0/properties/interval_before", 
         "labels": [], 
         "rdfs_label" : ["interval before"], 
-        
+    
         "generatedLabel": "interval before", 
         "generatedAlias": "ib", 
         "superclasses": [
@@ -7793,8 +7793,8 @@
 
         ]
     },
-    
-    
+
+
     {
         "id": "http://www.w3.org/2006/time#intervalEquals", 
         "version": "1.0", 
@@ -7807,7 +7807,7 @@
         "path": "/ontology/1.0/properties/interval_equals", 
         "labels": [], 
         "rdfs_label" : ["interval equals"], 
-        
+    
         "generatedLabel": "interval equals", 
         "generatedAlias": "ie", 
         "superclasses": [
@@ -7849,7 +7849,7 @@
         "path": "/ontology/1.0/properties/interval_finished_by", 
         "labels": [], 
         "rdfs_label" : ["interval finished by"], 
-        
+    
         "generatedLabel": "interval finished by", 
         "generatedAlias": "ifb", 
         "superclasses": [
@@ -7891,7 +7891,7 @@
         "path": "/ontology/1.0/properties/interval_in", 
         "labels": [], 
         "rdfs_label" : ["interval in"], 
-        
+    
         "generatedLabel": "interval in", 
         "generatedAlias": "ii", 
         "superclasses": [
@@ -7933,7 +7933,7 @@
         "path": "/ontology/1.0/properties/interval_during", 
         "labels": [], 
         "rdfs_label" : ["interval during"], 
-        
+    
         "generatedLabel": "interval during", 
         "generatedAlias": "id", 
         "superclasses": [
@@ -7976,7 +7976,7 @@
         "path": "/ontology/1.0/properties/interval_finishes", 
         "labels": [], 
         "rdfs_label" : ["interval finishes"], 
-        
+    
         "generatedLabel": "interval finishes", 
         "generatedAlias": "if", 
         "superclasses": [
@@ -8019,7 +8019,7 @@
         "path": "/ontology/1.0/properties/interval_starts", 
         "labels": [], 
         "rdfs_label" : ["interval starts"], 
-        
+    
         "generatedLabel": "interval starts", 
         "generatedAlias": "is", 
         "superclasses": [
@@ -8062,7 +8062,7 @@
         "path": "/ontology/1.0/properties/interval_meets", 
         "labels": [], 
         "rdfs_label" : ["interval meets"], 
-        
+    
         "generatedLabel": "interval meets", 
         "generatedAlias": "im", 
         "superclasses": [
@@ -8104,7 +8104,7 @@
         "path": "/ontology/1.0/properties/interval_overlapped_by", 
         "labels": [], 
         "rdfs_label" : ["interval overlapped by"], 
-        
+    
         "generatedLabel": "interval overlapped by", 
         "generatedAlias": "iob", 
         "superclasses": [
@@ -8146,7 +8146,7 @@
         "path": "/ontology/1.0/properties/interval_overlaps", 
         "labels": [], 
         "rdfs_label" : ["interval overlaps"], 
-        
+    
         "generatedLabel": "interval overlaps", 
         "generatedAlias": "io", 
         "superclasses": [
@@ -8188,7 +8188,7 @@
         "path": "/ontology/1.0/properties/interval_started_by", 
         "labels": [], 
         "rdfs_label" : ["interval started by"], 
-        
+    
         "generatedLabel": "interval started by", 
         "generatedAlias": "isb", 
         "superclasses": [
@@ -8230,7 +8230,7 @@
         "path": "/ontology/1.0/properties/is_about", 
         "labels": [], 
         "rdfs_label" : ["is about"], 
-        
+    
         "generatedLabel": "is about", 
         "generatedAlias": "ia", 
         "superclasses": [
@@ -8270,7 +8270,7 @@
         "path": "/ontology/1.0/properties/is_accomplished_by", 
         "labels": [], 
         "rdfs_label" : ["is accomplished by"], 
-        
+    
         "generatedLabel": "is accomplished by", 
         "generatedAlias": "iab", 
         "superclasses": [
@@ -8310,7 +8310,7 @@
         "path": "/ontology/1.0/properties/is_command_of", 
         "labels": [], 
         "rdfs_label" : ["is command of"], 
-        
+    
         "generatedLabel": "is command of", 
         "generatedAlias": "ico", 
         "superclasses": [
@@ -8350,7 +8350,7 @@
         "path": "/ontology/1.0/properties/is_controlled_by_device", 
         "labels": [], 
         "rdfs_label" : ["is controlled by device"], 
-        
+    
         "generatedLabel": "is controlled by device", 
         "generatedAlias": "icbd", 
         "superclasses": [
@@ -8390,7 +8390,7 @@
         "path": "/ontology/1.0/properties/is_located_at", 
         "labels": [], 
         "rdfs_label" : ["is_located_at"], 
-        
+    
         "generatedLabel": "is_located_at", 
         "generatedAlias": "ila", 
         "superclasses": [
@@ -8430,7 +8430,7 @@
         "path": "/ontology/1.0/properties/is_measured_by_device", 
         "labels": [], 
         "rdfs_label" : ["is_measured_by_device"], 
-        
+    
         "generatedLabel": "is_measured_by_device", 
         "generatedAlias": "imbd", 
         "superclasses": [
@@ -8470,7 +8470,7 @@
         "path": "/ontology/1.0/properties/is_measured_in", 
         "labels": [], 
         "rdfs_label" : ["is_measured_in"], 
-        
+    
         "generatedLabel": "is_measured_in", 
         "generatedAlias": "imi", 
         "superclasses": [
@@ -8510,7 +8510,7 @@
         "path": "/ontology/1.0/properties/is_offered_by", 
         "labels": [], 
         "rdfs_label" : ["is_offered_by"], 
-        
+    
         "generatedLabel": "is_offered_by", 
         "generatedAlias": "iob", 
         "superclasses": [
@@ -8550,7 +8550,7 @@
         "path": "/ontology/1.0/properties/is_used_for", 
         "labels": [], 
         "rdfs_label" : ["is_used_for"], 
-        
+    
         "generatedLabel": "is_used_for", 
         "generatedAlias": "iuf", 
         "superclasses": [
@@ -8590,7 +8590,7 @@
         "path": "/ontology/1.0/properties/live_in", 
         "labels": [], 
         "rdfs_label" : ["live_in"], 
-        
+    
         "generatedLabel": "live_in", 
         "generatedAlias": "li", 
         "superclasses": [
@@ -8630,7 +8630,7 @@
         "path": "/ontology/1.0/properties/located_at", 
         "labels": [], 
         "rdfs_label" : ["located_at"], 
-        
+    
         "generatedLabel": "located_at", 
         "generatedAlias": "la", 
         "superclasses": [
@@ -8670,7 +8670,7 @@
         "path": "/ontology/1.0/properties/located_in", 
         "labels": [], 
         "rdfs_label" : ["located_in"], 
-        
+    
         "generatedLabel": "located_in", 
         "generatedAlias": "li", 
         "superclasses": [
@@ -8710,7 +8710,7 @@
         "path": "/ontology/1.0/properties/makes_measurement", 
         "labels": [], 
         "rdfs_label" : ["makes_measurement"], 
-        
+    
         "generatedLabel": "makes_measurement", 
         "generatedAlias": "mm", 
         "superclasses": [
@@ -8750,7 +8750,7 @@
         "path": "/ontology/1.0/properties/measures_property", 
         "labels": [], 
         "rdfs_label" : ["measures_property"], 
-        
+    
         "generatedLabel": "measures_property", 
         "generatedAlias": "mp", 
         "superclasses": [
@@ -8790,7 +8790,7 @@
         "path": "/ontology/1.0/properties/month_of_year", 
         "labels": [], 
         "rdfs_label" : ["month_of_year"], 
-        
+    
         "generatedLabel": "month_of_year", 
         "generatedAlias": "moy", 
         "superclasses": [
@@ -8830,7 +8830,7 @@
         "path": "/ontology/1.0/properties/name", 
         "labels": [], 
         "rdfs_label" : ["name"], 
-        
+    
         "generatedLabel": "name", 
         "generatedAlias": "n", 
         "superclasses": [
@@ -8870,7 +8870,7 @@
         "path": "/ontology/1.0/properties/offers", 
         "labels": [], 
         "rdfs_label" : ["offers"], 
-        
+    
         "generatedLabel": "offers", 
         "generatedAlias": "o", 
         "superclasses": [
@@ -8910,7 +8910,7 @@
         "path": "/ontology/1.0/properties/ref_building", 
         "labels": [], 
         "rdfs_label" : ["ref_building"], 
-        
+    
         "generatedLabel": "ref_building", 
         "generatedAlias": "rb", 
         "superclasses": [
@@ -8950,7 +8950,7 @@
         "path": "/ontology/1.0/properties/related_sensor", 
         "labels": [], 
         "rdfs_label" : ["related_sensor"], 
-        
+    
         "generatedLabel": "related_sensor", 
         "generatedAlias": "rs", 
         "superclasses": [
@@ -8990,7 +8990,7 @@
         "path": "/ontology/1.0/properties/relates_to_measurement", 
         "labels": [], 
         "rdfs_label" : ["relates_to_measurement"], 
-        
+    
         "generatedLabel": "relates_to_measurement", 
         "generatedAlias": "rtm", 
         "superclasses": [
@@ -9030,7 +9030,7 @@
         "path": "/ontology/1.0/properties/relates_to_property", 
         "labels": [], 
         "rdfs_label" : ["relates_to_property"], 
-        
+    
         "generatedLabel": "relates_to_property", 
         "generatedAlias": "rtp", 
         "superclasses": [
@@ -9070,7 +9070,7 @@
         "path": "/ontology/1.0/properties/represents", 
         "labels": [], 
         "rdfs_label" : ["represents"], 
-        
+    
         "generatedLabel": "represents", 
         "generatedAlias": "r", 
         "superclasses": [
@@ -9110,7 +9110,7 @@
         "path": "/ontology/1.0/properties/sub_category", 
         "labels": [], 
         "rdfs_label" : ["sub_category"], 
-        
+    
         "generatedLabel": "sub_category", 
         "generatedAlias": "rs", 
         "superclasses": [
@@ -9150,7 +9150,7 @@
         "path": "/ontology/1.0/properties/temporal_unit_type", 
         "labels": [], 
         "rdfs_label" : ["temporal_unit_type"], 
-        
+    
         "generatedLabel": "temporal_unit_type", 
         "generatedAlias": "tut", 
         "superclasses": [
@@ -9184,13 +9184,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "accuracy", 
         "path": "/ontology/1.0/properties/accuracy", 
         "labels": [], 
         "rdfs_label" : ["accuracy"], 
-        
+    
         "generatedLabel": "accuracy", 
         "generatedAlias": "a", 
         "superclasses": [
@@ -9218,13 +9218,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "active power", 
         "path": "/ontology/1.0/properties/active_power", 
         "labels": [], 
         "rdfs_label" : ["active_power"], 
-        
+    
         "generatedLabel": "active_power", 
         "generatedAlias": "ap", 
         "superclasses": [
@@ -9252,13 +9252,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "address", 
         "path": "/ontology/1.0/properties/address", 
         "labels": [], 
         "rdfs_label" : ["address"], 
-        
+    
         "generatedLabel": "address", 
         "generatedAlias": "a", 
         "superclasses": [
@@ -9286,13 +9286,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "control asset", 
         "path": "/ontology/1.0/properties/control_asset", 
         "labels": [], 
         "rdfs_label" : ["control_asset"], 
-        
+    
         "generatedLabel": "control_asset", 
         "generatedAlias": "ca", 
         "superclasses": [
@@ -9320,13 +9320,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "controll asset", 
         "path": "/ontology/1.0/properties/controll_asset", 
         "labels": [], 
         "rdfs_label" : ["controll_asset"], 
-        
+    
         "generatedLabel": "controll_asset", 
         "generatedAlias": "ca", 
         "superclasses": [
@@ -9354,13 +9354,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "controlled asset", 
         "path": "/ontology/1.0/properties/controlled_asset", 
         "labels": [], 
         "rdfs_label" : ["controlled_asset"], 
-        
+    
         "generatedLabel": "controlled_asset", 
         "generatedAlias": "ca", 
         "superclasses": [
@@ -9388,13 +9388,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "created at", 
         "path": "/ontology/1.0/properties/created_at", 
         "labels": [], 
         "rdfs_label" : ["created_at"], 
-        
+    
         "generatedLabel": "created_at", 
         "generatedAlias": "ca", 
         "superclasses": [
@@ -9422,13 +9422,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "current level", 
         "path": "/ontology/1.0/properties/current_level", 
         "labels": [], 
         "rdfs_label" : ["current_level"], 
-        
+    
         "generatedLabel": "current_level", 
         "generatedAlias": "cl", 
         "superclasses": [
@@ -9456,13 +9456,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "data provider", 
         "path": "/ontology/1.0/properties/data_provider", 
         "labels": [], 
         "rdfs_label" : ["data_provider"], 
-        
+    
         "generatedLabel": "data_provider", 
         "generatedAlias": "dp", 
         "superclasses": [
@@ -9490,13 +9490,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "day", 
         "path": "/ontology/1.0/properties/day", 
         "labels": [], 
         "rdfs_label" : ["day"], 
-        
+    
         "generatedLabel": "day", 
         "generatedAlias": "d", 
         "superclasses": [
@@ -9526,13 +9526,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "day of year", 
         "path": "/ontology/1.0/properties/day_of_year", 
         "labels": [], 
         "rdfs_label" : ["day_of_year"], 
-        
+    
         "generatedLabel": "day_of_year", 
         "generatedAlias": "doy", 
         "superclasses": [
@@ -9562,13 +9562,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "days duration", 
         "path": "/ontology/1.0/properties/days_duration", 
         "labels": [], 
         "rdfs_label" : ["days_duration"], 
-        
+    
         "generatedLabel": "days_duration", 
         "generatedAlias": "dd", 
         "superclasses": [
@@ -9598,13 +9598,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "description", 
         "path": "/ontology/1.0/properties/description", 
         "labels": [], 
         "rdfs_label" : ["description"], 
-        
+    
         "generatedLabel": "description", 
         "generatedAlias": "d", 
         "superclasses": [
@@ -9632,13 +9632,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "floors above ground", 
         "path": "/ontology/1.0/properties/floors_above_ground", 
         "labels": [], 
         "rdfs_label" : ["floors_above_ground"], 
-        
+    
         "generatedLabel": "floors_above_ground", 
         "generatedAlias": "fag", 
         "superclasses": [
@@ -9666,13 +9666,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "floors below ground", 
         "path": "/ontology/1.0/properties/floors_below_ground", 
         "labels": [], 
         "rdfs_label" : ["floors_below_ground"], 
-        
+    
         "generatedLabel": "floors_below_ground", 
         "generatedAlias": "fbg", 
         "superclasses": [
@@ -9700,13 +9700,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "has XSD duration", 
         "path": "/ontology/1.0/properties/has_XSD_duration", 
         "labels": [], 
         "rdfs_label" : ["has_XSD_duration"], 
-        
+    
         "generatedLabel": "has_XSD_duration", 
         "generatedAlias": "hXd", 
         "superclasses": [
@@ -9736,13 +9736,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "has_description", 
         "path": "/ontology/1.0/properties/has_description", 
         "labels": [], 
         "rdfs_label" : ["has_description"], 
-        
+    
         "generatedLabel": "has_description", 
         "generatedAlias": "hd", 
         "superclasses": [
@@ -9772,13 +9772,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "has email", 
         "path": "/ontology/1.0/properties/has_email", 
         "labels": [], 
         "rdfs_label" : ["has_email"], 
-        
+    
         "generatedLabel": "has_email", 
         "generatedAlias": "he", 
         "superclasses": [
@@ -9806,13 +9806,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "has floor", 
         "path": "/ontology/1.0/properties/has_floor", 
         "labels": [], 
         "rdfs_label" : ["has_floor"], 
-        
+    
         "generatedLabel": "has_floor", 
         "generatedAlias": "hf", 
         "superclasses": [
@@ -9840,13 +9840,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "has manufacturer", 
         "path": "/ontology/1.0/properties/has_manufacturer", 
         "labels": [], 
         "rdfs_label" : ["has_manufacturer"], 
-        
+    
         "generatedLabel": "has_manufacturer", 
         "generatedAlias": "hm", 
         "superclasses": [
@@ -9874,13 +9874,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "has mobile number", 
         "path": "/ontology/1.0/properties/has_mobile_number", 
         "labels": [], 
         "rdfs_label" : ["has_mobile_number"], 
-        
+    
         "generatedLabel": "has_mobile_number", 
         "generatedAlias": "hmn", 
         "superclasses": [
@@ -9908,13 +9908,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "has model", 
         "path": "/ontology/1.0/properties/has_model", 
         "labels": [], 
         "rdfs_label" : ["has_model"], 
-        
+    
         "generatedLabel": "has_model", 
         "generatedAlias": "hm", 
         "superclasses": [
@@ -9942,13 +9942,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "has model", 
         "path": "/ontology/1.0/properties/has_model", 
         "labels": [], 
         "rdfs_label" : ["has_model"], 
-        
+    
         "generatedLabel": "has_model", 
         "generatedAlias": "hm", 
         "superclasses": [
@@ -9976,13 +9976,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "has name", 
         "path": "/ontology/1.0/properties/has_name", 
         "labels": [], 
         "rdfs_label" : ["has_name"], 
-        
+    
         "generatedLabel": "has_name", 
         "generatedAlias": "hn", 
         "superclasses": [
@@ -10010,13 +10010,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "has timestamp", 
         "path": "/ontology/1.0/properties/has_timestamp", 
         "labels": [], 
         "rdfs_label" : ["has_timestamp"], 
-        
+    
         "generatedLabel": "has_timestamp", 
         "generatedAlias": "hn", 
         "superclasses": [
@@ -10044,13 +10044,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "has value", 
         "path": "/ontology/1.0/properties/has_value", 
         "labels": [], 
         "rdfs_label" : ["has_value"], 
-        
+    
         "generatedLabel": "has_value", 
         "generatedAlias": "hv", 
         "superclasses": [
@@ -10078,13 +10078,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "higher limit", 
         "path": "/ontology/1.0/properties/higher_limit", 
         "labels": [], 
         "rdfs_label" : ["higher_limit"], 
-        
+    
         "generatedLabel": "higher_limit", 
         "generatedAlias": "hl", 
         "superclasses": [
@@ -10112,13 +10112,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "hour", 
         "path": "/ontology/1.0/properties/hour", 
         "labels": [], 
         "rdfs_label" : ["hour"], 
-        
+    
         "generatedLabel": "hour", 
         "generatedAlias": "h", 
         "superclasses": [
@@ -10148,13 +10148,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "hours duration", 
         "path": "/ontology/1.0/properties/hours_duration", 
         "labels": [], 
         "rdfs_label" : ["hours_duration"], 
-        
+    
         "generatedLabel": "hours_duration", 
         "generatedAlias": "hd", 
         "superclasses": [
@@ -10184,13 +10184,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "in XSD date-time-stamp", 
         "path": "/ontology/1.0/properties/in_XSD_date-time-stamp", 
         "labels": [], 
         "rdfs_label" : ["in_XSD_date-time-stamp"], 
-        
+    
         "generatedLabel": "in_XSD_date-time-stamp", 
         "generatedAlias": "i", 
         "superclasses": [
@@ -10220,13 +10220,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "in XSD date-time-stamp", 
         "path": "/ontology/1.0/properties/in_XSD_date-time-stamp", 
         "labels": [], 
         "rdfs_label" : ["in_XSD_date-time-stamp"], 
-        
+    
         "generatedLabel": "in_XSD_date-time-stamp", 
         "generatedAlias": "i", 
         "superclasses": [
@@ -10256,13 +10256,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "in XSD g-Year", 
         "path": "/ontology/1.0/properties/in_XSD_g-Year", 
         "labels": [], 
         "rdfs_label" : ["in_XSD_g-Year"], 
-        
+    
         "generatedLabel": "in_XSD_g-Year", 
         "generatedAlias": "i", 
         "superclasses": [
@@ -10292,13 +10292,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "in XSD g-YearMonth", 
         "path": "/ontology/1.0/properties/in_XSD_g-YearMonth", 
         "labels": [], 
         "rdfs_label" : ["in_XSD_g-YearMonth"], 
-        
+    
         "generatedLabel": "in_XSD_g-YearMonth", 
         "generatedAlias": "i", 
         "superclasses": [
@@ -10328,13 +10328,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "ipAddress", 
         "path": "/ontology/1.0/properties/ipAddress", 
         "labels": [], 
         "rdfs_label" : ["ipAddress"], 
-        
+    
         "generatedLabel": "ipAddress", 
         "generatedAlias": "ip", 
         "superclasses": [
@@ -10362,13 +10362,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "kp", 
         "path": "/ontology/1.0/properties/kp", 
         "labels": [], 
         "rdfs_label" : ["kp"], 
-        
+    
         "generatedLabel": "kp", 
         "generatedAlias": "kp", 
         "superclasses": [
@@ -10396,13 +10396,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "listening", 
         "path": "/ontology/1.0/properties/listening", 
         "labels": [], 
         "rdfs_label" : ["listening"], 
-        
+    
         "generatedLabel": "listening", 
         "generatedAlias": "listening", 
         "superclasses": [
@@ -10430,13 +10430,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "location", 
         "path": "/ontology/1.0/properties/location", 
         "labels": [], 
         "rdfs_label" : ["location"], 
-        
+    
         "generatedLabel": "location", 
         "generatedAlias": "location", 
         "superclasses": [
@@ -10464,13 +10464,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "logging interval", 
         "path": "/ontology/1.0/properties/logging_interval", 
         "labels": [], 
         "rdfs_label" : ["logging_interval"], 
-        
+    
         "generatedLabel": "logging_interval", 
         "generatedAlias": "logging_interval", 
         "superclasses": [
@@ -10498,13 +10498,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "logical node", 
         "path": "/ontology/1.0/properties/logical_node", 
         "labels": [], 
         "rdfs_label" : ["logical_node"], 
-        
+    
         "generatedLabel": "logical_node", 
         "generatedAlias": "logical_node", 
         "superclasses": [
@@ -10532,13 +10532,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "lower limit", 
         "path": "/ontology/1.0/properties/lower_limit", 
         "labels": [], 
         "rdfs_label" : ["lower_limit"], 
-        
+    
         "generatedLabel": "lower_limit", 
         "generatedAlias": "lower_limit", 
         "superclasses": [
@@ -10566,13 +10566,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "max active power", 
         "path": "/ontology/1.0/properties/max_active_power", 
         "labels": [], 
         "rdfs_label" : ["max_active_power"], 
-        
+    
         "generatedLabel": "max_active_power", 
         "generatedAlias": "max_active_power", 
         "superclasses": [
@@ -10600,13 +10600,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "max reactive power", 
         "path": "/ontology/1.0/properties/max_reactive_power", 
         "labels": [], 
         "rdfs_label" : ["max_reactive_power"], 
-        
+    
         "generatedLabel": "max_reactive_power", 
         "generatedAlias": "max_reactive_power", 
         "superclasses": [
@@ -10634,13 +10634,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "minute", 
         "path": "/ontology/1.0/properties/minute", 
         "labels": [], 
         "rdfs_label" : ["minute"], 
-        
+    
         "generatedLabel": "minute", 
         "generatedAlias": "minute", 
         "superclasses": [
@@ -10670,13 +10670,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "minutes", 
         "path": "/ontology/1.0/properties/minutes", 
         "labels": [], 
         "rdfs_label" : ["minutes"], 
-        
+    
         "generatedLabel": "minutes", 
         "generatedAlias": "minutes", 
         "superclasses": [
@@ -10706,13 +10706,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "modified at", 
         "path": "/ontology/1.0/properties/modified_at", 
         "labels": [], 
         "rdfs_label" : ["modified_at"], 
-        
+    
         "generatedLabel": "modified_at", 
         "generatedAlias": "modified_at", 
         "superclasses": [
@@ -10740,13 +10740,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "month", 
         "path": "/ontology/1.0/properties/month", 
         "labels": [], 
         "rdfs_label" : ["month"], 
-        
+    
         "generatedLabel": "month", 
         "generatedAlias": "month", 
         "superclasses": [
@@ -10776,13 +10776,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "months duration", 
         "path": "/ontology/1.0/properties/months_duration", 
         "labels": [], 
         "rdfs_label" : ["months_duration"], 
-        
+    
         "generatedLabel": "months_duration", 
         "generatedAlias": "months_duration", 
         "superclasses": [
@@ -10812,13 +10812,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "name of temporal position", 
         "path": "/ontology/1.0/properties/name_of_temporal_position", 
         "labels": [], 
         "rdfs_label" : ["name_of_temporal_position"], 
-        
+    
         "generatedLabel": "name_of_temporal_position", 
         "generatedAlias": "name_of_temporal_position", 
         "superclasses": [
@@ -10848,13 +10848,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "numeric value of temporal duration", 
         "path": "/ontology/1.0/properties/numeric_value_of_temporal_duration", 
         "labels": [], 
         "rdfs_label" : ["numeric_value_of_temporal_duration"], 
-        
+    
         "generatedLabel": "numeric_value_of_temporal_duration", 
         "generatedAlias": "numeric_value_of_temporal_duration", 
         "superclasses": [
@@ -10884,13 +10884,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "numeric value of temporal position", 
         "path": "/ontology/1.0/properties/numeric_value_of_temporal_position", 
         "labels": [], 
         "rdfs_label" : ["numeric_value_of_temporal_position"], 
-        
+    
         "generatedLabel": "numeric_value_of_temporal_position", 
         "generatedAlias": "numeric_value_of_temporal_position", 
         "superclasses": [
@@ -10920,13 +10920,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "opening hours", 
         "path": "/ontology/1.0/properties/opening_hours", 
         "labels": [], 
         "rdfs_label" : ["opening_hours"], 
-        
+    
         "generatedLabel": "opening_hours", 
         "generatedAlias": "opening_hours", 
         "superclasses": [
@@ -10953,13 +10953,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "operation sequence", 
         "path": "/ontology/1.0/properties/operation_sequence", 
         "labels": [], 
         "rdfs_label" : ["operation_sequence"], 
-        
+    
         "generatedLabel": "operation_sequence", 
         "generatedAlias": "operation_sequence", 
         "superclasses": [
@@ -10986,13 +10986,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "owner", 
         "path": "/ontology/1.0/properties/owner", 
         "labels": [], 
         "rdfs_label" : ["owner"], 
-        
+    
         "generatedLabel": "owner", 
         "generatedAlias": "owner", 
         "superclasses": [
@@ -11019,13 +11019,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "primary current", 
         "path": "/ontology/1.0/properties/primary_current", 
         "labels": [], 
         "rdfs_label" : ["primary_current"], 
-        
+    
         "generatedLabel": "primary_current", 
         "generatedAlias": "primary_current", 
         "superclasses": [
@@ -11052,13 +11052,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "primary voltage", 
         "path": "/ontology/1.0/properties/primary_voltage", 
         "labels": [], 
         "rdfs_label" : ["primary_voltage"], 
-        
+    
         "generatedLabel": "primary_voltage", 
         "generatedAlias": "primary_voltage", 
         "superclasses": [
@@ -11085,13 +11085,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "reactive power", 
         "path": "/ontology/1.0/properties/reactive_power", 
         "labels": [], 
         "rdfs_label" : ["reactive_power"], 
-        
+    
         "generatedLabel": "reactive_power", 
         "generatedAlias": "reactive_power", 
         "superclasses": [
@@ -11118,13 +11118,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "readable name", 
         "path": "/ontology/1.0/properties/readable_name", 
         "labels": [], 
         "rdfs_label" : ["readable_name"], 
-        
+    
         "generatedLabel": "readable_name", 
         "generatedAlias": "readable_name", 
         "superclasses": [
@@ -11152,13 +11152,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "reverse action", 
         "path": "/ontology/1.0/properties/reverse_action", 
         "labels": [], 
         "rdfs_label" : ["reverse_action"], 
-        
+    
         "generatedLabel": "reverse_action", 
         "generatedAlias": "reverse_action", 
         "superclasses": [
@@ -11186,13 +11186,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "sample interval", 
         "path": "/ontology/1.0/properties/sample_interval", 
         "labels": [], 
         "rdfs_label" : ["sample_interval"], 
-        
+    
         "generatedLabel": "sample_interval", 
         "generatedAlias": "sample_interval", 
         "superclasses": [
@@ -11220,13 +11220,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "sample rate", 
         "path": "/ontology/1.0/properties/sample_rate", 
         "labels": [], 
         "rdfs_label" : ["sample_rate"], 
-        
+    
         "generatedLabel": "sample_rate", 
         "generatedAlias": "sample_rate", 
         "superclasses": [
@@ -11254,13 +11254,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "second", 
         "path": "/ontology/1.0/properties/second", 
         "labels": [], 
         "rdfs_label" : ["second"], 
-        
+    
         "generatedLabel": "second", 
         "generatedAlias": "second", 
         "superclasses": [
@@ -11290,13 +11290,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "secondary current", 
         "path": "/ontology/1.0/properties/secondary_current", 
         "labels": [], 
         "rdfs_label" : ["secondary_current"], 
-        
+    
         "generatedLabel": "secondary_current", 
         "generatedAlias": "secondary_current", 
         "superclasses": [
@@ -11326,13 +11326,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "secondary voltage", 
         "path": "/ontology/1.0/properties/secondary_voltage", 
         "labels": [], 
         "rdfs_label" : ["secondary_voltage"], 
-        
+    
         "generatedLabel": "secondary_voltage", 
         "generatedAlias": "secondary_voltage", 
         "superclasses": [
@@ -11362,13 +11362,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "seconds duration", 
         "path": "/ontology/1.0/properties/seconds_duration", 
         "labels": [], 
         "rdfs_label" : ["seconds_duration"], 
-        
+    
         "generatedLabel": "seconds_duration", 
         "generatedAlias": "seconds_duration", 
         "superclasses": [
@@ -11398,13 +11398,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "serial number", 
         "path": "/ontology/1.0/properties/serial_number", 
         "labels": [], 
         "rdfs_label" : ["serial_number"], 
-        
+    
         "generatedLabel": "serial_number", 
         "generatedAlias": "serial_number", 
         "superclasses": [
@@ -11434,13 +11434,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "set value", 
         "path": "/ontology/1.0/properties/set_value", 
         "labels": [], 
         "rdfs_label" : ["set_value"], 
-        
+    
         "generatedLabel": "set_value", 
         "generatedAlias": "set_value", 
         "superclasses": [
@@ -11470,13 +11470,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "source", 
         "path": "/ontology/1.0/properties/source", 
         "labels": [], 
         "rdfs_label" : ["source"], 
-        
+    
         "generatedLabel": "source", 
         "generatedAlias": "source", 
         "superclasses": [
@@ -11506,13 +11506,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "supplier name", 
         "path": "/ontology/1.0/properties/supplier_name", 
         "labels": [], 
         "rdfs_label" : ["supplier_name"], 
-        
+    
         "generatedLabel": "supplier_name", 
         "generatedAlias": "supplier_name", 
         "superclasses": [
@@ -11542,13 +11542,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "supported network", 
         "path": "/ontology/1.0/properties/supported_network", 
         "labels": [], 
         "rdfs_label" : ["supported_network"], 
-        
+    
         "generatedLabel": "supported_network", 
         "generatedAlias": "supported_network", 
         "superclasses": [
@@ -11578,13 +11578,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "supported protocol", 
         "path": "/ontology/1.0/properties/supported_protocol", 
         "labels": [], 
         "rdfs_label" : ["supported_protocol"], 
-        
+    
         "generatedLabel": "supported_protocol", 
         "generatedAlias": "supported_protocol", 
         "superclasses": [
@@ -11614,13 +11614,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "tap position", 
         "path": "/ontology/1.0/properties/tap_position", 
         "labels": [], 
         "rdfs_label" : ["tap_position"], 
-        
+    
         "generatedLabel": "tap_position", 
         "generatedAlias": "tap_position", 
         "superclasses": [
@@ -11650,13 +11650,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "td", 
         "path": "/ontology/1.0/properties/td", 
         "labels": [], 
         "rdfs_label" : ["td"], 
-        
+    
         "generatedLabel": "td", 
         "generatedAlias": "td", 
         "superclasses": [
@@ -11686,13 +11686,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "ti", 
         "path": "/ontology/1.0/properties/ti", 
         "labels": [], 
         "rdfs_label" : ["ti"], 
-        
+    
         "generatedLabel": "ti", 
         "generatedAlias": "ti", 
         "superclasses": [
@@ -11722,13 +11722,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "time stamp", 
         "path": "/ontology/1.0/properties/time_stamp", 
         "labels": [], 
         "rdfs_label" : ["time stamp"], 
-        
+    
         "generatedLabel": "time stamp", 
         "generatedAlias": "", 
         "superclasses": [
@@ -11758,13 +11758,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "voltage level", 
         "path": "/ontology/1.0/properties/voltage_level", 
         "labels": [], 
         "rdfs_label" : ["voltage level"], 
-        
+    
         "generatedLabel": "voltage level", 
         "generatedAlias": "", 
         "superclasses": [
@@ -11794,13 +11794,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "week", 
         "path": "/ontology/1.0/properties/week", 
         "labels": [], 
         "rdfs_label" : ["week"], 
-        
+    
         "generatedLabel": "week", 
         "generatedAlias": "", 
         "superclasses": [
@@ -11830,13 +11830,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "weeks duration", 
         "path": "/ontology/1.0/properties/weeks_duration", 
         "labels": [], 
         "rdfs_label" : ["weeks duration"], 
-        
+    
         "generatedLabel": "weeks duration", 
         "generatedAlias": "", 
         "superclasses": [
@@ -11866,13 +11866,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "writable", 
         "path": "/ontology/1.0/properties/writable", 
         "labels": [], 
         "rdfs_label" : ["writable"], 
-        
+    
         "generatedLabel": "writable", 
         "generatedAlias": "", 
         "superclasses": [
@@ -11902,13 +11902,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "year", 
         "path": "/ontology/1.0/properties/year", 
         "labels": [], 
         "rdfs_label" : ["year"], 
-        
+    
         "generatedLabel": "year", 
         "generatedAlias": "", 
         "superclasses": [
@@ -11938,13 +11938,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#DataProperty"
         ], 
         "name": "years duration", 
         "path": "/ontology/1.0/properties/years_duration", 
         "labels": [], 
         "rdfs_label" : ["years duration"], 
-        
+    
         "generatedLabel": "years duration", 
         "generatedAlias": "", 
         "superclasses": [
@@ -11974,13 +11974,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "Owner", 
         "path": "/ontology/1.0/properties/Owner", 
         "labels": [], 
         "rdfs_label" : ["Owner"], 
-        
+    
         "generatedLabel": "Owner", 
         "generatedAlias": "", 
         "superclasses": [
@@ -12010,13 +12010,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "description", 
         "path": "/ontology/1.0/properties/description", 
         "labels": [], 
         "rdfs_label" : ["description"], 
-        
+    
         "generatedLabel": "description", 
         "generatedAlias": "", 
         "superclasses": [
@@ -12046,13 +12046,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "issued", 
         "path": "/ontology/1.0/properties/issued", 
         "labels": [], 
         "rdfs_label" : ["issued"], 
-        
+    
         "generatedLabel": "issued", 
         "generatedAlias": "", 
         "superclasses": [
@@ -12082,13 +12082,13 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "Property", 
         "types": [
-            "http://www.w3.org/2002/07/owl#ObjectProperty"
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "owl:backwardCompatibleWith", 
-        "path": "/ontology/1.0/properties/issued", 
+        "path": "/ontology/1.0/properties/owl#backwardCompatibleWith", 
         "labels": [], 
         "rdfs_label" : ["owl:backwardCompatibleWith"], 
-        
+    
         "generatedLabel": "owl:backwardCompatibleWith", 
         "generatedAlias": "", 
         "superclasses": [
