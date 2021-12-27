@@ -27,7 +27,7 @@
         "skos_notes": [],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#individuals",
+            "/ontology/1.0/#Individuals",
             "/ontology/1.0/individuals/bar"
         ],
         "relations": [], 
@@ -62,7 +62,7 @@
         "skos_notes": [],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#individuals",
+            "/ontology/1.0/#Individuals",
             "/ontology/1.0/individuals/Cleaning"
         ],
         "relations": [
@@ -101,7 +101,7 @@
         "skos_notes": [],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#individuals",
+            "/ontology/1.0/#Individuals",
             "/ontology/1.0/individuals/Close"
         ],
         "relations": [
@@ -138,7 +138,7 @@
         "skos_notes": [],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#individuals",
+            "/ontology/1.0/#Individuals",
             "/ontology/1.0/individuals/Close"
         ],
         "relations": [
@@ -177,7 +177,7 @@
         "skos_notes": [],
         "hierarchy": [
             "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#individuals",
+            "/ontology/1.0/#Individuals",
             "/ontology/1.0/individuals/Day"
         ],
         "relations": [
@@ -188,6 +188,410 @@
             "http://www.w3.org/2006/time#seconds",
             "http://www.w3.org/2006/time#weeks",
             "http://www.w3.org/2006/time#years"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.wurvoc.org/vocabularies/om-1.8/degree_Celsius", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#TemperatureUnit"
+        ], 
+        "name": "degree Celsius", 
+        "path": "/ontology/1.0/individuals/degree_Celsius", 
+        "labels": [], 
+        "rdfs_label" : ["degree celsius"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The degree Celsius is a unit of temperature defined as 1 kelvin."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/degree_Celsius"
+        ],
+        "relations": [
+            
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.wurvoc.org/vocabularies/om-1.8/degree_Fahrenheit", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#TemperatureUnit"
+        ], 
+        "name": "degree Fahrenheit", 
+        "path": "/ontology/1.0/individuals/degree_Fahrenheit", 
+        "labels": [], 
+        "rdfs_label" : ["degree Fahrenheit"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The degree Fahrenheit is a unit of temperature defined as 5.555556e-1 kelvin."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/degree_Fahrenheit"
+        ],
+        "relations": [
+            
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#Drying", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#Task"
+        ], 
+        "name": "Drying", 
+        "path": "/ontology/1.0/individuals/Drying", 
+        "labels": [], 
+        "rdfs_label" : ["Drying"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A type of task for which a device is designed."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Drying"
+        ],
+        "relations": [
+            "https://w3id.org/saref#isAccomplishedBy",
+            "https://w3id.org/saref#Device"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#EnergyEfficiency", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#Task"
+        ], 
+        "name": "Drying", 
+        "path": "/ontology/1.0/individuals/EnergyEfficiency", 
+        "labels": [], 
+        "rdfs_label" : ["Drying"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A type of task for which a device is designed."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/EnergyEfficiency"
+        ],
+        "relations": [
+            "https://w3id.org/saref#isAccomplishedBy",
+            "https://w3id.org/saref#Device"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#Entertainment", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#Task"
+        ], 
+        "name": "Entertainment", 
+        "path": "/ontology/1.0/individuals/Entertainment", 
+        "labels": [], 
+        "rdfs_label" : ["Entertainment"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A type of task for which a device is designed."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Entertainment"
+        ],
+        "relations": [
+            "https://w3id.org/saref#isAccomplishedBy",
+            "https://w3id.org/saref#Device"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.wurvoc.org/vocabularies/om-1.8/euro", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#Currency"
+        ], 
+        "name": "euro", 
+        "path": "/ontology/1.0/individuals/euro", 
+        "labels": [], 
+        "rdfs_label" : ["euro"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/euro"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#Friday", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2006/time#DayOfWeek"
+        ], 
+        "name": "Friday", 
+        "path": "/ontology/1.0/individuals/Friday", 
+        "labels": [], 
+        "rdfs_label" : ["Friday"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Friday"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#GetCurrentMeterValue", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#GetCurrentMeterValueCommand"
+        ], 
+        "name": "Get current meter value", 
+        "path": "/ontology/1.0/individuals/Get_current_meter_value", 
+        "labels": [], 
+        "rdfs_label" : ["Get current meter value"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The command GET CURRENT METER VALUE. It is used to instantiate the GetCurrentMeterValueCommand class. "],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Get_current_meter_value"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#GetMeterData", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#https://w3id.org/saref#GetMeterDataCommand"
+        ], 
+        "name": "Get meter data", 
+        "path": "/ontology/1.0/individuals/Get_meter_data", 
+        "labels": [], 
+        "rdfs_label" : ["Get meter data"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The command GET METER DATA. It is used to instantiate the GetMeterDataCommand class. "],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Get_meter_data"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#GetMeterHistory", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#GetMeterHistoryCommand"
+        ], 
+        "name": "Get meter history", 
+        "path": "/ontology/1.0/individuals/Get_meter_history", 
+        "labels": [], 
+        "rdfs_label" : ["Get_meter_history"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The command GET METER HISTORY. It is used to instantiate the GetMeterHistoryCommand class. "],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Get_meter_history"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#GetSensingData", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#GetSensingDataCommand"
+        ], 
+        "name": "Get sensing data", 
+        "path": "/ontology/1.0/individuals/Get_sensing_data", 
+        "labels": [], 
+        "rdfs_label" : ["Get_sensing_data"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The command GET SENSING DATA. It is used to instantiate the GetSensingDataCommand class. "],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Get_sensing_data"
+        ],
+        "relations": [
         ], 
         "inDomainOf": [],
         "inRangeOf": []

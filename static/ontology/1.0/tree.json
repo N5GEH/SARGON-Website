@@ -1579,6 +1579,50 @@
             {
                 "name": "/ontology/1.0/individuals/Day",
                 "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/degree_Celsius",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/degree_Farenheit",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Drying",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/EnergyEfficiency",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Entertainment",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/euro",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Friday",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Get_current_meter_value",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Get_meter_data",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Get_meter_history",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Get_sensing_data",
+                "children": []
             }
         ]
     }
