@@ -63,11 +63,88 @@
         "hierarchy": [
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#individuals",
-            "/ontology/1.0/individuals/bar"
+            "/ontology/1.0/individuals/Cleaning"
         ],
         "relations": [
             "https://w3id.org/saref#isAccomplishedBy",
             "https://w3id.org/saref#Device"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#Close", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#CloseCommand",
+            "https://w3id.org/saref#CloseState"
+        ], 
+        "name": "Close", 
+        "path": "/ontology/1.0/individuals/Close", 
+        "labels": [], 
+        "rdfs_label" : ["Close"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The value CLOSE. It is used to instantiate different classes such as the CloseCommand class and CloseState class, for example."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#individuals",
+            "/ontology/1.0/individuals/Close"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#Comfort", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#CloseCommand",
+            "https://w3id.org/saref#CloseState"
+        ], 
+        "name": "Comfort", 
+        "path": "/ontology/1.0/individuals/Comfort", 
+        "labels": [], 
+        "rdfs_label" : ["Comfort"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A type of task for which a device is designed."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#individuals",
+            "/ontology/1.0/individuals/Close"
+        ],
+        "relations": [
+            "https://w3id.org/saref#isAccomplishedBy",
+            "https://w3id.org/saref#Device"
+
         ], 
         "inDomainOf": [],
         "inRangeOf": []

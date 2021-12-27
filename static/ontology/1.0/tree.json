@@ -1567,6 +1567,14 @@
             {
                 "name": "/ontology/1.0/individuals/Cleaning",
                 "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Close",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Comfort",
+                "children": []
             }
         ]
     }
