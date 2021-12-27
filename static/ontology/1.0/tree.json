@@ -1575,6 +1575,10 @@
             {
                 "name": "/ontology/1.0/individuals/Comfort",
                 "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Day",
+                "children": []
             }
         ]
     }

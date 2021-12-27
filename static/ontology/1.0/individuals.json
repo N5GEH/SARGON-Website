@@ -148,5 +148,48 @@
         ], 
         "inDomainOf": [],
         "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#unitDay", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2006/time#TemporalUnit"
+        ], 
+        "name": "Day (unit of temporal duration)", 
+        "path": "/ontology/1.0/individuals/Day", 
+        "labels": [], 
+        "rdfs_label" : ["Day"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#individuals",
+            "/ontology/1.0/individuals/Day"
+        ],
+        "relations": [
+            "http://www.w3.org/2006/time#days",
+            "http://www.w3.org/2006/time#hours",
+            "http://www.w3.org/2006/time#minutes",
+            "http://www.w3.org/2006/time#months",
+            "http://www.w3.org/2006/time#seconds",
+            "http://www.w3.org/2006/time#weeks",
+            "http://www.w3.org/2006/time#years"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
     } 
 ]
