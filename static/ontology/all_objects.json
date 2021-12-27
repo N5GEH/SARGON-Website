@@ -12805,6 +12805,40 @@
             
         ],
         "inRangeOf": []
-    }
+    },
+    {
+        "id": "http://www.wurvoc.org/vocabularies/om-1.8/bar", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#PressureUnit"
+        ], 
+        "name": "bar", 
+        "path": "/ontology/1.0/individuals/bar", 
+        "labels": [], 
+        "rdfs_label" : ["bar"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/bar"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    } 
     
 ]
