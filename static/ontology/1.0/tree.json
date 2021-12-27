@@ -1563,6 +1563,10 @@
             {
                 "name": "/ontology/1.0/individuals/bar",
                 "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Cleaning",
+                "children": []
             }
         ]
     }

@@ -29,6 +29,45 @@
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#individuals",
             "/ontology/1.0/individuals/bar"
+        ],
+        "relations": [], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#Cleaning", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#Task"
+        ], 
+        "name": "Cleaning", 
+        "path": "/ontology/1.0/individuals/Cleaning", 
+        "labels": [], 
+        "rdfs_label" : ["Cleaning"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A type of task for which a device is designed."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#individuals",
+            "/ontology/1.0/individuals/bar"
+        ],
+        "relations": [
+            "https://w3id.org/saref#isAccomplishedBy",
+            "https://w3id.org/saref#Device"
         ], 
         "inDomainOf": [],
         "inRangeOf": []
