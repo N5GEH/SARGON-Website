@@ -10,9 +10,9 @@
         "name": "Owner", 
         "path": "/ontology/1.0/annotation_properties/Owner", 
         "labels": [], 
-        "rdfs_label" : ["Owner"], 
+        "rdfs_label" : [], 
 
-        "generatedLabel": "Owner", 
+        "generatedLabel": "", 
         "generatedAlias": "", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
@@ -46,9 +46,9 @@
         "name": "description", 
         "path": "/ontology/1.0/annotation_properties/description", 
         "labels": [], 
-        "rdfs_label" : ["description"], 
+        "rdfs_label" : [], 
 
-        "generatedLabel": "description", 
+        "generatedLabel": "", 
         "generatedAlias": "", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
@@ -82,9 +82,9 @@
         "name": "issued", 
         "path": "/ontology/1.0/annotation_properties/issued", 
         "labels": [], 
-        "rdfs_label" : ["issued"], 
+        "rdfs_label" : [], 
 
-        "generatedLabel": "issued", 
+        "generatedLabel": "", 
         "generatedAlias": "", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
@@ -118,9 +118,9 @@
         "name": "owl:backwardCompatibleWith", 
         "path": "/ontology/1.0/annotation_properties/owl_backwardCompatibleWith", 
         "labels": [], 
-        "rdfs_label" : ["owl:backwardCompatibleWith"], 
+        "rdfs_label" : [], 
 
-        "generatedLabel": "owl:backwardCompatibleWith", 
+        "generatedLabel": "", 
         "generatedAlias": "", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
@@ -154,9 +154,9 @@
         "name": "owl:deprecated", 
         "path": "/ontology/1.0/annotation_properties/owl_deprecated", 
         "labels": [], 
-        "rdfs_label" : ["owl:deprecated"], 
+        "rdfs_label" : [], 
 
-        "generatedLabel": "owl:deprecated", 
+        "generatedLabel": "", 
         "generatedAlias": "", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
@@ -190,9 +190,9 @@
         "name": "owl:incompatibleWith", 
         "path": "/ontology/1.0/annotation_properties/owl_incompatibleWith", 
         "labels": [], 
-        "rdfs_label" : ["owl:incompatibleWith"], 
+        "rdfs_label" : [], 
 
-        "generatedLabel": "owl:incompatibleWith", 
+        "generatedLabel": "", 
         "generatedAlias": "", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
@@ -226,9 +226,9 @@
         "name": "owl:priorVersion", 
         "path": "/ontology/1.0/annotation_properties/owl_priorVersion", 
         "labels": [], 
-        "rdfs_label" : ["owl:priorVersion"], 
+        "rdfs_label" : [], 
 
-        "generatedLabel": "owl:priorVersion", 
+        "generatedLabel": "", 
         "generatedAlias": "", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
@@ -262,43 +262,7 @@
         "name": "owl:versionInfo", 
         "path": "/ontology/1.0/annotation_properties/owl_versionInfo", 
         "labels": [], 
-        "rdfs_label" : ["owl:versionInfo"], 
-
-        "generatedLabel": "owl:versionInfo", 
-        "generatedAlias": "", 
-        "superclasses": [
-            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
-        ], 
-        
-        "subclasses": [
-        ], 
-        "comments": [],
-        "definitions": [], 
-        "equivalentClasses": [], 
-        "skos_historyNotes": [""], 
-        "skos_notes": [""],
-        "hierarchy": [
-            "/ontology/1.0/#Properties", 
-            "/ontology/1.0/#Annotation_properties",
-            "/ontology/1.0/annotation_properties/owl_versionInfo"
-        ], 
-        "inDomainOf": [
-            
-        ],
-        "inRangeOf": []
-    },
-    {
-        "id": "http://www.w3.org/2001/XMLSchema#pattern", 
-        "version": "1.0", 
-        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
-        "types": [
-            "http://www.w3.org/2002/07/owl#AnnotationProperty"
-        ], 
-        "name": "Property:pattern", 
-        "path": "/ontology/1.0/annotation_properties/pattern", 
-        "labels": [], 
-        "rdfs_label" : [""], 
+        "rdfs_label" : [], 
 
         "generatedLabel": "", 
         "generatedAlias": "", 
@@ -316,7 +280,7 @@
         "hierarchy": [
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#Annotation_properties",
-            "/ontology/1.0/annotation_properties/pattern"
+            "/ontology/1.0/annotation_properties/owl_versionInfo"
         ], 
         "inDomainOf": [
             

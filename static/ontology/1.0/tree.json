@@ -1468,6 +1468,90 @@
                     {
                         "name": "/ontology/1.0/annotation_properties/owl_backwardCompatibleWith",
                         "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/annotation_properties/owl_deprecated",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/annotation_properties/owl_deprecated",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/annotation_properties/owl_incompatibleWith",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/annotation_properties/owl_priorVersion",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/annotation_properties/owl_versionInfo",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/annotation_properties/pattern",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/annotation_properties/publisher",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/annotation_properties/rdfs_comment",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/annotation_properties/rdfs_flow",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/annotation_properties/rdfs_isDefinedBy",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/annotation_properties/rdfs_label",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/annotation_properties/rdfs_seeAlso",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/annotation_properties/rdfs_changeNote",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/annotation_properties/rdfs_definition",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/annotation_properties/rdfs_editorialNote",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/annotation_properties/rdfs_historyNote",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/annotation_properties/rdfs_note",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/annotation_properties/rdfs_prefLabel",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/annotation_properties/rdfs_scopeNote",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/annotation_properties/rdfs_source",
+                        "children": [] 
+                    },
+                    {
+                        "name": "/ontology/1.0/annotation_properties/rdfs_title",
+                        "children": [] 
                     }
                     
 
