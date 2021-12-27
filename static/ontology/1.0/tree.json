@@ -1553,16 +1553,16 @@
 
                     
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "name": "/ontology/1.0/#Individuals",
+        "children":
+        [
             {
-                "name": "/ontology/1.0/#Individuals",
-                "children":
-                [
-                    {
-                        "name": "/ontology/1.0/individuals/bar",
-                        "children": []
-                    }
-                ]
+                "name": "/ontology/1.0/individuals/bar",
+                "children": []
             }
         ]
     }

@@ -669,6 +669,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/individuals/bar/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/annotation_properties/issued/",
     component: c1
   },
