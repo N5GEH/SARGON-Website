@@ -12277,7 +12277,7 @@
         "name": "Property:publisher", 
         "path": "/ontology/1.0/annotation_properties/publisher", 
         "labels": [], 
-        "rdfs_label" : [""], 
+        "rdfs_label" : [], 
 
         "generatedLabel": "", 
         "generatedAlias": "", 
