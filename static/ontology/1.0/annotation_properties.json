@@ -368,7 +368,7 @@
             "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "rdfs:comment", 
-        "path": "/ontology/1.0/annotation_properties/comment", 
+        "path": "/ontology/1.0/annotation_properties/rdfs_comment", 
         "labels": [], 
         "rdfs_label" : [""], 
 
@@ -388,7 +388,7 @@
         "hierarchy": [
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#Annotation_properties",
-            "/ontology/1.0/annotation_properties/comment"
+            "/ontology/1.0/annotation_properties/rdfs_comment"
         ], 
         "inDomainOf": [
             
@@ -404,7 +404,7 @@
             "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "rdfs:flow", 
-        "path": "/ontology/1.0/annotation_properties/flow", 
+        "path": "/ontology/1.0/annotation_properties/rdfs_flow", 
         "labels": [], 
         "rdfs_label" : [""], 
 
@@ -424,7 +424,7 @@
         "hierarchy": [
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#Annotation_properties",
-            "/ontology/1.0/annotation_properties/flow"
+            "/ontology/1.0/annotation_properties/rdfs_flow"
         ], 
         "inDomainOf": [
             
@@ -440,7 +440,7 @@
             "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "rdfs:isDefinedBy", 
-        "path": "/ontology/1.0/annotation_properties/isDefinedBy", 
+        "path": "/ontology/1.0/annotation_properties/rdfs_isDefinedBy", 
         "labels": [], 
         "rdfs_label" : [""], 
 
@@ -460,7 +460,7 @@
         "hierarchy": [
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#Annotation_properties",
-            "/ontology/1.0/annotation_properties/isDefinedBy"
+            "/ontology/1.0/annotation_properties/rdfs_isDefinedBy"
         ], 
         "inDomainOf": [
             
@@ -476,7 +476,7 @@
             "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "rdfs:label", 
-        "path": "/ontology/1.0/annotation_properties/label", 
+        "path": "/ontology/1.0/annotation_properties/rdfs_label", 
         "labels": [], 
         "rdfs_label" : [""], 
 
@@ -496,7 +496,7 @@
         "hierarchy": [
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#Annotation_properties",
-            "/ontology/1.0/annotation_properties/label"
+            "/ontology/1.0/annotation_properties/rdfs_label"
         ], 
         "inDomainOf": [
             
@@ -512,7 +512,7 @@
             "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "rdfs:seeAlso", 
-        "path": "/ontology/1.0/annotation_properties/seeAlso", 
+        "path": "/ontology/1.0/annotation_properties/rdfs_seeAlso", 
         "labels": [], 
         "rdfs_label" : [""], 
 
@@ -532,7 +532,7 @@
         "hierarchy": [
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#Annotation_properties",
-            "/ontology/1.0/annotation_properties/seeAlso"
+            "/ontology/1.0/annotation_properties/rdfs_seeAlso"
         ], 
         "inDomainOf": [
             
@@ -548,7 +548,7 @@
             "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "skos:changeNote", 
-        "path": "/ontology/1.0/annotation_properties/changeNote", 
+        "path": "/ontology/1.0/annotation_properties/skos_changeNote", 
         "labels": [], 
         "rdfs_label" : [""], 
 
@@ -568,7 +568,7 @@
         "hierarchy": [
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#Annotation_properties",
-            "/ontology/1.0/annotation_properties/changeNote"
+            "/ontology/1.0/annotation_properties/skos_changeNote"
         ], 
         "inDomainOf": [
             
@@ -584,7 +584,7 @@
             "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "skos:definition", 
-        "path": "/ontology/1.0/annotation_properties/definition", 
+        "path": "/ontology/1.0/annotation_properties/skos_definition", 
         "labels": [], 
         "rdfs_label" : [""], 
 
@@ -604,7 +604,7 @@
         "hierarchy": [
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#Annotation_properties",
-            "/ontology/1.0/annotation_properties/definition"
+            "/ontology/1.0/annotation_properties/skos_definition"
         ], 
         "inDomainOf": [
             
@@ -620,7 +620,7 @@
             "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "skos:editorialNote", 
-        "path": "/ontology/1.0/annotation_properties/editorialNote", 
+        "path": "/ontology/1.0/annotation_properties/skos_editorialNote", 
         "labels": [], 
         "rdfs_label" : [""], 
 
@@ -640,7 +640,7 @@
         "hierarchy": [
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#Annotation_properties",
-            "/ontology/1.0/annotation_properties/editorialNote"
+            "/ontology/1.0/annotation_properties/skos_editorialNote"
         ], 
         "inDomainOf": [
             
@@ -656,7 +656,7 @@
             "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "skos:historyNote", 
-        "path": "/ontology/1.0/annotation_properties/historyNote", 
+        "path": "/ontology/1.0/annotation_properties/skos_historyNote", 
         "labels": [], 
         "rdfs_label" : [""], 
 
@@ -676,7 +676,7 @@
         "hierarchy": [
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#Annotation_properties",
-            "/ontology/1.0/annotation_properties/historyNote"
+            "/ontology/1.0/annotation_properties/skos_historyNote"
         ], 
         "inDomainOf": [
             
@@ -692,7 +692,7 @@
             "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "skos:note", 
-        "path": "/ontology/1.0/annotation_properties/note", 
+        "path": "/ontology/1.0/annotation_properties/skos_note", 
         "labels": [], 
         "rdfs_label" : [""], 
 
@@ -712,7 +712,7 @@
         "hierarchy": [
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#Annotation_properties",
-            "/ontology/1.0/annotation_properties/note"
+            "/ontology/1.0/annotation_properties/skos_note"
         ], 
         "inDomainOf": [
             
@@ -728,7 +728,7 @@
             "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "skos:prefLabel", 
-        "path": "/ontology/1.0/annotation_properties/prefLabel", 
+        "path": "/ontology/1.0/annotation_properties/skos_prefLabel", 
         "labels": [], 
         "rdfs_label" : [""], 
 
@@ -748,7 +748,7 @@
         "hierarchy": [
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#Annotation_properties",
-            "/ontology/1.0/annotation_properties/prefLabel"
+            "/ontology/1.0/annotation_properties/skos_prefLabel"
         ], 
         "inDomainOf": [
             
@@ -764,7 +764,7 @@
             "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "skos:scopeNote", 
-        "path": "/ontology/1.0/annotation_properties/scopeNote", 
+        "path": "/ontology/1.0/annotation_properties/skos_scopeNote", 
         "labels": [], 
         "rdfs_label" : [""], 
 
@@ -784,7 +784,7 @@
         "hierarchy": [
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#Annotation_properties",
-            "/ontology/1.0/annotation_properties/scopeNote"
+            "/ontology/1.0/annotation_properties/skos_scopeNote"
         ], 
         "inDomainOf": [
             

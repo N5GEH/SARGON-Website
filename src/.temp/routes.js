@@ -393,7 +393,31 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/annotation_properties/seeAlso/",
+    path: "/ontology/1.0/annotation_properties/skos_changeNote/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/annotation_properties/skos_definition/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/annotation_properties/skos_editorialNote/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/annotation_properties/skos_historyNote/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/annotation_properties/skos_note/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/annotation_properties/skos_prefLabel/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/annotation_properties/skos_scopeNote/",
     component: c1
   },
   {
@@ -406,6 +430,26 @@ export default [
   },
   {
     path: "/ontology/1.0/data_properties/primary_voltage/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/annotation_properties/rdfs_comment/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/annotation_properties/rdfs_flow/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/annotation_properties/rdfs_isDefinedBy/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/annotation_properties/rdfs_label/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/annotation_properties/rdfs_seeAlso/",
     component: c1
   },
   {
@@ -462,10 +506,6 @@ export default [
   },
   {
     path: "/ontology/1.0/annotation_properties/pattern/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/annotation_properties/prefLabel/",
     component: c1
   },
   {
@@ -557,10 +597,6 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/annotation_properties/note/",
-    component: c1
-  },
-  {
     path: "/ontology/1.0/data_properties/in_XSD_date-time-stamp/",
     component: c1
   },
@@ -574,10 +610,6 @@ export default [
   },
   {
     path: "/ontology/1.0/data_properties/in_XSD_g-YearMonth/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/annotation_properties/label/",
     component: c1
   },
   {
@@ -637,10 +669,6 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/annotation_properties/isDefinedBy/",
-    component: c1
-  },
-  {
     path: "/ontology/1.0/annotation_properties/issued/",
     component: c1
   },
@@ -650,10 +678,6 @@ export default [
   },
   {
     path: "/ontology/1.0/data_properties/floors_below_ground/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/annotation_properties/historyNote/",
     component: c1
   },
   {
@@ -849,10 +873,6 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/annotation_properties/flow/",
-    component: c1
-  },
-  {
     path: "/ontology/1.0/data_properties/control_asset/",
     component: c1
   },
@@ -873,14 +893,6 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/annotation_properties/editorialNote/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/annotation_properties/definition/",
-    component: c1
-  },
-  {
     path: "/ontology/1.0/annotation_properties/description/",
     component: c1
   },
@@ -894,14 +906,6 @@ export default [
   },
   {
     path: "/ontology/1.0/data_properties/address/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/annotation_properties/changeNote/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/annotation_properties/comment/",
     component: c1
   },
   {

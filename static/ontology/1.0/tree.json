@@ -1474,10 +1474,6 @@
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/annotation_properties/owl_deprecated",
-                        "children": [] 
-                    },
-                    {
                         "name": "/ontology/1.0/annotation_properties/owl_incompatibleWith",
                         "children": [] 
                     },
@@ -1518,39 +1514,39 @@
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/annotation_properties/rdfs_changeNote",
+                        "name": "/ontology/1.0/annotation_properties/skos_changeNote",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/annotation_properties/rdfs_definition",
+                        "name": "/ontology/1.0/annotation_properties/skos_definition",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/annotation_properties/rdfs_editorialNote",
+                        "name": "/ontology/1.0/annotation_properties/skos_editorialNote",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/annotation_properties/rdfs_historyNote",
+                        "name": "/ontology/1.0/annotation_properties/skos_historyNote",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/annotation_properties/rdfs_note",
+                        "name": "/ontology/1.0/annotation_properties/skos_note",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/annotation_properties/rdfs_prefLabel",
+                        "name": "/ontology/1.0/annotation_properties/skos_prefLabel",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/annotation_properties/rdfs_scopeNote",
+                        "name": "/ontology/1.0/annotation_properties/skos_scopeNote",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/annotation_properties/rdfs_source",
+                        "name": "/ontology/1.0/annotation_properties/source",
                         "children": [] 
                     },
                     {
-                        "name": "/ontology/1.0/annotation_properties/rdfs_title",
+                        "name": "/ontology/1.0/annotation_properties/title",
                         "children": [] 
                     }
                     
