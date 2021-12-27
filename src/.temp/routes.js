@@ -433,6 +433,18 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/individuals/kelvin/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/kilowatt/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/kilowatt_hour/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/annotation_properties/rdfs_comment/",
     component: c1
   },
@@ -613,7 +625,19 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/individuals/euro/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/data_properties/ipAddress/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/degree_Celsius/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/degree_Fahrenheit/",
     component: c1
   },
   {
@@ -910,6 +934,90 @@ export default [
   },
   {
     path: "/ontology/1.0/data_properties/address/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Cleaning/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Close/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Comfort/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Day/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Drying/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/EnergyEfficiency/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Entertainment/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Friday/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Get_current_meter_value/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Get_meter_data/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Get_meter_history/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Get_sensing_data/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Great_britain_pound_sterling/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Gregorian/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Hour/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Lux/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Meter_reading/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Minute/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Monday/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Month/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Notify/",
     component: c1
   },
   {

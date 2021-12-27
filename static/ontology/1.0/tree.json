@@ -1623,6 +1623,58 @@
             {
                 "name": "/ontology/1.0/individuals/Get_sensing_data",
                 "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Great_britain_pound_sterling",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Gregorian",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Hour",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/kelvin",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/kilowatt",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/kilowatt_hour",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Lighting",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Lux",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Meter_reading",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Minute",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Monday",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Month",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Notify",
+                "children": []
             }
         ]
     }

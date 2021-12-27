@@ -13401,6 +13401,446 @@
         ], 
         "inDomainOf": [],
         "inRangeOf": []
-    } 
+    },
+    {
+        "id": "http://www.wurvoc.org/vocabularies/om-1.8/pound_sterling", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#GetSensingDataCommand"
+        ], 
+        "name": "Great britain pound sterling", 
+        "path": "/ontology/1.0/individuals/Great_britain_pound_sterling", 
+        "labels": [], 
+        "rdfs_label" : ["Great_britain_pound_sterling"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Great_britain_pound_sterling"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+        ], 
+        "name": "Gregorian", 
+        "path": "/ontology/1.0/individuals/Gregorian", 
+        "labels": [], 
+        "rdfs_label" : [], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Gregorian"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.opengis.net/def/uom/ISO-8601/0/Hour", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2006/time#TemporalUnit"
+        ], 
+        "name": "Hour (unit of temporal duration)", 
+        "path": "/ontology/1.0/individuals/Hour", 
+        "labels": [], 
+        "rdfs_label" : ["Hour"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Gregorian"
+        ],
+        "relations": [
+            "http://www.w3.org/2006/time#days",
+            "http://www.w3.org/2006/time#hours",
+            "http://www.w3.org/2006/time#minutes",
+            "http://www.w3.org/2006/time#months",
+            "http://www.w3.org/2006/time#seconds",
+            "http://www.w3.org/2006/time#weeks",
+            "http://www.w3.org/2006/time#years"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.wurvoc.org/vocabularies/om-1.8/kelvin", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#TemperatureUnit"
+        ], 
+        "name": "kelvin", 
+        "path": "/ontology/1.0/individuals/kelvin", 
+        "labels": [], 
+        "rdfs_label" : ["kelvin"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The kelvin is a unit of temperature defined as 1/273.16 of the thermodynamic temperature of the triple point of water."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/kelvin"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.wurvoc.org/vocabularies/om-1.8/kilowatt", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#PowerUnit"
+        ], 
+        "name": "kilowatt", 
+        "path": "/ontology/1.0/individuals/kilowatt", 
+        "labels": [], 
+        "rdfs_label" : ["kilowatt"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/kilowatt"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#EnergyUnit"
+        ], 
+        "name": "kilowatt hour", 
+        "path": "/ontology/1.0/individuals/kilowatt_hour", 
+        "labels": [], 
+        "rdfs_label" : ["kilowatt hour"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The kilowatt hour is a unit of energy equal to 1,000 watt-hours, or 3.6 megajoules."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/kilowatt_hour"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.wurvoc.org/vocabularies/om-1.8/lux", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#Task"
+        ], 
+        "name": "Lux", 
+        "path": "/ontology/1.0/individuals/Lux", 
+        "labels": [], 
+        "rdfs_label" : ["Lux"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The lux is a unit of illuminance defined as lumen divided by square metre = candela times steradian divided by square metre."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Lux"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#MeterReading", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#Task"
+        ], 
+        "name": "Meter reading", 
+        "path": "/ontology/1.0/individuals/Meter_reading", 
+        "labels": [], 
+        "rdfs_label" : ["Meter reading"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A type of task for which a device is designed."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Meter_reading"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#unitMinute", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2006/time#TemporalUnit"
+        ], 
+        "name": "Minute (unit of temporal duration)", 
+        "path": "/ontology/1.0/individuals/Minute", 
+        "labels": [], 
+        "rdfs_label" : ["Minute (unit of temporal duration)"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Minute"
+        ],
+        "relations": [
+            "http://www.w3.org/2006/time#minutes"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#Monday", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2006/time#DayOfWeek"
+        ], 
+        "name": "Monday", 
+        "path": "/ontology/1.0/individuals/Monday", 
+        "labels": [], 
+        "rdfs_label" : ["Monday"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Monday"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#unitMonth", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "http://www.w3.org/2006/time#TemporalUnit"
+        ], 
+        "name": "Month (unit of temporal duration)", 
+        "path": "/ontology/1.0/individuals/Month", 
+        "labels": [], 
+        "rdfs_label" : ["Month (unit of temporal duration)"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Month"
+        ],
+        "relations": [
+            "http://www.w3.org/2006/time#months"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#Notify", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#NotifyCommand"
+        ], 
+        "name": "Notify", 
+        "path": "/ontology/1.0/individuals/Notify", 
+        "labels": [], 
+        "rdfs_label" : ["Notify"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The value NOTIFY. It is used to instantiate the NotifyCommand."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Notify"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    }
     
 ]
