@@ -116,7 +116,7 @@
             "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "owl:backwardCompatibleWith", 
-        "path": "/ontology/1.0/annotation_properties/owl#backwardCompatibleWith", 
+        "path": "/ontology/1.0/annotation_properties/owl_backwardCompatibleWith", 
         "labels": [], 
         "rdfs_label" : ["owl:backwardCompatibleWith"], 
 
@@ -136,7 +136,7 @@
         "hierarchy": [
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#Annotation_properties",
-            "/ontology/1.0/annotation_properties/owl#backwardCompatibleWith"
+            "/ontology/1.0/annotation_properties/owl_backwardCompatibleWith"
         ], 
         "inDomainOf": [
             
@@ -152,7 +152,7 @@
             "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "owl:deprecated", 
-        "path": "/ontology/1.0/annotation_properties/owl#deprecated", 
+        "path": "/ontology/1.0/annotation_properties/owl_deprecated", 
         "labels": [], 
         "rdfs_label" : ["owl:deprecated"], 
 
@@ -172,7 +172,7 @@
         "hierarchy": [
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#Annotation_properties",
-            "/ontology/1.0/annotation_properties/owl#deprecated"
+            "/ontology/1.0/annotation_properties/owl_deprecated"
         ], 
         "inDomainOf": [
             
@@ -188,7 +188,7 @@
             "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "owl:incompatibleWith", 
-        "path": "/ontology/1.0/annotation_properties/owl#incompatibleWith", 
+        "path": "/ontology/1.0/annotation_properties/owl_incompatibleWith", 
         "labels": [], 
         "rdfs_label" : ["owl:incompatibleWith"], 
 
@@ -208,7 +208,7 @@
         "hierarchy": [
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#Annotation_properties",
-            "/ontology/1.0/annotation_properties/owl#incompatibleWith"
+            "/ontology/1.0/annotation_properties/owl_incompatibleWith"
         ], 
         "inDomainOf": [
             
@@ -224,7 +224,7 @@
             "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "owl:priorVersion", 
-        "path": "/ontology/1.0/annotation_properties/owl#priorVersion", 
+        "path": "/ontology/1.0/annotation_properties/owl_priorVersion", 
         "labels": [], 
         "rdfs_label" : ["owl:priorVersion"], 
 
@@ -244,7 +244,7 @@
         "hierarchy": [
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#Annotation_properties",
-            "/ontology/1.0/annotation_properties/owl#priorVersion"
+            "/ontology/1.0/annotation_properties/owl_priorVersion"
         ], 
         "inDomainOf": [
             
@@ -260,7 +260,7 @@
             "http://www.w3.org/2002/07/owl#AnnotationProperty"
         ], 
         "name": "owl:versionInfo", 
-        "path": "/ontology/1.0/annotation_properties/owl#versionInfo", 
+        "path": "/ontology/1.0/annotation_properties/owl_versionInfo", 
         "labels": [], 
         "rdfs_label" : ["owl:versionInfo"], 
 
@@ -280,7 +280,7 @@
         "hierarchy": [
             "/ontology/1.0/#Properties", 
             "/ontology/1.0/#Annotation_properties",
-            "/ontology/1.0/annotation_properties/owl#versionInfo"
+            "/ontology/1.0/annotation_properties/owl_versionInfo"
         ], 
         "inDomainOf": [
             

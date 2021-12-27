@@ -505,23 +505,23 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/annotation_properties/owl#backwardCompatibleWith/",
+    path: "/ontology/1.0/annotation_properties/owl_backwardCompatibleWith/",
     component: c1
   },
   {
-    path: "/ontology/1.0/annotation_properties/owl#deprecated/",
+    path: "/ontology/1.0/annotation_properties/owl_deprecated/",
     component: c1
   },
   {
-    path: "/ontology/1.0/annotation_properties/owl#incompatibleWith/",
+    path: "/ontology/1.0/annotation_properties/owl_incompatibleWith/",
     component: c1
   },
   {
-    path: "/ontology/1.0/annotation_properties/owl#priorVersion/",
+    path: "/ontology/1.0/annotation_properties/owl_priorVersion/",
     component: c1
   },
   {
-    path: "/ontology/1.0/annotation_properties/owl#versionInfo/",
+    path: "/ontology/1.0/annotation_properties/owl_versionInfo/",
     component: c1
   },
   {
