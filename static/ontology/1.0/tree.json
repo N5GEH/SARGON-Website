@@ -1675,6 +1675,26 @@
             {
                 "name": "/ontology/1.0/individuals/Notify",
                 "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/On",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Off",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Open",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Pascal",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Pause",
+                "children": []
             }
         ]
     }

@@ -13841,6 +13841,189 @@
         ], 
         "inDomainOf": [],
         "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#Off", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#OffCommand",
+            "https://w3id.org/saref#OffState"
+        ], 
+        "name": "Off", 
+        "path": "/ontology/1.0/individuals/Off", 
+        "labels": [], 
+        "rdfs_label" : ["Off"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The value OFF. It is used to instantiate different classes such as the OffCommand class and OffState class. "],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Off"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#On", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#OnCommand",
+            "https://w3id.org/saref#OnState"
+        ], 
+        "name": "On", 
+        "path": "/ontology/1.0/individuals/On", 
+        "labels": [], 
+        "rdfs_label" : ["On"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The value ON. It is used to instantiate different classes such as the OnCommand class and OnState class. "],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/On"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#Open", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#OpenCommand",
+            "https://w3id.org/saref#OpenState"
+        ], 
+        "name": "Open", 
+        "path": "/ontology/1.0/individuals/Open", 
+        "labels": [], 
+        "rdfs_label" : ["Open"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The value OPEN. It is used to instantiate different classes such as the OpenCommand class and OpenState class. "],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Open"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.wurvoc.org/vocabularies/om-1.8/pascal", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Property", 
+        "types": [
+            "https://w3id.org/saref#PressureUnit"
+        ], 
+        "name": "pascal", 
+        "path": "/ontology/1.0/individuals/pascal", 
+        "labels": [], 
+        "rdfs_label" : ["pascal"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The pascal is a unit of pressure and stress defined as newton divided by square metre = joule divided by cubic metre = kilogram divided by metre second squared."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/pascal"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#Pause", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Pause", 
+        "types": [
+            "https://w3id.org/saref#PauseCommand"
+        ], 
+        "name": "pascal", 
+        "path": "/ontology/1.0/individuals/Pause", 
+        "labels": [], 
+        "rdfs_label" : ["Pause"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The value PAUSE. It is used to instantiate classes such as the PauseCommand class."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Pause"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
     }
     
 ]
