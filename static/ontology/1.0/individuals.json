@@ -1229,7 +1229,7 @@
         "types": [
             "https://w3id.org/saref#PauseCommand"
         ], 
-        "name": "pascal", 
+        "name": "Pause", 
         "path": "/ontology/1.0/individuals/Pause", 
         "labels": [], 
         "rdfs_label" : ["Pause"], 
@@ -1253,6 +1253,756 @@
             "/ontology/1.0/individuals/Pause"
         ],
         "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#Safety", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Safety", 
+        "types": [
+            "https://w3id.org/saref#Task"
+        ], 
+        "name": "Safety", 
+        "path": "/ontology/1.0/individuals/Safety", 
+        "labels": [], 
+        "rdfs_label" : ["Safety"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A type of task for which a device is designed."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Safety"
+        ],
+        "relations": [
+            "https://w3id.org/saref#isAccomplishedBy",
+            "https://w3id.org/saref#Device"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#Saturday", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Saturday", 
+        "types": [
+            "http://www.w3.org/2006/time#DayOfWeek"
+        ], 
+        "name": "Saturday", 
+        "path": "/ontology/1.0/individuals/Saturday", 
+        "labels": [], 
+        "rdfs_label" : ["Saturday"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Saturday"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#unitSecond", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Saturday", 
+        "types": [
+            "http://www.w3.org/2006/time#TemporalUnit"
+        ], 
+        "name": "Second (unit of temporal duration)", 
+        "path": "/ontology/1.0/individuals/Second", 
+        "labels": [], 
+        "rdfs_label" : ["Second (unit of temporal duration)"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Second"
+        ],
+        "relations": [
+            "http://www.w3.org/2006/time#days",
+            "http://www.w3.org/2006/time#hours",
+            "http://www.w3.org/2006/time#minutes",
+            "http://www.w3.org/2006/time#months",
+            "http://www.w3.org/2006/time#seconds",
+            "http://www.w3.org/2006/time#weeks",
+            "http://www.w3.org/2006/time#years"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#SetAbsoluteLevel", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Set absolute level", 
+        "types": [
+            "https://w3id.org/saref#SetAbsoluteLevelCommand"
+        ], 
+        "name": "Set absolute level", 
+        "path": "/ontology/1.0/individuals/Set_absolute_level", 
+        "labels": [], 
+        "rdfs_label" : ["Set absolute level"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The value SET ABSOLUTE LEVEL. It is used to instantiate classes such as the SetAbsoluteLevelCommand class. "],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Set_absolute_level"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#SetRelativeLevel", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Set relative level", 
+        "types": [
+            "https://w3id.org/saref#SetRelativeLevelCommand"
+        ], 
+        "name": "Set relative level", 
+        "path": "/ontology/1.0/individuals/Set_relative_level", 
+        "labels": [], 
+        "rdfs_label" : ["Set relative level"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The value SET RELATIVE LEVEL. It is used to instantiate classes such as the SetRelativeLevelCommand class. "],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Set_relative_level"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#Start", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Start Command", 
+        "types": [
+            "https://w3id.org/saref#StartCommand",
+            "https://w3id.org/saref#StartState"
+        ],
+        "name": "Start", 
+        "path": "/ontology/1.0/individuals/Start", 
+        "labels": [], 
+        "rdfs_label" : ["Start"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The value START. It is used to instantiate different classes such as the StartCommand class and StartState class. "],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Start"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#StepDown", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "StepDownCommand", 
+        "types": [
+            "https://w3id.org/saref#StepDownCommand"
+        ],
+        "name": "Step down", 
+        "path": "/ontology/1.0/individuals/Step_down", 
+        "labels": [], 
+        "rdfs_label" : ["Step down"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The value STEP DOWN. It is used to instantiate the StepDownCommand class. "],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Step_down"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#StepUp", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "StepUpCommand", 
+        "types": [
+            "https://w3id.org/saref#StepUpCommand"
+        ],
+        "name": "Step down", 
+        "path": "/ontology/1.0/individuals/Step_up", 
+        "labels": [], 
+        "rdfs_label" : ["Step down"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The value STEP UP. It is used to instantiate the StepUpCommand class. "],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Step_up"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#Stop", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "StepUpCommand", 
+        "types": [
+            "https://w3id.org/saref#StopCommand",
+            "https://w3id.org/saref#StopState"
+        ],
+        "name": "Stop", 
+        "path": "/ontology/1.0/individuals/Stop", 
+        "labels": [], 
+        "rdfs_label" : ["Stop"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The value STOP. It is used to instantiate different classes such as the StopCommand class and StopState class. "],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Stop"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#Sunday", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "DayOfWeek", 
+        "types": [
+            "http://www.w3.org/2006/time#DayOfWeek"
+        ],
+        "name": "Sunday", 
+        "path": "/ontology/1.0/individuals/Sunday", 
+        "labels": [], 
+        "rdfs_label" : ["Sunday"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Sunday"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#Thursday", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "DayOfWeek", 
+        "types": [
+            "http://www.w3.org/2006/time#DayOfWeek"
+        ],
+        "name": "Thursday", 
+        "path": "/ontology/1.0/individuals/Thursday", 
+        "labels": [], 
+        "rdfs_label" : ["Thursday"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Thursday"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#Toggle", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "ToggleCommand", 
+        "types": [
+            "https://w3id.org/saref#ToggleCommand"
+        ],
+        "name": "Toggle", 
+        "path": "/ontology/1.0/individuals/Toggle", 
+        "labels": [], 
+        "rdfs_label" : ["Toggle"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The value TOGGLE. It is used to instantiate the the ToggleCommand class."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Toggle"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#Tuesday", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "DayOfWeek", 
+        "types": [
+            "http://www.w3.org/2006/time#DayOfWeek"
+        ],
+        "name": "Tuesday", 
+        "path": "/ontology/1.0/individuals/Tuesday", 
+        "labels": [], 
+        "rdfs_label" : ["Tuesday"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Tuesday"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.wurvoc.org/vocabularies/om-1.8/United_States_dollar", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Currency", 
+        "types": [
+            "https://w3id.org/saref#Currency"
+        ],
+        "name": "United States dollar", 
+        "path": "/ontology/1.0/individuals/United_States_dollar", 
+        "labels": [], 
+        "rdfs_label" : ["United States dollar"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/United_States_dollar"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#Washing", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Task", 
+        "types": [
+            "https://w3id.org/saref#Currency"
+        ],
+        "name": "Washing", 
+        "path": "/ontology/1.0/individuals/Washing", 
+        "labels": [], 
+        "rdfs_label" : ["Washing"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A type of task for which a device is designed."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Washing"
+        ],
+        "relations": [
+            "https://w3id.org/saref#Device",
+            "https://w3id.org/saref#isAccomplishedBy"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.wurvoc.org/vocabularies/om-1.8/watt", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Task", 
+        "types": [
+            "https://w3id.org/saref#PowerUnit"
+        ],
+        "name": "watt", 
+        "path": "/ontology/1.0/individuals/watt", 
+        "labels": [], 
+        "rdfs_label" : ["watt"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The watt is a unit of power defined as joule divided by second = newton times metre divided by second = volt times ampere = kilogram times square metre divided by second to the power 3."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/watt"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    
+    {
+        "id": "https://w3id.org/saref#watt_hour", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Task", 
+        "types": [
+            "https://w3id.org/saref#EnergyUnit"
+        ],
+        "name": "watt hour", 
+        "path": "/ontology/1.0/individuals/watt_hour", 
+        "labels": [], 
+        "rdfs_label" : ["watt hour"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["The Watt Hor is a unit of energy equivalent to one watt (1 W) of power expended for one hour (1 h) of time. An energy expenditure of 1 Wh represents 3600 joules."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/watt_hour"
+        ],
+        "relations": [
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#unitWeek", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Week", 
+        "types": [
+            "http://www.w3.org/2006/time#TemporalUnit"
+        ],
+        "name": "Week (unit of temporal duration)", 
+        "path": "/ontology/1.0/individuals/Week", 
+        "labels": [], 
+        "rdfs_label" : ["Week (unit of temporal duration)"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Week"
+        ],
+        "relations": [
+            "http://www.w3.org/2006/time#days",
+            "http://www.w3.org/2006/time#hours",
+            "http://www.w3.org/2006/time#minutes",
+            "http://www.w3.org/2006/time#months",
+            "http://www.w3.org/2006/time#seconds",
+            "http://www.w3.org/2006/time#weeks",
+            "http://www.w3.org/2006/time#years"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "http://www.w3.org/2006/time#unitYear", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Year", 
+        "types": [
+            "http://www.w3.org/2006/time#TemporalUnit"
+        ],
+        "name": "Year (unit of temporal duration)", 
+        "path": "/ontology/1.0/individuals/Year", 
+        "labels": [], 
+        "rdfs_label" : ["Year (unit of temporal duration)"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": [],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/Year"
+        ],
+        "relations": [
+            "http://www.w3.org/2006/time#days",
+            "http://www.w3.org/2006/time#hours",
+            "http://www.w3.org/2006/time#minutes",
+            "http://www.w3.org/2006/time#months",
+            "http://www.w3.org/2006/time#seconds",
+            "http://www.w3.org/2006/time#weeks",
+            "http://www.w3.org/2006/time#years"
+        ], 
+        "inDomainOf": [],
+        "inRangeOf": []
+    },
+    {
+        "id": "https://w3id.org/saref#WellBeing", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "WellBeing", 
+        "types": [
+            "https://w3id.org/saref#Task"
+        ],
+        "name": "WellBeing", 
+        "path": "/ontology/1.0/individuals/WellBeing", 
+        "labels": [], 
+        "rdfs_label" : ["WellBeing"], 
+
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
+        ], 
+        
+        "subclasses": [
+        ], 
+        "comments": ["A type of task for which a device is designed."],
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [], 
+        "skos_notes": [],
+        "hierarchy": [
+            "/ontology/1.0/#Properties", 
+            "/ontology/1.0/#Individuals",
+            "/ontology/1.0/individuals/WellBeing"
+        ],
+        "relations": [
+            "https://w3id.org/saref#Device",
+            "https://w3id.org/saref#isAccomplishedBy"
         ], 
         "inDomainOf": [],
         "inRangeOf": []

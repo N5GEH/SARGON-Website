@@ -1605,10 +1605,6 @@
                 "children": []
             },
             {
-                "name": "/ontology/1.0/individuals/Friday",
-                "children": []
-            },
-            {
                 "name": "/ontology/1.0/individuals/Get_current_meter_value",
                 "children": []
             },
@@ -1665,10 +1661,6 @@
                 "children": []
             },
             {
-                "name": "/ontology/1.0/individuals/Monday",
-                "children": []
-            },
-            {
                 "name": "/ontology/1.0/individuals/Month",
                 "children": []
             },
@@ -1695,7 +1687,101 @@
             {
                 "name": "/ontology/1.0/individuals/Pause",
                 "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Safety",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Second",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Set_absolute_level",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Set_relative_level",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Start",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Step_down",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Step_up",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Stop",
+                "children": []
+            },
+            
+            {
+                "name": "/ontology/1.0/individuals/Monday",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Tuesday",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Wednesday",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Thursday",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Friday",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Saturday",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Sunday",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Toggle",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Washing",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/watt",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/watt_hour",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Wednesday",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Week",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Wellbeing",
+                "children": []
+            },
+            {
+                "name": "/ontology/1.0/individuals/Year",
+                "children": []
             }
+
         ]
     }
 
