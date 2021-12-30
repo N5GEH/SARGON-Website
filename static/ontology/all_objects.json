@@ -141,6 +141,13 @@
             "/ontology/1.0/classes/Building",
             "/ontology/1.0/classes/Room"
         ], 
+        "relations":[
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/has_sensor",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/has_tenant",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/has_zone",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/in_building",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/in_floor"
+        ],
         "inRangeOf": [], 
         "inDomainOf": []
          
@@ -172,6 +179,12 @@
             "/ontology/1.0/classes/Building",
             "/ontology/1.0/classes/Tenant"
         ], 
+        "relations":[
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/has_email",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/has_mobile_number",
+            "https://w3id.org/saref#hasName",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/live_in"
+        ],
         "inRangeOf": [], 
         "inDomainOf": [] 
          
@@ -201,8 +214,14 @@
         "hierarchy": [
             "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Building",
-            "/ontology/1.0/classes/Tenant"
+            "/ontology/1.0/classes/Zone"
         ], 
+        "relations":[
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/contain_of",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/in_building",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/in_floor",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/in_room"
+        ],
         "inRangeOf": [], 
         "inDomainOf": [] 
          
