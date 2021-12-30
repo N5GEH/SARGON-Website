@@ -456,6 +456,11 @@
             "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Command"
         ], 
+        "relations":[
+            "https://w3id.org/saref#hasCommand",
+            "https://w3id.org/saref#OffCommand",
+            "https://w3id.org/saref#OnCommand"
+        ],
         "inRangeOf": [], 
         "inDomainOf": [] 
          
@@ -1287,6 +1292,41 @@
             "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device"
         ], 
+        "relations":[
+            "https://w3id.org/saref#accomplishes",
+            "https://w3id.org/saref#Task",
+            "https://w3id.org/saref#consistsOf",
+            "https://w3id.org/saref#Device",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/controlled_asset",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/controlled_property",
+            "https://w3id.org/saref#Property",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/created_at",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/data_provider",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/description",
+            "https://w3id.org/saref#hasCommand",
+            "https://w3id.org/saref#Command",
+            "https://w3id.org/saref#hasFunction",
+            "https://w3id.org/saref#Function",
+            "https://w3id.org/saref#hasState",
+            "https://w3id.org/saref#State",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/in_room",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Room",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/ip_address",
+            "https://w3id.org/saref#isMeasuredIn",
+            "https://w3id.org/saref#Measurement",
+            "https://w3id.org/saref#isUsedFor",
+            "https://w3id.org/saref#Commodity",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/located_at",
+            "https://w3id.org/saref#BuildingRelated",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/location",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/modified_at",
+            "https://w3id.org/saref#offers",
+            "https://w3id.org/saref#Service",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/owner",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/serial_number",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/source",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/supported_protocol"
+        ],
         "inRangeOf": [], 
         "inDomainOf": [] 
          
@@ -1392,6 +1432,25 @@
             "/ontology/1.0/classes/Control_device",
             "/ontology/1.0/classes/Actuator"
         ], 
+        "relations": [
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/address",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/has_channel",
+            "https://w3id.org/saref#hasFunction",
+            "https://w3id.org/saref#ActuatingFunction",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/has_sensor",
+            "https://w3id.org/saref#Sensor",
+            "https://w3id.org/saref#isMeasuredIn",
+            "https://w3id.org/saref#Measurement",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/listening",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/located_in",
+            "https://w3id.org/saref#BuildingRelated",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/readable_name",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/sample_interval",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/sample_rate",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/sub_category",
+            "https://w3id.org/saref#Device",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/writable"
+        ],
         "inRangeOf": [], 
         "inDomainOf": [] 
          
@@ -1500,6 +1559,13 @@
             "/ontology/1.0/classes/Switch",
             "/ontology/1.0/classes/Door_switch"
         ], 
+        "relations":[
+            "https://w3id.org/saref#accomplishes",
+            "https://w3id.org/saref#hasFunction",
+            "https://w3id.org/saref#OpenCloseFunction",
+            "https://w3id.org/saref#hasState",
+            "https://w3id.org/saref#OpenCloseState"
+        ],
         "inRangeOf": [], 
         "inDomainOf": [] 
          
@@ -1536,6 +1602,19 @@
             "/ontology/1.0/classes/Switch",
             "/ontology/1.0/classes/Light_switch"
         ], 
+        "relations":[
+            "https://w3id.org/saref#accomplishes",
+            "https://w3id.org/saref#consistsOf",
+            "https://w3id.org/saref#Switch",
+            "https://w3id.org/saref#hasFunction",
+            "https://w3id.org/saref#OnOffFunction",
+            "https://w3id.org/saref#hasState",
+            "https://w3id.org/saref#OnOffState",
+            "https://w3id.org/saref#measuresProperty",
+            "https://w3id.org/saref#Light",
+            "https://w3id.org/saref#offers",
+            "https://w3id.org/saref#SwitchOnService"
+        ],
         "inRangeOf": [], 
         "inDomainOf": [] 
          
@@ -1571,6 +1650,31 @@
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Control_device",
             "/ontology/1.0/classes/Controller"
+        ],
+        "relations":[
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/address",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/connected_actuator",
+            "https://w3id.org/saref#Actuator",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/connected_sensor",
+            "https://w3id.org/saref#Sensor",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/control_asset",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/has_channel",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/ip_address",
+            "https://w3id.org/saref#isMeasuredIn",
+            "https://w3id.org/saref#Measurement",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/listening",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/located_in",
+            "https://w3id.org/saref#BuildingRelated",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/related_sensor",
+            "https://w3id.org/saref#Sensor",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/sample_interval",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/sample_rate",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/set_value",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/source",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/supplier_name",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/writable"
+
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 

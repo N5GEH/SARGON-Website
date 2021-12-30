@@ -19,8 +19,6 @@ Turtle is a compact textual format that is understood by most Semantic Web tools
 
 
 
-
-<!-- [1]: https://github.com/N5GEH/n5geh.datamodel/blob/master/Resources/Ontology-files/SARGON.ttl -->
 [1]: ontologies/Sargon.ttl
 [2]: ontologies/Sargon.owl
 [3]: https://www.w3.org/TR/turtle/

@@ -727,7 +727,820 @@
         "path": "/ontology/1.0/classes/Flow_terminal_device", 
         "version": "1.0", 
         "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "F",
+        "generatedLabel": "Filter",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Filter", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "I",
+        "generatedLabel": "Interceptor",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Interceptor", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "FC",
+        "generatedLabel": "Flow controller",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Flow_controller", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "D",
+        "generatedLabel": "Damper",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Damper", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "Elc",
+        "generatedLabel": "Electronic time control",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Electronic_time_control", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "Fm",
+        "generatedLabel": "Flow meter",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Flow_meter", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "Sd",
+        "generatedLabel": "Switching Device",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Switching_device", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "Fmd",
+        "generatedLabel": "Flow moving device",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Flow_moving_device", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },{
+        "generatedAlias": "C",
+        "generatedLabel": "Compressor",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Compressor", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },{
+        "generatedAlias": "F",
+        "generatedLabel": "Fan",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Fan", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },{
+        "generatedAlias": "P",
+        "generatedLabel": "Pump",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Pump", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "F",
+        "generatedLabel": "Flow storage device",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Flow_storage_device", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "E",
+        "generatedLabel": "Electronic flow storage device",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Electronic_flow_storage_device", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "F",
+        "generatedLabel": "Flow terminal",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Flow_terminal", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "A",
+        "generatedLabel": "Audio visual appliance",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Audio_visual_appliance", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "C",
+        "generatedLabel": "Communication appliance",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Communication_appliance", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "L",
+        "generatedLabel": "Lamp",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Lamp", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "S",
+        "generatedLabel": "Space heater",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Space_heater", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "T",
+        "generatedLabel": "Tank",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Tank", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "C",
+        "generatedLabel": "Convertor",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Convertor", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "AC-DC",
+        "generatedLabel": "AC-DC",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/AC-DC", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "CT-VT",
+        "generatedLabel": "CT-VT",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/CT-VT", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "DC-DC",
+        "generatedLabel": "DC-DC",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/DC-DC", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "HV-DC",
+        "generatedLabel": "HV-DC",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/HV-DC", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "Generator",
+        "generatedLabel": "Generator",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Generator", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "L",
+        "generatedLabel": "Lighting device",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Lighting_device", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "W",
+        "generatedLabel": "Washing machine",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Washing_machine", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "E",
+        "generatedLabel": "Energy meter",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Energy_meter", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "P",
+        "generatedLabel": "PMU",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/PMU", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "P",
+        "generatedLabel": "Power_meter",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Power_meter", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "P",
+        "generatedLabel": "PV",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/PV", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "W",
+        "generatedLabel": "WPP",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/WPP", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "B",
+        "generatedLabel": "Battery_storage",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Battery_storage", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "T",
+        "generatedLabel": "Transformer",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Transformer", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "A",
+        "generatedLabel": "Actuating function",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Actuating_function", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "L",
+        "generatedLabel": "Level control function",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Level_control_function", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "O",
+        "generatedLabel": "On off function",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/On_off_function", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "O",
+        "generatedLabel": "Open close function",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Open_close_function", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "S",
+        "generatedLabel": "Start_stop_function",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Start_stop_function", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "generatedAlias": "T",
+        "generatedLabel": "Tap position",
+        "definitions": [""], 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Tap_position", 
+        "version": "1.0", 
+        "namespace": "https://sargon-n5geh.netlify.app/schema/SARGON#" 
+    },
+    {
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "path": "/ontology/1.0/classes/Event_function", 
+        "generatedLabel": "Event function", 
+        "generatedAlias": "Ef", 
+        "definitions": [], 
+        "type":"class",
+        "version":"1.0"  
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Metering_function", 
+        "generatedLabel": "Metering function", 
+        "generatedAlias": "Mf", 
+        "definitions": []  
+    },
+    {
+        "version": "1.0", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Sensing_function", 
+        "generatedLabel": "Sensing function", 
+        "generatedAlias": "Sf", 
+        "definitions": [],
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#"
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Measurement", 
+        "generatedLabel": "Measurement", 
+        "generatedAlias": "M", 
+        "definitions": [] 
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Currency_unit", 
+        "generatedLabel": "Currency_unit", 
+        "generatedAlias": "Cu", 
+        "definitions": [] 
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Energy_unit", 
+        "generatedLabel": "Energy_unit", 
+        "generatedAlias": "Eu", 
+        "definitions": [] 
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Power_unit", 
+        "generatedLabel": "Power_unit", 
+        "generatedAlias": "Pu", 
+        "definitions": []
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Pressure_unit", 
+        "generatedLabel": "Pressure_unit", 
+        "generatedAlias": "Pu", 
+        "definitions": []
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Temperature_unit", 
+        "generatedLabel": "Temperature_unit", 
+        "generatedAlias": "Tu", 
+        "definitions": []
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Profile", 
+        "generatedLabel": "Profile", 
+        "generatedAlias": "P", 
+        "definitions": []  
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Property", 
+        "generatedLabel": "Property", 
+        "generatedAlias": "P", 
+        "definitions": []  
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/CO2_level", 
+        "generatedLabel": "CO2_level", 
+        "generatedAlias": "Cl", 
+        "definitions": []
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Current", 
+        "generatedLabel": "Current", 
+        "generatedAlias": "C", 
+        "definitions": []  
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Flow", 
+        "generatedLabel": "Flow", 
+        "generatedAlias": "F", 
+        "definitions": [] 
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Humidity", 
+        "generatedLabel": "Humidity", 
+        "generatedAlias": "H", 
+        "definitions": [] 
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Light", 
+        "generatedLabel": "Light", 
+        "generatedAlias": "L", 
+        "definitions": [] 
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Motion", 
+        "generatedLabel": "Motion", 
+        "generatedAlias": "M", 
+        "definitions": [] 
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Occupancy", 
+        "generatedLabel": "Occupancy", 
+        "generatedAlias": "O", 
+        "definitions": []  
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Power", 
+        "generatedLabel": "Power", 
+        "generatedAlias": "P", 
+        "definitions": [] 
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Pressure", 
+        "generatedLabel": "Pressure", 
+        "generatedAlias": "P", 
+        "definitions": []  
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Price", 
+        "generatedLabel": "Price", 
+        "generatedAlias": "P", 
+        "definitions": [] 
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Smoke", 
+        "generatedLabel": "Smoke", 
+        "generatedAlias": "S", 
+        "definitions": []
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/State_of_charge", 
+        "generatedLabel": "State_of_charge", 
+        "generatedAlias": "S", 
+        "definitions": []
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Tap_position", 
+        "generatedLabel": "Tap position", 
+        "generatedAlias": "Tp", 
+        "definitions": [] 
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Temperature", 
+        "generatedLabel": "Temperature", 
+        "generatedAlias": "T", 
+        "definitions": []  
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Time", 
+        "generatedLabel": "Time", 
+        "generatedAlias": "T",
+        "definitions": []
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Voltage", 
+        "generatedLabel": "Voltage", 
+        "generatedAlias": "V",
+        "definitions": []
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Volume", 
+        "generatedLabel": "Volume", 
+        "generatedAlias": "V", 
+        "definitions": []
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Service", 
+        "generatedLabel": "Service", 
+        "generatedAlias": "S", 
+        "definitions": [] 
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Switch_on_service", 
+        "generatedLabel": "Switch on service", 
+        "generatedAlias": "S", 
+        "definitions": [] 
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/State", 
+        "generatedLabel": "State", 
+        "generatedAlias": "S", 
+        "definitions": []
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Multi_level_state", 
+        "generatedLabel": "Multi level state", 
+        "generatedAlias": "Mls", 
+        "definitions": []
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/On_off_state", 
+        "generatedLabel": "On off state", 
+        "generatedAlias": "Oos",
+        "definitions": []
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/On_state", 
+        "generatedLabel": "On state", 
+        "generatedAlias": "Os", 
+        "definitions": [] 
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Off_state", 
+        "generatedLabel": "Off state", 
+        "generatedAlias": "Os", 
+        "definitions": [] 
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Open_close_state", 
+        "generatedLabel": "Open close state", 
+        "generatedAlias": "Ocs", 
+        "definitions": [] 
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Open_state", 
+        "generatedLabel": "Open state", 
+        "generatedAlias": "Os", 
+        "definitions": [] 
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Close_state", 
+        "generatedLabel": "Close state", 
+        "generatedAlias": "Cs", 
+        "definitions": []  
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Start_stop_state", 
+        "generatedLabel": "Start stop state", 
+        "generatedAlias": "Sss", 
+        "definitions": [] 
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Start_state", 
+        "generatedLabel": "Start state", 
+        "generatedAlias": "Ss", 
+        "definitions": [] 
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Stop_state", 
+        "generatedLabel": "Stop state", 
+        "generatedAlias": "Ss", 
+        "definitions": [] 
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Temporal_duration", 
+        "rdfs_label" : ["Temporal_duration"], 
+        "generatedLabel": "Temporal duration", 
+        "generatedAlias": "Td", 
+        "definitions": [] 
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Year", 
+        "generatedLabel": "Year", 
+        "generatedAlias": "Y", 
+        "definitions": []     
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Time_duration", 
+        "generatedLabel": "Time duration", 
+        "generatedAlias": "Td", 
+        "definitions": []     
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Time_instant", 
+        "generatedLabel": "Time instant", 
+        "generatedAlias": "Ti", 
+        "definitions": []     
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Temporal_position", 
+        "generatedLabel": "Temporal position", 
+        "generatedAlias": "Tp", 
+        "definitions": []     
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Date_time_description", 
+        "generatedLabel": "Date time description", 
+        "generatedAlias": "Dtd", 
+        "definitions": []     
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/January", 
+        "generatedLabel": "January", 
+        "generatedAlias": "J", 
+        "definitions": []
+        
+          
+         
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Month_of_year",  
+        "generatedLabel": "Month of year", 
+        "generatedAlias": "Moy", 
+        "definitions": []
+    },
+    {
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "class", 
+        "path": "/ontology/1.0/classes/Time_zone", 
+        "generatedLabel": "Time zone", 
+        "generatedAlias": "Tz", 
+        "definitions": []
+         
     }
+    
     
     
 
