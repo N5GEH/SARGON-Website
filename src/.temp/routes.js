@@ -37,6 +37,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/individuals/watt_hour/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/object_properties/offers/",
     component: c1
   },
@@ -90,6 +94,10 @@ export default [
   },
   {
     path: "/ontology/1.0/data_properties/voltage_level/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/pascal/",
     component: c1
   },
   {
@@ -721,166 +729,6 @@ export default [
     component: c1
   },
   {
-    path: "/ontology/1.0/objects/Actuator/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Angle/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Building_related/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Channel/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Close_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Coal/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Commodity/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Control_device/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Day_of_week/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Device/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Electricity/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Floor/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Frequency/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Gas/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Get_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Get_current_meter_value_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Get_meter_data_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Get_meter_history_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Get_sensing_data_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Maqnitute/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Notify_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Off_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/On_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Open_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Pause_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Rocf/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Room/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Set_absolute_level_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Set_level_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Set_relative_level_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Start_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Step_down_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Step_up_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Stop_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Tenant/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Timestamp/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Toggle_command/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Water/",
-    component: c1
-  },
-  {
-    path: "/ontology/1.0/objects/Zone/",
-    component: c1
-  },
-  {
     path: "/ontology/1.0/data_properties/data_provider/",
     component: c1
   },
@@ -1021,6 +869,86 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/individuals/Off/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/On/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Open/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Pause/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Safety/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Saturday/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Set_relative_level/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Start/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Step_down/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Step_up/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Stop/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Sunday/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Thursday/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Toggle/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Tuesday/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/United_States_dollar/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Washing/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Week/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/WellBeing/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Year/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/AC-DC/",
     component: c1
   },
@@ -1045,11 +973,19 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Actuator/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Air_flow_sensor/",
     component: c1
   },
   {
     path: "/ontology/1.0/classes/Air_to_air_heat_recovery/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Angle/",
     component: c1
   },
   {
@@ -1065,6 +1001,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Building_related/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Burner/",
     component: c1
   },
@@ -1073,7 +1013,15 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Channel/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Chiller/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Close_command/",
     component: c1
   },
   {
@@ -1081,7 +1029,19 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Coal/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Coil/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Commodity/",
     component: c1
   },
   {
@@ -1090,6 +1050,10 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Compressor/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Control_device/",
     component: c1
   },
   {
@@ -1121,11 +1085,23 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Day_of_week/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Device/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Door_switch/",
     component: c1
   },
   {
     path: "/ontology/1.0/classes/Duration_description/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Electricity/",
     component: c1
   },
   {
@@ -1165,6 +1141,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Floor/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Flow/",
     component: c1
   },
@@ -1197,7 +1177,15 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Frequency/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Function/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Gas/",
     component: c1
   },
   {
@@ -1206,6 +1194,26 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Generator/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Get_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Get_current_meter_value_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Get_meter_data_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Get_meter_history_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Get_sensing_data_command/",
     component: c1
   },
   {
@@ -1257,6 +1265,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Maqnitute/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Measurement/",
     component: c1
   },
@@ -1285,11 +1297,23 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Notify_command/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Occupancy/",
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Off_command/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Off_state/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/On_command/",
     component: c1
   },
   {
@@ -1313,6 +1337,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Open_command/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Open_state/",
     component: c1
   },
@@ -1326,6 +1354,10 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/PV/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Pause_command/",
     component: c1
   },
   {
@@ -1373,6 +1405,14 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Rocf/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Room/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Sensing_function/",
     component: c1
   },
@@ -1385,6 +1425,18 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Set_absolute_level_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Set_level_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Set_relative_level_command/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Smoke/",
     component: c1
   },
@@ -1394,6 +1446,10 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Space_heater/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Start_command/",
     component: c1
   },
   {
@@ -1414,6 +1470,18 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/State_of_charge/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Step_down_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Step_up_command/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Stop_command/",
     component: c1
   },
   {
@@ -1481,6 +1549,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Tenant/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Time/",
     component: c1
   },
@@ -1502,6 +1574,14 @@ export default [
   },
   {
     path: "/ontology/1.0/classes/Time_zone/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Timestamp/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/classes/Toggle_command/",
     component: c1
   },
   {
@@ -1529,6 +1609,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Water/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/classes/Water_flow_sensor/",
     component: c1
   },
@@ -1537,7 +1621,15 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/classes/Zone/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/annotation_properties/Owner/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/Classes/",
     component: c1
   },
   {

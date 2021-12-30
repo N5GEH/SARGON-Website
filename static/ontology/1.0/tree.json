@@ -1,6 +1,6 @@
 [
     {  
-        "name": "/ontology/1.0/#Classes", 
+        "name": "/ontology/1.0/Classes", 
         "children": [
             {
                 "name": "/ontology/1.0/classes/Building",

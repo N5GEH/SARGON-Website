@@ -1,10 +1,41 @@
 [
     {
+        "id": "1.0^http://www.w3.org/2002/07/owl#Thing", 
+        "version": "1.0", 
+        "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
+        "type": "Thing", 
+        "types": ["http://www.w3.org/2002/07/owl#Thing"], 
+        "name": "owl:thing", 
+        "path": "/ontology/1.0/Classes", 
+        "labels": [], 
+        "rdfs_label" : [],
+        "generatedLabel": "", 
+        "generatedAlias": "", 
+        "superclasses": [
+            "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561"
+        ], 
+        "subclasses": [
+        ],
+        "comments": [], 
+        "definitions": [], 
+        "equivalentClasses": [], 
+        "skos_historyNotes": [""], 
+        "skos_notes": [""],
+        "hierarchy": [
+            "/ontology/1.0/Classes"
+        ],
+        "relations": [
+        ], 
+        "inRangeOf": [], 
+        "inDomainOf": []
+         
+    },
+    {
         "id": "1.0^https://w3id.org/saref#BuildingRelated", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
-        "types": ["http://www.w3.org/2002/07/owl#Class"], 
+        "types": ["http://www.w3.org/2002/07/owl#Thing"], 
         "name": "Building", 
         "path": "/ontology/1.0/classes/Building", 
         "labels": [], 
@@ -27,16 +58,21 @@
         "skos_historyNotes": [""], 
         "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Building"
         ],
         "relations": [
             "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/data_provider",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/floors_above_ground",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/floors_below_ground",
             "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/address",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/has_floor",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/has_room",
             "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/has_sensor",
             "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/has_zone",
             "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/operation_sequence",
             "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/description",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/owner",
             "http://www.w3.org/2002/07/owl#Thing"
 
 
@@ -51,7 +87,7 @@
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
-        "types": ["http://www.w3.org/2002/07/owl#Class"], 
+        "types": ["http://www.w3.org/2002/07/owl#Thing"], 
         "name": "Floor", 
         "path": "/ontology/1.0/classes/Floor", 
         "labels": [], 
@@ -69,10 +105,16 @@
         "definitions": [""], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Building",
             "/ontology/1.0/classes/Floor"
         ], 
+        "relations":[
+            "https://sargon-n5geh.netlify.app/ontology/1.0/data_properties/description",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/has_room",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/has_zone",
+            "https://sargon-n5geh.netlify.app/ontology/1.0/object_properties/in_building"
+        ],
         "inRangeOf": [], 
         "inDomainOf": []
          
@@ -82,7 +124,7 @@
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
-        "types": ["http://www.w3.org/2002/07/owl#Class"], 
+        "types": ["http://www.w3.org/2002/07/owl#Thing"], 
         "name": "Room", 
         "path": "/ontology/1.0/classes/Room", 
         "labels": [], 
@@ -100,7 +142,7 @@
         "definitions": [""], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Building",
             "/ontology/1.0/classes/Room"
         ], 
@@ -113,7 +155,7 @@
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
-        "types": ["http://www.w3.org/2002/07/owl#Class"], 
+        "types": ["http://www.w3.org/2002/07/owl#Thing"], 
         "name": "Tenant", 
         "path": "/ontology/1.0/classes/Tenant", 
         "labels": [], 
@@ -131,7 +173,7 @@
         "definitions": [""], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Building",
             "/ontology/1.0/classes/Tenant"
         ], 
@@ -144,7 +186,7 @@
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
-        "types": ["http://www.w3.org/2002/07/owl#Class"], 
+        "types": ["http://www.w3.org/2002/07/owl#Thing"], 
         "name": "Zone", 
         "path": "/ontology/1.0/classes/Zone", 
         "labels": [], 
@@ -162,7 +204,7 @@
         "definitions": [""], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Building",
             "/ontology/1.0/classes/Tenant"
         ], 
@@ -175,7 +217,7 @@
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
-        "types": ["http://www.w3.org/2002/07/owl#Class"], 
+        "types": ["http://www.w3.org/2002/07/owl#Thing"], 
         "name": "Channel", 
         "path": "/ontology/1.0/classes/Channel", 
         "labels": [], 
@@ -192,7 +234,7 @@
         "definitions": [""], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes"
+            "/ontology/1.0/Classes"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -203,7 +245,7 @@
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
-        "types": ["http://www.w3.org/2002/07/owl#Class"], 
+        "types": ["http://www.w3.org/2002/07/owl#Thing"], 
         "name": "Angle", 
         "path": "/ontology/1.0/classes/Angle", 
         "labels": [], 
@@ -221,7 +263,7 @@
         "definitions": [""], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes",
+            "/ontology/1.0/Classes",
             "/ontology/1.0/classes/Channel",
             "/ontology/1.0/classes/Angle"
         ], 
@@ -234,7 +276,7 @@
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
-        "types": ["http://www.w3.org/2002/07/owl#Class"], 
+        "types": ["http://www.w3.org/2002/07/owl#Thing"], 
         "name": "Frequency", 
         "path": "/ontology/1.0/classes/Frequency", 
         "labels": [], 
@@ -252,7 +294,7 @@
         "definitions": [""], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes",
+            "/ontology/1.0/Classes",
             "/ontology/1.0/classes/Channel",
             "/ontology/1.0/classes/Frequency"
         ], 
@@ -265,7 +307,7 @@
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
-        "types": ["http://www.w3.org/2002/07/owl#Class"], 
+        "types": ["http://www.w3.org/2002/07/owl#Thing"], 
         "name": "Maqnitute", 
         "path": "/ontology/1.0/classes/Maqnitute", 
         "labels": [], 
@@ -283,7 +325,7 @@
         "definitions": [""], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes",
+            "/ontology/1.0/Classes",
             "/ontology/1.0/classes/Channel",
             "/ontology/1.0/classes/Maqnitute"
         ], 
@@ -296,7 +338,7 @@
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
-        "types": ["http://www.w3.org/2002/07/owl#Class"], 
+        "types": ["http://www.w3.org/2002/07/owl#Thing"], 
         "name": "Rocf", 
         "path": "/ontology/1.0/classes/Rocf", 
         "labels": [], 
@@ -314,7 +356,7 @@
         "definitions": [""], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes",
+            "/ontology/1.0/Classes",
             "/ontology/1.0/classes/Channel",
             "/ontology/1.0/classes/Rocf"
         ], 
@@ -327,7 +369,7 @@
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
-        "types": ["http://www.w3.org/2002/07/owl#Class"], 
+        "types": ["http://www.w3.org/2002/07/owl#Thing"], 
         "name": "Timestamp", 
         "path": "/ontology/1.0/classes/Timestamp", 
         "labels": [], 
@@ -345,7 +387,7 @@
         "definitions": [""], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes",
+            "/ontology/1.0/Classes",
             "/ontology/1.0/classes/Channel",
             "/ontology/1.0/classes/Timestamp"
         ], 
@@ -358,7 +400,7 @@
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
-        "types": ["http://www.w3.org/2002/07/owl#Class"], 
+        "types": ["http://www.w3.org/2002/07/owl#Thing"], 
         "name": "Command", 
         "path": "/ontology/1.0/classes/Command", 
         "labels": [],
@@ -389,7 +431,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Command"
         ], 
         "inRangeOf": [], 
@@ -402,7 +444,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
             
         ], 
         "name": "Close command", 
@@ -421,7 +463,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Command", 
             "/ontology/1.0/classes/Close_command"
         ], 
@@ -435,7 +477,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Get Command", 
         "path": "/ontology/1.0/classes/Get_command", 
@@ -457,7 +499,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Command", 
             "/ontology/1.0/classes/Get_command"
         ], 
@@ -470,7 +512,7 @@
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
-        "types": ["http://www.w3.org/2002/07/owl#Class"], 
+        "types": ["http://www.w3.org/2002/07/owl#Thing"], 
         "name": "Get Current Meter Value Command", 
         "path": "/ontology/1.0/classes/Get_current_meter_value_command", 
         "labels": [], 
@@ -485,7 +527,7 @@
         "comments": ["A type of get command"], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Command", 
             "/ontology/1.0/classes/Get_command", 
             "/ontology/1.0/classes/Get_current_meter_value_command"
@@ -499,7 +541,7 @@
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
-        "types": ["http://www.w3.org/2002/07/owl#Class"], 
+        "types": ["http://www.w3.org/2002/07/owl#Thing"], 
         "name": "Get meter data command", 
         "path": "/ontology/1.0/classes/Get_meter_data_command", 
         "labels": [], 
@@ -514,7 +556,7 @@
         "comments": ["A type of get command"], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Command", 
             "/ontology/1.0/classes/Get_command", 
             "/ontology/1.0/classes/Get_meter_data_command"
@@ -528,7 +570,7 @@
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
-        "types": ["http://www.w3.org/2002/07/owl#Class"], 
+        "types": ["http://www.w3.org/2002/07/owl#Thing"], 
         "name": "Get meter history command", 
         "path": "/ontology/1.0/classes/Get_meter_history_command", 
         "labels": [], 
@@ -543,7 +585,7 @@
         "comments": ["A type of get command"], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Command", 
             "/ontology/1.0/classes/Get_command", 
             "/ontology/1.0/classes/Get_meter_history_command"
@@ -557,7 +599,7 @@
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
-        "types": ["http://www.w3.org/2002/07/owl#Class"], 
+        "types": ["http://www.w3.org/2002/07/owl#Thing"], 
         "name": "Get sensing data command", 
         "path": "/ontology/1.0/classes/Get_sensing_data_command", 
         "labels": [], 
@@ -572,7 +614,7 @@
         "comments": ["A type of get command"], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Command", 
             "/ontology/1.0/classes/Get_command", 
             "/ontology/1.0/classes/Get_sensing_data_command"
@@ -587,7 +629,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Notify command", 
         "path": "/ontology/1.0/classes/Notify_command", 
@@ -605,7 +647,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Command", 
             "/ontology/1.0/classes/Notify_command"
         ], 
@@ -619,7 +661,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Off command", 
         "path": "/ontology/1.0/classes/Off_command", 
@@ -637,7 +679,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Command", 
             "/ontology/1.0/classes/Off_command"
         ], 
@@ -651,7 +693,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "On Command", 
         "path": "/ontology/1.0/classes/On_command", 
@@ -669,7 +711,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Command", 
             "/ontology/1.0/classes/On_command"
         ], 
@@ -683,7 +725,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "On Command", 
         "path": "/ontology/1.0/classes/Open_command", 
@@ -701,7 +743,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Command", 
             "/ontology/1.0/classes/Open_command"
         ], 
@@ -715,7 +757,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Pause Command", 
         "path": "/ontology/1.0/classes/Pause_command", 
@@ -733,7 +775,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Command", 
             "/ontology/1.0/classes/Pause_command"
         ], 
@@ -747,7 +789,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Set Level Command", 
         "path": "/ontology/1.0/classes/Set_level_command", 
@@ -768,7 +810,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Command", 
             "/ontology/1.0/classes/Set_level_command"
         ], 
@@ -782,7 +824,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Set absolute level command", 
         "path": "/ontology/1.0/classes/Set_absolute_level_command", 
@@ -800,7 +842,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Command", 
             "/ontology/1.0/classes/Set_level_command",
             "/ontology/1.0/classes/Set_absolute_level_command"
@@ -815,7 +857,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Set relative level command", 
         "path": "/ontology/1.0/classes/Set_relative_level_command", 
@@ -833,7 +875,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Command", 
             "/ontology/1.0/classes/Set_level_command",
             "/ontology/1.0/classes/Set_relative_level_command"
@@ -848,7 +890,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Start Command", 
         "path": "/ontology/1.0/classes/Start_command", 
@@ -866,7 +908,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Command", 
             "/ontology/1.0/classes/Start_command"
         ], 
@@ -880,7 +922,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Start Command", 
         "path": "/ontology/1.0/classes/Step_down_command", 
@@ -898,7 +940,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Command", 
             "/ontology/1.0/classes/Step_down_command"
         ], 
@@ -912,7 +954,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Step up command", 
         "path": "/ontology/1.0/classes/Step_up_command", 
@@ -930,7 +972,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Command", 
             "/ontology/1.0/classes/Step_up_command"
         ], 
@@ -944,7 +986,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Stop Command", 
         "path": "/ontology/1.0/classes/Stop_command", 
@@ -962,7 +1004,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Command", 
             "/ontology/1.0/classes/Stop_command"
         ], 
@@ -976,7 +1018,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Toggle command", 
         "path": "/ontology/1.0/classes/Toggle_command", 
@@ -994,7 +1036,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Command", 
             "/ontology/1.0/classes/Toggle_command"
         ], 
@@ -1008,7 +1050,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Commodity", 
         "path": "/ontology/1.0/classes/Commodity", 
@@ -1029,7 +1071,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Commodity"
         ], 
         "inRangeOf": [], 
@@ -1042,7 +1084,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Coal", 
         "path": "/ontology/1.0/classes/Coal", 
@@ -1060,7 +1102,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Commodity",
             "/ontology/1.0/classes/Coal"
 
@@ -1075,7 +1117,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Electricity", 
         "path": "/ontology/1.0/classes/Electricity", 
@@ -1093,7 +1135,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Commodity",
             "/ontology/1.0/classes/Electricity"
         ], 
@@ -1107,7 +1149,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Gas", 
         "path": "/ontology/1.0/classes/Gas", 
@@ -1125,7 +1167,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Commodity",
             "/ontology/1.0/classes/Gas"
         ], 
@@ -1139,7 +1181,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Water", 
         "path": "/ontology/1.0/classes/Water", 
@@ -1157,7 +1199,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Commodity",
             "/ontology/1.0/classes/Water"
         ], 
@@ -1171,7 +1213,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Day Of Week", 
         "path": "/ontology/1.0/classes/Day_of_week", 
@@ -1188,7 +1230,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Day_of_week"
         ], 
         "inRangeOf": [], 
@@ -1201,7 +1243,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Device", 
         "path": "/ontology/1.0/classes/Device", 
@@ -1220,7 +1262,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device"
         ], 
         "inRangeOf": [], 
@@ -1233,7 +1275,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Building related", 
         "path": "/ontology/1.0/classes/Building_related", 
@@ -1253,7 +1295,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related"
         ], 
@@ -1267,7 +1309,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Control Device", 
         "path": "/ontology/1.0/classes/Control_device", 
@@ -1287,7 +1329,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Control_device"
@@ -1302,7 +1344,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Actuator", 
         "path": "/ontology/1.0/classes/Actuator", 
@@ -1322,7 +1364,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Control_device",
@@ -1338,7 +1380,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "RVK", 
         "path": "/ontology/1.0/classes/RVK", 
@@ -1356,7 +1398,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Control_device",
@@ -1373,7 +1415,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Switch", 
         "path": "/ontology/1.0/classes/Switch", 
@@ -1393,7 +1435,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Control_device",
@@ -1410,7 +1452,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Door switch", 
         "path": "/ontology/1.0/classes/Door_switch", 
@@ -1428,7 +1470,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Control_device",
@@ -1446,7 +1488,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Switch", 
         "path": "/ontology/1.0/classes/Light_switch", 
@@ -1464,7 +1506,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Control_device",
@@ -1482,7 +1524,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Controller", 
         "path": "/ontology/1.0/classes/Controller", 
@@ -1502,7 +1544,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Control_device",
@@ -1518,7 +1560,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Controller", 
         "path": "/ontology/1.0/classes/PID", 
@@ -1538,7 +1580,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Control_device",
@@ -1555,7 +1597,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Controller", 
         "path": "/ontology/1.0/classes/Sensor", 
@@ -1578,7 +1620,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Control_device",
@@ -1594,7 +1636,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Air flow sensor", 
         "path": "/ontology/1.0/classes/Air_flow_sensor", 
@@ -1612,7 +1654,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Control_device",
@@ -1629,7 +1671,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Electricity sensor", 
         "path": "/ontology/1.0/classes/Electricity_sensor", 
@@ -1647,7 +1689,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Control_device",
@@ -1664,7 +1706,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "SmokeSensor", 
         "path": "/ontology/1.0/classes/Smoke_sensor", 
@@ -1682,7 +1724,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Control_device",
@@ -1699,7 +1741,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "TemperatureSensor", 
         "path": "/ontology/1.0/classes/Temperature_sensor", 
@@ -1717,7 +1759,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Control_device",
@@ -1734,7 +1776,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Water Flow Sensor", 
         "path": "/ontology/1.0/classes/Water_flow_sensor", 
@@ -1752,7 +1794,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Control_device",
@@ -1770,7 +1812,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Flow Device", 
         "path": "/ontology/1.0/classes/Flow_device", 
@@ -1796,7 +1838,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device"
@@ -1811,7 +1853,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Energy conversion device", 
         "path": "/ontology/1.0/classes/Energy_conversion_device", 
@@ -1838,7 +1880,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -1854,7 +1896,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Air to air heat recovery", 
         "path": "/ontology/1.0/classes/Air_to_air_heat_recovery", 
@@ -1873,7 +1915,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -1890,7 +1932,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Boiler", 
         "path": "/ontology/1.0/classes/Boiler", 
@@ -1909,7 +1951,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -1926,7 +1968,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Burner", 
         "path": "/ontology/1.0/classes/Burner", 
@@ -1945,7 +1987,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -1962,7 +2004,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Chiller", 
         "path": "/ontology/1.0/classes/Chiller", 
@@ -1981,7 +2023,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -1998,7 +2040,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Coil", 
         "path": "/ontology/1.0/classes/Coil", 
@@ -2017,7 +2059,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2034,7 +2076,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "HP", 
         "path": "/ontology/1.0/classes/HP", 
@@ -2053,7 +2095,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2070,7 +2112,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Humidifier", 
         "path": "/ontology/1.0/classes/Humidifier", 
@@ -2089,7 +2131,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2106,7 +2148,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Tube bundle", 
         "path": "/ontology/1.0/classes/Tube_bundle", 
@@ -2125,7 +2167,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2142,7 +2184,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Flow controller", 
         "path": "/ontology/1.0/classes/Flow_controller", 
@@ -2165,7 +2207,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2181,7 +2223,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Damper", 
         "path": "/ontology/1.0/classes/Damper", 
@@ -2200,7 +2242,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2217,7 +2259,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Electronic time control", 
         "path": "/ontology/1.0/classes/Electronic_time_control", 
@@ -2236,7 +2278,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2253,7 +2295,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Flow meter", 
         "path": "/ontology/1.0/classes/Flow_meter", 
@@ -2272,7 +2314,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2289,7 +2331,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Switching_device", 
         "path": "/ontology/1.0/classes/Switching_device", 
@@ -2308,7 +2350,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2325,7 +2367,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Flow moving device", 
         "path": "/ontology/1.0/classes/Flow_moving_device", 
@@ -2347,7 +2389,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2363,7 +2405,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Compressor", 
         "path": "/ontology/1.0/classes/Compressor", 
@@ -2382,7 +2424,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2399,7 +2441,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Fan", 
         "path": "/ontology/1.0/classes/Fan", 
@@ -2418,7 +2460,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2435,7 +2477,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Pump", 
         "path": "/ontology/1.0/classes/Pump", 
@@ -2454,7 +2496,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2471,7 +2513,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Flow storage device", 
         "path": "/ontology/1.0/classes/Flow_storage_device", 
@@ -2492,7 +2534,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2508,7 +2550,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Electronic flow storage device", 
         "path": "/ontology/1.0/classes/Electronic_flow_storage_device", 
@@ -2527,7 +2569,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2544,7 +2586,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Tank", 
         "path": "/ontology/1.0/classes/Tank", 
@@ -2563,7 +2605,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2580,7 +2622,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Flow terminal", 
         "path": "/ontology/1.0/classes/Flow_terminal", 
@@ -2603,7 +2645,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2619,7 +2661,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Audio visual appliance", 
         "path": "/ontology/1.0/classes/Audio_visual_appliance", 
@@ -2638,7 +2680,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2655,7 +2697,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Communication appliance", 
         "path": "/ontology/1.0/classes/Communication_appliance", 
@@ -2674,7 +2716,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2691,7 +2733,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Lamp", 
         "path": "/ontology/1.0/classes/Lamp", 
@@ -2710,7 +2752,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2727,7 +2769,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Space heater", 
         "path": "/ontology/1.0/classes/Space_heater", 
@@ -2746,7 +2788,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2763,7 +2805,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Flow terminal", 
         "path": "/ontology/1.0/classes/Flow_terminal_device", 
@@ -2784,7 +2826,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2800,7 +2842,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Filter", 
         "path": "/ontology/1.0/classes/Filter", 
@@ -2819,7 +2861,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2836,7 +2878,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Interceptor", 
         "path": "/ontology/1.0/classes/Interceptor", 
@@ -2855,7 +2897,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Building_related",
             "/ontology/1.0/classes/Flow_device",
@@ -2872,7 +2914,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Grid Related", 
         "path": "/ontology/1.0/classes/Grid_related", 
@@ -2897,7 +2939,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related"
         ], 
@@ -2911,7 +2953,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Convertor", 
         "path": "/ontology/1.0/classes/Convertor", 
@@ -2933,7 +2975,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Convertor"
@@ -2949,7 +2991,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "AC-DC", 
         "path": "/ontology/1.0/classes/AC-DC", 
@@ -2967,7 +3009,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Convertor",
@@ -2984,7 +3026,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "CT-VT", 
         "path": "/ontology/1.0/classes/CT-VT", 
@@ -3002,7 +3044,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Convertor",
@@ -3019,7 +3061,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "DC-DC", 
         "path": "/ontology/1.0/classes/DC-DC", 
@@ -3037,7 +3079,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Convertor",
@@ -3054,7 +3096,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "HV-DC", 
         "path": "/ontology/1.0/classes/HV-DC", 
@@ -3072,7 +3114,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Convertor",
@@ -3089,7 +3131,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Generator", 
         "path": "/ontology/1.0/classes/Generator", 
@@ -3107,7 +3149,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Generator"
@@ -3123,7 +3165,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Load", 
         "path": "/ontology/1.0/classes/Load", 
@@ -3143,7 +3185,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Load"
@@ -3159,7 +3201,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Lighting device", 
         "path": "/ontology/1.0/classes/Lighting_device", 
@@ -3177,7 +3219,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Load",
@@ -3194,7 +3236,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Washing machine", 
         "path": "/ontology/1.0/classes/Washing_machine", 
@@ -3212,7 +3254,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Load",
@@ -3229,7 +3271,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Meter", 
         "path": "/ontology/1.0/classes/Meter", 
@@ -3250,7 +3292,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Meter"
@@ -3266,7 +3308,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Energy Meter", 
         "path": "/ontology/1.0/classes/Energy_meter", 
@@ -3284,7 +3326,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Meter",
@@ -3301,7 +3343,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "PMU", 
         "path": "/ontology/1.0/classes/PMU", 
@@ -3319,7 +3361,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Meter",
@@ -3336,7 +3378,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Power meter", 
         "path": "/ontology/1.0/classes/Power_meter", 
@@ -3354,7 +3396,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Meter",
@@ -3371,7 +3413,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Micro renewable", 
         "path": "/ontology/1.0/classes/Micro_renewable", 
@@ -3391,7 +3433,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Micro_renewable"
@@ -3407,7 +3449,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "PV", 
         "path": "/ontology/1.0/classes/PV", 
@@ -3425,7 +3467,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Micro_renewable",
@@ -3442,7 +3484,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "WPP", 
         "path": "/ontology/1.0/classes/WPP", 
@@ -3460,7 +3502,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Micro_renewable",
@@ -3477,7 +3519,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Storage", 
         "path": "/ontology/1.0/classes/Storage", 
@@ -3496,7 +3538,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Storage"
@@ -3512,7 +3554,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Battery storage", 
         "path": "/ontology/1.0/classes/Storage", 
@@ -3530,7 +3572,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Storage",
@@ -3547,7 +3589,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Transformer", 
         "path": "/ontology/1.0/classes/Transformer", 
@@ -3565,7 +3607,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Device",
             "/ontology/1.0/classes/Grid_related",
             "/ontology/1.0/classes/Transformer"
@@ -3581,7 +3623,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Function", 
         "path": "/ontology/1.0/classes/Function", 
@@ -3598,7 +3640,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Function"
         ], 
         "inRangeOf": [], 
@@ -3611,7 +3653,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Actuating Function", 
         "path": "/ontology/1.0/classes/Actuating_function", 
@@ -3634,7 +3676,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Function",
             "/ontology/1.0/classes/Actuating_function"
         ], 
@@ -3648,7 +3690,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Actuating Function", 
         "path": "/ontology/1.0/classes/Level_control_function",
@@ -3666,7 +3708,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Function",
             "/ontology/1.0/classes/Actuating_function",
             "/ontology/1.0/classes/Level_control_function"
@@ -3681,7 +3723,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "On off Function", 
         "path": "/ontology/1.0/classes/On_off_function",
@@ -3699,7 +3741,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Function",
             "/ontology/1.0/classes/Actuating_function",
             "/ontology/1.0/classes/On_off_function"
@@ -3714,7 +3756,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Open close Function", 
         "path": "/ontology/1.0/classes/Open_close_function",
@@ -3732,7 +3774,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Function",
             "/ontology/1.0/classes/Actuating_function",
             "/ontology/1.0/classes/Open_close_function"
@@ -3747,7 +3789,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Start stop function", 
         "path": "/ontology/1.0/classes/Start_stop_function",
@@ -3765,7 +3807,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Function",
             "/ontology/1.0/classes/Actuating_function",
             "/ontology/1.0/classes/Start_stop_function"
@@ -3780,7 +3822,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Tap position", 
         "path": "/ontology/1.0/classes/Tap_position",
@@ -3798,7 +3840,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Function",
             "/ontology/1.0/classes/Actuating_function",
             "/ontology/1.0/classes/Tap_position"
@@ -3813,7 +3855,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Event Function", 
         "path": "/ontology/1.0/classes/Event_function", 
@@ -3831,7 +3873,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Function",
             "/ontology/1.0/classes/Event_function"
         ], 
@@ -3845,7 +3887,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Metering Function", 
         "path": "/ontology/1.0/classes/Metering_function", 
@@ -3863,7 +3905,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Function",
             "/ontology/1.0/classes/Metering_function"
         ], 
@@ -3877,7 +3919,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Sensing Function", 
         "path": "/ontology/1.0/classes/Sensing_function", 
@@ -3895,7 +3937,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Function",
             "/ontology/1.0/classes/Sensing_function"
         ], 
@@ -3909,7 +3951,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Measurement", 
         "path": "/ontology/1.0/classes/Measurement", 
@@ -3932,7 +3974,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Measurement"
         ], 
         "inRangeOf": [], 
@@ -3945,7 +3987,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Currency unit", 
         "path": "/ontology/1.0/classes/Currency_unit", 
@@ -3963,7 +4005,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Measurement",
             "/ontology/1.0/classes/Currency_unit"
         ], 
@@ -3977,7 +4019,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Energy unit", 
         "path": "/ontology/1.0/classes/Energy_unit", 
@@ -3995,7 +4037,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Measurement",
             "/ontology/1.0/classes/Energy_unit"
         ], 
@@ -4009,7 +4051,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Power unit", 
         "path": "/ontology/1.0/classes/Power_unit", 
@@ -4027,7 +4069,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Measurement",
             "/ontology/1.0/classes/Power_unit"
         ], 
@@ -4041,7 +4083,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Pressure unit", 
         "path": "/ontology/1.0/classes/Pressure_unit", 
@@ -4059,7 +4101,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Measurement",
             "/ontology/1.0/classes/Pressure_unit"
         ], 
@@ -4073,7 +4115,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Temperature_unit", 
         "path": "/ontology/1.0/classes/Temperature_unit", 
@@ -4091,7 +4133,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Measurement",
             "/ontology/1.0/classes/Temperature_unit"
         ], 
@@ -4105,7 +4147,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Profile", 
         "path": "/ontology/1.0/classes/Profile", 
@@ -4122,7 +4164,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Profile"
         ], 
         "inRangeOf": [], 
@@ -4135,7 +4177,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Property", 
         "path": "/ontology/1.0/classes/Property", 
@@ -4169,7 +4211,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Property"
         ], 
         "inRangeOf": [], 
@@ -4182,7 +4224,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "CO2_level", 
         "path": "/ontology/1.0/classes/CO2_level", 
@@ -4200,7 +4242,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Property",
             "/ontology/1.0/classes/CO2_level"
         ], 
@@ -4214,7 +4256,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Current", 
         "path": "/ontology/1.0/classes/Current", 
@@ -4232,7 +4274,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Property",
             "/ontology/1.0/classes/Current"
         ], 
@@ -4246,7 +4288,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Flow", 
         "path": "/ontology/1.0/classes/Flow", 
@@ -4264,7 +4306,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Property",
             "/ontology/1.0/classes/Flow"
         ], 
@@ -4278,7 +4320,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Humidity", 
         "path": "/ontology/1.0/classes/Humidity", 
@@ -4296,7 +4338,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Property",
             "/ontology/1.0/classes/Humidity"
         ], 
@@ -4310,7 +4352,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Light", 
         "path": "/ontology/1.0/classes/Light", 
@@ -4328,7 +4370,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Property",
             "/ontology/1.0/classes/Light"
         ], 
@@ -4342,7 +4384,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Motion", 
         "path": "/ontology/1.0/classes/Motion", 
@@ -4360,7 +4402,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Property",
             "/ontology/1.0/classes/Motion"
         ], 
@@ -4374,7 +4416,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Occupancy", 
         "path": "/ontology/1.0/classes/Occupancy", 
@@ -4392,7 +4434,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Property",
             "/ontology/1.0/classes/Occupancy"
         ], 
@@ -4406,7 +4448,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Power", 
         "path": "/ontology/1.0/classes/Power", 
@@ -4424,7 +4466,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Property",
             "/ontology/1.0/classes/Power"
         ], 
@@ -4438,7 +4480,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Pressure", 
         "path": "/ontology/1.0/classes/Pressure", 
@@ -4456,7 +4498,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Property",
             "/ontology/1.0/classes/Pressure"
         ], 
@@ -4470,7 +4512,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Price", 
         "path": "/ontology/1.0/classes/Price", 
@@ -4488,7 +4530,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Property",
             "/ontology/1.0/classes/Price"
         ], 
@@ -4502,7 +4544,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Smoke", 
         "path": "/ontology/1.0/classes/Smoke", 
@@ -4519,7 +4561,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Smoke"
         ], 
         "inRangeOf": [], 
@@ -4532,7 +4574,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "State of charge", 
         "path": "/ontology/1.0/classes/State_of_charge", 
@@ -4549,7 +4591,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/State_of_charge"
         ], 
         "inRangeOf": [], 
@@ -4562,7 +4604,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Tap position", 
         "path": "/ontology/1.0/classes/Tap_position", 
@@ -4579,7 +4621,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Tap_position"
         ], 
         "inRangeOf": [], 
@@ -4592,7 +4634,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Temperature", 
         "path": "/ontology/1.0/classes/Temperature", 
@@ -4609,7 +4651,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Temperature"
         ], 
         "inRangeOf": [], 
@@ -4622,7 +4664,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Time", 
         "path": "/ontology/1.0/classes/Time", 
@@ -4639,7 +4681,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Time"
         ], 
         "inRangeOf": [], 
@@ -4652,7 +4694,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Voltage", 
         "path": "/ontology/1.0/classes/Voltage", 
@@ -4669,7 +4711,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Voltage"
         ], 
         "inRangeOf": [], 
@@ -4682,7 +4724,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Volume", 
         "path": "/ontology/1.0/classes/Volume", 
@@ -4699,7 +4741,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Volume"
         ], 
         "inRangeOf": [], 
@@ -4712,7 +4754,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Service", 
         "path": "/ontology/1.0/classes/Service", 
@@ -4730,7 +4772,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Service"
         ], 
         "inRangeOf": [], 
@@ -4743,7 +4785,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Switch on service", 
         "path": "/ontology/1.0/classes/Switch_on_service", 
@@ -4760,7 +4802,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Service",
             "/ontology/1.0/classes/Switch_on_service"
 
@@ -4775,7 +4817,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "State", 
         "path": "/ontology/1.0/classes/State", 
@@ -4796,7 +4838,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/State"
         ], 
         "inRangeOf": [], 
@@ -4809,7 +4851,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Multi level state", 
         "path": "/ontology/1.0/classes/Multi_level_state", 
@@ -4827,7 +4869,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/State",
             "/ontology/1.0/classes/Multi_level_state"
         ], 
@@ -4841,7 +4883,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "On off state", 
         "path": "/ontology/1.0/classes/On_off_state", 
@@ -4861,7 +4903,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/State",
             "/ontology/1.0/classes/On_off_state"
         ], 
@@ -4875,7 +4917,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "On state", 
         "path": "/ontology/1.0/classes/On_state", 
@@ -4893,7 +4935,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/State",
             "/ontology/1.0/classes/On_off_state",
             "/ontology/1.0/classes/On_state"
@@ -4908,7 +4950,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "On state", 
         "path": "/ontology/1.0/classes/Off_state", 
@@ -4926,7 +4968,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/State",
             "/ontology/1.0/classes/On_off_state",
             "/ontology/1.0/classes/Off_state"
@@ -4941,7 +4983,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Open close state", 
         "path": "/ontology/1.0/classes/Open_close_state", 
@@ -4961,7 +5003,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/State",
             "/ontology/1.0/classes/Open_close_state"
         ], 
@@ -4975,7 +5017,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Open state", 
         "path": "/ontology/1.0/classes/Open_state", 
@@ -4993,7 +5035,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/State",
             "/ontology/1.0/classes/Open_close_state",
             "/ontology/1.0/classes/Open_state"
@@ -5008,7 +5050,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Close state", 
         "path": "/ontology/1.0/classes/Close_state", 
@@ -5026,7 +5068,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/State",
             "/ontology/1.0/classes/Open_close_state",
             "/ontology/1.0/classes/Close_state"
@@ -5041,7 +5083,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Start stop state", 
         "path": "/ontology/1.0/classes/Start_stop_state", 
@@ -5059,7 +5101,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/State",
             "/ontology/1.0/classes/Start_stop_state"
         ], 
@@ -5073,7 +5115,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Start state", 
         "path": "/ontology/1.0/classes/Start_state", 
@@ -5092,7 +5134,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/State",
             "/ontology/1.0/classes/Start_stop_state",
             "/ontology/1.0/classes/Start_state"
@@ -5107,7 +5149,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Stop state", 
         "path": "/ontology/1.0/classes/Stop_state", 
@@ -5126,7 +5168,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/State",
             "/ontology/1.0/classes/Start_stop_state",
             "/ontology/1.0/classes/Stop_state"
@@ -5141,7 +5183,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Task", 
         "path": "/ontology/1.0/classes/Task", 
@@ -5158,7 +5200,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Task"
         ], 
         "inRangeOf": [], 
@@ -5171,7 +5213,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Temporal reference system", 
         "path": "/ontology/1.0/classes/Temporal_reference_system", 
@@ -5188,7 +5230,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Temporal_reference_system"
         ], 
         "inRangeOf": [], 
@@ -5201,7 +5243,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Temporal duration", 
         "path": "/ontology/1.0/classes/Temporal_duration", 
@@ -5221,7 +5263,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Temporal_duration"
         ], 
         "inRangeOf": [], 
@@ -5234,7 +5276,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Generalized duration description", 
         "path": "/ontology/1.0/classes/Generalized_duration_description", 
@@ -5253,7 +5295,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Temporal_duration",
             "/ontology/1.0/classes/Generalized_duration_description"
         ], 
@@ -5267,7 +5309,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Duration description", 
         "path": "/ontology/1.0/classes/Duration_description", 
@@ -5286,7 +5328,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Temporal_duration",
             "/ontology/1.0/classes/Generalized_duration_description",
             "/ontology/1.0/classes/Duration_description"
@@ -5301,7 +5343,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Year", 
         "path": "/ontology/1.0/classes/Year", 
@@ -5320,7 +5362,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Temporal_duration",
             "/ontology/1.0/classes/Generalized_duration_description",
             "/ontology/1.0/classes/Duration_description",
@@ -5336,7 +5378,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Temporal unit", 
         "path": "/ontology/1.0/classes/Temporal unit", 
@@ -5354,7 +5396,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Temporal_duration",
             "/ontology/1.0/classes/Temporal_unit"
         ], 
@@ -5368,7 +5410,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Time duration", 
         "path": "/ontology/1.0/classes/Time_duration", 
@@ -5386,7 +5428,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Temporal_duration",
             "/ontology/1.0/classes/Time_unit"
         ], 
@@ -5400,7 +5442,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Temporal entity", 
         "path": "/ontology/1.0/classes/Temporal_entity", 
@@ -5419,7 +5461,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Temporal_entity"
         ], 
         "inRangeOf": [], 
@@ -5432,7 +5474,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Time instant", 
         "path": "/ontology/1.0/classes/Time_instant", 
@@ -5450,7 +5492,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Temporal_entity",
             "/ontology/1.0/classes/Time_instant"
         ], 
@@ -5464,7 +5506,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Time interval", 
         "path": "/ontology/1.0/classes/Time_interval", 
@@ -5483,7 +5525,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Temporal_entity",
             "/ontology/1.0/classes/Time_interval"
         ], 
@@ -5497,7 +5539,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Proper interval", 
         "path": "/ontology/1.0/classes/Proper_interval", 
@@ -5516,7 +5558,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Temporal_entity",
             "/ontology/1.0/classes/Time_interval",
             "/ontology/1.0/classes/Proper_interval"
@@ -5531,7 +5573,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Date-time interval", 
         "path": "/ontology/1.0/classes/Date_time_interval", 
@@ -5549,7 +5591,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Temporal_entity",
             "/ontology/1.0/classes/Time_interval",
             "/ontology/1.0/classes/Proper_interval",
@@ -5565,7 +5607,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Temporal position", 
         "path": "/ontology/1.0/classes/Temporal_position", 
@@ -5584,7 +5626,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Temporal_position"
         ], 
         "inRangeOf": [], 
@@ -5597,7 +5639,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Generalized date-time description", 
         "path": "/ontology/1.0/classes/Generalized_date-time_description", 
@@ -5616,7 +5658,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Temporal_position",
             "/ontology/1.0/classes/Generalized_date-time_description"
         ], 
@@ -5630,7 +5672,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Time position", 
         "path": "/ontology/1.0/classes/Time_position", 
@@ -5649,7 +5691,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Temporal_position",
             "/ontology/1.0/classes/Time_position"
         ], 
@@ -5663,7 +5705,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Date-time description", 
         "path": "/ontology/1.0/classes/Date_time_description", 
@@ -5683,7 +5725,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Temporal_position",
             "/ontology/1.0/classes/Generalized_date-time_description",
             "/ontology/1.0/classes/Date_time_description"
@@ -5698,7 +5740,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "January", 
         "path": "/ontology/1.0/classes/January", 
@@ -5717,7 +5759,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Temporal_position",
             "/ontology/1.0/classes/Generalized_date-time_description",
             "/ontology/1.0/classes/Date_time_description",
@@ -5733,7 +5775,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Month of year", 
         "path": "/ontology/1.0/classes/Month_of_year", 
@@ -5752,7 +5794,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Temporal_position",
             "/ontology/1.0/classes/Generalized_date-time_description",
             "/ontology/1.0/classes/Date_time_description",
@@ -5768,7 +5810,7 @@
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": [
-            "http://www.w3.org/2002/07/owl#Class"
+            "http://www.w3.org/2002/07/owl#Thing"
         ], 
         "name": "Time zone", 
         "path": "/ontology/1.0/classes/Time_zone", 
@@ -5785,7 +5827,7 @@
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
-            "/ontology/1.0/#Classes", 
+            "/ontology/1.0/Classes", 
             "/ontology/1.0/classes/Time_zone"
         ], 
         "inRangeOf": [], 

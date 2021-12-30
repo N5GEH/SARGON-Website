@@ -282,9 +282,9 @@
         "name": "data provider", 
         "path": "/ontology/1.0/data_properties/data_provider", 
         "labels": [], 
-        "rdfs_label" : ["data_provider"], 
+        "rdfs_label" : ["data provider"], 
     
-        "generatedLabel": "data_provider", 
+        "generatedLabel": "data provider", 
         "generatedAlias": "dp", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
@@ -458,9 +458,9 @@
         "name": "floors above ground", 
         "path": "/ontology/1.0/data_properties/floors_above_ground", 
         "labels": [], 
-        "rdfs_label" : ["floors_above_ground"], 
+        "rdfs_label" : ["floors above ground"], 
     
-        "generatedLabel": "floors_above_ground", 
+        "generatedLabel": "floors above ground", 
         "generatedAlias": "fag", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
@@ -492,9 +492,9 @@
         "name": "floors below ground", 
         "path": "/ontology/1.0/data_properties/floors_below_ground", 
         "labels": [], 
-        "rdfs_label" : ["floors_below_ground"], 
+        "rdfs_label" : ["floors below ground"], 
     
-        "generatedLabel": "floors_below_ground", 
+        "generatedLabel": "floors below ground", 
         "generatedAlias": "fbg", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
@@ -1779,10 +1779,10 @@
         "name": "operation sequence", 
         "path": "/ontology/1.0/data_properties/operation_sequence", 
         "labels": [], 
-        "rdfs_label" : ["operation_sequence"], 
+        "rdfs_label" : ["operation sequence"], 
     
-        "generatedLabel": "operation_sequence", 
-        "generatedAlias": "operation_sequence", 
+        "generatedLabel": "operation sequence", 
+        "generatedAlias": "operation sequence", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
         ], 
