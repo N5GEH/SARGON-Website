@@ -14642,7 +14642,7 @@
         "id": "https://w3id.org/saref#Washing", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Task", 
+        "type": "Currency", 
         "types": [
             "https://w3id.org/saref#Currency"
         ],
@@ -14680,7 +14680,7 @@
         "id": "https://w3id.org/saref#watt_hour", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Task", 
+        "type": "EnergyUnit", 
         "types": [
             "https://w3id.org/saref#EnergyUnit"
         ],
@@ -14716,7 +14716,7 @@
         "id": "http://www.w3.org/2006/time#unitWeek", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Week", 
+        "type": "TemporalUnit", 
         "types": [
             "http://www.w3.org/2006/time#TemporalUnit"
         ],
@@ -14759,7 +14759,7 @@
         "id": "http://www.w3.org/2006/time#unitYear", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Year", 
+        "type": "TemporalUnit", 
         "types": [
             "http://www.w3.org/2006/time#TemporalUnit"
         ],
@@ -14802,7 +14802,7 @@
         "id": "https://w3id.org/saref#WellBeing", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "WellBeing", 
+        "type": "Task", 
         "types": [
             "https://w3id.org/saref#Task"
         ],
