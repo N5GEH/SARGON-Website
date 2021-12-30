@@ -16,30 +16,30 @@
             "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class"
         ], 
         "subclasses": [
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Building/Floor",
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Building/Room",
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Building/Tenant",
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Building/Zone" 
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Building/Floor",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Building/Room",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Building/Tenant",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Building/Zone" 
         ],
         "comments": ["A category that includes devices as described by building related data models, such as IFC and FIEMSER "], 
         "definitions": ["A category that includes devices as described by building related data models, such as IFC and FIEMSER "], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Building"
+            "/ontology/1.0/classes/Building"
         ], 
         "inRangeOf": [], 
         "inDomainOf": []
          
     },
     {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Floor", 
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Floor", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": ["http://www.w3.org/2002/07/owl#Class"], 
         "name": "Floor", 
-        "path": "/ontology/1.0/objects/Floor", 
+        "path": "/ontology/1.0/classes/Floor", 
         "labels": [], 
         "rdfs_label" : ["Floor"],
         "generatedLabel": "Floor", 
@@ -56,21 +56,21 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Building",
-            "/ontology/1.0/objects/Floor"
+            "/ontology/1.0/classes/Building",
+            "/ontology/1.0/classes/Floor"
         ], 
         "inRangeOf": [], 
         "inDomainOf": []
          
     },
     {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Room", 
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Room", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": ["http://www.w3.org/2002/07/owl#Class"], 
         "name": "Room", 
-        "path": "/ontology/1.0/objects/Room", 
+        "path": "/ontology/1.0/classes/Room", 
         "labels": [], 
         "rdfs_label" : ["Room"],
         "generatedLabel": "Room", 
@@ -87,21 +87,21 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Building",
-            "/ontology/1.0/objects/Room"
+            "/ontology/1.0/classes/Building",
+            "/ontology/1.0/classes/Room"
         ], 
         "inRangeOf": [], 
         "inDomainOf": []
          
     },
     {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Tenant", 
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Tenant", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": ["http://www.w3.org/2002/07/owl#Class"], 
         "name": "Tenant", 
-        "path": "/ontology/1.0/objects/Tenant", 
+        "path": "/ontology/1.0/classes/Tenant", 
         "labels": [], 
         "rdfs_label" : ["Tenant"],
         "generatedLabel": "Tenant", 
@@ -118,21 +118,21 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Building",
-            "/ontology/1.0/objects/Tenant"
+            "/ontology/1.0/classes/Building",
+            "/ontology/1.0/classes/Tenant"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
          
     },
     {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Zone", 
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Zone", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": ["http://www.w3.org/2002/07/owl#Class"], 
         "name": "Zone", 
-        "path": "/ontology/1.0/objects/Zone", 
+        "path": "/ontology/1.0/classes/Zone", 
         "labels": [], 
         "rdfs_label" : ["Zone"],
         "generatedLabel": "Zone", 
@@ -149,21 +149,21 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Building",
-            "/ontology/1.0/objects/Tenant"
+            "/ontology/1.0/classes/Building",
+            "/ontology/1.0/classes/Tenant"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
          
     },
     {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Channel", 
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": ["http://www.w3.org/2002/07/owl#Class"], 
         "name": "Channel", 
-        "path": "/ontology/1.0/objects/Channel", 
+        "path": "/ontology/1.0/classes/Channel", 
         "labels": [], 
         "rdfs_label" : ["Channel"],
         "generatedLabel": "Channel", 
@@ -185,13 +185,13 @@
          
     },
     {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Angle", 
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Angle", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": ["http://www.w3.org/2002/07/owl#Class"], 
         "name": "Angle", 
-        "path": "/ontology/1.0/objects/Angle", 
+        "path": "/ontology/1.0/classes/Angle", 
         "labels": [], 
         "rdfs_label" : ["Angle"],
         "generatedLabel": "Angle", 
@@ -199,7 +199,7 @@
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
             "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class",
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Channel"
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel"
         ], 
         "subclasses": [
         ],
@@ -208,21 +208,21 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes",
-            "/ontology/1.0/objects/Channel",
-            "/ontology/1.0/objects/Angle"
+            "/ontology/1.0/classes/Channel",
+            "/ontology/1.0/classes/Angle"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
          
     },
     {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Frequency", 
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Frequency", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": ["http://www.w3.org/2002/07/owl#Class"], 
         "name": "Frequency", 
-        "path": "/ontology/1.0/objects/Frequency", 
+        "path": "/ontology/1.0/classes/Frequency", 
         "labels": [], 
         "rdfs_label" : ["Frequency"],
         "generatedLabel": "Frequency", 
@@ -230,7 +230,7 @@
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
             "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class",
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Channel"
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel"
         ], 
         "subclasses": [
         ],
@@ -239,21 +239,21 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes",
-            "/ontology/1.0/objects/Channel",
-            "/ontology/1.0/objects/Frequency"
+            "/ontology/1.0/classes/Channel",
+            "/ontology/1.0/classes/Frequency"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
          
     },
     {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Maqnitute", 
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Maqnitute", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": ["http://www.w3.org/2002/07/owl#Class"], 
         "name": "Maqnitute", 
-        "path": "/ontology/1.0/objects/Maqnitute", 
+        "path": "/ontology/1.0/classes/Maqnitute", 
         "labels": [], 
         "rdfs_label" : ["Maqnitute"],
         "generatedLabel": "Maqnitute", 
@@ -261,7 +261,7 @@
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
             "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class",
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Channel"
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel"
         ], 
         "subclasses": [
         ],
@@ -270,21 +270,21 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes",
-            "/ontology/1.0/objects/Channel",
-            "/ontology/1.0/objects/Maqnitute"
+            "/ontology/1.0/classes/Channel",
+            "/ontology/1.0/classes/Maqnitute"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
          
     },
     {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Rocf", 
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Rocf", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": ["http://www.w3.org/2002/07/owl#Class"], 
         "name": "Rocf", 
-        "path": "/ontology/1.0/objects/Rocf", 
+        "path": "/ontology/1.0/classes/Rocf", 
         "labels": [], 
         "rdfs_label" : ["Rocf"],
         "generatedLabel": "Rocf", 
@@ -292,7 +292,7 @@
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
             "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class",
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Channel"
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel"
         ], 
         "subclasses": [
         ],
@@ -301,21 +301,21 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes",
-            "/ontology/1.0/objects/Channel",
-            "/ontology/1.0/objects/Rocf"
+            "/ontology/1.0/classes/Channel",
+            "/ontology/1.0/classes/Rocf"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
          
     },
     {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Timestamp", 
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Timestamp", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
         "types": ["http://www.w3.org/2002/07/owl#Class"], 
         "name": "Timestamp", 
-        "path": "/ontology/1.0/objects/Timestamp", 
+        "path": "/ontology/1.0/classes/Timestamp", 
         "labels": [], 
         "rdfs_label" : ["Timestamp"],
         "generatedLabel": "Timestamp", 
@@ -323,7 +323,7 @@
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b561", 
             "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#Class",
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Channel"
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Channel"
         ], 
         "subclasses": [
         ],
@@ -332,8 +332,8 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes",
-            "/ontology/1.0/objects/Channel",
-            "/ontology/1.0/objects/Timestamp"
+            "/ontology/1.0/classes/Channel",
+            "/ontology/1.0/classes/Timestamp"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -346,7 +346,7 @@
         "type": "class", 
         "types": ["http://www.w3.org/2002/07/owl#Class"], 
         "name": "Command", 
-        "path": "/ontology/1.0/objects/Command", 
+        "path": "/ontology/1.0/classes/Command", 
         "labels": [],
         "rdfs_label" : ["Command"], 
         "generatedLabel": "Command", 
@@ -357,7 +357,7 @@
         ], 
         "subclasses": [
             "https://w3id.org/saref#GetCommand",
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Close_command",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Close_command",
             "https://w3id.org/saref#GetCommand",
             "https://w3id.org/saref#NotifyCommand",
             "https://w3id.org/saref#OffCommand",
@@ -376,14 +376,14 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Command"
+            "/ontology/1.0/classes/Command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
          
     }, 
     {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/Close_command", 
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/Close_command", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
@@ -392,7 +392,7 @@
             
         ], 
         "name": "Close command", 
-        "path": "/ontology/1.0/objects/Close_command", 
+        "path": "/ontology/1.0/classes/Close_command", 
         "labels": [],
         "rdfs_label" : ["Close_command"], 
         "generatedLabel": "Close command", 
@@ -408,8 +408,8 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Command", 
-            "/ontology/1.0/objects/Close_command"
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Close_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -424,7 +424,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Get Command", 
-        "path": "/ontology/1.0/objects/Get_command", 
+        "path": "/ontology/1.0/classes/Get_command", 
         "labels": [], 
         "rdfs_label" : ["Get_command"], 
         "generatedLabel": "Get command", 
@@ -444,8 +444,8 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Command", 
-            "/ontology/1.0/objects/Get_command"
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Get_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -458,7 +458,7 @@
         "type": "class", 
         "types": ["http://www.w3.org/2002/07/owl#Class"], 
         "name": "Get Current Meter Value Command", 
-        "path": "/ontology/1.0/objects/Get_current_meter_value_command", 
+        "path": "/ontology/1.0/classes/Get_current_meter_value_command", 
         "labels": [], 
         "rdfs_label" : ["Get_current_meter_value_command"], 
         "generatedLabel": "Get current meter value command", 
@@ -472,9 +472,9 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Command", 
-            "/ontology/1.0/objects/Get_command", 
-            "/ontology/1.0/objects/Get_current_meter_value_command"
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Get_command", 
+            "/ontology/1.0/classes/Get_current_meter_value_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -487,7 +487,7 @@
         "type": "class", 
         "types": ["http://www.w3.org/2002/07/owl#Class"], 
         "name": "Get meter data command", 
-        "path": "/ontology/1.0/objects/Get_meter_data_command", 
+        "path": "/ontology/1.0/classes/Get_meter_data_command", 
         "labels": [], 
         "rdfs_label" : ["Get_meter_data_command"], 
         "generatedLabel": "Get meter data command", 
@@ -501,9 +501,9 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Command", 
-            "/ontology/1.0/objects/Get_command", 
-            "/ontology/1.0/objects/Get_meter_data_command"
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Get_command", 
+            "/ontology/1.0/classes/Get_meter_data_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -516,7 +516,7 @@
         "type": "class", 
         "types": ["http://www.w3.org/2002/07/owl#Class"], 
         "name": "Get meter history command", 
-        "path": "/ontology/1.0/objects/Get_meter_history_command", 
+        "path": "/ontology/1.0/classes/Get_meter_history_command", 
         "labels": [], 
         "rdfs_label" : ["Get_meter_history_command"], 
         "generatedLabel": "Get meter history command", 
@@ -530,9 +530,9 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Command", 
-            "/ontology/1.0/objects/Get_command", 
-            "/ontology/1.0/objects/Get_meter_history_command"
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Get_command", 
+            "/ontology/1.0/classes/Get_meter_history_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -545,7 +545,7 @@
         "type": "class", 
         "types": ["http://www.w3.org/2002/07/owl#Class"], 
         "name": "Get sensing data command", 
-        "path": "/ontology/1.0/objects/Get_sensing_data_command", 
+        "path": "/ontology/1.0/classes/Get_sensing_data_command", 
         "labels": [], 
         "rdfs_label" : ["Get_sensing_data_command"], 
         "generatedLabel": "Get sensing data command", 
@@ -559,9 +559,9 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Command", 
-            "/ontology/1.0/objects/Get_command", 
-            "/ontology/1.0/objects/Get_sensing_data_command"
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Get_command", 
+            "/ontology/1.0/classes/Get_sensing_data_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -576,7 +576,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Notify command", 
-        "path": "/ontology/1.0/objects/Notify_command", 
+        "path": "/ontology/1.0/classes/Notify_command", 
         "labels": [], 
         "rdfs_label" : ["Notify_command"], 
         "generatedLabel": "Notify command", 
@@ -592,8 +592,8 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Command", 
-            "/ontology/1.0/objects/Notify_command"
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Notify_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -608,7 +608,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Off command", 
-        "path": "/ontology/1.0/objects/Off_command", 
+        "path": "/ontology/1.0/classes/Off_command", 
         "labels": [], 
         "rdfs_label" : ["Off_command"], 
         "generatedLabel": "Off command", 
@@ -624,8 +624,8 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Command", 
-            "/ontology/1.0/objects/Off_command"
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Off_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -640,7 +640,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "On Command", 
-        "path": "/ontology/1.0/objects/On_command", 
+        "path": "/ontology/1.0/classes/On_command", 
         "labels": [], 
         "rdfs_label" : ["On_command"], 
         "generatedLabel": "On command", 
@@ -656,8 +656,8 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Command", 
-            "/ontology/1.0/objects/On_command"
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/On_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -672,7 +672,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "On Command", 
-        "path": "/ontology/1.0/objects/Open_command", 
+        "path": "/ontology/1.0/classes/Open_command", 
         "labels": [], 
         "rdfs_label" : ["Open_command"], 
         "generatedLabel": "Open command", 
@@ -688,8 +688,8 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Command", 
-            "/ontology/1.0/objects/Open_command"
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Open_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -704,7 +704,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Pause Command", 
-        "path": "/ontology/1.0/objects/Pause_command", 
+        "path": "/ontology/1.0/classes/Pause_command", 
         "labels": [], 
         "rdfs_label" : ["Pause_command"], 
         "generatedLabel": "Pause command", 
@@ -720,8 +720,8 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Command", 
-            "/ontology/1.0/objects/Pause_command"
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Pause_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -736,7 +736,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Set Level Command", 
-        "path": "/ontology/1.0/objects/Set_level_command", 
+        "path": "/ontology/1.0/classes/Set_level_command", 
         "labels": [], 
         "rdfs_label" : ["Set_level_command"], 
         "generatedLabel": "Set level command", 
@@ -755,8 +755,8 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Command", 
-            "/ontology/1.0/objects/Set_level_command"
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Set_level_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -771,7 +771,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Set absolute level command", 
-        "path": "/ontology/1.0/objects/Set_absolute_level_command", 
+        "path": "/ontology/1.0/classes/Set_absolute_level_command", 
         "labels": [], 
         "rdfs_label" : ["Set_absolute_level_command"], 
         "generatedLabel": "Set absolute level command", 
@@ -787,9 +787,9 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Command", 
-            "/ontology/1.0/objects/Set_level_command",
-            "/ontology/1.0/objects/Set_absolute_level_command"
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Set_level_command",
+            "/ontology/1.0/classes/Set_absolute_level_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -804,7 +804,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Set relative level command", 
-        "path": "/ontology/1.0/objects/Set_relative_level_command", 
+        "path": "/ontology/1.0/classes/Set_relative_level_command", 
         "labels": [], 
         "rdfs_label" : ["Set_relative_level_command"], 
         "generatedLabel": "Set relative level command", 
@@ -820,9 +820,9 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Command", 
-            "/ontology/1.0/objects/Set_level_command",
-            "/ontology/1.0/objects/Set_relative_level_command"
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Set_level_command",
+            "/ontology/1.0/classes/Set_relative_level_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -837,7 +837,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Start Command", 
-        "path": "/ontology/1.0/objects/Start_command", 
+        "path": "/ontology/1.0/classes/Start_command", 
         "labels": [], 
         "rdfs_label" : ["Start_command"], 
         "generatedLabel": "Start command", 
@@ -853,8 +853,8 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Command", 
-            "/ontology/1.0/objects/Start_command"
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Start_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -869,7 +869,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Start Command", 
-        "path": "/ontology/1.0/objects/Step_down_command", 
+        "path": "/ontology/1.0/classes/Step_down_command", 
         "labels": [], 
         "rdfs_label" : ["Step_down_command"], 
         "generatedLabel": "Step down command", 
@@ -885,8 +885,8 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Command", 
-            "/ontology/1.0/objects/Step_down_command"
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Step_down_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -901,7 +901,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Step up command", 
-        "path": "/ontology/1.0/objects/Step_up_command", 
+        "path": "/ontology/1.0/classes/Step_up_command", 
         "labels": [], 
         "rdfs_label" : ["Step_up_command"], 
         "generatedLabel": "Step up command", 
@@ -917,8 +917,8 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Command", 
-            "/ontology/1.0/objects/Step_up_command"
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Step_up_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -933,7 +933,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Stop Command", 
-        "path": "/ontology/1.0/objects/Stop_command", 
+        "path": "/ontology/1.0/classes/Stop_command", 
         "labels": [], 
         "rdfs_label" : ["Stop_command"], 
         "generatedLabel": "Stop command", 
@@ -949,8 +949,8 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Command", 
-            "/ontology/1.0/objects/Stop_command"
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Stop_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -965,7 +965,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Toggle command", 
-        "path": "/ontology/1.0/objects/Toggle_command", 
+        "path": "/ontology/1.0/classes/Toggle_command", 
         "labels": [], 
         "rdfs_label" : ["Toggle_command"], 
         "generatedLabel": "Toggle command", 
@@ -981,8 +981,8 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Command", 
-            "/ontology/1.0/objects/Toggle_command"
+            "/ontology/1.0/classes/Command", 
+            "/ontology/1.0/classes/Toggle_command"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -997,7 +997,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Commodity", 
-        "path": "/ontology/1.0/objects/Commodity", 
+        "path": "/ontology/1.0/classes/Commodity", 
         "labels": [], 
         "rdfs_label" : ["Commodity"], 
         "generatedLabel": "Commodity", 
@@ -1016,7 +1016,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Commodity"
+            "/ontology/1.0/classes/Commodity"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -1031,7 +1031,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Coal", 
-        "path": "/ontology/1.0/objects/Coal", 
+        "path": "/ontology/1.0/classes/Coal", 
         "labels": [], 
         "rdfs_label" : ["Coal"], 
         "generatedLabel": "Coal", 
@@ -1047,8 +1047,8 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Commodity",
-            "/ontology/1.0/objects/Coal"
+            "/ontology/1.0/classes/Commodity",
+            "/ontology/1.0/classes/Coal"
 
         ], 
         "inRangeOf": [], 
@@ -1064,7 +1064,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Electricity", 
-        "path": "/ontology/1.0/objects/Electricity", 
+        "path": "/ontology/1.0/classes/Electricity", 
         "labels": [], 
         "rdfs_label" : ["Electricity"], 
         "generatedLabel": "Electricity", 
@@ -1080,8 +1080,8 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Commodity",
-            "/ontology/1.0/objects/Electricity"
+            "/ontology/1.0/classes/Commodity",
+            "/ontology/1.0/classes/Electricity"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -1096,7 +1096,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Gas", 
-        "path": "/ontology/1.0/objects/Gas", 
+        "path": "/ontology/1.0/classes/Gas", 
         "labels": [], 
         "rdfs_label" : ["Gas"], 
         "generatedLabel": "Gas", 
@@ -1112,8 +1112,8 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Commodity",
-            "/ontology/1.0/objects/Gas"
+            "/ontology/1.0/classes/Commodity",
+            "/ontology/1.0/classes/Gas"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -1128,7 +1128,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Water", 
-        "path": "/ontology/1.0/objects/Water", 
+        "path": "/ontology/1.0/classes/Water", 
         "labels": [], 
         "rdfs_label" : ["Water"], 
         "generatedLabel": "Water", 
@@ -1144,8 +1144,8 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Commodity",
-            "/ontology/1.0/objects/Water"
+            "/ontology/1.0/classes/Commodity",
+            "/ontology/1.0/classes/Water"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -1160,7 +1160,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Day Of Week", 
-        "path": "/ontology/1.0/objects/Day_of_week", 
+        "path": "/ontology/1.0/classes/Day_of_week", 
         "labels": [], 
         "rdfs_label" : ["Day_of_week"], 
         "generatedLabel": "Day of week", 
@@ -1175,7 +1175,7 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Day_of_week"
+            "/ontology/1.0/classes/Day_of_week"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -1190,7 +1190,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Device", 
-        "path": "/ontology/1.0/objects/Device", 
+        "path": "/ontology/1.0/classes/Device", 
         "labels": [], 
         "rdfs_label" : ["Device"], 
         "generatedLabel": "Device", 
@@ -1199,7 +1199,7 @@
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970"
         ], 
         "subclasses": [
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/BuildingRelated", 
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/BuildingRelated", 
             "https://w3id.org/saref#EnergyRelated"
         ], 
         "comments": ["A tangible object designed to accomplish a particular task in households, common public buildings or offices. In order to accomplish this task, the device performs one or more functions. For example, a washing machine is designed to wash (task) and to accomplish this task it performs a start and stop function. Devices can be structured in categories (subclasses) that reflect the different domain in which a device is used, e.g., smart appliances domain (subclass FunctionRelated) vs. building domain (subclass BuildingRelated) vs. smart grid domain (subclass EnergyRelated). New categories can be defined,if needed, to reflect other differences, for example different points of view, such as the point of view of the device's user vs. the point of view of the device's manufacturer. We propose a list of devices that are relevant for the purpose of SAREF, but this list can be extended."], 
@@ -1207,14 +1207,14 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Device"
+            "/ontology/1.0/classes/Device"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
          
     },
     {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/BuildingRelated", 
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/BuildingRelated", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
@@ -1222,7 +1222,7 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Building related", 
-        "path": "/ontology/1.0/objects/Building_related", 
+        "path": "/ontology/1.0/classes/Building_related", 
         "labels": [], 
         "rdfs_label" : ["Building_related"], 
         "generatedLabel": "Building related", 
@@ -1232,23 +1232,23 @@
             "https://w3id.org/saref#Device"
         ], 
         "subclasses": [
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/ControlDevice",
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/FlowDevice"
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/ControlDevice",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/FlowDevice"
         ], 
         "comments": ["A building represents a structure that provides shelter for its occupants or contents and stands in one place. The building is also used to provide a basic element within the spatial structure hierarchy for the components of a building project (together with site, storey, and space)."], 
         "definitions": [], 
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Device",
-            "/ontology/1.0/objects/Building_related"
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
          
     },
     {
-        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/ControlDevice", 
+        "id": "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/ControlDevice", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
         "type": "class", 
@@ -1256,14 +1256,14 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Control Device", 
-        "path": "/ontology/1.0/objects/Control_device", 
+        "path": "/ontology/1.0/classes/Control_device", 
         "labels": [], 
         "rdfs_label" : ["Control_device"], 
         "generatedLabel": "Control device", 
         "generatedAlias": "CD", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/BuildingRelated"
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/BuildingRelated"
 
         ], 
         "subclasses": [
@@ -1274,9 +1274,9 @@
         "equivalentClasses": [], "skos_historyNotes": [""], "skos_notes": [""],
         "hierarchy": [
             "/ontology/1.0/#Classes", 
-            "/ontology/1.0/objects/Device",
-            "/ontology/1.0/objects/Building_related",
-            "/ontology/1.0/objects/Control_device"
+            "/ontology/1.0/classes/Device",
+            "/ontology/1.0/classes/Building_related",
+            "/ontology/1.0/classes/Control_device"
         ], 
         "inRangeOf": [], 
         "inDomainOf": [] 
@@ -1291,17 +1291,17 @@
             "http://www.w3.org/2002/07/owl#Class"
         ], 
         "name": "Actuator", 
-        "path": "/ontology/1.0/objects/Actuator", 
+        "path": "/ontology/1.0/classes/Actuator", 
         "labels": [], 
         "rdfs_label" : ["Actuator"], 
         "generatedLabel": "Actuator", 
         "generatedAlias": "A", 
         "superclasses": [
             "1.0^n57102f1e2a1d4f3a949606b74fbc5c35b6970",
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/ControlDevice"
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/ControlDevice"
         ], 
         "subclasses": [
-            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/objects/RVK",
+            "1.0^https://sargon-n5geh.netlify.app/ontology/1.0/classes/RVK",
             "https://w3id.org/saref#Switch"
         ], 
         "comments": ["A device responsible for moving or controlling a mechanism or system by performing an actuating function"], 
