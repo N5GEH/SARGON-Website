@@ -250,6 +250,9 @@
         "hierarchy": [
             "/ontology/1.0/Classes"
         ], 
+        "relations":[
+            "https://w3id.org/saref#hasState"
+        ],
         "inRangeOf": [], 
         "inDomainOf": [] 
          
