@@ -34,7 +34,7 @@
 export default {
 
   data: () => ({
-      href: 'https://github.com/mhg-local/SARGON'
+      href: 'https://github.com/N5GEH/SARGON-Website'
   }),
 
   metaInfo: {
