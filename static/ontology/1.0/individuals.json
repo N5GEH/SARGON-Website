@@ -3,7 +3,7 @@
         "id": "http://www.wurvoc.org/vocabularies/om-1.8/bar", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#PressureUnit"
         ], 
@@ -38,7 +38,7 @@
         "id": "https://w3id.org/saref#Cleaning", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#Task"
         ], 
@@ -76,7 +76,7 @@
         "id": "https://w3id.org/saref#Close", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#CloseCommand",
             "https://w3id.org/saref#CloseState"
@@ -113,7 +113,7 @@
         "id": "https://w3id.org/saref#Comfort", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#CloseCommand",
             "https://w3id.org/saref#CloseState"
@@ -153,7 +153,7 @@
         "id": "http://www.w3.org/2006/time#unitDay", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "http://www.w3.org/2006/time#TemporalUnit"
         ], 
@@ -196,7 +196,7 @@
         "id": "http://www.wurvoc.org/vocabularies/om-1.8/degree_Celsius", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#TemperatureUnit"
         ], 
@@ -233,7 +233,7 @@
         "id": "http://www.wurvoc.org/vocabularies/om-1.8/degree_Fahrenheit", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#TemperatureUnit"
         ], 
@@ -270,7 +270,7 @@
         "id": "https://w3id.org/saref#Drying", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#Task"
         ], 
@@ -308,7 +308,7 @@
         "id": "https://w3id.org/saref#EnergyEfficiency", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#Task"
         ], 
@@ -346,7 +346,7 @@
         "id": "https://w3id.org/saref#Entertainment", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#Task"
         ], 
@@ -384,7 +384,7 @@
         "id": "http://www.wurvoc.org/vocabularies/om-1.8/euro", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#Currency"
         ], 
@@ -420,7 +420,7 @@
         "id": "http://www.w3.org/2006/time#Friday", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "http://www.w3.org/2006/time#DayOfWeek"
         ], 
@@ -456,7 +456,7 @@
         "id": "https://w3id.org/saref#GetCurrentMeterValue", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#GetCurrentMeterValueCommand"
         ], 
@@ -492,7 +492,7 @@
         "id": "https://w3id.org/saref#GetMeterData", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#https://w3id.org/saref#GetMeterDataCommand"
         ], 
@@ -528,7 +528,7 @@
         "id": "https://w3id.org/saref#GetMeterHistory", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#GetMeterHistoryCommand"
         ], 
@@ -564,7 +564,7 @@
         "id": "https://w3id.org/saref#GetSensingData", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#GetSensingDataCommand"
         ], 
@@ -600,7 +600,7 @@
         "id": "http://www.wurvoc.org/vocabularies/om-1.8/pound_sterling", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#GetSensingDataCommand"
         ], 
@@ -636,7 +636,7 @@
         "id": "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
         ], 
         "name": "Gregorian", 
@@ -671,7 +671,7 @@
         "id": "http://www.opengis.net/def/uom/ISO-8601/0/Hour", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "http://www.w3.org/2006/time#TemporalUnit"
         ], 
@@ -714,7 +714,7 @@
         "id": "http://www.wurvoc.org/vocabularies/om-1.8/kelvin", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#TemperatureUnit"
         ], 
@@ -750,7 +750,7 @@
         "id": "http://www.wurvoc.org/vocabularies/om-1.8/kilowatt", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#PowerUnit"
         ], 
@@ -786,7 +786,7 @@
         "id": "http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#EnergyUnit"
         ], 
@@ -822,7 +822,7 @@
         "id": "https://w3id.org/saref#Lighting", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#Task"
         ], 
@@ -860,7 +860,7 @@
         "id": "http://www.wurvoc.org/vocabularies/om-1.8/lux", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#Task"
         ], 
@@ -896,7 +896,7 @@
         "id": "https://w3id.org/saref#MeterReading", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#Task"
         ], 
@@ -932,7 +932,7 @@
         "id": "http://www.w3.org/2006/time#unitMinute", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "http://www.w3.org/2006/time#TemporalUnit"
         ], 
@@ -969,7 +969,7 @@
         "id": "http://www.w3.org/2006/time#Monday", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "http://www.w3.org/2006/time#DayOfWeek"
         ], 
@@ -1005,7 +1005,7 @@
         "id": "http://www.w3.org/2006/time#unitMonth", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "http://www.w3.org/2006/time#TemporalUnit"
         ], 
@@ -1042,7 +1042,7 @@
         "id": "https://w3id.org/saref#Notify", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#NotifyCommand"
         ], 
@@ -1078,7 +1078,7 @@
         "id": "https://w3id.org/saref#Off", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#OffCommand",
             "https://w3id.org/saref#OffState"
@@ -1115,7 +1115,7 @@
         "id": "https://w3id.org/saref#On", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#OnCommand",
             "https://w3id.org/saref#OnState"
@@ -1152,7 +1152,7 @@
         "id": "https://w3id.org/saref#Open", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#OpenCommand",
             "https://w3id.org/saref#OpenState"
@@ -1189,7 +1189,7 @@
         "id": "http://www.wurvoc.org/vocabularies/om-1.8/pascal", 
         "version": "1.0", 
         "namespace": "1.0^https://sargon-n5geh.netlify.app/schema/SARGON#", 
-        "type": "Property", 
+        "type": "Individual", 
         "types": [
             "https://w3id.org/saref#PressureUnit"
         ], 

@@ -37,6 +37,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/individuals/watt/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/individuals/watt_hour/",
     component: c1
   },
@@ -845,6 +849,10 @@ export default [
     component: c1
   },
   {
+    path: "/ontology/1.0/individuals/Lighting/",
+    component: c1
+  },
+  {
     path: "/ontology/1.0/individuals/Lux/",
     component: c1
   },
@@ -890,6 +898,14 @@ export default [
   },
   {
     path: "/ontology/1.0/individuals/Saturday/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Second/",
+    component: c1
+  },
+  {
+    path: "/ontology/1.0/individuals/Set_absolute_level/",
     component: c1
   },
   {

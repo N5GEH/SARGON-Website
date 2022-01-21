@@ -755,7 +755,7 @@
         "name": "/ontology/1.0/#Properties", 
         "children": [
             {
-                "name":"/ontology/1.0/#Object_Properties",
+                "name":"/ontology/1.0/#Object_properties",
                 "children":[
                     {
                         "name":"/ontology/1.0/object_properties/Temporal_position",
@@ -1585,7 +1585,7 @@
                 "children": []
             },
             {
-                "name": "/ontology/1.0/individuals/degree_Farenheit",
+                "name": "/ontology/1.0/individuals/degree_Fahrenheit",
                 "children": []
             },
             {
